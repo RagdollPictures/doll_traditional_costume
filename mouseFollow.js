@@ -41,14 +41,14 @@ export function initializeMouseFollow(stage) {
         const normalizedMouseX = event.stageX / scaleX;
         const normalizedMouseY = event.stageY / scaleY;
 
-        const headMovementFactor = 0.01;
-        const parallaxFactor = -0.01;
+        const headMovementFactor = 0.008;
+        const parallaxFactor = -0.008;
         const noseFactor = 0.02
-        const earFactor = -0.02;
+        const earFactor = -0.012;
         const mouthFactor = 0.015;
         const eyesFactor = 0.01;
         const frecklesFactor = 0.013;
-        const hairMiddleFactor = -0.015;
+        const hairMiddleFactor = -0.009;
         const eyebrowsFactor = 0.01;
         const pupilsFactor = 0.015;
 

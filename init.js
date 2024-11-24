@@ -184,7 +184,7 @@ export function initGirl() {
     const beard = movieClips.beard;
     const apron = movieClips.aprons;
     const shoes = movieClips.shoes;
-
+    const accessories = movieClips.accessories;
 
     if (jackets && jackets.short && jackets.long) {
         jackets.short.visible = false;
@@ -331,6 +331,12 @@ export function initGirl() {
         shoes.shoe_right_03.visible = false;
         shoes.shoe_right_04.visible = false;
 
+    }
+
+    if (accessories) {
+        accessories.necklace_01.visible = false;
+        accessories.scarf_01.visible = false;
+        accessories.collar_01.visible = true;
     }
 
 }
