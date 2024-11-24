@@ -1,5 +1,5 @@
 import { initializeButtons, buttons } from './buttons.js';
-import { initializeMovieClips } from './movieClips.js';
+import { initializeMovieClips, movieClips } from './movieClips.js';
 import { initializeJackets } from './jacket.js';
 import { initializeHair } from './hair.js';
 import { initializeShirts } from './shirt.js';
@@ -8,6 +8,8 @@ import { initializeShoes } from './shoe.js';
 import { initializeHats } from './hat.js';
 import { initializePants } from './pants.js';
 import { initBoy, initGirl } from './init.js';
+import { initializeMouseFollow } from './mouseFollow.js';
+
 
 document.addEventListener("DOMContentLoaded", function () {
     checkIfReady();
@@ -28,6 +30,10 @@ function checkIfReady() {
         initGirl();
         addCharacterSelectionListeners();
         addResetButtonsListeners();
+
+        const headFront = movieClips.character.headFront;
+        const headBack = movieClips.character.headBack;
+        initializeMouseFollow(stage, headFront, headBack);
     } else {
         setTimeout(checkIfReady, 100);
     }

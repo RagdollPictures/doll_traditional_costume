@@ -2,6 +2,19 @@ export let movieClips = {};
 
 export function initializeMovieClips() {
     movieClips = {
+        headAnchor: exportRoot.headAnchor,
+        character: {
+            headFront: exportRoot.scene.character.head_front,
+            headBack: exportRoot.scene.character.head_back,
+            nose: exportRoot.scene.character.head_front.nose,
+            ears: exportRoot.scene.character.head_front.ears,
+            mouth: exportRoot.scene.character.head_front.mouth,
+            freckles: exportRoot.scene.character.head_front.freckles,
+            eyes: exportRoot.scene.character.head_front.eyes,
+            hairMiddle: exportRoot.scene.character.head_front.hair_middle,
+            eyebrows: exportRoot.scene.character.head_front.eyebrows,
+            pupils: exportRoot.scene.character.head_front.eyes.pupils,
+        },
         jackets: {
             short: exportRoot.scene.character.jacket.jacket_short,
             long: exportRoot.scene.character.jacket.jacket_long
@@ -28,54 +41,54 @@ export function initializeMovieClips() {
         },
         hair: {
             front: {
-                brown: exportRoot.scene.character.hair_front.hair_front_brown,
-                gray: exportRoot.scene.character.hair_front.hair_front_gray,
-                blond: exportRoot.scene.character.hair_front.hair_front_blond,
-                brownGirl: exportRoot.scene.character.hair_front.hair_front_brown_girl,
-                blondGirl: exportRoot.scene.character.hair_front.hair_front_blond_girl,
+                brown: exportRoot.scene.character.head_front.hair_front.hair_front_brown,
+                gray: exportRoot.scene.character.head_front.hair_front.hair_front_gray,
+                blond: exportRoot.scene.character.head_front.hair_front.hair_front_blond,
+                brownGirl: exportRoot.scene.character.head_front.hair_front.hair_front_brown_girl,
+                blondGirl: exportRoot.scene.character.head_front.hair_front.hair_front_blond_girl,
             },
             middleLeft: {
-                brown: exportRoot.scene.character.hair_middle_left.hair_middle_left_brown,
-                gray: exportRoot.scene.character.hair_middle_left.hair_middle_left_gray,
-                blond: exportRoot.scene.character.hair_middle_left.hair_middle_left_blond,
-                brownGirl: exportRoot.scene.character.hair_middle_left.hair_middle_left_brown_girl,
-                blondGirl: exportRoot.scene.character.hair_middle_left.hair_middle_left_blond_girl,
+                brown: exportRoot.scene.character.head_front.hair_middle.hair_middle_left.hair_middle_left_brown,
+                gray: exportRoot.scene.character.head_front.hair_middle.hair_middle_left.hair_middle_left_gray,
+                blond: exportRoot.scene.character.head_front.hair_middle.hair_middle_left.hair_middle_left_blond,
+                brownGirl: exportRoot.scene.character.head_front.hair_middle.hair_middle_left.hair_middle_left_brown_girl,
+                blondGirl: exportRoot.scene.character.head_front.hair_middle.hair_middle_left.hair_middle_left_blond_girl,
             },
             middleRight: {
-                brown: exportRoot.scene.character.hair_middle_right.hair_middle_right_brown,
-                gray: exportRoot.scene.character.hair_middle_right.hair_middle_right_gray,
-                blond: exportRoot.scene.character.hair_middle_right.hair_middle_right_blond,
-                brownGirl: exportRoot.scene.character.hair_middle_right.hair_middle_right_brown_girl,
-                blondGirl: exportRoot.scene.character.hair_middle_right.hair_middle_right_blond_girl,
+                brown: exportRoot.scene.character.head_front.hair_middle.hair_middle_right.hair_middle_right_brown,
+                gray: exportRoot.scene.character.head_front.hair_middle.hair_middle_right.hair_middle_right_gray,
+                blond: exportRoot.scene.character.head_front.hair_middle.hair_middle_right.hair_middle_right_blond,
+                brownGirl: exportRoot.scene.character.head_front.hair_middle.hair_middle_right.hair_middle_right_brown_girl,
+                blondGirl: exportRoot.scene.character.head_front.hair_middle.hair_middle_right.hair_middle_right_blond_girl,
             },
             bottom: {
-                brown: exportRoot.scene.character.hair_bottom.hair_bottom_brown,
-                gray: exportRoot.scene.character.hair_bottom.hair_bottom_gray,
-                blond: exportRoot.scene.character.hair_bottom.hair_bottom_blond,
-                blondGirlBraids: exportRoot.scene.character.hair_bottom.hair_bottom_blond_girl_braids,
-                brownGirlBraids: exportRoot.scene.character.hair_bottom.hair_bottom_brown_girl_braids,
-                blondGirlStraight: exportRoot.scene.character.hair_bottom.hair_bottom_blond_girl_straight,
-                brownGirlStraight: exportRoot.scene.character.hair_bottom.hair_bottom_brown_girl_straight,
+                brown: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_brown,
+                gray: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_gray,
+                blond: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_blond,
+                blondGirlBraids: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_blond_girl_braids,
+                brownGirlBraids: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_brown_girl_braids,
+                blondGirlStraight: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_blond_girl_straight,
+                brownGirlStraight: exportRoot.scene.character.head_back.hair_bottom.hair_bottom_brown_girl_straight,
             },
             behind: {
-                brown: exportRoot.scene.character.hair_behind.hair_behind_brown,
-                gray: exportRoot.scene.character.hair_behind.hair_behind_gray,
-                blond: exportRoot.scene.character.hair_behind.hair_behind_blond,
-                brownGirl: exportRoot.scene.character.hair_behind.hair_behind_brown_girl,
-                blondGirl: exportRoot.scene.character.hair_behind.hair_behind_blond_girl,
+                brown: exportRoot.scene.character.head_back.hair_behind.hair_behind_brown,
+                gray: exportRoot.scene.character.head_back.hair_behind.hair_behind_gray,
+                blond: exportRoot.scene.character.head_back.hair_behind.hair_behind_blond,
+                brownGirl: exportRoot.scene.character.head_back.hair_behind.hair_behind_brown_girl,
+                blondGirl: exportRoot.scene.character.head_back.hair_behind.hair_behind_blond_girl,
             }
         },
         hats: {
-            hat_01: exportRoot.scene.character.hat.hat_01,
-            hat_02: exportRoot.scene.character.hat.hat_02,
-            hat_03: exportRoot.scene.character.hat.hat_03,
-            hat_04: exportRoot.scene.character.hat.hat_04,
-            hat_05: exportRoot.scene.character.hat.hat_05,
-            hat_06: exportRoot.scene.character.hat.hat_06,
-            hat_07: exportRoot.scene.character.hat.hat_07,
-            hat_08: exportRoot.scene.character.hat.hat_08,
-            hat_09: exportRoot.scene.character.hat.hat_09,
-            hat_10: exportRoot.scene.character.hat.hat_10,
+            hat_01: exportRoot.scene.character.head_front.hat.hat_01,
+            hat_02: exportRoot.scene.character.head_front.hat.hat_02,
+            hat_03: exportRoot.scene.character.head_front.hat.hat_03,
+            hat_04: exportRoot.scene.character.head_front.hat.hat_04,
+            hat_05: exportRoot.scene.character.head_front.hat.hat_05,
+            hat_06: exportRoot.scene.character.head_front.hat.hat_06,
+            hat_07: exportRoot.scene.character.head_front.hat.hat_07,
+            hat_08: exportRoot.scene.character.head_front.hat.hat_08,
+            hat_09: exportRoot.scene.character.head_front.hat.hat_09,
+            hat_10: exportRoot.scene.character.head_front.hat.hat_10,
 
         },
         pants: {
@@ -132,7 +145,7 @@ export function initializeMovieClips() {
             necklace_01: exportRoot.scene.character.accessories.necklace_01,
             scarf_01: exportRoot.scene.character.accessories.necklace_01,
         },
-        beard: exportRoot.scene.character.beard
+        beard: exportRoot.scene.character.head_front.beard
 
     };
 }
