@@ -5,8 +5,10 @@ import { initializeHair } from './hair.js';
 import { initializeShirts } from './shirt.js';
 import { initializeAprons } from './apron.js';
 import { initializeShoes } from './shoe.js';
+import { initializeAccessories } from './asseccories.js';
 import { initializeHats } from './hat.js';
 import { initializePants } from './pants.js';
+import { initializeDress } from './dress.js';
 import { initBoy, initGirl } from './init.js';
 import { initializeMouseFollow } from './mouseFollow.js';
 
@@ -24,7 +26,9 @@ function checkIfReady() {
         initializeShirts();
         initializeAprons();
         initializeShoes();
+        initializeAccessories();
         initializeHats();
+        initializeDress();
         initializePants();
         initBoy();
         initGirl();

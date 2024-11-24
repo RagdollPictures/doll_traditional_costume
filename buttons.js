@@ -34,8 +34,7 @@ export function initializeButtons() {
             exportRoot.scene.btn_shirt_09,
             exportRoot.scene.btn_shirt_10,
             exportRoot.scene.btn_shirt_11,
-            exportRoot.scene.btn_shirt_12,
-            exportRoot.scene.btn_shirt_same
+            exportRoot.scene.btn_shirt_12
 
         ],
         aprons: [
@@ -96,6 +95,10 @@ export function initializeButtons() {
         accessories: {
             necklace_01: exportRoot.scene.btn_necklace_01,
             scarf_01: exportRoot.scene.btn_scarf_01,
+            collar_01: exportRoot.scene.btn_collar_01,
+        },
+        dress: {
+            dress_same: exportRoot.scene.btn_dress_same,
         }
     };
 

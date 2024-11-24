@@ -3,6 +3,8 @@ import { colors } from './colors.js';
 import { tintJacketAndArmsColor } from './jacket.js';
 import { changePantsColor } from './pants.js';
 
+
+//optimera
 export function initBoy() {
     const jackets = movieClips.jackets;
     const pants = movieClips.pants;
@@ -13,6 +15,7 @@ export function initBoy() {
     const beard = movieClips.beard;
     const apron = movieClips.aprons;
     const shoes = movieClips.shoes;
+    const accessories = movieClips.accessories;
 
 
     if (jackets && jackets.short && jackets.long && arms.fills) {
@@ -162,6 +165,11 @@ export function initBoy() {
 
     }
 
+    if (accessories) {
+        accessories.necklace_01.visible = false;
+        accessories.scarf_01.visible = false;
+        accessories.collar_01.visible = true;
+    }
 }
 
 

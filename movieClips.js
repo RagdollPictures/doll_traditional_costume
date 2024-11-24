@@ -143,7 +143,8 @@ export function initializeMovieClips() {
         },
         accessories: {
             necklace_01: exportRoot.scene.character.accessories.necklace_01,
-            scarf_01: exportRoot.scene.character.accessories.necklace_01,
+            scarf_01: exportRoot.scene.character.accessories.scarf_01,
+            collar_01: exportRoot.scene.character.accessories.collar_01,
         },
         beard: exportRoot.scene.character.head_front.beard
 
