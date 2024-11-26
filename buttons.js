@@ -18,9 +18,9 @@ export function initializeButtons() {
             exportRoot.scene.btn_hat_05,
             exportRoot.scene.btn_hat_06,
             exportRoot.scene.btn_hat_07,
-            exportRoot.scene.btn_hat_08,
+            exportRoot.scene.hat_08_btn,
             exportRoot.scene.btn_hat_09,
-            exportRoot.scene.btn_hat_10
+            exportRoot.scene.btn_hat_10,
         ],
         shirts: [
             exportRoot.scene.btn_shirt_01,
@@ -29,12 +29,12 @@ export function initializeButtons() {
             exportRoot.scene.btn_shirt_04,
             exportRoot.scene.btn_shirt_05,
             exportRoot.scene.btn_shirt_06,
-            exportRoot.scene.btn_shirt_07,
-            exportRoot.scene.btn_shirt_08,
-            exportRoot.scene.btn_shirt_09,
-            exportRoot.scene.btn_shirt_10,
-            exportRoot.scene.btn_shirt_11,
-            exportRoot.scene.btn_shirt_12
+            exportRoot.scene.shirt_07_btn,
+            exportRoot.scene.shirt_08_btn,
+            exportRoot.scene.shirt_09_btn,
+            exportRoot.scene.shirt_10_btn,
+            exportRoot.scene.shirt_11_btn,
+            exportRoot.scene.shirt_12_btn,
 
         ],
         aprons: [
@@ -93,8 +93,8 @@ export function initializeButtons() {
 
         },
         accessories: {
-            necklace_01: exportRoot.scene.btn_necklace_01,
-            scarf_01: exportRoot.scene.btn_scarf_01,
+            necklace_01: exportRoot.scene.necklace_01_btn,
+            scarf_01: exportRoot.scene.scarf_01_btn,
             collar_01: exportRoot.scene.btn_collar_01,
         },
         dress: {
