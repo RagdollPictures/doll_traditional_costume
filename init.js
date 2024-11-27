@@ -1,11 +1,36 @@
+import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
 import { colors } from './colors.js';
 import { tintJacketAndArmsColor } from './jacket.js';
 import { changePantsColor } from './pants.js';
 
 
+function resetButtonsVisibility() {
+    Object.values(buttons).forEach((buttonGroup) => {
+        if (Array.isArray(buttonGroup)) {
+            // Iterate through arrays (e.g., girlShoes, boyShoes)
+            buttonGroup.forEach((button) => {
+                if (button && typeof button === "object" && "visible" in button) {
+                    button.visible = true;
+                }
+            });
+        } else if (buttonGroup && typeof buttonGroup === "object") {
+            // Handle nested objects (e.g., pants, jackets)
+            Object.values(buttonGroup).forEach((button) => {
+                if (button && typeof button === "object" && "visible" in button) {
+                    button.visible = true;
+                }
+            });
+        } else if (buttonGroup && typeof buttonGroup === "object" && "visible" in buttonGroup) {
+            // Handle individual buttons
+            buttonGroup.visible = true;
+        }
+    });
+}
+
 //optimera
 export function initBoy() {
+    resetButtonsVisibility();
     const jackets = movieClips.jackets;
     const pants = movieClips.pants;
     const hats = movieClips.hats;
@@ -17,6 +42,10 @@ export function initBoy() {
     const shoes = movieClips.shoes;
     const accessories = movieClips.accessories;
 
+
+    if (buttons) {
+        buttons.visible = true;
+    }
 
     if (jackets && jackets.short && jackets.long && arms.fills) {
         jackets.short.visible = false;
@@ -175,6 +204,7 @@ export function initBoy() {
 
 
 export function initGirl() {
+    resetButtonsVisibility();
     const jackets = movieClips.jackets;
     const pants = movieClips.pants;
     const hats = movieClips.hats;

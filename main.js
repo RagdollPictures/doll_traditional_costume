@@ -43,6 +43,8 @@ function checkIfReady() {
     }
 }
 
+
+
 function addCharacterSelectionListeners() {
     const btnBoy = buttons.boy;
     const btnGirl = buttons.girl;

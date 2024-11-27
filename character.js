@@ -2327,6 +2327,377 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.shirt_07, new cjs.Rectangle(-6.3,-1.2,146,169.29999999999998), null);
 
 
+(lib.shirt_06_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.7,-9.4).curveTo(-6.8,-7.6,0.4,-6.1).curveTo(4,-0.8,11,9.9);
+	this.shape.setTransform(61.4952,9.5463);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.6,-5).curveTo(5.4,-4,3.3,-3.5).curveTo(-0.3,-2.6,-3.3,-2.1).curveTo(-8.9,5.5,-8.6,4.9);
+	this.shape_1.setTransform(75.7617,5.0627);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(7.2,84.1).curveTo(20,84.1,28.7,78.7).curveTo(33.7,75.6,36.8,70.8).curveTo(40.1,65.9,40.5,60.4).curveTo(40.7,56.9,39.6,52.3).curveTo(39.4,51.4,37.4,44.3).curveTo(34.5,33.9,34,19.5).curveTo(34,2.7,33.7,-6).curveTo(33.5,-13.3,36.5,-22.8).curveTo(40.1,-34,40.4,-36.4).curveTo(42.1,-50.5,42.2,-53.5).curveTo(42.4,-61,39.6,-63.7).curveTo(37.1,-66.2,21.5,-73.1).curveTo(5.2,-80.3,-7.6,-84.2).curveTo(-20.1,-64.2,-21.7,-63.5).curveTo(-24.6,-62.2,-30.9,-60.9).curveTo(-37.7,-59.6,-40.4,-58.6).curveTo(-42.4,53.7,-42.2,64.5).curveTo(-42.1,68.1,-40.2,76.6).curveTo(-39.3,80.9,-38.3,84.5).closePath();
+	this.shape_2.setTransform(92.1679,84.2873);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(33.1,84.4).curveTo(28.5,84.6,17.3,84.4).curveTo(4.5,84.1,1.9,84.1).curveTo(-10.9,84.1,-19.6,78.7).curveTo(-24.6,75.6,-27.7,70.8).curveTo(-31,65.9,-31.4,60.4).curveTo(-31.6,56.9,-30.6,52.3).curveTo(-30.4,51.3,-28.4,44.3).curveTo(-25.3,33.6,-24.5,19.5).curveTo(-24,2.7,-23.8,-6).curveTo(-23.6,-13.4,-26.8,-22.8).curveTo(-31,-34.7,-31.3,-36.4).curveTo(-35.2,-59,-30.5,-63.7).curveTo(-28.1,-66.1,-12,-73.1).curveTo(4.6,-80.2,17.5,-84.2).lineTo(29.5,-61.6);
+	this.shape_3.setTransform(33.5481,84.2796);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape_4.setTransform(70.15,89.975);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-1,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-1,2.2,-1.6,1.6).closePath();
+	this.shape_5.setTransform(71.4,88.025);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.5).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.5).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.5).closePath();
+	this.shape_6.setTransform(70.15,89.975);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1).lineTo(-0.5,-4.1).lineTo(9.6,-1.1).curveTo(9.9,-1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-0.9,-9.6,-1).closePath();
+	this.shape_7.setTransform(70.375,90.7551);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
+	this.shape_8.setTransform(70.85,111.375);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_9.setTransform(72.075,109.375);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1.1,-0.4,-0.4).curveTo(0.3,0.2,1.3,0.2).curveTo(2.2,0.2,2.8,-0.4).curveTo(3.5,-1.1,3.4,-2).curveTo(3.5,-2.9,2.8,-3.6).curveTo(2.2,-4.2,1.3,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
+	this.shape_10.setTransform(70.85,111.375);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1.1).lineTo(-0.5,-4.1).lineTo(9.6,-1.2).curveTo(9.9,-1.1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-1,-9.6,-1.1).closePath();
+	this.shape_11.setTransform(71.075,112.156);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
+	this.shape_12.setTransform(70.15,131.625);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-1,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.6,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-1,2.2,-1.6,1.6).closePath();
+	this.shape_13.setTransform(71.4,129.625);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1.1,-0.4,-0.4).curveTo(0.3,0.2,1.2,0.2).curveTo(2.2,0.2,2.9,-0.4).curveTo(3.5,-1.1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
+	this.shape_14.setTransform(70.15,131.625);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1.1).lineTo(-0.5,-4.1).lineTo(9.6,-1.2).curveTo(9.9,-1.1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-1,-9.6,-1.1).closePath();
+	this.shape_15.setTransform(70.375,132.406);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).closePath();
+	this.shape_16.setTransform(70.85,152.975);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.2,-0).curveTo(-2.2,-1,-1.6,-1.6).curveTo(-0.9,-2.2,0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-1,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_17.setTransform(72.075,151.025);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.5).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.3,0.3).curveTo(2.2,0.3,2.8,-0.4).curveTo(3.5,-1,3.4,-2).curveTo(3.5,-2.9,2.8,-3.5).curveTo(2.2,-4.2,1.3,-4.2).curveTo(0.3,-4.2,-0.4,-3.5).closePath();
+	this.shape_18.setTransform(70.85,152.975);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1).lineTo(-0.5,-4.1).lineTo(9.6,-1.1).curveTo(9.9,-1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-0.9,-9.6,-1).closePath();
+	this.shape_19.setTransform(71.075,153.7551);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill("#FBC85B").beginStroke().moveTo(-1,72.1).lineTo(-5.7,54.7).lineTo(-5.7,17.4).lineTo(-3.7,-70.9).lineTo(0.5,-72.1).curveTo(4.7,-73.3,4.7,-72.8).curveTo(4.8,-71.3,3.2,-10.5).curveTo(1.7,50.5,1.8,54.1).curveTo(2,58.1,3.8,65.9).curveTo(4.8,69.8,5.7,72.9).closePath();
+	this.shape_20.setTransform(55.525,96.5015);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.5).lineTo(-1.3,-3.2).lineTo(2.4,-2.5).lineTo(1.3,3.2).closePath();
+	this.shape_21.setTransform(109.55,41.2);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.5).lineTo(-1.4,-3.2).lineTo(2.4,-2.6).lineTo(1.4,3.2).closePath();
+	this.shape_22.setTransform(111.375,30.9);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.6).lineTo(-1.4,-3.2).lineTo(2.4,-2.6).lineTo(1.4,3.2).closePath();
+	this.shape_23.setTransform(113.125,20.6);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.5).lineTo(-1.3,-3.3).lineTo(2.4,-2.5).lineTo(1.3,3.3).closePath();
+	this.shape_24.setTransform(103.35,72);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,2.4).lineTo(-1.3,-3.3).lineTo(2.5,-2.5).lineTo(1.3,3.2).closePath();
+	this.shape_25.setTransform(105.425,61.8);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,2.5).lineTo(-1.3,-3.2).lineTo(2.4,-2.5).lineTo(1.3,3.2).closePath();
+	this.shape_26.setTransform(107.5,51.525);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
+	this.shape_27.setTransform(102.3,103.375);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.7,3).closePath();
+	this.shape_28.setTransform(101.525,92.975);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,1.1).lineTo(-2.2,0.3).lineTo(-1.5,-3.1).lineTo(2.3,-2.4).lineTo(1.7,0.4).lineTo(1.6,0.7).lineTo(1.6,1.1).lineTo(1.6,1.4).lineTo(1.6,3.1).lineTo(-2.2,3.1).closePath();
+	this.shape_29.setTransform(101.45,82.275);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.7).lineTo(-1.7,3.1).closePath();
+	this.shape_30.setTransform(105,134.725);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.7).lineTo(1.7,-3.1).lineTo(2.1,2.7).lineTo(-1.7,3.1).closePath();
+	this.shape_31.setTransform(104.1,124.325);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.7).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
+	this.shape_32.setTransform(103.2,113.875);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill("#070F21").beginStroke().moveTo(-3,1.4).curveTo(-1.6,-0.8,-0.6,-3.4).lineTo(3,-2).curveTo(2,0.5,0.3,3.4).closePath();
+	this.shape_33.setTransform(103.725,165.475);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill("#070F21").beginStroke().moveTo(-2,2.5).curveTo(-1.8,1.1,-1.8,-0.1).lineTo(-1.9,-2.8).lineTo(2,-3).lineTo(2,1.1).lineTo(1.8,3).closePath();
+	this.shape_34.setTransform(106.275,155.7);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
+	this.shape_35.setTransform(105.825,145.2);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,2.5).lineTo(-1.4,-3.2).lineTo(2.4,-2.6).lineTo(1.4,3.2).closePath();
+	this.shape_36.setTransform(108.4,35.825);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,2.6).lineTo(-1.5,-3.2).lineTo(2.3,-2.6).lineTo(1.5,3.2).closePath();
+	this.shape_37.setTransform(110.075,25.475);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,2.6).lineTo(-1.5,-3.2).lineTo(2.3,-2.6).lineTo(1.5,3.2).closePath();
+	this.shape_38.setTransform(111.625,15.125);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,2.5).lineTo(-1.3,-3.2).lineTo(2.5,-2.4).lineTo(1.3,3.2).closePath();
+	this.shape_39.setTransform(102.125,66.65);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,2.5).lineTo(-1.3,-3.3).lineTo(2.4,-2.5).lineTo(1.3,3.3).closePath();
+	this.shape_40.setTransform(104.25,56.425);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,2.4).lineTo(-1.3,-3.3).lineTo(2.5,-2.5).lineTo(1.3,3.2).closePath();
+	this.shape_41.setTransform(106.375,46.15);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
+	this.shape_42.setTransform(100.675,98.075);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.8,3).closePath();
+	this.shape_43.setTransform(99.975,87.625);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,3).lineTo(-2.3,1.3).lineTo(-2.2,1.1).lineTo(-2.2,0.9).lineTo(-1.4,-3.2).lineTo(2.4,-2.4).lineTo(1.5,1.8).lineTo(1.5,3.1).closePath();
+	this.shape_44.setTransform(100.125,76.95);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.7).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3).closePath();
+	this.shape_45.setTransform(103.075,129.5);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
+	this.shape_46.setTransform(102.275,119.075);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.2,-2.8).lineTo(1.7,-3.1).lineTo(2.2,2.8).lineTo(-1.7,3.1).closePath();
+	this.shape_47.setTransform(101.45,108.625);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.7,1.9).curveTo(-1.7,-0.4,-1.1,-3.3).lineTo(2.7,-2.5).lineTo(0.9,3.3).closePath();
+	this.shape_48.setTransform(102.875,160.725);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.9,2.7).lineTo(-1.9,2.4).lineTo(-2,-2.8).lineTo(1.8,-3).lineTo(2,2.3).lineTo(1.9,3).closePath();
+	this.shape_49.setTransform(104.375,150.5);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.8,3).closePath();
+	this.shape_50.setTransform(103.85,140.05);
+
+	this.shape_51 = new cjs.Shape();
+	this.shape_51.graphics.beginFill().beginStroke("#EE3D29").setStrokeStyle(2.6).moveTo(13.1,-73.2).lineTo(12.1,-65.5).curveTo(10.8,-56.6,9.4,-51).curveTo(7.7,-44.2,5.3,-30).curveTo(2.9,-15.6,2.3,-8.3).curveTo(1.7,-2.1,3.8,29).curveTo(4.9,45,6.3,64).curveTo(6.6,68.3,4.5,74).curveTo(3.4,76.8,2.3,78.8).lineTo(-12.6,79.3).curveTo(-11.7,77.2,-11,74.1).curveTo(-9.4,68,-9.7,63.6).curveTo(-10.2,53.9,-11.1,27.5).curveTo(-12.2,-4.2,-11.7,-9.5).curveTo(-11.3,-15.1,-8.1,-32.4).curveTo(-5.5,-47,-3.8,-54.6).curveTo(-2.8,-59.4,-1.1,-69.6).lineTo(0.3,-78.9).closePath();
+	this.shape_51.setTransform(104.9945,88.605);
+
+	this.shape_52 = new cjs.Shape();
+	this.shape_52.graphics.beginFill("#EE3D29").beginStroke().moveTo(-11.3,73.9).curveTo(-9.7,67.8,-9.9,63.4).curveTo(-10.5,53.6,-11.4,27.2).curveTo(-12.4,-4.4,-12,-9.8).curveTo(-11.5,-15.3,-8.4,-32.6).curveTo(-5.8,-47.2,-4.1,-54.9).curveTo(-3.1,-59.6,-1.4,-69.8).lineTo(0.1,-79.1).lineTo(12.8,-73.4).lineTo(11.8,-65.7).curveTo(10.5,-56.9,9.1,-51.3).curveTo(7.4,-44.4,5,-30.2).curveTo(2.7,-15.8,2,-8.5).curveTo(1.4,-2.3,3.6,28.8).curveTo(4.6,44.8,6,63.8).curveTo(6.3,68.1,4.2,73.7).curveTo(3.1,76.6,2,78.5).lineTo(-12.9,79.1).curveTo(-12,76.9,-11.3,73.9).closePath();
+	this.shape_52.setTransform(105.25,88.85);
+
+	this.shape_53 = new cjs.Shape();
+	this.shape_53.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,-2.5).lineTo(1.4,-3.2).lineTo(2.4,2.5).lineTo(-1.3,3.2).closePath();
+	this.shape_53.setTransform(23.975,41.2);
+
+	this.shape_54 = new cjs.Shape();
+	this.shape_54.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,-2.6).lineTo(1.4,-3.2).lineTo(2.4,2.5).lineTo(-1.4,3.2).closePath();
+	this.shape_54.setTransform(22.175,30.9);
+
+	this.shape_55 = new cjs.Shape();
+	this.shape_55.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,-2.6).lineTo(1.4,-3.2).lineTo(2.4,2.6).lineTo(-1.4,3.2).closePath();
+	this.shape_55.setTransform(20.425,20.6);
+
+	this.shape_56 = new cjs.Shape();
+	this.shape_56.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.5).lineTo(-1.3,3.3).closePath();
+	this.shape_56.setTransform(30.2,72);
+
+	this.shape_57 = new cjs.Shape();
+	this.shape_57.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.4).lineTo(-1.3,3.2).closePath();
+	this.shape_57.setTransform(28.125,61.8);
+
+	this.shape_58 = new cjs.Shape();
+	this.shape_58.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.2).lineTo(2.4,2.5).lineTo(-1.3,3.2).closePath();
+	this.shape_58.setTransform(26.05,51.525);
+
+	this.shape_59 = new cjs.Shape();
+	this.shape_59.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.8).lineTo(-1.7,-3.1).lineTo(2.2,-2.8).lineTo(1.6,3.1).closePath();
+	this.shape_59.setTransform(31.25,103.375);
+
+	this.shape_60 = new cjs.Shape();
+	this.shape_60.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.7,3).closePath();
+	this.shape_60.setTransform(32.025,92.975);
+
+	this.shape_61 = new cjs.Shape();
+	this.shape_61.graphics.beginFill("#070F21").beginStroke().moveTo(-1.6,3.1).lineTo(-1.6,1.4).lineTo(-1.7,1.1).lineTo(-1.7,0.7).lineTo(-1.8,0.4).lineTo(-2.3,-2.4).lineTo(1.5,-3.1).lineTo(2.2,0.7).lineTo(2.2,1.1).lineTo(2.2,1.5).lineTo(2.2,3.1).closePath();
+	this.shape_61.setTransform(32.1,82.275);
+
+	this.shape_62 = new cjs.Shape();
+	this.shape_62.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.7).lineTo(-1.6,-3.1).lineTo(2.2,-2.8).lineTo(1.6,3.1).closePath();
+	this.shape_62.setTransform(28.55,134.725);
+
+	this.shape_63 = new cjs.Shape();
+	this.shape_63.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.7).lineTo(-1.6,-3.1).lineTo(2.2,-2.7).lineTo(1.6,3.1).closePath();
+	this.shape_63.setTransform(29.45,124.325);
+
+	this.shape_64 = new cjs.Shape();
+	this.shape_64.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.8).lineTo(-1.6,-3.1).lineTo(2.2,-2.7).lineTo(1.6,3.1).closePath();
+	this.shape_64.setTransform(30.35,113.875);
+
+	this.shape_65 = new cjs.Shape();
+	this.shape_65.graphics.beginFill("#070F21").beginStroke().moveTo(-3,-2).lineTo(0.6,-3.4).curveTo(1.6,-0.8,3,1.4).lineTo(-0.3,3.4).curveTo(-2,0.5,-3,-2).closePath();
+	this.shape_65.setTransform(29.825,165.475);
+
+	this.shape_66 = new cjs.Shape();
+	this.shape_66.graphics.beginFill("#070F21").beginStroke().moveTo(-2,1.1).lineTo(-2,-3).lineTo(1.9,-2.8).lineTo(1.8,-0.1).curveTo(1.8,1.1,2,2.5).lineTo(-1.8,3).closePath();
+	this.shape_66.setTransform(27.275,155.7);
+
+	this.shape_67 = new cjs.Shape();
+	this.shape_67.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
+	this.shape_67.setTransform(27.725,145.2);
+
+	this.shape_68 = new cjs.Shape();
+	this.shape_68.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,-2.6).lineTo(1.4,-3.2).lineTo(2.4,2.5).lineTo(-1.4,3.2).closePath();
+	this.shape_68.setTransform(25.15,35.825);
+
+	this.shape_69 = new cjs.Shape();
+	this.shape_69.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,-2.6).lineTo(1.5,-3.2).lineTo(2.3,2.6).lineTo(-1.5,3.2).closePath();
+	this.shape_69.setTransform(23.475,25.475);
+
+	this.shape_70 = new cjs.Shape();
+	this.shape_70.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,-2.6).lineTo(1.5,-3.2).lineTo(2.3,2.6).lineTo(-1.5,3.2).closePath();
+	this.shape_70.setTransform(21.925,15.125);
+
+	this.shape_71 = new cjs.Shape();
+	this.shape_71.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,-2.4).lineTo(1.3,-3.2).lineTo(2.5,2.5).lineTo(-1.3,3.2).closePath();
+	this.shape_71.setTransform(31.425,66.65);
+
+	this.shape_72 = new cjs.Shape();
+	this.shape_72.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.5).lineTo(-1.3,3.3).closePath();
+	this.shape_72.setTransform(29.275,56.425);
+
+	this.shape_73 = new cjs.Shape();
+	this.shape_73.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.4).lineTo(-1.3,3.2).closePath();
+	this.shape_73.setTransform(27.175,46.15);
+
+	this.shape_74 = new cjs.Shape();
+	this.shape_74.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
+	this.shape_74.setTransform(32.875,98.075);
+
+	this.shape_75 = new cjs.Shape();
+	this.shape_75.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.8,3).closePath();
+	this.shape_75.setTransform(33.575,87.625);
+
+	this.shape_76 = new cjs.Shape();
+	this.shape_76.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.5,1.8).lineTo(-2.4,-2.4).lineTo(1.4,-3.2).lineTo(2.2,0.9).lineTo(2.2,1.1).lineTo(2.3,1.3).lineTo(2.4,3).lineTo(-1.5,3.1).closePath();
+	this.shape_76.setTransform(33.425,76.95);
+
+	this.shape_77 = new cjs.Shape();
+	this.shape_77.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.7).lineTo(1.7,3).closePath();
+	this.shape_77.setTransform(30.475,129.5);
+
+	this.shape_78 = new cjs.Shape();
+	this.shape_78.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
+	this.shape_78.setTransform(31.275,119.075);
+
+	this.shape_79 = new cjs.Shape();
+	this.shape_79.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
+	this.shape_79.setTransform(32.1,108.625);
+
+	this.shape_80 = new cjs.Shape();
+	this.shape_80.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.9,0.5).curveTo(-2.4,-1.1,-2.7,-2.5).lineTo(1.1,-3.3).curveTo(1.7,-0.4,2.7,1.9).lineTo(-0.9,3.3).closePath();
+	this.shape_80.setTransform(30.675,160.725);
+
+	this.shape_81 = new cjs.Shape();
+	this.shape_81.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.9,2.6).lineTo(-2,2.3).lineTo(-1.8,-3).lineTo(2,-2.8).lineTo(1.9,2.4).lineTo(1.9,2.7).lineTo(-1.9,3).closePath();
+	this.shape_81.setTransform(29.175,150.5);
+
+	this.shape_82 = new cjs.Shape();
+	this.shape_82.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.7,3).closePath();
+	this.shape_82.setTransform(29.7,140.05);
+
+	this.shape_83 = new cjs.Shape();
+	this.shape_83.graphics.beginFill().beginStroke("#EE3D29").setStrokeStyle(2.6).moveTo(-13.1,-73.2).lineTo(-12.1,-65.5).curveTo(-10.7,-56.6,-9.4,-51).curveTo(-7.7,-44.2,-5.3,-30).curveTo(-2.9,-15.6,-2.3,-8.3).curveTo(-1.8,-2.1,-3.8,29).curveTo(-4.9,45,-6.3,64).curveTo(-6.6,68.3,-4.4,74).curveTo(-3.4,76.8,-2.3,78.8).lineTo(12.6,79.3).curveTo(11.7,77.2,11,74.1).curveTo(9.4,68,9.6,63.6).curveTo(10.2,55.1,11.1,27.5).curveTo(12.2,-4.1,11.7,-9.5).curveTo(11.3,-15.1,8.1,-32.4).curveTo(5.5,-47,3.8,-54.6).curveTo(2.8,-59.4,1.1,-69.6).lineTo(-0.3,-78.9).closePath();
+	this.shape_83.setTransform(28.5555,88.605);
+
+	this.shape_84 = new cjs.Shape();
+	this.shape_84.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2,78.5).curveTo(-3.1,76.6,-4.2,73.7).curveTo(-6.3,68.1,-6.1,63.8).curveTo(-4.6,44.8,-3.5,28.8).curveTo(-1.5,-2.3,-2,-8.5).curveTo(-2.7,-15.8,-5,-30.2).curveTo(-7.4,-44.4,-9.1,-51.3).curveTo(-10.5,-56.9,-11.8,-65.7).lineTo(-12.9,-73.4).lineTo(-0,-79.1).lineTo(1.4,-69.8).curveTo(3,-59.6,4.1,-54.9).curveTo(5.8,-47.2,8.4,-32.6).curveTo(11.5,-15.3,12,-9.8).curveTo(12.5,-4.4,11.4,27.2).curveTo(10.5,54.8,9.9,63.4).curveTo(9.7,67.8,11.2,73.9).curveTo(12,76.9,12.8,79.1).closePath();
+	this.shape_84.setTransform(28.3,88.85);
+
+	this.shape_85 = new cjs.Shape();
+	this.shape_85.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-42.2,64.4).curveTo(-42.4,53.6,-40.4,-58.7).curveTo(-37.7,-59.7,-30.9,-61).curveTo(-24.6,-62.2,-21.6,-63.6).curveTo(-20,-64.3,-7.5,-84.3).curveTo(5.3,-80.4,21.6,-73.2).curveTo(37.1,-66.3,39.7,-63.8).curveTo(42.4,-61.1,42.2,-53.6).curveTo(42.1,-50.6,40.4,-36.5).curveTo(40.1,-34.1,36.6,-22.9).curveTo(33.6,-13.4,33.8,-6.1).curveTo(34,2.6,34.1,19.3).curveTo(34.5,33.8,37.5,44.2).lineTo(39.7,52.2).curveTo(40.8,56.8,40.5,60.3).curveTo(40.2,65.7,36.8,70.7).curveTo(33.7,75.4,28.8,78.5).curveTo(20,84.1,7.2,84).lineTo(-38.3,84.3).curveTo(-42,70.1,-42.2,64.4).closePath();
+	this.shape_85.setTransform(92.2477,85.375);
+
+	this.shape_86 = new cjs.Shape();
+	this.shape_86.graphics.beginFill("#EC6C3B").beginStroke().moveTo(17.6,84.4).curveTo(6.2,83.9,2.5,83.9).curveTo(-10.4,83.9,-19.1,78.4).curveTo(-24,75.3,-27.2,70.6).curveTo(-30.5,65.6,-30.8,60.2).curveTo(-31.1,56.6,-30,52).lineTo(-27.8,44).curveTo(-24.8,33.4,-23.9,19.2).lineTo(-23.2,-6.2).curveTo(-23,-13.6,-26.3,-23).curveTo(-30.4,-34.9,-30.7,-36.7).curveTo(-34.7,-59.3,-30,-63.9).curveTo(-27.5,-66.4,-11.5,-73.3).curveTo(5.1,-80.5,18.1,-84.4).lineTo(30,-61.9).lineTo(32.6,83.8).curveTo(29.3,84.4,22.6,84.4).lineTo(17.6,84.4).closePath();
+	this.shape_86.setTransform(32.5429,84.4391);
+
+	this.shape_87 = new cjs.Shape();
+	this.shape_87.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-3,10).curveTo(-4.3,10,-5.3,8.1).lineTo(-6.7,5.5).lineTo(-9,0.8).curveTo(-9.9,-0.4,-11.5,-3.2).curveTo(-12.8,-5.4,-14.1,-8.9).curveTo(-14.2,-9.3,-13.9,-9.5).curveTo(-13.6,-9.7,-13.3,-9.5).curveTo(-13.1,-9.9,-12.8,-10).curveTo(-12.5,-10,-12.2,-9.7).lineTo(-11.4,-8.8).lineTo(-11.3,-8.8).curveTo(-9.6,-9,-6.5,-7.3).curveTo(-5.7,-7.2,-5.1,-6.4).curveTo(-4.3,-5.4,-3.3,-3).curveTo(-2.2,-0.7,-1.4,0.3).lineTo(-0.5,1.3).lineTo(1,-1.1).curveTo(2.2,-3.5,3.6,-5.8).curveTo(4.8,-8.9,10.9,-10).curveTo(11.5,-10.1,12,-9.7).lineTo(12.5,-9.9).curveTo(13.3,-10.3,13.7,-9.5).curveTo(13.7,-9.6,13.8,-9.6).curveTo(13.8,-9.6,13.9,-9.6).curveTo(13.9,-9.6,14,-9.6).curveTo(14,-9.5,14.1,-9.5).curveTo(14.1,-9.4,14.1,-9.4).curveTo(14.2,-9.4,14.2,-9.3).curveTo(14.2,-9.3,14.1,-9.2).curveTo(14.1,-9.2,14.1,-9.1).lineTo(13.9,-8.8).curveTo(13.8,-8.3,13.6,-8.1).lineTo(12.6,-7.1).lineTo(9.9,-3.3).curveTo(10.6,-2.4,10.1,-1.5).curveTo(6.6,3.3,3.9,6.3).curveTo(4.2,7.2,3.7,7.9).curveTo(3.2,8.6,2.3,8.6).curveTo(1.1,8.6,-0.3,9.1).lineTo(-1.6,9.8).curveTo(-2.2,10,-2.8,10).lineTo(-3,10).closePath();
+	this.shape_87.setTransform(67.5875,11.6729);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.shirt_06_btn, new cjs.Rectangle(-1.1,-1.4,142.9,175), null);
+
+
 (lib.shirt_06 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2696,6 +3067,657 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.shirt_06, new cjs.Rectangle(-1.1,-1.4,142.9,175), null);
+
+
+(lib.shirt_05_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape.setTransform(67.05,149.325);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape_1.setTransform(67.05,95.575);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
+	this.shape_2.setTransform(67.05,43.925);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.3,-0,2.2).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_3.setTransform(68.3,147.35);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_4.setTransform(68.3,93.325);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_5.setTransform(68.3,41.675);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
+	this.shape_6.setTransform(67.05,149.325);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.3).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.3).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
+	this.shape_7.setTransform(67.05,95.575);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.4,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.2).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.2).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
+	this.shape_8.setTransform(67.05,43.925);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6,1).moveTo(7.2,84.1).curveTo(20,84.1,28.7,78.7).curveTo(33.7,75.6,36.8,70.8).curveTo(40.1,65.9,40.5,60.4).curveTo(40.7,56.9,39.6,52.3).curveTo(39.4,51.4,37.4,44.3).curveTo(34.5,33.9,34,19.5).curveTo(34,2.7,33.7,-6).curveTo(33.5,-13.3,36.5,-22.8).curveTo(40.1,-34,40.4,-36.4).curveTo(42.1,-50.5,42.2,-53.5).curveTo(42.4,-61,39.6,-63.7).curveTo(37.1,-66.2,21.5,-73.1).curveTo(5.2,-80.3,-7.6,-84.2).lineTo(-9.5,-81.5).curveTo(-12,-78.1,-15.3,-74.8).curveTo(-26,-64.2,-40.4,-58.6).curveTo(-42.4,53.7,-42.2,64.5).curveTo(-42.1,68.1,-40.2,76.6).curveTo(-39.3,80.9,-38.3,84.5).closePath();
+	this.shape_9.setTransform(92.1179,84.9443);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6,1).moveTo(32.5,84.1).curveTo(26.5,84.5,16.2,84.5).curveTo(6.9,84.4,1.3,84).curveTo(-5.6,83.5,-9.9,82.6).curveTo(-16,81.3,-20.3,78.6).curveTo(-25.2,75.5,-28.4,70.7).curveTo(-31.7,65.8,-32,60.3).curveTo(-32.3,56.8,-31.2,52.2).curveTo(-31,51.2,-29,44.2).curveTo(-26,33.5,-25.1,19.4).curveTo(-24.7,2.6,-24.4,-6.1).curveTo(-24.2,-13.5,-27.5,-22.9).curveTo(-31.6,-34.8,-31.9,-36.5).curveTo(-35.9,-59.1,-31.2,-63.8).curveTo(-28.7,-66.2,-12.7,-73.2).curveTo(3.9,-80.3,16.9,-84.3).lineTo(23.2,-77.3).curveTo(30.2,-70,33.8,-68.5);
+	this.shape_10.setTransform(34.1481,85.0114);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill("#006E91").beginStroke().moveTo(-35.5,5.4).curveTo(-38.1,5.5,-39.5,5.3).curveTo(-39.3,4.5,-40.2,2).curveTo(-41,-0.2,-40.5,-0.7).curveTo(-35.5,-2.5,-27.8,-2.8).curveTo(-16.6,-3.1,-15.5,-3.3).lineTo(-6.1,-3.5).curveTo(14.3,-3.9,31.3,-5.2).curveTo(35.2,-5.5,39.2,-5.6).lineTo(39.4,-4.8).lineTo(40.6,0.6).lineTo(40.7,1.4).curveTo(34.7,1.6,24.3,2.5).curveTo(12.7,3.6,7.8,3.8).lineTo(-8,5).curveTo(-16.9,5.4,-23.8,5.5).lineTo(-31.6,5.6).curveTo(-32.9,5.5,-35.5,5.4).closePath();
+	this.shape_11.setTransform(91.2656,136.3);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill("#006E91").beginStroke().moveTo(12.1,4.9).curveTo(3.9,4.7,-0.7,4.3).curveTo(-6.6,3.9,-13.5,3).curveTo(-19.7,2.1,-24.9,1.2).lineTo(-24,-3.4).lineTo(-23.3,-5.4).lineTo(-14.1,-4.6).curveTo(4.9,-2.9,24.8,-2.4).lineTo(24.9,5.3).curveTo(21.4,5.1,12.1,4.9).closePath();
+	this.shape_12.setTransform(27.1,136.4);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill("#FBC85B").beginStroke().moveTo(-39.9,5.4).curveTo(-40.4,5.4,-40.6,2.8).curveTo(-40.8,0,-39.9,-1.4).curveTo(-39.5,-2.2,-37.9,-2.4).curveTo(-37.3,-2.5,-35.1,-2.5).curveTo(12.4,-4.8,39.6,-6.8).lineTo(40.6,1.4).curveTo(13.8,4.4,0.4,5.7).curveTo(-10.7,6.8,-20.2,6.8).curveTo(-31,6.8,-39.9,5.4).closePath();
+	this.shape_13.setTransform(92.281,143.9149);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#FBC85B").beginStroke().moveTo(16.3,6).curveTo(-6.7,6,-9.6,5.8).lineTo(-18.1,5.2).curveTo(-30.6,4.3,-42.2,1.4).lineTo(-42.3,0.3).lineTo(-41.8,-5.3).lineTo(-41.7,-6.2).lineTo(-29.9,-5).lineTo(-18.1,-4).lineTo(-9.6,-3.4).curveTo(-6.3,-3.1,16.3,-3.1).lineTo(42.2,-3).lineTo(42.3,6.2).curveTo(39.4,6,16.3,6).closePath();
+	this.shape_14.setTransform(43.875,143.625);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill("#EE3D29").beginStroke().moveTo(-40.5,7.3).lineTo(-40.5,-3.1).curveTo(-23.8,-2.2,-0,-4.2).curveTo(13.5,-5.4,40.5,-8).lineTo(40.5,-5.4).lineTo(40.2,-2.6).lineTo(39,-0.5).curveTo(38.5,0.5,37.6,1.7).curveTo(5.5,8,-22.9,8).curveTo(-31.9,8,-40.5,7.3).closePath();
+	this.shape_15.setTransform(90.9333,152.513);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill("#EE3D29").beginStroke().moveTo(16.1,7.1).curveTo(10,6.7,7.3,6.6).lineTo(-1.4,6).curveTo(-12,5.1,-21.9,2.8).lineTo(-22.2,2.6).lineTo(-23.4,-1.1).curveTo(-24.2,-3.8,-24.6,-5.9).curveTo(-24.6,-6.2,-24.9,-6.7).lineTo(-25,-7.5).curveTo(-20.6,-7.1,-13.2,-6.3).lineTo(-1.4,-5.1).lineTo(7.3,-4.3).lineTo(16.1,-3.6).curveTo(21.3,-3.2,25,-3.2).lineTo(25,7.5).curveTo(21.8,7.4,16.1,7.1).closePath();
+	this.shape_16.setTransform(26.675,152.2);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#006E91").beginStroke().moveTo(-1.7,-3.5).lineTo(-1.1,-3.5).curveTo(-0.8,-2.5,0.1,-0.9).lineTo(0.9,0.4).lineTo(0.8,0.2).curveTo(1,0.5,1.2,1.5).lineTo(1.6,2.9).lineTo(1.7,3.4).lineTo(-1.7,3.5).closePath();
+	this.shape_17.setTransform(129.15,128.6);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.7).lineTo(2.6,3.4).lineTo(-2.6,3.7).closePath();
+	this.shape_18.setTransform(121.8,128.85);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.8).lineTo(2.7,3.4).lineTo(-2.6,3.8).closePath();
+	this.shape_19.setTransform(113.5,129.35);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.6).lineTo(2.6,-3.9).lineTo(2.7,3.6).lineTo(-2.6,3.8).closePath();
+	this.shape_20.setTransform(96.925,130.5);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.9).lineTo(2.7,3.5).lineTo(-2.6,3.9).closePath();
+	this.shape_21.setTransform(105.225,129.975);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.8).lineTo(2.6,-3.8).lineTo(2.7,3.6).lineTo(-2.6,3.8).closePath();
+	this.shape_22.setTransform(87.25,130.875);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.9).lineTo(2.6,-4).lineTo(2.7,3.8).lineTo(-2.6,4).closePath();
+	this.shape_23.setTransform(78.925,131.075);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.9).lineTo(2.6,-4).lineTo(2.7,3.9).lineTo(-2.6,4).closePath();
+	this.shape_24.setTransform(70.6,131.275);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.8).lineTo(-2.6,-3.7).lineTo(2.6,-3.8).lineTo(2.7,3.8).closePath();
+	this.shape_25.setTransform(53.9,131.6);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.8).lineTo(2.6,-4).lineTo(2.7,3.9).lineTo(-2.6,4).closePath();
+	this.shape_26.setTransform(62.25,131.475);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.6).lineTo(-2.6,-3.7).lineTo(2.6,-3.7).lineTo(2.7,3.7).closePath();
+	this.shape_27.setTransform(44.45,131.575);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.5).lineTo(-2.7,-3.8).lineTo(2.7,-3.5).lineTo(2.7,3.8).closePath();
+	this.shape_28.setTransform(36.1,131.3);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.4).lineTo(-2.7,-3.9).lineTo(2.6,-3.4).lineTo(2.6,3.9).closePath();
+	this.shape_29.setTransform(27.75,130.75);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill("#006E91").beginStroke().moveTo(-1.3,3.5).curveTo(0.3,-0.9,1.1,-3.6).lineTo(1.3,-3.6).lineTo(1.3,3.6).closePath();
+	this.shape_30.setTransform(4.6,128.9);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.9).lineTo(2.6,-3.4).lineTo(2.6,3.9).closePath();
+	this.shape_31.setTransform(11.1,129.3);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.4).lineTo(-2.7,-3.9).lineTo(2.6,-3.4).lineTo(2.6,3.9).closePath();
+	this.shape_32.setTransform(19.4,130.025);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill("#EE3D29").beginStroke().moveTo(-0.9,-1.1).lineTo(0.9,-1.2).lineTo(-0.4,0.6).lineTo(-0.4,0.7).lineTo(-0.9,1.2).closePath();
+	this.shape_33.setTransform(129.525,154.85);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4).lineTo(2.6,-4.6).lineTo(2.6,0.7).lineTo(0.4,2.7).lineTo(0.4,2.8).lineTo(0.3,2.8).lineTo(0.1,2.9).curveTo(-0.9,3.7,-2.2,4.3).lineTo(-2.6,4.6).closePath();
+	this.shape_34.setTransform(123,158.675);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.8).lineTo(2.6,4.2).lineTo(-2.6,4.8).closePath();
+	this.shape_35.setTransform(114.775,159.825);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.7).lineTo(2.6,4.2).lineTo(-2.6,4.7).closePath();
+	this.shape_36.setTransform(98.275,161.7);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.8).lineTo(2.6,4.2).lineTo(-2.6,4.8).closePath();
+	this.shape_37.setTransform(106.525,160.85);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.7).lineTo(2.6,4.3).lineTo(-2.6,4.6).closePath();
+	this.shape_38.setTransform(88.625,162.5);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.6).lineTo(2.6,4.3).lineTo(-2.6,4.5).closePath();
+	this.shape_39.setTransform(80.325,163.05);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,-4.3).lineTo(2.6,-4.4).lineTo(2.6,4.3).lineTo(-2.7,4.4).closePath();
+	this.shape_40.setTransform(71.95,163.375);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,4.2).lineTo(-2.7,-4.4).lineTo(2.6,-4.2).lineTo(2.6,4.4).closePath();
+	this.shape_41.setTransform(55.2,163.25);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.3).lineTo(-2.6,-4.4).lineTo(2.6,-4.3).lineTo(2.6,4.4).closePath();
+	this.shape_42.setTransform(63.6,163.425);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,4.2).lineTo(-2.6,-4.5).lineTo(2.7,-4.2).lineTo(2.7,4.5).closePath();
+	this.shape_43.setTransform(45.675,162.75);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,4.1).lineTo(-2.7,-4.5).lineTo(2.6,-4.1).lineTo(2.6,4.6).closePath();
+	this.shape_44.setTransform(37.3,162.1);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.2).lineTo(-2.6,-4.6).lineTo(2.6,-4.1).lineTo(2.6,4.6).closePath();
+	this.shape_45.setTransform(28.95,161.425);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill("#EE3D29").beginStroke().moveTo(-1.2,-1).lineTo(-1.3,-1.3).lineTo(-1.3,-1.5).lineTo(1.4,-1.3).lineTo(1.4,1.5).lineTo(-1.2,-1).closePath();
+	this.shape_46.setTransform(5.7,155.8);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill("#EE3D29").beginStroke().moveTo(1.9,4.3).curveTo(2,4.3,2,4.3).curveTo(2,4.3,2.1,4.3).curveTo(2.1,4.3,2,4.3).curveTo(2,4.3,1.9,4.3).lineTo(1.4,4).lineTo(1,3.8).lineTo(-0.9,2.7).lineTo(-2.7,0.6).lineTo(-2.7,-4.7).lineTo(2.7,-4.1).lineTo(2.7,4.7).lineTo(1.9,4.3).closePath();
+	this.shape_47.setTransform(12.25,159.575);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.2).lineTo(-2.6,-4.7).lineTo(2.7,-4.1).lineTo(2.7,4.7).closePath();
+	this.shape_48.setTransform(20.6,160.6);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill("#006E91").beginStroke().moveTo(8.9,2.7).curveTo(-1.2,2.5,-24.7,2.7).curveTo(-33,2.7,-42.2,2.3).curveTo(-43.1,1.6,-41.8,-1.7).curveTo(-40.5,-5,-39,-5.1).curveTo(-33.9,-5.3,-5.1,-4.4).curveTo(28.2,-3.4,42.5,-1.7).lineTo(42.5,5.2).curveTo(27.7,3.2,8.9,2.7).closePath();
+	this.shape_49.setTransform(91.6659,28.2978);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#006E91").beginStroke().moveTo(-25.7,1.2).curveTo(-25.7,-1.1,-25.4,-1.2).curveTo(-13.2,-4,0.1,-4.8).curveTo(4.8,-5.1,8.6,-5.1).curveTo(11.1,-5.1,17.1,-5).curveTo(22.6,-4.9,25.7,-5).lineTo(25.7,2.4).curveTo(22.9,2.5,17.1,2.4).curveTo(11.5,2.4,8.6,2.5).lineTo(0,2.9).curveTo(-5.9,3.3,-25.6,5.1).lineTo(-25.7,1.2).closePath();
+	this.shape_50.setTransform(25.7469,27.9938);
+
+	this.shape_51 = new cjs.Shape();
+	this.shape_51.graphics.beginFill("#FBC85B").beginStroke().moveTo(1.7,4.7).curveTo(-28.7,4.5,-40,4.1).curveTo(-41.2,4.1,-42.7,-0.9).curveTo(-44.3,-5.9,-40.8,-5.9).curveTo(-38.3,-6,-30.8,-5.7).curveTo(-23.3,-5.4,-20.9,-5.5).curveTo(13.3,-5.5,43.2,-2.3).lineTo(43.2,2.5).lineTo(42.6,5.9).curveTo(27.5,4.9,1.7,4.7).closePath();
+	this.shape_51.setTransform(90.5871,35.1625);
+
+	this.shape_52 = new cjs.Shape();
+	this.shape_52.graphics.beginFill("#FBC85B").beginStroke().moveTo(-25.5,-0.4).curveTo(-25.5,-1.6,-25.2,-1.7).curveTo(-13.7,-4.7,0,-5.4).curveTo(5.6,-5.6,8.4,-5.6).lineTo(25.4,-5.4).lineTo(25.5,4.2).lineTo(8.5,4.1).lineTo(0,4.3).curveTo(-6,4.5,-24.5,5.6).curveTo(-24.9,2,-25.5,-0.4).closePath();
+	this.shape_52.setTransform(25.5,35.195);
+
+	this.shape_53 = new cjs.Shape();
+	this.shape_53.graphics.beginFill("#EE3D29").beginStroke().moveTo(-40.8,6.5).lineTo(-40.9,-6.6).curveTo(-27.2,-6.6,-0.2,-7.1).curveTo(23.4,-6.9,40.9,-3.7).lineTo(40.3,0.2).lineTo(40,3).lineTo(40,3.1).lineTo(39.3,4.8).curveTo(21.7,6.9,-0.8,7).lineTo(-4.1,7.1).curveTo(-15.9,7.1,-40.8,6.5).closePath();
+	this.shape_53.setTransform(92.275,44.9567);
+
+	this.shape_54 = new cjs.Shape();
+	this.shape_54.graphics.beginFill("#EE3D29").beginStroke().moveTo(16.5,6.6).lineTo(7.8,6.2).curveTo(-9.5,5.6,-23.2,5.8).lineTo(-23.7,4).curveTo(-23.9,3.4,-24.4,2.8).lineTo(-24.4,2.4).lineTo(-25.2,-3.9).curveTo(-14.6,-6.7,-1.1,-6.9).curveTo(2.7,-6.9,7.6,-6.8).lineTo(16.3,-6.5).curveTo(21.6,-6.3,25,-6.4).lineTo(25.2,6.9).curveTo(20.8,6.8,16.5,6.6).closePath();
+	this.shape_54.setTransform(26.125,44.3188);
+
+	this.shape_55 = new cjs.Shape();
+	this.shape_55.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.7).lineTo(-0.5,-3.5).curveTo(0.7,-1.4,2.6,0.3).lineTo(2.6,3.7).closePath();
+	this.shape_55.setTransform(130.2,24.075);
+
+	this.shape_56 = new cjs.Shape();
+	this.shape_56.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.8).lineTo(2.6,-3.2).lineTo(2.6,3.8).closePath();
+	this.shape_56.setTransform(121.95,23.3);
+
+	this.shape_57 = new cjs.Shape();
+	this.shape_57.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.7).lineTo(2.6,-3.2).lineTo(2.6,3.7).closePath();
+	this.shape_57.setTransform(113.725,22.475);
+
+	this.shape_58 = new cjs.Shape();
+	this.shape_58.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.4).lineTo(-2.6,-3.6).lineTo(2.6,-3.4).lineTo(2.6,3.6).closePath();
+	this.shape_58.setTransform(97.225,21.225);
+
+	this.shape_59 = new cjs.Shape();
+	this.shape_59.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.6).lineTo(2.6,-3.3).lineTo(2.6,3.7).closePath();
+	this.shape_59.setTransform(105.475,21.7);
+
+	this.shape_60 = new cjs.Shape();
+	this.shape_60.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.5).lineTo(2.7,-3.4).lineTo(2.7,3.5).closePath();
+	this.shape_60.setTransform(87.5,21.05);
+
+	this.shape_61 = new cjs.Shape();
+	this.shape_61.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.5).lineTo(2.7,-3.4).lineTo(2.7,3.5).closePath();
+	this.shape_61.setTransform(71.55,20.95);
+
+	this.shape_62 = new cjs.Shape();
+	this.shape_62.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.5).lineTo(2.7,-3.4).lineTo(2.7,3.5).closePath();
+	this.shape_62.setTransform(79.05,20.95);
+
+	this.shape_63 = new cjs.Shape();
+	this.shape_63.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.5).lineTo(-2.7,-3.5).lineTo(2.7,-3.5).lineTo(2.7,3.5).closePath();
+	this.shape_63.setTransform(63.15,20.85);
+
+	this.shape_64 = new cjs.Shape();
+	this.shape_64.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.5).lineTo(-2.7,-3.5).lineTo(2.7,-3.5).lineTo(2.7,3.5).closePath();
+	this.shape_64.setTransform(53.45,20.85);
+
+	this.shape_65 = new cjs.Shape();
+	this.shape_65.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.6).lineTo(2.7,3.5).lineTo(-2.7,3.6).closePath();
+	this.shape_65.setTransform(43.875,20.9);
+
+	this.shape_66 = new cjs.Shape();
+	this.shape_66.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.6).lineTo(2.6,3.5).lineTo(-2.6,3.6).closePath();
+	this.shape_66.setTransform(35.5,20.975);
+
+	this.shape_67 = new cjs.Shape();
+	this.shape_67.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-3.4).lineTo(2.6,-3.7).lineTo(2.6,3.4).lineTo(-2.6,3.7).closePath();
+	this.shape_67.setTransform(27.225,21.35);
+
+	this.shape_68 = new cjs.Shape();
+	this.shape_68.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-1.4).curveTo(-1.2,-2.4,0.9,-3.5).lineTo(2.6,-3.8).lineTo(2.6,3.2).lineTo(-2.6,3.8).closePath();
+	this.shape_68.setTransform(3.1,23.65);
+
+	this.shape_69 = new cjs.Shape();
+	this.shape_69.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-3.2).lineTo(2.6,-3.8).lineTo(2.6,3.2).lineTo(-2.6,3.8).closePath();
+	this.shape_69.setTransform(10.8,22.875);
+
+	this.shape_70 = new cjs.Shape();
+	this.shape_70.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-3.2).lineTo(2.6,-3.8).lineTo(2.6,3.3).lineTo(-2.6,3.8).closePath();
+	this.shape_70.setTransform(19,22.025);
+
+	this.shape_71 = new cjs.Shape();
+	this.shape_71.graphics.beginFill("#EE3D29").beginStroke().moveTo(-1.6,-4.4).lineTo(1.6,-4.4).curveTo(-0.6,0.8,-1.6,4.4).closePath();
+	this.shape_71.setTransform(130.175,53.75);
+
+	this.shape_72 = new cjs.Shape();
+	this.shape_72.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.1).lineTo(2.7,-5.1).lineTo(2.6,4.7).lineTo(-2.7,5.1).closePath();
+	this.shape_72.setTransform(122.95,54.45);
+
+	this.shape_73 = new cjs.Shape();
+	this.shape_73.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.3).lineTo(2.6,-5.4).lineTo(2.6,5).lineTo(-2.7,5.4).closePath();
+	this.shape_73.setTransform(114.7,54.825);
+
+	this.shape_74 = new cjs.Shape();
+	this.shape_74.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.7).lineTo(2.7,-5.8).lineTo(2.6,5.5).lineTo(-2.7,5.8).closePath();
+	this.shape_74.setTransform(98.125,55.575);
+
+	this.shape_75 = new cjs.Shape();
+	this.shape_75.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.5).lineTo(2.6,-5.7).lineTo(2.6,5.3).lineTo(-2.7,5.7).closePath();
+	this.shape_75.setTransform(106.4,55.225);
+
+	this.shape_76 = new cjs.Shape();
+	this.shape_76.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.8).lineTo(2.7,-5.9).lineTo(2.6,5.7).lineTo(-2.7,5.9).closePath();
+	this.shape_76.setTransform(88.425,55.85);
+
+	this.shape_77 = new cjs.Shape();
+	this.shape_77.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-6).lineTo(2.7,-6.1).lineTo(2.6,5.8).lineTo(-2.7,6.1).closePath();
+	this.shape_77.setTransform(80.075,56.1);
+
+	this.shape_78 = new cjs.Shape();
+	this.shape_78.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,-6.2).lineTo(2.7,-6.2).lineTo(2.6,6).lineTo(-2.7,6.2).closePath();
+	this.shape_78.setTransform(71.725,56.375);
+
+	this.shape_79 = new cjs.Shape();
+	this.shape_79.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,5.9).lineTo(-2.7,-6.2).lineTo(2.6,-6.1).lineTo(2.8,6.2).closePath();
+	this.shape_79.setTransform(54.9,56.225);
+
+	this.shape_80 = new cjs.Shape();
+	this.shape_80.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,6.1).lineTo(-2.7,-6.2).lineTo(2.6,-6.2).lineTo(2.7,6.2).closePath();
+	this.shape_80.setTransform(63.3,56.4);
+
+	this.shape_81 = new cjs.Shape();
+	this.shape_81.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,5.7).lineTo(-2.8,-6).lineTo(2.5,-5.9).lineTo(2.7,6).closePath();
+	this.shape_81.setTransform(45.4,55.8);
+
+	this.shape_82 = new cjs.Shape();
+	this.shape_82.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.5,5.6).lineTo(-2.8,-5.9).lineTo(2.5,-5.7).lineTo(2.8,5.9).closePath();
+	this.shape_82.setTransform(37.05,55.4);
+
+	this.shape_83 = new cjs.Shape();
+	this.shape_83.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,5.4).lineTo(-2.7,-5.8).lineTo(2.5,-5.6).lineTo(2.7,5.8).closePath();
+	this.shape_83.setTransform(28.725,55);
+
+	this.shape_84 = new cjs.Shape();
+	this.shape_84.graphics.beginFill("#EE3D29").beginStroke().moveTo(0.2,4.8).lineTo(0.2,4.7).lineTo(-1.2,0.4).curveTo(-1.4,-2.1,-2.2,-4.7).lineTo(2,-4.9).lineTo(2.1,4.8).closePath();
+	this.shape_84.setTransform(4.85,54);
+
+	this.shape_85 = new cjs.Shape();
+	this.shape_85.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.8).lineTo(-2.7,-5.2).lineTo(2.6,-5.2).lineTo(2.7,5.2).closePath();
+	this.shape_85.setTransform(12.125,54.2);
+
+	this.shape_86 = new cjs.Shape();
+	this.shape_86.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.5,5.1).lineTo(-2.7,-5.5).lineTo(2.5,-5.4).lineTo(2.7,5.5).closePath();
+	this.shape_86.setTransform(20.4,54.575);
+
+	this.shape_87 = new cjs.Shape();
+	this.shape_87.graphics.beginFill("#FCC85B").beginStroke().moveTo(-0.5,0.2).lineTo(-0.5,-0.2).lineTo(0.5,0.2).closePath();
+	this.shape_87.setTransform(101.55,6.575);
+
+	this.shape_88 = new cjs.Shape();
+	this.shape_88.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.9,3.3).lineTo(-3,-3.7).lineTo(-2.5,-3.6).lineTo(-0.8,-2.9).lineTo(-0.5,-2.9).lineTo(0,-2.5).curveTo(1.1,-1.7,3,-0.9).lineTo(3,3.6).closePath();
+	this.shape_88.setTransform(104.25,10.3);
+
+	this.shape_89 = new cjs.Shape();
+	this.shape_89.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,1.8).lineTo(-4.4,-1.8).curveTo(-2,-0.9,0.7,-0.3).curveTo(1.9,-0,3.1,-0).lineTo(4.3,0.4).lineTo(4.3,1.8).closePath();
+	this.shape_89.setTransform(91.75,4.7);
+
+	this.shape_90 = new cjs.Shape();
+	this.shape_90.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,3.4).lineTo(-4.1,-3.5).lineTo(4.1,-3.4).lineTo(4.1,3.4).closePath();
+	this.shape_90.setTransform(91.85,9.85);
+
+	this.shape_91 = new cjs.Shape();
+	this.shape_91.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3.1,3.3).lineTo(-2.7,1.6).lineTo(3,-3.4).lineTo(3.1,3.4).closePath();
+	this.shape_91.setTransform(77.925,9.7);
+
+	this.shape_92 = new cjs.Shape();
+	this.shape_92.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,2.5).lineTo(-3.2,-2.1).lineTo(0,-2.6).curveTo(1,-1.6,3.3,-0.7).lineTo(3.3,2.6).closePath();
+	this.shape_92.setTransform(51.6,3.7);
+
+	this.shape_93 = new cjs.Shape();
+	this.shape_93.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3.1,3.4).lineTo(-3,-3.4).lineTo(3.1,-3.4).lineTo(3.1,3.4).closePath();
+	this.shape_93.setTransform(51.6,9.525);
+
+	this.shape_94 = new cjs.Shape();
+	this.shape_94.graphics.beginFill("#FCC85B").beginStroke().moveTo(-2.5,1.6).lineTo(2.5,-1.6).lineTo(2.5,1.6).closePath();
+	this.shape_94.setTransform(40.825,4.55);
+
+	this.shape_95 = new cjs.Shape();
+	this.shape_95.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-1.6).lineTo(-0.6,-3.5).lineTo(4.1,-3.5).lineTo(4,3.4).lineTo(-4.1,3.5).closePath();
+	this.shape_95.setTransform(39.025,9.525);
+
+	this.shape_96 = new cjs.Shape();
+	this.shape_96.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,1).lineTo(3,-1.9).lineTo(3,1.5).lineTo(-3,1.9).closePath();
+	this.shape_96.setTransform(25.25,11.775);
+
+	this.shape_97 = new cjs.Shape();
+	this.shape_97.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,-4.6).lineTo(4.3,-5.5).lineTo(4.3,4.9).lineTo(-4.3,5.5).closePath();
+	this.shape_97.setTransform(116.775,106.425);
+
+	this.shape_98 = new cjs.Shape();
+	this.shape_98.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,-5.4).lineTo(3.2,-6.1).lineTo(3.2,5.2).lineTo(-3.2,6.2).closePath();
+	this.shape_98.setTransform(117.075,71.55);
+
+	this.shape_99 = new cjs.Shape();
+	this.shape_99.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,-5).lineTo(3.2,-5.9).lineTo(3.2,4.9).lineTo(-3.2,5.8).closePath();
+	this.shape_99.setTransform(121.075,81.9);
+
+	this.shape_100 = new cjs.Shape();
+	this.shape_100.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.1,-4.9).lineTo(3.2,-5.9).lineTo(3.2,4.9).lineTo(-3.2,5.8).closePath();
+	this.shape_100.setTransform(112.55,83.15);
+
+	this.shape_101 = new cjs.Shape();
+	this.shape_101.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-3.1).lineTo(4.1,-3.7).lineTo(4.1,3.2).lineTo(-4.1,3.7).closePath();
+	this.shape_101.setTransform(116.825,114.975);
+
+	this.shape_102 = new cjs.Shape();
+	this.shape_102.graphics.beginFill("#1D438A").beginStroke().moveTo(-4,-2.8).lineTo(4.1,-3.9).lineTo(4.1,3).lineTo(-4.1,3.9).closePath();
+	this.shape_102.setTransform(116.85,97.975);
+
+	this.shape_103 = new cjs.Shape();
+	this.shape_103.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.4,-3.2).lineTo(2.4,-3.8).curveTo(2.3,-0.7,2.4,3.3).lineTo(-2.4,3.8).closePath();
+	this.shape_103.setTransform(122.675,90.3);
+
+	this.shape_104 = new cjs.Shape();
+	this.shape_104.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3).lineTo(3.2,-3.9).lineTo(3.2,3.1).lineTo(-3.2,3.9).closePath();
+	this.shape_104.setTransform(110.25,91.975);
+
+	this.shape_105 = new cjs.Shape();
+	this.shape_105.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,-4.7).lineTo(3.2,-5.2).lineTo(3.1,4.8).lineTo(-3.2,5.2).closePath();
+	this.shape_105.setTransform(103.95,107.6);
+
+	this.shape_106 = new cjs.Shape();
+	this.shape_106.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,-3.2).lineTo(3,-3.6).lineTo(3,3.2).lineTo(-3,3.6).closePath();
+	this.shape_106.setTransform(103.95,115.9);
+
+	this.shape_107 = new cjs.Shape();
+	this.shape_107.graphics.beginFill("#006E91").beginStroke().moveTo(-3,-3.8).lineTo(3,-4.4).lineTo(3,3.7).lineTo(-3,4.4).closePath();
+	this.shape_107.setTransform(104.05,71.325);
+
+	this.shape_108 = new cjs.Shape();
+	this.shape_108.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,-2.9).lineTo(3,-3.6).lineTo(3,3.1).lineTo(-3,3.6).closePath();
+	this.shape_108.setTransform(104,99.425);
+
+	this.shape_109 = new cjs.Shape();
+	this.shape_109.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,-4.5).lineTo(4.3,-5).lineTo(4.3,4.8).lineTo(-4.3,5).closePath();
+	this.shape_109.setTransform(91.475,108.25);
+
+	this.shape_110 = new cjs.Shape();
+	this.shape_110.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,-6).lineTo(3.2,-6.3).lineTo(3.2,5.7).lineTo(-3.2,6.3).closePath();
+	this.shape_110.setTransform(91.8,74.225);
+
+	this.shape_111 = new cjs.Shape();
+	this.shape_111.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,-5).lineTo(3.2,-5.6).lineTo(3.2,5.1).lineTo(-3.2,5.6).closePath();
+	this.shape_111.setTransform(95.775,85.125);
+
+	this.shape_112 = new cjs.Shape();
+	this.shape_112.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.1,-5.1).lineTo(3.2,-5.6).lineTo(3.2,5.1).lineTo(-3.2,5.6).closePath();
+	this.shape_112.setTransform(87.25,85.9);
+
+	this.shape_113 = new cjs.Shape();
+	this.shape_113.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-3.3).lineTo(4.1,-3.5).lineTo(4.1,3.3).lineTo(-4.1,3.5).closePath();
+	this.shape_113.setTransform(91.5,116.45);
+
+	this.shape_114 = new cjs.Shape();
+	this.shape_114.graphics.beginFill("#1D438A").beginStroke().moveTo(-4,-2.8).lineTo(4.1,-3.4).lineTo(4.1,3).lineTo(-4.1,3.5).closePath();
+	this.shape_114.setTransform(91.55,100.35);
+
+	this.shape_115 = new cjs.Shape();
+	this.shape_115.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3).lineTo(3.2,-3.7).lineTo(3.2,3.2).lineTo(-3.2,3.6).closePath();
+	this.shape_115.setTransform(98.15,93.3);
+
+	this.shape_116 = new cjs.Shape();
+	this.shape_116.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3).lineTo(3.2,-3.5).lineTo(3.2,3.1).lineTo(-3.2,3.5).closePath();
+	this.shape_116.setTransform(84.95,94.425);
+
+	this.shape_117 = new cjs.Shape();
+	this.shape_117.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.1,-4.5).lineTo(3.2,-4.7).lineTo(3.2,4.6).lineTo(-3.2,4.7).closePath();
+	this.shape_117.setTransform(77.7,108.825);
+
+	this.shape_118 = new cjs.Shape();
+	this.shape_118.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,-3.2).lineTo(3,-3.3).lineTo(3,3.2).lineTo(-3,3.3).closePath();
+	this.shape_118.setTransform(77.725,116.7);
+
+	this.shape_119 = new cjs.Shape();
+	this.shape_119.graphics.beginFill("#006E91").beginStroke().moveTo(-3,-4.2).lineTo(3,-4.5).lineTo(3,4.2).lineTo(-3,4.5).closePath();
+	this.shape_119.setTransform(77.825,73.225);
+
+	this.shape_120 = new cjs.Shape();
+	this.shape_120.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,-2.9).lineTo(3,-3.2).lineTo(3,3).lineTo(-3,3.2).closePath();
+	this.shape_120.setTransform(77.775,101.225);
+
+	this.shape_121 = new cjs.Shape();
+	this.shape_121.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,-4.6).lineTo(4.3,-4.7).lineTo(4.3,4.5).lineTo(-4.3,4.7).closePath();
+	this.shape_121.setTransform(65.225,109.175);
+
+	this.shape_122 = new cjs.Shape();
+	this.shape_122.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,-6.2).lineTo(3.2,-6.2).lineTo(3.2,6.1).lineTo(-3.1,6.2).closePath();
+	this.shape_122.setTransform(65.55,75.475);
+
+	this.shape_123 = new cjs.Shape();
+	this.shape_123.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,-5.3).lineTo(3.2,-5.4).lineTo(3.2,5.3).lineTo(-3.2,5.4).closePath();
+	this.shape_123.setTransform(69.55,86.825);
+
+	this.shape_124 = new cjs.Shape();
+	this.shape_124.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5.4).lineTo(-3.2,-5.4).lineTo(3.2,-5.3).lineTo(3.2,5.5).closePath();
+	this.shape_124.setTransform(61,86.85);
+
+	this.shape_125 = new cjs.Shape();
+	this.shape_125.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-3.2).lineTo(4.1,-3.4).lineTo(4.1,3.2).lineTo(-4.1,3.4).closePath();
+	this.shape_125.setTransform(65.225,116.975);
+
+	this.shape_126 = new cjs.Shape();
+	this.shape_126.graphics.beginFill("#1D438A").beginStroke().moveTo(-4,-3).lineTo(4.1,-3.1).lineTo(4.1,3).lineTo(-4.1,3.1).closePath();
+	this.shape_126.setTransform(65.3,101.575);
+
+	this.shape_127 = new cjs.Shape();
+	this.shape_127.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3.2).lineTo(3.2,-3.4).lineTo(3.1,3.2).lineTo(-3.2,3.4).closePath();
+	this.shape_127.setTransform(71.9,95.125);
+
+	this.shape_128 = new cjs.Shape();
+	this.shape_128.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.2).lineTo(-3.1,-3.3).lineTo(3.2,-3.2).lineTo(3.2,3.3).closePath();
+	this.shape_128.setTransform(58.7,95.2);
+
+	this.shape_129 = new cjs.Shape();
+	this.shape_129.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,5).lineTo(-3.2,-5.1).lineTo(3.2,-4.9).lineTo(3.1,5).closePath();
+	this.shape_129.setTransform(52,109.25);
+
+	this.shape_130 = new cjs.Shape();
+	this.shape_130.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,-3.4).lineTo(3,-3.5).lineTo(3,3.3).lineTo(-3,3.5).closePath();
+	this.shape_130.setTransform(52,117.325);
+
+	this.shape_131 = new cjs.Shape();
+	this.shape_131.graphics.beginFill("#006E91").beginStroke().moveTo(-3,4.1).lineTo(-3.1,-4.5).lineTo(3,-4.1).lineTo(3,4.5).closePath();
+	this.shape_131.setTransform(52.1,73.125);
+
+	this.shape_132 = new cjs.Shape();
+	this.shape_132.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,3.1).lineTo(-3,-3.2).lineTo(3,-3).lineTo(3,3.2).closePath();
+	this.shape_132.setTransform(52.075,101.4);
+
+	this.shape_133 = new cjs.Shape();
+	this.shape_133.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,5).lineTo(-4.3,-5.5).lineTo(4.3,-5.1).lineTo(4.3,5.5).closePath();
+	this.shape_133.setTransform(39.525,109.15);
+
+	this.shape_134 = new cjs.Shape();
+	this.shape_134.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,5.8).lineTo(-3.2,-6.4).lineTo(3.2,-6).lineTo(3.2,6.4).closePath();
+	this.shape_134.setTransform(39.775,74.125);
+
+	this.shape_135 = new cjs.Shape();
+	this.shape_135.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5.3).lineTo(-3.2,-5.8).lineTo(3.2,-5.2).lineTo(3.2,5.7).closePath();
+	this.shape_135.setTransform(43.825,85.95);
+
+	this.shape_136 = new cjs.Shape();
+	this.shape_136.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5.2).lineTo(-3.2,-5.8).lineTo(3.2,-5.2).lineTo(3.2,5.8).closePath();
+	this.shape_136.setTransform(35.25,85.175);
+
+	this.shape_137 = new cjs.Shape();
+	this.shape_137.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,3.4).lineTo(-4.1,-3.6).lineTo(4.1,-3.3).lineTo(4.1,3.5).closePath();
+	this.shape_137.setTransform(39.55,117.3);
+
+	this.shape_138 = new cjs.Shape();
+	this.shape_138.graphics.beginFill("#1D438A").beginStroke().moveTo(-4.1,3.1).lineTo(-4.1,-3.5).lineTo(4.1,-2.9).lineTo(4.1,3.5).closePath();
+	this.shape_138.setTransform(39.6,100.825);
+
+	this.shape_139 = new cjs.Shape();
+	this.shape_139.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.2).lineTo(-3.2,-3.6).lineTo(3.2,-3.1).lineTo(3.2,3.5).closePath();
+	this.shape_139.setTransform(46.2,94.65);
+
+	this.shape_140 = new cjs.Shape();
+	this.shape_140.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.2).lineTo(-3.2,-3.8).lineTo(3.2,-3.1).lineTo(3.2,3.8).closePath();
+	this.shape_140.setTransform(32.95,93.6);
+
+	this.shape_141 = new cjs.Shape();
+	this.shape_141.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,4.7).lineTo(-3.1,-5.7).lineTo(3.2,-4.8).lineTo(3.2,5.7).closePath();
+	this.shape_141.setTransform(25.7,108.375);
+
+	this.shape_142 = new cjs.Shape();
+	this.shape_142.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,3.2).lineTo(-3,-3.8).lineTo(3,-3.1).lineTo(3,3.8).closePath();
+	this.shape_142.setTransform(25.725,116.375);
+
+	this.shape_143 = new cjs.Shape();
+	this.shape_143.graphics.beginFill("#006E91").beginStroke().moveTo(-3,3.7).lineTo(-3,-4.5).lineTo(3,-3.8).lineTo(3,4.5).closePath();
+	this.shape_143.setTransform(25.75,70.825);
+
+	this.shape_144 = new cjs.Shape();
+	this.shape_144.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,3).lineTo(-3,-3.7).lineTo(3,-2.9).lineTo(3,3.7).closePath();
+	this.shape_144.setTransform(25.775,99.575);
+
+	this.shape_145 = new cjs.Shape();
+	this.shape_145.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.4,4.9).lineTo(-4.3,2.6).curveTo(-3.7,1.6,-3.7,0.7).curveTo(-3.7,-2.8,-3.8,-5.7).lineTo(4.4,-4.6).lineTo(4.3,5.8).closePath();
+	this.shape_145.setTransform(13.05,106.25);
+
+	this.shape_146 = new cjs.Shape();
+	this.shape_146.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,5.2).lineTo(-3.2,-6.2).lineTo(3.2,-5.4).lineTo(3.2,6.2).closePath();
+	this.shape_146.setTransform(13.45,71);
+
+	this.shape_147 = new cjs.Shape();
+	this.shape_147.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5).lineTo(-3.2,-6).lineTo(3.2,-5).lineTo(3.2,6).closePath();
+	this.shape_147.setTransform(17.5,82.725);
+
+	this.shape_148 = new cjs.Shape();
+	this.shape_148.graphics.beginFill("#1D438A").beginStroke().moveTo(-1.3,5.2).lineTo(-1.1,-0.2).curveTo(-0.9,-3.6,-1,-5.7).lineTo(1.4,-5.3).lineTo(1.4,5.7).closePath();
+	this.shape_148.setTransform(10.75,81.7);
+
+	this.shape_149 = new cjs.Shape();
+	this.shape_149.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,3.2).lineTo(-4.1,-3.9).lineTo(4.1,-3.1).lineTo(4.1,3.9).closePath();
+	this.shape_149.setTransform(13.25,115.15);
+
+	this.shape_150 = new cjs.Shape();
+	this.shape_150.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.9,3).lineTo(-4.1,-2).lineTo(-4,-3.7).lineTo(-3.9,-4).lineTo(4.1,-2.8).lineTo(4.1,4).closePath();
+	this.shape_150.setTransform(13.275,97.875);
+
+	this.shape_151 = new cjs.Shape();
+	this.shape_151.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.1).lineTo(-3.2,-4).lineTo(3.2,-3).lineTo(3.2,4.1).closePath();
+	this.shape_151.setTransform(19.85,91.85);
+
+	this.shape_152 = new cjs.Shape();
+	this.shape_152.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.2,3.6).lineTo(-0.2,-3.2).lineTo(-0.2,-3.6).lineTo(0.2,-3.6).lineTo(0.2,3.6).closePath();
+	this.shape_152.setTransform(9.575,90.275);
+
+	this.shape_153 = new cjs.Shape();
+	this.shape_153.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-42.2,64.3).curveTo(-42.4,53.6,-40.4,-58.8).curveTo(-37.2,-60,-31.3,-63.3).curveTo(-24.6,-66.9,-22.3,-68).curveTo(-20.8,-68.6,-19.1,-70.5).lineTo(-7.6,-84.3).curveTo(5.3,-80.4,21.6,-73.2).curveTo(37.1,-66.3,39.6,-63.8).curveTo(42.4,-61.1,42.2,-53.6).curveTo(42.1,-50.6,40.4,-36.6).curveTo(40.1,-34.1,36.5,-22.9).curveTo(33.5,-13.4,33.7,-6.1).curveTo(34,2.6,34,19.3).curveTo(34.5,33.7,37.5,44.2).lineTo(39.7,52.2).curveTo(40.7,56.7,40.5,60.3).curveTo(40.1,65.7,36.8,70.7).curveTo(33.7,75.5,28.8,78.6).curveTo(19.9,84,7.2,84).lineTo(-38.3,84.3).curveTo(-42.1,70.1,-42.2,64.3).closePath();
+	this.shape_153.setTransform(91.8179,84.5);
+
+	this.shape_154 = new cjs.Shape();
+	this.shape_154.graphics.beginFill("#EFF1EC").beginStroke().moveTo(0.1,84.2).curveTo(-12.8,84.1,-21.5,78.7).curveTo(-26.4,75.6,-29.5,70.9).curveTo(-32.9,65.9,-33.2,60.4).curveTo(-33.4,56.9,-32.4,52.3).lineTo(-30.2,44.3).curveTo(-27.1,33.7,-26.3,19.5).lineTo(-25.6,-5.9).curveTo(-25.4,-13.4,-28.3,-22.8).curveTo(-32.1,-35.1,-32.4,-36.4).curveTo(-36.2,-58.1,-31.3,-62.9).curveTo(-28.6,-65.5,-13.3,-72.6).curveTo(3.2,-80.4,15.7,-84.2).curveTo(15.4,-83.9,22.9,-77).curveTo(30.6,-70.1,34,-67.7).lineTo(31.3,83.2).curveTo(26.7,84.1,15.8,84.2).lineTo(0.1,84.2).closePath();
+	this.shape_154.setTransform(34.2201,84.2);
+
+	this.shape_155 = new cjs.Shape();
+	this.shape_155.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.7,-9.4).curveTo(-6.8,-7.6,0.4,-6.1).curveTo(4,-0.8,11,9.9);
+	this.shape_155.setTransform(61.4452,10.1963);
+
+	this.shape_156 = new cjs.Shape();
+	this.shape_156.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.6,-5).curveTo(5.4,-4,3.3,-3.5).curveTo(-0.3,-2.6,-3.3,-2.1).curveTo(-8.9,5.5,-8.6,4.9);
+	this.shape_156.setTransform(75.7117,5.7127);
+
+	this.shape_157 = new cjs.Shape();
+	this.shape_157.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-3,10).curveTo(-4.3,10,-5.3,8.1).lineTo(-6.7,5.5).lineTo(-9,0.8).curveTo(-9.9,-0.4,-11.5,-3.2).curveTo(-12.8,-5.4,-14.1,-8.9).curveTo(-14.2,-9.3,-13.9,-9.5).curveTo(-13.6,-9.7,-13.3,-9.5).curveTo(-13.1,-9.9,-12.8,-10).curveTo(-12.5,-10,-12.2,-9.7).lineTo(-11.4,-8.8).lineTo(-11.3,-8.8).curveTo(-9.6,-9,-6.5,-7.3).curveTo(-5.7,-7.2,-5.1,-6.4).curveTo(-4.3,-5.4,-3.3,-3).curveTo(-2.2,-0.7,-1.4,0.3).lineTo(-0.5,1.3).lineTo(1,-1.1).curveTo(2.2,-3.5,3.6,-5.8).curveTo(4.8,-8.9,10.9,-10).curveTo(11.5,-10.1,12,-9.7).lineTo(12.5,-9.9).curveTo(13.3,-10.3,13.7,-9.5).curveTo(13.7,-9.6,13.8,-9.6).curveTo(13.8,-9.6,13.9,-9.6).curveTo(13.9,-9.6,14,-9.6).curveTo(14,-9.5,14.1,-9.5).curveTo(14.1,-9.4,14.1,-9.4).curveTo(14.2,-9.4,14.2,-9.3).curveTo(14.2,-9.3,14.1,-9.2).curveTo(14.1,-9.2,14.1,-9.1).lineTo(13.9,-8.8).curveTo(13.8,-8.3,13.6,-8.1).lineTo(12.6,-7.1).lineTo(9.9,-3.3).curveTo(10.6,-2.4,10.1,-1.5).curveTo(6.6,3.3,3.9,6.3).curveTo(4.2,7.2,3.7,7.9).curveTo(3.2,8.6,2.3,8.6).curveTo(1.1,8.6,-0.3,9.1).lineTo(-1.6,9.8).curveTo(-2.2,10,-2.8,10).lineTo(-3,10).closePath();
+	this.shape_157.setTransform(67.5375,12.3229);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.shirt_05_btn, new cjs.Rectangle(-1.2,-0.7,143,183), null);
 
 
 (lib.shirt_05 = function(mode,startPosition,loop,reversed) {
@@ -3349,6 +4371,157 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.shirt_05, new cjs.Rectangle(-1.2,-0.7,143,183), null);
 
 
+(lib.shirt_04_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape.setTransform(57.7,137.3);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.8,-4.6,-4.7).curveTo(-2.7,-6.5,-0,-6.6).curveTo(2.7,-6.5,4.6,-4.7).curveTo(6.6,-2.8,6.6,0).curveTo(6.6,2.7,4.6,4.6).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_1.setTransform(56.375,139.75);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_2.setTransform(55.525,142.525);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_3.setTransform(87.2,137.3);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.8,-4.6,-4.7).curveTo(-2.7,-6.5,-0,-6.6).curveTo(2.7,-6.5,4.6,-4.7).curveTo(6.6,-2.8,6.6,0).curveTo(6.6,2.7,4.6,4.6).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_4.setTransform(85.825,139.75);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_5.setTransform(84.975,142.525);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_6.setTransform(57.7,94.45);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.3,-4.1,6.5).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.8,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.5).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.8,4.6,4.6).curveTo(2.7,6.6,-0,6.5).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_7.setTransform(56.375,96.9);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.7).curveTo(-2.7,-6.5,0,-6.6).curveTo(2.7,-6.5,4.7,-4.7).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_8.setTransform(55.525,99.7);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_9.setTransform(87.2,94.45);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.3,-4.1,6.5).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.8,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.5).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.8,4.6,4.6).curveTo(2.7,6.6,-0,6.5).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_10.setTransform(85.825,96.9);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.7).curveTo(-2.7,-6.5,0,-6.6).curveTo(2.7,-6.5,4.7,-4.7).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_11.setTransform(84.975,99.7);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_12.setTransform(57.7,51.15);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.7).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.6).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.6,4.7).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.7).closePath();
+	this.shape_13.setTransform(56.375,53.575);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_14.setTransform(55.525,56.375);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_15.setTransform(87.2,51.15);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.7).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.6).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.6,4.7).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.7).closePath();
+	this.shape_16.setTransform(85.825,53.575);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
+	this.shape_17.setTransform(84.975,56.375);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill().beginStroke("#407F74").setStrokeStyle(2.6).moveTo(8.2,83.7).curveTo(1.1,83.7,-5.6,82.7).curveTo(-14.3,81.3,-18.5,78.7).curveTo(-23.5,75.6,-26.6,70.8).curveTo(-29.9,65.9,-30.3,60.4).curveTo(-30.5,56.9,-29.5,52.3).curveTo(-29.3,51.3,-27.3,44.3).curveTo(-24.2,33.6,-23.4,19.5).curveTo(-22.9,2.7,-22.7,-6).curveTo(-22.5,-13.4,-25.7,-22.8).curveTo(-29.9,-34.7,-30.2,-36.4).curveTo(-34.1,-59,-29.4,-63.7).curveTo(-27.1,-66,-11.9,-72.6).curveTo(3.7,-79.4,16.7,-83.6).curveTo(17.5,-83.9,18.2,-83.5).curveTo(18.9,-83.1,19,-82.3).curveTo(20.8,-75,23.4,-69.7).curveTo(27.6,-61.1,33.1,-60.3);
+	this.shape_18.setTransform(32.896,84.2019);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill().beginStroke("#407F74").setStrokeStyle(2.6).moveTo(13.1,83.4).curveTo(25.9,83.4,34.6,77.9).curveTo(39.6,74.8,42.7,70.1).curveTo(46,65.1,46.4,59.7).curveTo(46.6,56.1,45.5,51.5).curveTo(45.3,50.7,43.3,43.5).curveTo(40.4,33.1,39.9,18.7).curveTo(39.9,2,39.6,-6.7).curveTo(39.4,-14,42.4,-23.5).curveTo(46,-34.7,46.3,-37.2).curveTo(48,-51.2,48.1,-54.2).curveTo(48.3,-61.7,45.5,-64.4).curveTo(43.1,-66.8,28.3,-73.5).curveTo(12.7,-80.4,-0.1,-84.5).curveTo(-0.8,-84.7,-1.4,-84.4).curveTo(-2,-84.1,-2.3,-83.4).curveTo(-4.1,-79.2,-6.8,-75).curveTo(-11.1,-68.6,-16.7,-64).curveTo(-22.3,-59.4,-33.5,-50.7).curveTo(-43.1,-43.3,-44.6,-41.9).lineTo(-47.4,17.2).curveTo(-49.4,77.3,-45.6,82.9).curveTo(-44.2,85,-18.2,84.4).curveTo(-4.8,84.1,13.1,83.4).closePath();
+	this.shape_19.setTransform(86.712,84.9529);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-5.5,0,145.4).beginStroke().moveTo(-2.4,9.9).curveTo(-6.3,8.8,-8.5,4.2).curveTo(-9.8,1.5,-9.5,-1.2).curveTo(-9.3,-4.3,-7.1,-5.8).lineTo(-6.8,-6).lineTo(4.4,-10.1).curveTo(5.5,-10.5,6.1,-9.6).curveTo(8.5,-6.6,9.2,-3.2).curveTo(10,0.3,9,3.3).curveTo(8.1,6.4,5.4,8.3).curveTo(2.8,10.3,-0.1,10.3).curveTo(-1.4,10.3,-2.4,9.9).closePath();
+	this.shape_20.setTransform(28.5696,15.9385);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-59.1,0,90.7).beginStroke().moveTo(-27.3,67.3).curveTo(-28.4,67,-28.5,66).curveTo(-28.9,61.8,-30.9,58.3).curveTo(-31.4,57.3,-32.7,55.3).curveTo(-34.3,52.9,-34.9,51.6).curveTo(-36,49.5,-36.3,47.5).curveTo(-37.1,42.9,-34.2,37.2).curveTo(-31.9,32.6,-29.5,31.5).curveTo(-30.8,29.1,-32.8,26.9).lineTo(-45.3,27).curveTo(-45.9,27,-46.4,26.6).curveTo(-46.8,26.2,-46.8,25.5).curveTo(-46.9,24.9,-46.4,24.4).curveTo(-46,24,-45.3,24).lineTo(-33.3,23.9).curveTo(-31.3,20.1,-30.4,16.2).lineTo(-30.9,15.9).curveTo(-31.5,15.3,-31.9,14.3).lineTo(-32.6,12.2).lineTo(-33.1,10.4).curveTo(-33.9,7.6,-34.3,6.1).curveTo(-34.8,3.6,-34.6,1.4).curveTo(-33.8,-5.5,-25.8,-11.2).curveTo(-23.8,-12.6,-21.4,-14).curveTo(-16.2,-17.2,-14.1,-19.1).lineTo(-14.1,-19.2).curveTo(-13.6,-19.6,-13,-19.6).curveTo(-12.4,-19.6,-11.9,-19.1).curveTo(-11.5,-18.7,-11.5,-18).curveTo(-11.5,-17.4,-12,-17).lineTo(-12,-16.9).curveTo(-14.9,-14.2,-12.8,-6.8).lineTo(-12.8,-6.6).curveTo(-11.5,-2.3,-11.3,-0.1).curveTo(-11,3.8,-12.6,6.4).curveTo(-13.6,8,-16.1,10).lineTo(-17.7,11.4).curveTo(-20.5,13.8,-22,14.8).curveTo(-24.6,16.5,-26.5,16.8).lineTo(-27.4,16.9).curveTo(-28.3,20.6,-29.8,23.8).curveTo(-12.4,23.6,-7.2,22.3).curveTo(-1.9,21,2.4,18.7).curveTo(5.6,9.7,4.6,0.6).curveTo(1.2,0.2,-1.4,-4.2).curveTo(-3.4,-7.6,-4.4,-12.2).curveTo(-5.3,-16.4,-5.2,-21.8).curveTo(-5.2,-24.9,-4.8,-31.5).curveTo(-4.7,-32.2,-4.2,-32.6).curveTo(-3.6,-33,-2.9,-32.9).curveTo(3.6,-31.5,8.6,-26.9).curveTo(11.3,-24.4,12.8,-21.3).curveTo(14.9,-16.8,14.1,-10.5).curveTo(13.3,-3.6,9.2,-0.8).curveTo(8.3,-0.2,7.7,0.1).curveTo(8.5,8.4,6.4,16.3).curveTo(9.6,14,11.9,11).curveTo(16.6,5.1,19.2,-6.4).curveTo(22.7,-21.6,19.5,-31.6).curveTo(17.7,-37.2,13.7,-41.5).curveTo(9.2,-46.5,3.6,-47.6).lineTo(3.2,-47.4).lineTo(2.8,-47.4).curveTo(2,-47.4,1.5,-48.2).curveTo(0.8,-48.7,1,-49.5).lineTo(1,-49.8).curveTo(0.3,-52.9,0.1,-54.7).curveTo(-0.2,-57.5,0.3,-59.8).curveTo(1,-62.5,3.8,-64.6).curveTo(6.3,-66.5,9.6,-67.2).lineTo(10.4,-67.3).lineTo(16.6,-64.7).lineTo(17.3,-64.5).curveTo(17.6,-64.4,17.6,-64).curveTo(18,-61,17.2,-58.8).curveTo(16.4,-56.7,14.1,-53.9).curveTo(11.7,-50.9,8.2,-49.3).curveTo(11.9,-47.6,15.2,-44.5).curveTo(20.3,-39.5,22.4,-32.6).lineTo(22.8,-31.4).curveTo(23.8,-33,25.1,-34).lineTo(24.9,-34.3).curveTo(23.5,-36.9,25,-39.8).curveTo(26.5,-42.7,30.5,-45.2).curveTo(34.6,-47.8,42.4,-49.2).curveTo(42.9,-49.4,43.5,-49).curveTo(44,-48.7,44.2,-48).curveTo(45.3,-41.5,42.3,-35.8).curveTo(40.7,-32.5,38.2,-31.3).curveTo(36.7,-30.4,33.9,-30.4).curveTo(31.8,-30.4,29.5,-31).curveTo(28.3,-31.4,27.4,-31.9).curveTo(25,-30.2,23.8,-26.3).curveTo(24.7,-18.9,23,-9.7).curveTo(24.1,-12.6,27.5,-16).curveTo(31,-19.4,33.9,-19.8).curveTo(35.5,-20.1,38.5,-19.4).lineTo(40.3,-19.2).curveTo(43.3,-18.8,44.5,-18.2).curveTo(47.2,-16.9,46.8,-14).curveTo(46.6,-12.3,44.3,-10.3).curveTo(42.5,-8.8,38.5,-6.4).lineTo(38.1,-6.2).curveTo(34,-3.7,30.7,-3.5).lineTo(29.8,-3.4).curveTo(26.2,-3.4,23.6,-5.6).curveTo(23.3,-5.4,22.8,-5.4).lineTo(22.2,-5.5).curveTo(20.9,-0.1,19.5,3.7).curveTo(17.4,9.1,14.3,12.9).lineTo(13.5,14).lineTo(14.9,14.8).curveTo(17.6,11.2,23.5,12.7).curveTo(25.9,13.3,31,21.5).curveTo(33.4,25.3,35.5,29.2).curveTo(35.9,29.9,35.5,30.6).curveTo(35.1,31.4,34.3,31.4).curveTo(33.7,31.6,28.4,31.6).lineTo(26.2,31.6).curveTo(20.8,31.5,18.2,30.5).curveTo(16.3,29.8,15.7,28.6).curveTo(14.3,26.1,13.8,23.2).curveTo(13.1,20.1,13.7,17.6).lineTo(11.2,16.3).curveTo(8.6,18.7,4.9,20.9).curveTo(4.5,21.8,3.5,21.8).lineTo(3.3,21.7).curveTo(1,22.9,-1.7,23.9).curveTo(-0.4,24.6,0.5,25.8).curveTo(3.3,25.3,5.2,26.7).curveTo(8.6,29.4,8,37.9).curveTo(7.7,41.8,6.9,45.3).curveTo(6.7,46.1,6,46.4).lineTo(5.4,46.5).curveTo(5,46.5,4.6,46.3).curveTo(1,44.1,-1.8,41.5).curveTo(-7.3,36.5,-7.2,32.6).curveTo(-7.1,29.3,-3.4,27.3).lineTo(-2.7,26.9).curveTo(-3.6,26.2,-6.3,25.4).lineTo(-6.6,25.3).curveTo(-12.1,26.7,-28.9,26.9).curveTo(-27.4,28.9,-26,31.5).curveTo(-23.7,32.4,-21.6,36.1).curveTo(-18,42.2,-18,47.8).curveTo(-17.9,52.4,-20.2,57.4).curveTo(-21.8,60.9,-25.7,66.7).curveTo(-26.2,67.3,-27,67.3).closePath();
+	this.shape_21.setTransform(84.9233,70.475);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-43.3,0,107.6).beginStroke().moveTo(-7,18.5).curveTo(-7.6,18.5,-8,18).curveTo(-8.4,17.5,-8.3,16.9).lineTo(-6.8,-10.8).curveTo(-6.7,-11.5,-6.1,-11.9).lineTo(3.5,-18.3).curveTo(4,-18.8,4.8,-18.5).curveTo(5.5,-18.3,5.7,-17.6).curveTo(8.3,-11.1,8.3,-5.9).curveTo(8.3,1.2,4.3,5.8).curveTo(3.3,6.9,1.6,8.4).lineTo(-0.2,9.9).curveTo(-4.4,14.1,-5.3,17.4).curveTo(-5.7,18.6,-6.8,18.6).closePath();
+	this.shape_22.setTransform(47.5722,53.7554);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-24.4,0,126.5).beginStroke().moveTo(6.3,15.2).curveTo(5.4,15.1,5,14.3).curveTo(4.1,12.3,2,10.4).curveTo(0.8,9.2,-2.2,7).curveTo(-5.6,4.5,-7.1,3.1).curveTo(-9.6,0.7,-10.6,-2.1).curveTo(-11,-3.1,-10.2,-3.7).lineTo(2,-14.7).curveTo(2.5,-15.2,3.1,-15.1).curveTo(3.7,-15.1,4.2,-14.6).curveTo(9.5,-8.9,10.5,-0.7).curveTo(11.5,7.5,7.7,14.4).curveTo(7.3,15.2,6.4,15.2).closePath();
+	this.shape_23.setTransform(67.3759,34.8475);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-135.1,0,15.8).beginStroke().moveTo(-4.9,21).curveTo(-6,20.9,-6.1,19.7).lineTo(-8.4,-5.3).curveTo(-8.5,-5.7,-8.3,-6.1).lineTo(-0.9,-20.3).curveTo(-0.3,-21.1,0.5,-21.1).curveTo(1.4,-21.1,1.8,-20.3).curveTo(4.7,-15.6,6.6,-10.5).curveTo(8.6,-5,8.5,-0.8).curveTo(8.3,3.4,6.3,7.1).curveTo(5.1,9.3,1.8,13.4).curveTo(-1.7,17.6,-3.2,20.3).curveTo(-3.6,21.1,-4.5,21.1).closePath();
+	this.shape_24.setTransform(46.0881,145.575);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-125.3,0,25.6).beginStroke().moveTo(-34,27.7).curveTo(-35.2,27.6,-35.4,26.5).curveTo(-35.7,25.3,-34.6,24.8).curveTo(-22.7,19.1,-15,7).curveTo(-13.3,4.3,-11,0.1).curveTo(-7.7,-5.8,-5.5,-8.7).curveTo(-1.9,-13.6,3.2,-17.8).curveTo(9.4,-22.8,16.1,-24.9).curveTo(20.2,-26.2,28.7,-27.2).lineTo(32.7,-27.7).curveTo(33.4,-27.8,33.9,-27.4).curveTo(34.4,-27,34.5,-26.3).lineTo(35.5,-14.5).curveTo(35.6,-13.8,35.1,-13.2).curveTo(34.6,-12.8,33.8,-12.8).curveTo(30.5,-13.1,27.8,-10.1).curveTo(25.2,-7.4,24.9,-3.7).curveTo(24.5,-0.2,25.9,3.9).curveTo(27,6.9,29.3,10.9).curveTo(29.8,11.8,29.2,12.5).curveTo(28.7,13.4,27.7,13.2).curveTo(23.4,12.6,20.9,12).curveTo(17,11,14.2,9.5).curveTo(9.3,6.8,7.2,2.4).curveTo(2.1,13,-7.7,19.8).curveTo(-13.2,23.6,-19.7,25.7).curveTo(-26.1,27.7,-32.7,27.7).closePath();
+	this.shape_25.setTransform(93.0352,135.79);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-43.3,0,107.6).beginStroke().moveTo(5.1,40.8).curveTo(4,40.6,3.9,39.3).curveTo(3.7,26.2,-4.1,14.1).curveTo(-5.9,11.3,-9.2,7.1).curveTo(-13.6,1.3,-15.7,-3.3).curveTo(-18.5,-9.2,-18.5,-15.1).lineTo(-19.6,-15.1).lineTo(-18.3,-30.1).curveTo(-18.3,-31.1,-18.1,-31.3).lineTo(-17.1,-31.8).lineTo(-16.7,-32.6).lineTo(-16.3,-33.4).lineTo(-3.8,-40.6).curveTo(-2.7,-41.2,-2,-40.3).curveTo(-1.2,-39.4,-1.8,-38.5).curveTo(-3.4,-35.6,-1.9,-31.9).curveTo(-0.4,-28.4,2.7,-26.6).curveTo(5.8,-24.8,10.1,-24.4).curveTo(13.3,-24.1,17.9,-24.5).curveTo(18.8,-24.6,19.3,-23.7).curveTo(19.8,-22.9,19.3,-22.1).curveTo(16.9,-18.4,15.4,-16.4).curveTo(12.9,-13.3,10.3,-11.3).curveTo(5.9,-8,1,-8).curveTo(8.5,1.1,10.5,12.8).curveTo(11.8,19.8,10.8,26.8).curveTo(9.8,33.8,6.8,40).curveTo(6.4,40.8,5.4,40.8).closePath();
+	this.shape_26.setTransform(19.569,53.717);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-118.1,0,29.7).beginStroke().moveTo(10.4,37.6).curveTo(9.6,37.1,9.4,37.1).lineTo(9.1,37.3).curveTo(9.1,37.4,9.1,37.4).curveTo(9,37.4,9,37.5).curveTo(9,37.5,8.9,37.5).curveTo(8.9,37.5,8.9,37.5).lineTo(-0,36).curveTo(-1,35.6,-1,34.5).curveTo(-0.9,31.4,-2.6,28.5).curveTo(-4.2,25.6,-7,24.1).curveTo(-7.8,23.6,-10.3,22.6).curveTo(-13.8,21.3,-15.4,20.2).curveTo(-16,19.7,-16,18.9).lineTo(-15.6,3.9).curveTo(-15.6,3.3,-15.2,2.9).curveTo(-14.8,2.5,-14.2,2.4).curveTo(-9.5,2.2,-4.9,-0.2).curveTo(-3.6,-0.8,-3.4,-1.5).curveTo(-3.2,-2.1,-4.2,-3.3).curveTo(-7.2,-7.3,-10.6,-9).curveTo(-11.5,-9.5,-11.4,-10.5).lineTo(-8.9,-36.6).curveTo(-8.8,-37.3,-8.4,-37.7).curveTo(-7.9,-38.1,-7.2,-38).curveTo(-0.3,-37.3,4.2,-30.3).curveTo(5.4,-28.5,5.6,-26.4).curveTo(5.8,-24.3,4.9,-22.4).curveTo(3.4,-18.9,-0.5,-18.4).lineTo(-1.1,-18.3).lineTo(-1.8,-18.2).curveTo(-2.2,-18.1,-2.3,-17.6).curveTo(-2.5,-16.5,-1.9,-15.7).curveTo(-1,-14.7,2.1,-13.7).lineTo(2.4,-13.6).curveTo(12.5,-10.4,15.3,-3.9).curveTo(16.3,-1.6,15.9,1.2).curveTo(15.6,3.9,14,6).curveTo(11.5,9.6,7.5,9.4).curveTo(6.4,9.3,4.4,8.7).curveTo(2.2,8,1.3,8.2).curveTo(0.3,8.3,-0.3,9.4).curveTo(-0.9,10.3,-0.7,11.3).curveTo(-0.4,12.4,0.8,13.3).curveTo(1.4,13.7,3.3,14.8).lineTo(4.6,15.5).curveTo(8.4,17.6,10.7,20.6).curveTo(13.1,23.6,13.7,27.1).curveTo(14.3,30.2,13.8,32.6).curveTo(13.3,35.2,11.2,37.9).lineTo(11.1,38).curveTo(10.8,38,10.4,37.6).closePath();
+	this.shape_27.setTransform(18.3204,130.2686);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginLinearGradientFill(["#70AEA3","#CED6CB"],[0,1],2.4,83.6,-1.3,-40.8).beginStroke().moveTo(-45.6,82.9).curveTo(-49.4,77.3,-47.4,17.2).lineTo(-44.6,-41.9).curveTo(-43.1,-43.3,-33.5,-50.7).curveTo(-22.3,-59.4,-16.7,-64).curveTo(-11.1,-68.6,-6.8,-75).curveTo(-4.1,-79.2,-2.3,-83.4).curveTo(-2,-84.1,-1.4,-84.4).curveTo(-0.8,-84.7,-0.1,-84.5).curveTo(12.7,-80.4,28.3,-73.5).curveTo(43.1,-66.8,45.5,-64.4).curveTo(48.3,-61.7,48.1,-54.2).curveTo(48,-51.2,46.3,-37.2).curveTo(46,-34.7,42.4,-23.5).curveTo(39.4,-14,39.6,-6.7).curveTo(39.9,2,39.9,18.7).curveTo(40.4,33.1,43.3,43.5).lineTo(45.5,51.5).curveTo(46.6,56.1,46.4,59.7).curveTo(46,65.1,42.7,70.1).curveTo(39.6,74.8,34.6,77.9).curveTo(25.9,83.4,13.1,83.4).curveTo(-4.8,84.1,-18.2,84.4).lineTo(-28.7,84.5).curveTo(-44.5,84.5,-45.6,82.9).closePath();
+	this.shape_28.setTransform(86.712,84.9529);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginLinearGradientFill(["#70AEA3","#CED6CB"],[0,1],2.9,85.7,-0.8,-38.7).beginStroke().moveTo(1.9,83.7).curveTo(-6,83.7,-9.3,83.2).curveTo(-15.4,82.1,-19.6,78.5).curveTo(-24.8,74,-27.4,70.3).curveTo(-31,65.3,-31.4,60.2).curveTo(-31.6,56.7,-30.6,52.1).lineTo(-28.4,44.1).curveTo(-25.3,33.4,-24.5,19.3).lineTo(-23.8,-6.2).curveTo(-23.6,-13.6,-26.8,-23).curveTo(-31,-34.9,-31.3,-36.6).curveTo(-35.2,-59.2,-30.5,-63.9).curveTo(-28.2,-66.2,-12.9,-72.8).curveTo(2.7,-79.6,15.8,-83.8).curveTo(16.6,-84,17.3,-83.7).curveTo(17.9,-83.3,18.1,-82.5).curveTo(19.7,-75.3,22.3,-69.9).curveTo(26.5,-61.3,32,-60.5).lineTo(33.1,83).curveTo(28.5,83.9,17.6,83.9).lineTo(1.9,83.7).closePath();
+	this.shape_29.setTransform(33.9981,84.4136);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.7,-9.4).curveTo(-6.8,-7.6,0.4,-6.1).curveTo(4,-0.8,11,9.9);
+	this.shape_30.setTransform(61.9452,9.4963);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.6,-5).curveTo(5.4,-4,3.3,-3.5).curveTo(-0.3,-2.6,-3.3,-2.1).curveTo(-8.9,5.5,-8.6,4.9);
+	this.shape_31.setTransform(76.2117,5.0127);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-3,11.9).curveTo(-4.1,11.9,-5.2,11.5).curveTo(-6.6,11.1,-7,10.5).lineTo(-9,6.9).curveTo(-9.4,6.2,-10.8,5.5).curveTo(-12.1,4.8,-12.5,4).curveTo(-13,3.3,-13.6,1.1).curveTo(-14.3,-1.3,-14.6,-1.8).curveTo(-15.2,-2.9,-15.8,-6.1).curveTo(-16.6,-9.8,-16.9,-10.6).curveTo(-17,-10.9,-15.6,-10.7).curveTo(-14.3,-10.6,-13.9,-10.4).curveTo(-13.7,-10.7,-13.4,-10.8).curveTo(-13,-10.9,-12.7,-10.6).lineTo(-11.9,-9.6).lineTo(-11.9,-9.6).curveTo(-10.2,-9.8,-7.1,-8.1).curveTo(-6.2,-8.1,-5.6,-7.2).curveTo(-4.9,-6.2,-3.8,-3.9).curveTo(-2.8,-1.6,-1.9,-0.5).lineTo(-1,0.4).lineTo(0.5,-1.9).curveTo(1.7,-4.4,3.1,-6.7).curveTo(4.2,-9.7,10.3,-10.9).curveTo(10.9,-10.9,11.4,-10.5).lineTo(12,-10.8).curveTo(13.3,-11.4,13.5,-11).lineTo(14.8,-11.6).curveTo(15.9,-12,15.7,-11.8).curveTo(16.4,-10.9,16.3,-10.8).lineTo(15.8,-9.3).curveTo(15.4,-7.9,15.6,-7.9).curveTo(17.5,-7.6,16.7,-7.4).lineTo(15.2,-7.2).curveTo(14.8,-6.6,14.6,-6).curveTo(14.4,-5.3,14,-4.8).lineTo(13.8,-1.9).curveTo(14.1,-1.6,12.6,-0.9).curveTo(11,-0,10.9,0.2).curveTo(9.8,1.7,7.9,3.4).curveTo(5.6,5.6,4.7,6.5).curveTo(5,7.3,3.9,8.1).curveTo(3,8.8,2,8.8).curveTo(1.5,8.8,1.3,9.5).curveTo(1,10.2,0.7,10.4).lineTo(-1.1,11.3).curveTo(-2.3,11.9,-2.9,11.9).lineTo(-3,11.9).closePath();
+	this.shape_32.setTransform(68.5865,12.4935);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.shirt_04_btn, new cjs.Rectangle(-0.7,-1.2,142.89999999999998,172), null);
+
+
 (lib.shirt_04 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -3498,6 +4671,385 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.shirt_04, new cjs.Rectangle(-0.7,-1.2,142.89999999999998,172), null);
+
+
+(lib.shirt_03_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape.setTransform(67.65,148.625);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape_1.setTransform(67.65,94.875);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
+	this.shape_2.setTransform(67.65,43.225);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.3,-0,2.2).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_3.setTransform(68.9,146.65);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_4.setTransform(68.9,92.625);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_5.setTransform(68.9,40.975);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
+	this.shape_6.setTransform(67.65,148.625);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.3).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.3).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
+	this.shape_7.setTransform(67.65,94.875);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.4,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.2).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.2).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
+	this.shape_8.setTransform(67.65,43.225);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-11.9,-83.9).curveTo(-23.1,-78.9,-25,-77).curveTo(-26.1,-75.9,-26.7,-73.8).curveTo(-27.7,-70.5,-27.5,-64.4).curveTo(-27.4,-61.7,-27,-58.2).curveTo(-26.5,-54.3,-25.7,-49.7).lineTo(-25.6,-49).curveTo(-25.1,-46.7,-23.8,-43.1).curveTo(-23.1,-41.1,-21.5,-36.8).curveTo(-19.6,-31.4,-18.8,-27).curveTo(-18.5,-25.4,-18.5,-24.5).lineTo(-18.2,-21.9).lineTo(-18.4,-12.6).curveTo(-18.4,-5.9,-18.7,0.4).curveTo(-18.8,5.6,-19.2,9.8).curveTo(-19.9,17.5,-21,23.4).curveTo(-21.8,27.1,-22.2,28.7).curveTo(-22.4,29.9,-22.8,31).lineTo(-22.8,31.1).lineTo(-24.6,38.3).curveTo(-25.3,41.5,-26.2,46.5).curveTo(-26.9,50,-27.6,54).curveTo(-28.3,58.6,-28.5,60.5).lineTo(-25.6,66.2).curveTo(-21.8,72.5,-17.4,75.3).curveTo(-11.8,78.7,-4.7,81.7).curveTo(2,84.6,0.8,83.5).lineTo(29,58.6);
+	this.shape_9.setTransform(28.5388,97.5099);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(37.3,40.5).lineTo(36.1,35.8).curveTo(35.5,33.3,35,30.8).curveTo(33.9,24.5,33.5,16.5).curveTo(33.2,11.2,33.2,6.9).lineTo(33.1,-11.7).curveTo(33,-13.7,33.2,-15.9).lineTo(33.9,-21.1).curveTo(34.6,-24.5,36,-28.9).curveTo(37.6,-33.6,38.3,-35.8).curveTo(39.4,-39.5,39.7,-42.1).lineTo(40.9,-51.8).curveTo(41.3,-55.4,41.5,-58.4).curveTo(41.8,-65.4,39.8,-68.3).curveTo(39.5,-68.9,39,-69.4).curveTo(36.8,-71.5,24,-77.4).curveTo(6.4,-85.4,-8.2,-89.9).lineTo(-17.8,-86.2).curveTo(-19.1,-85.7,-19.9,-84.5).curveTo(-20.6,-83.2,-20.5,-81.8).lineTo(-19.8,-73.8).lineTo(-19.8,-73.2).curveTo(-19.8,-71.9,-20.4,-70.8).curveTo(-21.1,-69.7,-22.3,-69.2).curveTo(-25.2,-67.9,-29.7,-66.9).curveTo(-33.2,-66.2,-35,-65.8).curveTo(-38,-65.1,-40.2,-64.3).lineTo(-41.8,51.7).lineTo(-41.6,60.8).lineTo(-12.8,90).lineTo(-2.1,88.5).curveTo(10.3,86.4,18.8,83.2).curveTo(28.5,79.5,36.1,73.2).lineTo(41.8,67.7).curveTo(41.6,65.3,41.1,61.5).curveTo(40.5,57.4,39.8,53.2).curveTo(39.2,49.7,38.5,46.1).curveTo(38.1,44.2,37.3,40.5).closePath();
+	this.shape_10.setTransform(93.3976,89.9498);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(23.4,-0.3).curveTo(0.5,-2,-22.3,0.9).lineTo(-23.4,1);
+	this.shape_11.setTransform(38.913,12.7449);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-21.9,-0.3).curveTo(-0.1,-1.9,21.9,0.9);
+	this.shape_12.setTransform(95.4827,11.714);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(26,1.9).lineTo(25.7,1.9).lineTo(-25.7,-1.9).lineTo(-26,-1.9);
+	this.shape_13.setTransform(27.45,25.625);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.4,2.3).lineTo(40.4,-2.3);
+	this.shape_14.setTransform(93.975,23.775);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.8,1.7).curveTo(-40.4,1.6,-39.8,1.6).lineTo(42,-1.6);
+	this.shape_15.setTransform(92.7878,33.1941);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-25.5,-1.4).lineTo(25.5,1.4);
+	this.shape_16.setTransform(26.15,34.45);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-26,-2).lineTo(26,2);
+	this.shape_17.setTransform(26.8,41.325);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.7,1.6).lineTo(-40.2,1.6).curveTo(0.5,3.1,40.7,-2);
+	this.shape_18.setTransform(93.0974,40.0755);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(25.2,1.9).curveTo(0.2,2.5,-24.5,-1.9).lineTo(-25,-2);
+	this.shape_19.setTransform(27.4153,50.423);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.6,1.3).lineTo(-39.9,1.4).curveTo(0.6,5.5,40.5,-2.8);
+	this.shape_20.setTransform(92.6829,49.68);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-37.5,2.4).curveTo(-20.4,4.1,0.1,2.2).curveTo(15.8,0.8,37.4,-3.2);
+	this.shape_21.setTransform(89.8793,72.0873);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-37.5,2.4).curveTo(-20.5,4.1,-0.3,2.3).curveTo(15.3,0.8,36.7,-3.1).lineTo(37.4,-3.3);
+	this.shape_22.setTransform(89.8868,77.1002);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-37.6,2.5).lineTo(-37.1,2.5).curveTo(-20,4.1,0.2,2.2).curveTo(16,0.8,37.4,-3.2);
+	this.shape_23.setTransform(89.4421,74.5319);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-20.3,-3.2).curveTo(-11.1,0.5,0.3,2).curveTo(9.5,3.2,21.6,3.1);
+	this.shape_24.setTransform(30.6928,78.7242);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-20.3,-3.2).curveTo(-11.2,0.5,0.3,2).curveTo(9.5,3.2,21.6,3.1);
+	this.shape_25.setTransform(30.7178,73.5742);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-20.3,-3.2).curveTo(-11.2,0.5,0.3,2).curveTo(9.5,3.2,21.6,3);
+	this.shape_26.setTransform(30.7204,76.1048);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-60.9,-3).curveTo(-38.8,1.4,-15.4,2.6).curveTo(23.3,4.5,61,-2.8);
+	this.shape_27.setTransform(67.9464,63.7826);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-58.5,-2.1).lineTo(-57.9,-2).curveTo(-37.2,2.6,-15.9,3.6).curveTo(22.1,5.4,58.5,-3.9);
+	this.shape_28.setTransform(68.0393,86.9157);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(2.6).moveTo(-21.1,-4.5).curveTo(-7.7,-0.3,-0.7,1.4).curveTo(10.9,4.2,20.3,4.5);
+	this.shape_29.setTransform(31.3475,102.529);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(2.6).moveTo(-37.5,3.9).curveTo(-18.7,6.2,0.3,4).curveTo(19.3,1.7,37,-5.1).lineTo(37.2,-5.2);
+	this.shape_30.setTransform(89.6327,101.9209);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-22.5,-7.5).curveTo(-16.9,-2.5,-2.4,1.9).curveTo(10.8,6,23.1,7.2).lineTo(23.7,7.2);
+	this.shape_31.setTransform(28.5404,138.6388);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-22.9,-7.6).lineTo(-22.7,-7.3).curveTo(-16.8,-2.4,-2.5,2).curveTo(10.5,6,22.7,7.1).lineTo(23.2,7.2);
+	this.shape_32.setTransform(28.95,133.5595);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-22.5,-7.5).curveTo(-16.9,-2.5,-2.5,1.9).curveTo(10.8,6,23.1,7.1).lineTo(23.7,7.2);
+	this.shape_33.setTransform(28.5404,136.2138);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-39.5,6.7).curveTo(-15.7,7.5,2.5,4.3).curveTo(20.5,1.1,39,-7);
+	this.shape_34.setTransform(91.1087,137.4333);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-39.5,6.7).curveTo(-15.9,7.5,2.2,4.3).curveTo(20,1.2,38.3,-6.7).lineTo(39,-7);
+	this.shape_35.setTransform(91.1059,132.4237);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-39.4,6.7).curveTo(-15.7,7.5,2.6,4.3).curveTo(20.5,1.1,39,-6.9);
+	this.shape_36.setTransform(91.0342,134.8991);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(21.5,4.7).lineTo(21.2,4.7).curveTo(-0.6,2.5,-21.1,-4.8);
+	this.shape_37.setTransform(30.5098,112.1124);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-37.3,3.6).curveTo(-18.6,5.7,0.3,3.6).curveTo(19.3,1.5,37,-4.8);
+	this.shape_38.setTransform(89.2406,111.205);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(22.4,5.5).lineTo(22.1,5.5).curveTo(-0.8,3.6,-21.9,-5.7);
+	this.shape_39.setTransform(29.5924,126.6544);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-38.4,4.1).curveTo(0.8,6.7,38.1,-4.7);
+	this.shape_40.setTransform(90.3194,125.4193);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(25.2,8).curveTo(12,8,-0.6,3.8).curveTo(-13.4,-0.5,-23.9,-8.3);
+	this.shape_41.setTransform(27.9899,144.1019);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-39.6,8.1).lineTo(-38.8,8.2).curveTo(-18.7,10.3,1.4,5.8).curveTo(21.5,1.4,38.9,-8.9).lineTo(39.2,-9);
+	this.shape_42.setTransform(92.956,144.9156);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-31.3,10.2).lineTo(-30.8,10.2).curveTo(-13.3,10.6,2.4,5.4).curveTo(19,-0,30,-10.5);
+	this.shape_43.setTransform(103.8125,162.0897);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-18.4,-10.8).curveTo(-11.5,-2.2,-1.9,3.1).curveTo(7.6,8.5,19,10.3).lineTo(19.5,10.3);
+	this.shape_44.setTransform(19.7079,162.435);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(23.5,11.9).lineTo(22.5,-3.1).curveTo(22.4,-4.3,21.7,-5.3).curveTo(21,-6.3,19.9,-6.8).lineTo(11.5,-10.7).curveTo(3.9,-8.3,-6.2,-4.4).curveTo(-15.3,-0.8,-23.5,2.9);
+	this.shape_45.setTransform(40.0736,10.661);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(4.6).moveTo(-21,-11.1).curveTo(-13.6,-2.4,-1.4,3.1).curveTo(8.4,7.5,22.9,10.3);
+	this.shape_46.setTransform(23.6225,155.1795);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(4.6).moveTo(-34.6,10.6).curveTo(-10.7,9,1.9,5.7).curveTo(21.2,0.6,32.4,-11.3);
+	this.shape_47.setTransform(100.4732,154.4118);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#5F1806").beginStroke().moveTo(4.5,12.8).curveTo(-2.6,9.8,-8.2,6.4).curveTo(-12.7,3.6,-16.5,-2.7).lineTo(-19.4,-8.4).lineTo(-18.4,-14.9).lineTo(-18,-14.8).curveTo(-11.2,-6.2,-1.6,-0.9).curveTo(8,4.5,19.4,6.3).lineTo(9.9,14.6).curveTo(10,14.6,10.1,14.7).curveTo(10.1,14.8,10.1,14.8).curveTo(10.1,14.8,10.1,14.9).curveTo(10.1,14.9,10,14.9).curveTo(9.3,14.9,4.5,12.8).closePath();
+	this.shape_48.setTransform(19.375,166.4282);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill("#3F7745").beginStroke().moveTo(-6,7.2).curveTo(-15.6,1.8,-22.4,-6.7).lineTo(-22.9,-6.8).lineTo(-21.5,-14.4).lineTo(-21.2,-14.3).curveTo(-13.8,-5.6,-1.5,-0.1).curveTo(8.3,4.3,22.7,7.2).lineTo(22.8,7.3).lineTo(14.9,14.4).curveTo(3.6,12.6,-6,7.2).closePath();
+	this.shape_49.setTransform(23.8,158.35);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#5F1806").beginStroke().moveTo(-21.9,1.2).lineTo(-22.1,1.2).curveTo(-21,-4.7,-20.3,-12.5).lineTo(-20.2,-12.5).curveTo(0.3,-5.1,22.1,-2.9).lineTo(22,12.5).curveTo(-0.9,10.5,-21.9,1.2).closePath();
+	this.shape_50.setTransform(29.625,119.75);
+
+	this.shape_51 = new cjs.Shape();
+	this.shape_51.graphics.beginFill("#3F7745").beginStroke().moveTo(-21.2,-0.1).lineTo(-21.3,-0.1).curveTo(-20.9,-4.3,-20.8,-9.5).lineTo(-20.4,-9.4).curveTo(-7,-5.2,0,-3.5).curveTo(11.6,-0.7,21,-0.4).lineTo(21.3,-0.4).lineTo(21.1,9.4).curveTo(-0.7,7.3,-21.2,-0.1).closePath();
+	this.shape_51.setTransform(30.625,107.4);
+
+	this.shape_52 = new cjs.Shape();
+	this.shape_52.graphics.beginFill("#5F1806").beginStroke().moveTo(-20.8,3.3).lineTo(-23.1,-3.1).curveTo(-24.4,-6.6,-24.9,-8.9).curveTo(-0.2,-4.5,24.8,-5.1).lineTo(24.9,-5.1).lineTo(24.7,9).curveTo(1.3,7.7,-20.8,3.3).closePath();
+	this.shape_52.setTransform(27.825,57.45);
+
+	this.shape_53 = new cjs.Shape();
+	this.shape_53.graphics.beginFill("#3F7745").beginStroke().moveTo(-24.3,2.6).lineTo(-24.4,1.9).curveTo(-25.2,-2.6,-25.6,-6.5).lineTo(25.6,-2.5).lineTo(25.7,-2.5).lineTo(25.5,6.5).lineTo(25.4,6.5).lineTo(19.5,6.5).curveTo(-2.5,6.5,-24.3,2.6).closePath();
+	this.shape_53.setTransform(27.2,45.8856);
+
+	this.shape_54 = new cjs.Shape();
+	this.shape_54.graphics.beginFill("#F3775F").beginStroke().moveTo(25.8,5.1).lineTo(-25.4,1.1).curveTo(-25.8,-2.4,-26,-5.1).lineTo(24.6,-2.4).lineTo(25,-3.4).lineTo(26,-3.4).lineTo(25.9,5.1).closePath();
+	this.shape_54.setTransform(27,38.225);
+
+	this.shape_55 = new cjs.Shape();
+	this.shape_55.graphics.beginFill("#5F1806").beginStroke().moveTo(16.7,14.8).curveTo(2.3,11.9,-7.5,7.5).curveTo(-19.8,2,-27.2,-6.7).lineTo(-27.5,-6.8).lineTo(-25.8,-14.9).lineTo(-25.7,-14.9).curveTo(-15.2,-7.1,-2.4,-2.9).curveTo(10.2,1.3,23.3,1.4).lineTo(27.5,5.6).lineTo(16.8,14.9).closePath();
+	this.shape_55.setTransform(29.8,150.75);
+
+	this.shape_56 = new cjs.Shape();
+	this.shape_56.graphics.beginFill("#5F1806").beginStroke().moveTo(-38.1,11.3).lineTo(-38.4,11.3).lineTo(-38.2,-3.4).lineTo(-38.1,-3.4).curveTo(-19.4,-1.3,-0.5,-3.4).curveTo(18.5,-5.5,36.2,-11.8).lineTo(36.8,-11.8).curveTo(37.2,-3.8,38.4,2.5).curveTo(8,11.8,-23.6,11.8).curveTo(-30.8,11.8,-38.1,11.3).closePath();
+	this.shape_56.setTransform(90.025,118.2414);
+
+	this.shape_57 = new cjs.Shape();
+	this.shape_57.graphics.beginFill("#5F1806").beginStroke().moveTo(-27.8,14.5).lineTo(-39.5,2.6).curveTo(-19.4,4.7,0.7,0.2).curveTo(20.8,-4.2,38.2,-14.5).curveTo(39,-10.9,39.5,-7.4).lineTo(39.2,-7.4).curveTo(28,4.5,8.7,9.6).curveTo(-3.8,12.9,-27.7,14.5).closePath();
+	this.shape_57.setTransform(93.65,150.525);
+
+	this.shape_58 = new cjs.Shape();
+	this.shape_58.graphics.beginFill("#5F1806").beginStroke().moveTo(-40.3,9.6).lineTo(-40.1,-5.8).curveTo(0.4,-1.6,40.4,-9.9).lineTo(40.3,-9).curveTo(39.9,-6.4,38.8,-2.7).lineTo(36.5,4.2).lineTo(36.1,4.1).curveTo(6.1,9.9,-24.5,9.9).curveTo(-32.4,9.9,-40.3,9.6).closePath();
+	this.shape_58.setTransform(92.85,56.8451);
+
+	this.shape_59 = new cjs.Shape();
+	this.shape_59.graphics.beginFill("#3F7745").beginStroke().moveTo(-40.7,5.8).lineTo(-40.6,-3.6).curveTo(0.1,-2.1,40.3,-7.2).lineTo(40.7,-7.1).lineTo(39.7,1.6).curveTo(13.1,7.2,-13.8,7.2).curveTo(-27.2,7.2,-40.7,5.8).closePath();
+	this.shape_59.setTransform(93.5,45.2667);
+
+	this.shape_60 = new cjs.Shape();
+	this.shape_60.graphics.beginFill("#3F7745").beginStroke().moveTo(-27.1,14.6).lineTo(-34.3,7.3).lineTo(-34.2,7.3).curveTo(-10.3,5.7,2.2,2.4).curveTo(21.5,-2.7,32.7,-14.6).lineTo(33,-14.6).curveTo(33.8,-10.3,34.3,-6.2).lineTo(33.7,-6.1).curveTo(22.6,4.4,6.1,9.8).curveTo(-8.5,14.6,-24.7,14.6).lineTo(-27.1,14.6).closePath();
+	this.shape_60.setTransform(100.15,157.6893);
+
+	this.shape_61 = new cjs.Shape();
+	this.shape_61.graphics.beginFill("#5F1806").beginStroke().moveTo(-31.1,6.6).curveTo(-13.6,7,2.2,1.8).curveTo(18.7,-3.6,29.8,-14.1).lineTo(30.4,-14.2).lineTo(31.1,-8.1).lineTo(25.4,-2.5).curveTo(17.8,3.8,8.1,7.5).curveTo(-0.4,10.7,-12.8,12.8).lineTo(-23.5,14.2).closePath();
+	this.shape_61.setTransform(104.075,165.675);
+
+	this.shape_62 = new cjs.Shape();
+	this.shape_62.graphics.beginFill("#F3775F").beginStroke().moveTo(-41,4.9).lineTo(-40.9,-2).lineTo(41,-5.2).curveTo(40.8,-2.2,40.4,1.4).lineTo(39.9,1.3).curveTo(8.8,5.2,-22.5,5.2).curveTo(-31.7,5.2,-41,4.9).closePath();
+	this.shape_62.setTransform(93.875,36.7955);
+
+	this.shape_63 = new cjs.Shape();
+	this.shape_63.graphics.beginFill("#5F1806").beginStroke().moveTo(-26.1,3.3).curveTo(-26.2,-2.8,-25.3,-6).lineTo(26.1,-2.3).lineTo(25.9,5).lineTo(24.9,5.1).lineTo(24.5,6).closePath();
+	this.shape_63.setTransform(27.0648,29.775);
+
+	this.shape_64 = new cjs.Shape();
+	this.shape_64.graphics.beginFill("#5F1806").beginStroke().moveTo(-40.8,-2.2).lineTo(39.2,-6.6).curveTo(41.2,-3.7,40.9,3.4).lineTo(-41,6.6).closePath();
+	this.shape_64.setTransform(93.9511,28.2);
+
+	this.shape_65 = new cjs.Shape();
+	this.shape_65.graphics.beginFill("#F3775F").beginStroke().moveTo(-30.9,4.1).curveTo(-30.3,2,-29.2,0.9).curveTo(-27.3,-1,-16.1,-6).curveTo(6.7,-8.9,29.6,-7.2).lineTo(30.1,-7.3).lineTo(30.8,3).lineTo(30.9,3.4).lineTo(25.7,4.5).curveTo(22.7,5.2,20.5,6).lineTo(20.4,7.9).closePath();
+	this.shape_65.setTransform(32.725,19.6475);
+
+	this.shape_66 = new cjs.Shape();
+	this.shape_66.graphics.beginFill("#F3775F").beginStroke().moveTo(-40,7.2).curveTo(-37.8,6.4,-34.8,5.7).lineTo(-29.5,4.6).curveTo(-25,3.6,-22.2,2.3).curveTo(-20.9,1.8,-20.3,0.7).curveTo(-19.6,-0.4,-19.6,-1.7).lineTo(-19.6,-2.3).lineTo(-20,-7).lineTo(-19.6,-7).curveTo(2.2,-8.6,24.2,-5.8).lineTo(24.2,-5.9).curveTo(37,-0,39.1,2.1).lineTo(40,3.2).lineTo(-40,7.6).closePath();
+	this.shape_66.setTransform(93.2,18.4441);
+
+	this.shape_67 = new cjs.Shape();
+	this.shape_67.graphics.beginFill("#5F1806").beginStroke().moveTo(-21.6,5.1).lineTo(-21.9,5.1).lineTo(-22.2,1.8).curveTo(-22.3,0.4,-21.6,-0.8).curveTo(-20.9,-2,-19.6,-2.6).lineTo(-10,-6.3).curveTo(4.6,-1.7,22.2,6.2).lineTo(22.2,6.3).curveTo(0.3,3.5,-21.6,5.1).closePath();
+	this.shape_67.setTransform(95.1188,6.3);
+
+	this.shape_68 = new cjs.Shape();
+	this.shape_68.graphics.beginFill("#5F1806").beginStroke().moveTo(-5.8,-0.5).curveTo(4.2,-4.4,11.9,-6.8).lineTo(20.3,-2.9).curveTo(21.4,-2.4,22.1,-1.5).curveTo(22.8,-0.5,22.8,0.8).lineTo(23.1,5.5).lineTo(22.6,5.6).curveTo(-0.3,4,-23.1,6.8).curveTo(-14.9,3.1,-5.8,-0.5).closePath();
+	this.shape_68.setTransform(39.725,6.8);
+
+	this.shape_69 = new cjs.Shape();
+	this.shape_69.graphics.beginFill("#5F1806").beginStroke().moveTo(-37.1,10.8).lineTo(-37.4,10.8).lineTo(-37.1,-4.5).curveTo(0.9,-2.7,37.3,-12).lineTo(37.3,1.8).curveTo(19.7,8.6,0.7,10.9).curveTo(-8.6,12,-17.9,12).curveTo(-27.5,12,-37.1,10.8).closePath();
+	this.shape_69.setTransform(89.25,95.0003);
+
+	this.shape_70 = new cjs.Shape();
+	this.shape_70.graphics.beginFill("#5F1806").beginStroke().moveTo(20.6,11).curveTo(11.3,10.7,-0.3,7.9).curveTo(-7.3,6.2,-20.8,2).lineTo(-21.1,2).curveTo(-20.9,-4.4,-20.8,-11).curveTo(-0.2,-6.5,21.1,-5.5).lineTo(20.9,11).closePath();
+	this.shape_70.setTransform(30.975,95.975);
+
+	this.shape_71 = new cjs.Shape();
+	this.shape_71.graphics.beginFill("#3F7745").beginStroke().moveTo(-37.4,8.5).lineTo(-37.5,8.5).lineTo(-37.4,-0.6).lineTo(-37.2,-0.6).curveTo(-18.4,1.8,0.6,-0.5).curveTo(19.6,-2.8,37.3,-9.5).curveTo(37.3,-5.3,37.5,0.1).lineTo(36.9,0.1).curveTo(19.2,6.3,0.2,8.4).curveTo(-9.3,9.5,-18.8,9.5).curveTo(-28.1,9.5,-37.4,8.5).closePath();
+	this.shape_71.setTransform(89.325,106.3688);
+
+	this.shape_72 = new cjs.Shape();
+	this.shape_72.graphics.beginFill("#F3775F").beginStroke().moveTo(-38.5,6.4).lineTo(-38.4,-1.7).curveTo(0.3,0.2,38,-7.2).lineTo(38.5,-7.1).curveTo(37.1,-2.7,36.4,0.7).curveTo(14.8,4.8,-0.9,6.2).curveTo(-11.7,7.2,-21.6,7.2).curveTo(-30.4,7.2,-38.5,6.4).closePath();
+	this.shape_72.setTransform(90.875,68.1264);
+
+	this.shape_73 = new cjs.Shape();
+	this.shape_73.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.2,3.7).lineTo(-37.3,3.7).lineTo(-37.3,1.2).curveTo(-20.2,2.8,0.1,0.9).curveTo(15.8,-0.5,37.2,-4.5).lineTo(37.3,-4.5).lineTo(37,-1.8).curveTo(15.6,2.1,-0,3.6).curveTo(-10.4,4.5,-19.9,4.5).curveTo(-28.9,4.5,-37.2,3.7).closePath();
+	this.shape_73.setTransform(89.575,75.8129);
+
+	this.shape_74 = new cjs.Shape();
+	this.shape_74.graphics.beginFill("#F3775F").beginStroke().moveTo(-21.1,1.9).lineTo(-20.9,-7.4).lineTo(-20.8,-7.5).curveTo(-11.6,-3.8,-0.2,-2.3).curveTo(8.9,-1.1,21,-1.2).lineTo(20.9,7.5).curveTo(-0.4,6.5,-21.1,1.9).closePath();
+	this.shape_74.setTransform(31.2,83.025);
+
+	this.shape_75 = new cjs.Shape();
+	this.shape_75.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.2,8.1).lineTo(-37,-2.9).lineTo(-37,-2.9).curveTo(-19.9,-1.2,0.2,-3).curveTo(15.9,-4.4,37.2,-8.4).curveTo(37.1,-6.1,37.1,-4.1).lineTo(37.2,0.6).curveTo(6.7,8.4,-24.9,8.4).curveTo(-31.1,8.4,-37.2,8.1).closePath();
+	this.shape_75.setTransform(89.325,82.3959);
+
+	this.shape_76 = new cjs.Shape();
+	this.shape_76.graphics.beginFill("#F3775F").beginStroke().moveTo(-0.2,3.3).curveTo(-11.6,1.8,-20.8,-1.8).lineTo(-20.9,-1.8).lineTo(-21.1,-4.4).lineTo(-20.8,-4.4).curveTo(-11.6,-0.7,-0.2,0.7).curveTo(9,1.9,21.1,1.8).lineTo(21.1,4.4).lineTo(19.2,4.4).curveTo(8.3,4.4,-0.2,3.3).closePath();
+	this.shape_76.setTransform(31.175,77.3788);
+
+	this.shape_77 = new cjs.Shape();
+	this.shape_77.graphics.beginFill("#F3775F").beginStroke().moveTo(-0,3.3).curveTo(-11.4,1.9,-20.6,-1.8).lineTo(-21,-1.8).lineTo(-21.3,-4.2).lineTo(-20.6,-4.4).curveTo(-11.4,-0.7,-0,0.8).curveTo(9.2,2,21.3,1.9).lineTo(21.3,4.4).lineTo(18.6,4.4).curveTo(8.2,4.4,-0,3.3).closePath();
+	this.shape_77.setTransform(31,74.7833);
+
+	this.shape_78 = new cjs.Shape();
+	this.shape_78.graphics.beginFill("#F3775F").beginStroke().moveTo(1.2,6.8).curveTo(-10.2,5.3,-19.4,1.7).lineTo(-20.1,1.8).curveTo(-20.8,-2.6,-22.8,-8).curveTo(-0.6,-3.5,22.8,-2.3).lineTo(22.6,7.9).lineTo(20.7,8).curveTo(9.7,8,1.2,6.8).closePath();
+	this.shape_78.setTransform(29.75,68.7038);
+
+	this.shape_79 = new cjs.Shape();
+	this.shape_79.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.5,3.7).lineTo(-37.5,1.2).curveTo(-20.3,2.9,0.1,1).curveTo(15.9,-0.4,37.5,-4.4).lineTo(37,-2).lineTo(37,-2).curveTo(15.6,2,-0.1,3.5).curveTo(-11,4.4,-21,4.4).curveTo(-29.6,4.4,-37.5,3.7).closePath();
+	this.shape_79.setTransform(89.8,73.296);
+
+	this.shape_80 = new cjs.Shape();
+	this.shape_80.graphics.beginFill("#F3775F").beginStroke().moveTo(-38.9,9.1).lineTo(-38.9,-0.5).lineTo(-38.6,-0.5).curveTo(0.6,2.1,37.9,-9.3).lineTo(38.9,-4.3).curveTo(20.6,3.6,2.8,6.7).curveTo(-11.8,9.3,-30,9.3).lineTo(-38.9,9.1).closePath();
+	this.shape_80.setTransform(90.525,130.0221);
+
+	this.shape_81 = new cjs.Shape();
+	this.shape_81.graphics.beginFill("#F3775F").beginStroke().moveTo(-39.5,8).lineTo(-39.5,5.5).curveTo(-15.8,6.2,2.5,3).curveTo(20.4,-0.1,38.9,-8.2).lineTo(39.5,-5.7).lineTo(39,-5.7).curveTo(20.5,2.4,2.5,5.6).curveTo(-12.1,8.2,-30.2,8.2).curveTo(-34.8,8.2,-39.5,8).closePath();
+	this.shape_81.setTransform(91.125,136.13);
+
+	this.shape_82 = new cjs.Shape();
+	this.shape_82.graphics.beginFill("#F3775F").beginStroke().moveTo(-39.2,7.9).lineTo(-39.2,5.4).curveTo(-15.6,6.2,2.5,3).curveTo(20.4,-0.1,38.6,-8).lineTo(39.2,-5.8).curveTo(20.7,2.3,2.8,5.4).curveTo(-12,8,-30.4,8).lineTo(-39.2,7.9).closePath();
+	this.shape_82.setTransform(90.8,133.7462);
+
+	this.shape_83 = new cjs.Shape();
+	this.shape_83.graphics.beginFill("#F3775F").beginStroke().moveTo(-2.6,4.7).curveTo(-16.9,0.4,-22.7,-4.6).lineTo(-21.5,-9.9).lineTo(-21.3,-9.8).curveTo(-0.2,-0.5,22.7,1.4).lineTo(22.6,9.9).curveTo(10.5,8.7,-2.6,4.7).closePath();
+	this.shape_83.setTransform(28.975,130.825);
+
+	this.shape_84 = new cjs.Shape();
+	this.shape_84.graphics.beginFill("#F3775F").beginStroke().moveTo(-2.6,3.3).curveTo(-17.1,-1,-22.6,-6.1).lineTo(-23,-6.2).lineTo(-23,-6.3).curveTo(-22.5,-7.4,-22.3,-8.5).curveTo(-16.6,-3.6,-2.3,0.7).curveTo(10.9,4.7,23,5.9).lineTo(23,8.6).curveTo(10.7,7.4,-2.6,3.3).closePath();
+	this.shape_84.setTransform(28.65,134.8);
+
+	this.shape_85 = new cjs.Shape();
+	this.shape_85.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.6,11.1).lineTo(-40,8.7).lineTo(-40.1,2.1).curveTo(-16.3,2.9,1.9,-0.3).curveTo(19.9,-3.5,38.4,-11.6).lineTo(38.9,-11.7).lineTo(40.1,-6).curveTo(22.7,4.3,2.6,8.7).curveTo(-11.1,11.7,-24.9,11.7).curveTo(-31.2,11.7,-37.6,11.1).closePath();
+	this.shape_85.setTransform(91.725,142.0983);
+
+	this.shape_86 = new cjs.Shape();
+	this.shape_86.graphics.beginFill("#F3775F").beginStroke().moveTo(-1.2,6.4).curveTo(-14,2.2,-24.5,-5.7).lineTo(-24.6,-5.7).lineTo(-23.5,-10.6).lineTo(-22.5,-10.4).curveTo(-17,-5.4,-2.4,-0.9).curveTo(10.8,3.2,23.1,4.3).lineTo(23.2,9.2).lineTo(24.6,10.7).curveTo(11.4,10.6,-1.2,6.4).closePath();
+	this.shape_86.setTransform(28.55,141.5);
+
+	this.shape_87 = new cjs.Shape();
+	this.shape_87.graphics.beginFill("#F3775F").beginStroke().moveTo(-2.2,3.4).curveTo(-16.8,-1.1,-22.3,-6.1).lineTo(-23.3,-6.3).lineTo(-22.7,-8.6).lineTo(-22.3,-8.5).curveTo(-16.8,-3.4,-2.3,0.9).curveTo(11,5,23.3,6.2).lineTo(23.3,8.6).curveTo(11,7.5,-2.2,3.4).closePath();
+	this.shape_87.setTransform(28.35,137.2);
+
+	this.shape_88 = new cjs.Shape();
+	this.shape_88.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-5,0.1).lineTo(5,-0.1);
+	this.shape_88.setTransform(67.2,11.025);
+
+	this.shape_89 = new cjs.Shape();
+	this.shape_89.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-4.6,5.7).lineTo(-5.4,-5.8).lineTo(4,-6).lineTo(4.9,-6.1).lineTo(5.4,-0.8).lineTo(5.4,-0.2).curveTo(5.4,1.1,4.7,2.2).curveTo(4.1,3.3,2.8,3.8).curveTo(-0,5.1,-4.5,6.1).closePath();
+	this.shape_89.setTransform(68.2,16.925);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.shirt_03_btn, new cjs.Rectangle(-2.9,-1.3,140.3,186.70000000000002), null);
 
 
 (lib.shirt_03 = function(mode,startPosition,loop,reversed) {
@@ -3879,6 +5431,157 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.shirt_03, new cjs.Rectangle(-2.9,-1.3,140.3,186.70000000000002), null);
 
 
+(lib.shirt_02_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-5,0.1).lineTo(5,-0.1);
+	this.shape.setTransform(66.2,4.525);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2,-72.4).curveTo(-2.3,-51.8,-3.3,-10.8).curveTo(-4,25.5,-3.5,50.8).curveTo(-3.3,57,-1.7,61.9).curveTo(0.3,67.9,4.2,71.1);
+	this.shape_1.setTransform(60.5209,89.9032);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(5.7,77.6).lineTo(5.3,77.1).curveTo(2.1,71.9,0.4,64.6).curveTo(-1,58.3,-1.1,51.2).curveTo(-1.1,46.7,1.2,33).curveTo(3.5,19.3,3.5,14.9).curveTo(3.4,0.5,-1.2,-27.6).curveTo(-5.5,-54.6,-5.3,-78.5).lineTo(-5.3,-78.8);
+	this.shape_2.setTransform(26.4852,83.8875);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(5.6,75.4).lineTo(5.2,74.8).curveTo(-1,64.9,-1.1,50.7).curveTo(-1.2,46.2,1.1,32.5).curveTo(3.5,18.7,3.5,14.4).curveTo(3.4,3.6,1.9,-7.5).curveTo(1.3,-12.1,-1.1,-26.9).curveTo(-5.5,-52.7,-5.3,-76.6);
+	this.shape_3.setTransform(18.939,85.1051);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape_4.setTransform(66.65,142.125);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape_5.setTransform(66.65,88.375);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
+	this.shape_6.setTransform(66.65,36.725);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.4,-71.2).lineTo(-5.9,-69.3).lineTo(-7.7,56.6).curveTo(-7.2,61.3,-5.5,64.2).curveTo(-3,68.7,-0.6,70.9).curveTo(-0.1,71.4,0.9,71).lineTo(8.9,70.5);
+	this.shape_7.setTransform(49.8226,90.3468);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-27.5,83.4).curveTo(-1.2,84.2,6.7,84.2).lineTo(9.4,84.1).curveTo(13.4,84,17,83.2).curveTo(23.4,81.8,28.2,78.8).curveTo(33.2,75.7,36.3,70.9).curveTo(39.6,66,40,60.5).curveTo(40.2,57,39.1,52.4).curveTo(38.9,51.5,36.9,44.4).curveTo(34,34,33.5,19.6).curveTo(33.5,2.8,33.2,-5.9).curveTo(33,-13.2,36,-22.7).curveTo(39.6,-33.9,39.9,-36.3).curveTo(41.6,-50.4,41.7,-53.4).curveTo(41.9,-60.9,39.1,-63.6).curveTo(37.9,-64.8,31.6,-68).curveTo(23.7,-72,12.9,-76.4).curveTo(1,-81.3,-8.1,-84.1).lineTo(-17.7,-80.4).curveTo(-19,-79.9,-19.7,-78.7).curveTo(-20.4,-77.4,-20.3,-76).lineTo(-19.6,-68).lineTo(-19.6,-67.4).curveTo(-19.6,-66.1,-20.3,-65).curveTo(-21,-63.9,-22.2,-63.4).curveTo(-25,-62.1,-29.6,-61.1).lineTo(-33.7,-60.3).curveTo(-37.9,-59.3,-40,-58.5).curveTo(-42.2,60.1,-41.5,66.6).curveTo(-40.8,72.6,-38.1,77.7).curveTo(-36.5,80.8,-34.5,82.8).lineTo(-34.2,83.1).closePath();
+	this.shape_8.setTransform(92.2364,77.6384);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(26.1,83.1).curveTo(23.1,83.7,18.6,84).curveTo(15.6,84.2,11.2,84.2).curveTo(6.2,84.2,3.7,84.2).lineTo(0.9,84.1).curveTo(-2.7,84,-6.8,83.2).curveTo(-13.2,81.7,-17.8,78.8).curveTo(-22.8,75.7,-25.9,70.9).curveTo(-29.2,66,-29.6,60.5).curveTo(-29.8,57,-28.8,52.4).curveTo(-28.6,51.4,-26.6,44.4).curveTo(-23.5,33.7,-22.7,19.6).curveTo(-22.2,2.8,-22,-5.9).curveTo(-21.8,-13.3,-25,-22.7).curveTo(-29.2,-34.6,-29.5,-36.3).curveTo(-33.4,-58.9,-28.7,-63.6).curveTo(-27.5,-64.8,-21.3,-67.9).curveTo(-13.3,-71.8,-2.1,-76.4).curveTo(10.1,-81.3,19.3,-84.1).lineTo(27.7,-80.2).curveTo(28.8,-79.7,29.5,-78.8).curveTo(30.2,-77.8,30.3,-76.6).lineTo(31.3,-61.5);
+	this.shape_9.setTransform(31.2717,77.6312);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill().beginStroke("#EC6C3B").setStrokeStyle(3.1).moveTo(8.3,78.8).lineTo(12,78.9).curveTo(5.5,68.9,5.3,52.9).curveTo(5.2,48.4,7.5,34.7).curveTo(9.9,21,9.8,16.6).curveTo(9.7,2.2,5.2,-26.5).curveTo(0.8,-54.2,1,-78.2).lineTo(-13.4,-72.2).curveTo(-13.6,-48.2,-9.2,-23.1).curveTo(-6.8,-8.8,-6.2,-4.3).curveTo(-4.7,6.5,-4.6,17.3).curveTo(-4.6,21.7,-6.9,35.5).curveTo(-9.3,49.2,-9.2,53.6).curveTo(-9.1,60.6,-7.6,66).curveTo(-6,72,-2.4,77.3).closePath();
+	this.shape_10.setTransform(23.483,82.1954);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(-5.6,77.6).lineTo(-5.3,77.1).curveTo(-2.1,71.9,-0.4,64.6).curveTo(1,58.3,1.1,51.2).curveTo(1.2,46.7,-1.1,33).curveTo(-3.5,19.2,-3.5,14.9).curveTo(-3.4,0.4,1.2,-27.6).curveTo(5.6,-54.6,5.4,-78.5).lineTo(5.4,-78.8);
+	this.shape_11.setTransform(107.2808,83.8875);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(-5.6,75.4).lineTo(-5.2,74.8).curveTo(0.9,65.1,1.2,50.7).curveTo(1.2,46.2,-1.1,32.5).curveTo(-3.4,18.8,-3.4,14.4).curveTo(-3.3,-0.1,1.2,-26.9).curveTo(5.5,-52.7,5.3,-76.6);
+	this.shape_12.setTransform(114.8372,85.1051);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill().beginStroke("#EC6C3B").setStrokeStyle(3.1).moveTo(-8.4,78.8).lineTo(-12,78.9).curveTo(-5.5,69,-5.3,52.9).curveTo(-5.2,48.4,-7.6,34.7).curveTo(-9.9,21,-9.9,16.6).curveTo(-9.8,2.2,-5.2,-26.5).curveTo(-0.8,-54.2,-1,-78.2).lineTo(13.4,-72.2).curveTo(13.6,-48.2,9.2,-23.1).curveTo(4.7,2.8,4.6,17.3).curveTo(4.6,21.7,6.9,35.5).curveTo(9.3,49.2,9.2,53.6).curveTo(9.1,60.5,7.6,66).curveTo(6,71.9,2.4,77.3).closePath();
+	this.shape_13.setTransform(110.3145,82.1964);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#EC6C3B").beginStroke().moveTo(3.9,75.3).curveTo(0.4,69.9,-1.3,64).curveTo(-2.8,58.5,-2.9,51.6).curveTo(-2.9,47.1,-0.6,33.4).curveTo(1.8,19.7,1.7,15.3).curveTo(1.6,4.5,0.2,-6.4).curveTo(-0.4,-10.8,-2.9,-25.2).curveTo(-7.2,-50.3,-7,-74.2).lineTo(-3.5,-75.7).curveTo(-3.7,-51.8,0.7,-26).curveTo(3.1,-11.2,3.7,-6.6).curveTo(5.2,4.5,5.3,15.3).curveTo(5.3,19.6,2.9,33.4).curveTo(0.6,47.1,0.7,51.6).curveTo(0.8,65.8,7,75.7).closePath();
+	this.shape_14.setTransform(17.1206,84.225);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill("#3F7745").beginStroke().moveTo(1.2,71.1).curveTo(-3.8,68,-6.9,63.3).curveTo(-10.2,58.3,-10.6,52.9).curveTo(-10.8,49.3,-9.8,44.7).lineTo(-7.6,36.7).curveTo(-4.5,26.1,-3.7,11.9).lineTo(-3,-13.5).curveTo(-2.8,-21,-6,-30.4).curveTo(-10.2,-42.3,-10.5,-44).curveTo(-14.4,-66.6,-9.7,-71.2).curveTo(-8.5,-72.4,-2.3,-75.5).lineTo(-2.2,-75.3).curveTo(-2.4,-51.3,2,-26.2).curveTo(4.4,-11.9,5,-7.4).curveTo(6.5,3.4,6.6,14.2).curveTo(6.6,18.6,4.3,32.4).curveTo(1.9,46.1,2,50.5).curveTo(2.1,57.5,3.6,62.9).curveTo(5.2,68.9,8.8,74.2).lineTo(11.9,74.6).lineTo(12.3,75.3).lineTo(12.2,75.5).curveTo(5.8,74.1,1.2,71.1).closePath();
+	this.shape_15.setTransform(12.2731,85.275);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill("#EC6C3B").beginStroke().moveTo(1.5,76.7).curveTo(-4.7,66.9,-4.9,52.6).curveTo(-4.9,48.1,-2.6,34.5).curveTo(-0.2,20.7,-0.3,16.3).curveTo(-0.4,5.5,-1.8,-5.5).curveTo(-2.4,-10.1,-4.9,-24.9).curveTo(-9.3,-50.8,-9.1,-74.6).lineTo(-1.5,-77.8).curveTo(-1.7,-53.9,2.6,-26.9).curveTo(7.2,1.2,7.3,15.6).curveTo(7.3,20,5,33.7).curveTo(2.7,47.4,2.7,51.9).curveTo(2.8,59,4.2,65.3).curveTo(5.9,72.6,9.1,77.8).closePath();
+	this.shape_16.setTransform(22.6957,83.175);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#EC6C3B").beginStroke().moveTo(3.5,78.3).curveTo(0.2,73.1,-1.4,65.8).curveTo(-2.8,59.5,-2.9,52.4).curveTo(-3,47.9,-0.7,34.2).curveTo(1.7,20.5,1.6,16).curveTo(1.5,1.7,-3,-26.4).curveTo(-7.4,-53.4,-7.2,-77.3).lineTo(-3.8,-78.8).curveTo(-4,-54.8,0.3,-27).curveTo(4.9,1.7,5,16).curveTo(5,20.5,2.7,34.2).curveTo(0.4,47.9,0.4,52.4).curveTo(0.5,59.7,2,66.1).curveTo(3.8,73.5,7.2,78.7).closePath();
+	this.shape_17.setTransform(28.3206,82.7);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.3,-0,2.2).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_18.setTransform(67.9,140.15);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_19.setTransform(67.9,86.125);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
+	this.shape_20.setTransform(67.9,34.475);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
+	this.shape_21.setTransform(66.65,142.125);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.3).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.3).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
+	this.shape_22.setTransform(66.65,88.375);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.4,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.2).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.2).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
+	this.shape_23.setTransform(66.65,36.725);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-0.4,52.4).curveTo(-0.4,47.9,-2.7,34.2).curveTo(-5,20.5,-5,16).curveTo(-4.9,1.7,-0.4,-27).curveTo(4,-54.8,3.8,-78.8).lineTo(7.2,-77.3).curveTo(7.4,-53.4,3,-26.4).curveTo(-1.6,1.6,-1.7,16).curveTo(-1.7,20.4,0.7,34.2).curveTo(3,47.9,2.9,52.4).curveTo(2.8,59.5,1.4,65.8).curveTo(-0.3,73.1,-3.5,78.3).lineTo(-7.2,78.7).curveTo(-0.7,68.9,-0.4,52.4).closePath();
+	this.shape_24.setTransform(105.4793,82.7);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-4.2,65.3).curveTo(-2.8,59,-2.7,51.9).curveTo(-2.6,47.4,-4.9,33.7).curveTo(-7.3,19.9,-7.3,15.6).curveTo(-7.2,1.1,-2.6,-26.9).curveTo(1.8,-53.9,1.6,-77.8).lineTo(9.1,-74.6).curveTo(9.3,-50.7,4.9,-24.9).curveTo(0.4,1.9,0.3,16.3).curveTo(0.3,20.7,2.6,34.5).curveTo(5,48.2,4.9,52.6).curveTo(4.7,67,-1.4,76.7).lineTo(-9.1,77.8).curveTo(-5.9,72.6,-4.2,65.3).closePath();
+	this.shape_25.setTransform(111.0544,83.175);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-0.7,51.6).curveTo(-0.6,47.1,-3,33.4).curveTo(-5.3,19.7,-5.3,15.3).curveTo(-5.2,0.8,-0.7,-26).curveTo(3.7,-51.8,3.5,-75.7).lineTo(7,-74.2).curveTo(7.2,-50.3,2.9,-25.2).curveTo(-1.6,0.8,-1.7,15.3).curveTo(-1.8,19.7,0.6,33.4).curveTo(2.9,47.1,2.8,51.6).curveTo(2.7,58.4,1.2,64).curveTo(-0.4,69.9,-3.9,75.3).lineTo(-7,75.7).curveTo(-0.9,66,-0.7,51.6).closePath();
+	this.shape_26.setTransform(116.6794,84.225);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill("#F3DFC6").beginStroke().moveTo(0.4,71.6).lineTo(0.1,71.3).curveTo(-1.9,69.2,-3.5,66.1).curveTo(-6.2,61.1,-6.9,55.1).curveTo(-7.6,48.5,-5.4,-70).curveTo(-3.3,-70.9,0.9,-71.8).lineTo(0.9,-71.6).curveTo(0.6,-51,-0.4,-10).curveTo(-1.1,26.3,-0.6,51.5).curveTo(-0.4,57.7,1.2,62.7).curveTo(3.2,68.6,7.1,71.8).closePath();
+	this.shape_27.setTransform(57.6297,89.175);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill("#3F7745").beginStroke().moveTo(-12.4,75.3).lineTo(-11.9,74.7).lineTo(-8.8,74.3).curveTo(-5.3,68.9,-3.7,63).curveTo(-2.2,57.4,-2.1,50.6).curveTo(-2,46.1,-4.3,32.4).curveTo(-6.7,18.7,-6.6,14.3).curveTo(-6.5,-0.2,-2,-26.2).curveTo(2.3,-51.3,2.1,-75.2).lineTo(2.3,-75.6).curveTo(8.6,-72.4,9.8,-71.2).curveTo(12.5,-68.5,12.3,-61).curveTo(12.2,-58,10.5,-43.9).curveTo(10.2,-41.5,6.7,-30.3).curveTo(3.7,-20.8,3.9,-13.5).curveTo(4.1,-4.8,4.2,12).curveTo(4.6,26.4,7.6,36.8).lineTo(9.8,44.8).curveTo(10.9,49.4,10.6,52.9).curveTo(10.3,58.4,6.9,63.3).curveTo(3.8,68.1,-1.1,71.2).curveTo(-5.9,74.2,-12.3,75.6).closePath();
+	this.shape_28.setTransform(121.5568,85.225);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill("#5F1806").beginStroke().moveTo(-5.6,64.1).curveTo(-7.3,61.2,-7.8,56.5).lineTo(-6,-69.4).lineTo(2.3,-71.3).curveTo(0.1,47.3,0.9,53.8).curveTo(1.5,59.8,4.2,64.9).curveTo(5.9,68,7.8,70.1).lineTo(7.4,70.3).curveTo(4.5,70.9,-0,71.2).curveTo(-3.5,67.9,-5.6,64.1).closePath();
+	this.shape_29.setTransform(49.9,90.4);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill("#3F7745").beginStroke().moveTo(-25.6,83.3).curveTo(-29.5,80.1,-31.5,74.2).curveTo(-33.1,69.2,-33.3,63).curveTo(-33.8,37.8,-33.1,1.5).curveTo(-32.1,-39.5,-31.8,-60.1).lineTo(-31.8,-60.3).lineTo(-27.7,-61.2).curveTo(-23.1,-62.2,-20.3,-63.4).curveTo(-19.1,-63.9,-18.4,-65).curveTo(-17.7,-66.1,-17.7,-67.4).lineTo(-17.7,-68).lineTo(-18.4,-76.1).curveTo(-18.5,-77.5,-17.8,-78.7).curveTo(-17.1,-79.9,-15.8,-80.5).lineTo(-6.2,-84.2).curveTo(2.9,-81.4,14.8,-76.5).curveTo(25.6,-72,33.5,-68).lineTo(33.4,-67.7).lineTo(19,-73.7).curveTo(19.2,-49.7,14.8,-22).curveTo(10.2,6.7,10.1,21.1).curveTo(10.1,25.5,12.4,39.2).curveTo(14.8,52.9,14.7,57.4).curveTo(14.4,73.9,8,83.8).lineTo(11.6,83.3).lineTo(11.3,83.8).lineTo(11.3,84.1).lineTo(8.6,84.2).curveTo(0.7,84.1,-25.6,83.3).closePath().moveTo(-27.9,60.2).curveTo(-29.7,62,-29.7,64.5).curveTo(-29.7,66.9,-27.9,68.7).curveTo(-26.2,70.4,-23.7,70.4).curveTo(-21.2,70.4,-19.4,68.7).curveTo(-17.7,67,-17.7,64.5).curveTo(-17.7,62,-19.4,60.2).curveTo(-21.2,58.5,-23.7,58.5).curveTo(-26.1,58.5,-27.9,60.2).closePath().moveTo(-27.9,6.5).curveTo(-29.7,8.3,-29.7,10.7).curveTo(-29.7,13.2,-27.9,14.9).curveTo(-26.2,16.7,-23.7,16.7).curveTo(-21.2,16.7,-19.4,14.9).curveTo(-17.7,13.2,-17.7,10.7).curveTo(-17.7,8.2,-19.4,6.5).curveTo(-21.2,4.7,-23.7,4.7).curveTo(-26.1,4.7,-27.9,6.5).closePath().moveTo(-27.9,-45.2).curveTo(-29.7,-43.4,-29.7,-41).curveTo(-29.7,-38.5,-27.9,-36.7).curveTo(-26.1,-35,-23.7,-35).curveTo(-21.2,-35,-19.4,-36.7).curveTo(-17.7,-38.5,-17.7,-41).curveTo(-17.7,-43.5,-19.4,-45.2).curveTo(-21.2,-46.9,-23.7,-46.9).curveTo(-26.2,-46.9,-27.9,-45.2).closePath();
+	this.shape_30.setTransform(90.329,77.675);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.3,84.2).lineTo(-4.2,84.1).lineTo(-4.2,83.8).lineTo(-4.5,83.3).lineTo(-0.8,83.8).curveTo(-4.2,78.6,-5.9,71.1).curveTo(-7.5,64.7,-7.6,57.4).curveTo(-7.6,52.9,-5.3,39.2).curveTo(-2.9,25.5,-3,21.1).curveTo(-3.1,6.7,-7.7,-22).curveTo(-12,-49.7,-11.8,-73.7).lineTo(-26.2,-67.7).lineTo(-26.4,-67.9).curveTo(-18.3,-71.9,-7.1,-76.4).curveTo(5,-81.3,14.3,-84.2).lineTo(22.7,-80.3).curveTo(23.8,-79.8,24.5,-78.8).curveTo(25.2,-77.8,25.3,-76.6).lineTo(26.3,-61.6).lineTo(26.4,-61.2).lineTo(22.2,-60.3).curveTo(18,-59.4,15.9,-58.5).lineTo(7.6,-56.7).lineTo(5.8,69.2).curveTo(6.3,73.9,8,76.9).curveTo(10.1,80.6,13.6,84).curveTo(10.6,84.2,6.1,84.2).lineTo(-1.3,84.2).closePath();
+	this.shape_31.setTransform(36.3,77.675);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-4.6,5.7).lineTo(-5.4,-5.8).lineTo(4,-6).lineTo(4.9,-6.1).lineTo(5.4,-0.8).lineTo(5.4,-0.2).curveTo(5.4,1.1,4.7,2.2).curveTo(4.1,3.3,2.8,3.8).curveTo(-0,5.1,-4.5,6.1).closePath();
+	this.shape_32.setTransform(67.2,10.425);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.shirt_02_btn, new cjs.Rectangle(-1.6,-12.3,137.1,178.5), null);
+
+
 (lib.shirt_02 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4028,6 +5731,65 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.shirt_02, new cjs.Rectangle(-1.6,-5.8,137.1,178.5), null);
+
+
+(lib.shirt_01_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
+	this.shape.setTransform(62,136.175);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill("#729BAF").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.3,4.2).closePath();
+	this.shape_1.setTransform(62,136.175);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).closePath();
+	this.shape_2.setTransform(61.85,87.075);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#729BAF").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath();
+	this.shape_3.setTransform(61.85,87.075);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
+	this.shape_4.setTransform(61.45,43.225);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#729BAF").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.3,4.2).closePath();
+	this.shape_5.setTransform(61.45,43.225);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(7.2,84).curveTo(20,84,28.7,78.6).curveTo(33.7,75.5,36.8,70.7).curveTo(40.1,65.8,40.5,60.3).curveTo(40.7,56.8,39.6,52.2).curveTo(39.4,51.3,37.4,44.2).curveTo(34.5,33.8,34,19.4).curveTo(34,2.6,33.7,-6.1).curveTo(33.5,-13.4,36.5,-22.9).curveTo(40.1,-34.1,40.4,-36.5).curveTo(42.1,-50.6,42.2,-53.6).curveTo(42.4,-61.1,39.6,-63.8).curveTo(37.1,-66.3,21.5,-73.2).curveTo(5.2,-80.4,-7.6,-84.3).lineTo(-17.2,-80.6).curveTo(-18.5,-80.1,-19.2,-78.9).curveTo(-19.9,-77.6,-19.8,-76.2).lineTo(-19.1,-68.2).lineTo(-19.1,-67.6).curveTo(-19.1,-66.3,-19.8,-65.2).curveTo(-20.5,-64.1,-21.7,-63.6).curveTo(-24.6,-62.3,-30.9,-61).curveTo(-37.7,-59.7,-40.4,-58.7).curveTo(-42.4,53.6,-42.2,64.4).curveTo(-42.1,68,-40.2,76.5).curveTo(-39.3,80.8,-38.3,84.4).closePath();
+	this.shape_6.setTransform(91.7179,84.317);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-40.2,76.5).curveTo(-42.1,68,-42.2,64.3).curveTo(-42.4,53.5,-40.4,-58.7).curveTo(-37.7,-59.8,-30.9,-61).curveTo(-24.6,-62.3,-21.7,-63.6).curveTo(-20.5,-64.1,-19.8,-65.2).curveTo(-19.1,-66.3,-19.1,-67.6).lineTo(-19.1,-68.2).lineTo(-19.8,-76.3).curveTo(-19.9,-77.7,-19.2,-78.9).curveTo(-18.5,-80.1,-17.2,-80.7).lineTo(-7.6,-84.3).curveTo(5.2,-80.4,21.5,-73.2).curveTo(37.1,-66.3,39.6,-63.8).curveTo(42.4,-61.1,42.2,-53.6).curveTo(42.1,-50.6,40.4,-36.6).curveTo(40.1,-34.1,36.5,-22.9).curveTo(33.5,-13.4,33.7,-6.1).curveTo(34,2.6,34,19.3).curveTo(34.5,33.8,37.4,44.2).lineTo(39.6,52.2).curveTo(40.7,56.8,40.5,60.3).curveTo(40.1,65.7,36.8,70.7).curveTo(33.7,75.4,28.7,78.5).curveTo(20,84,7.2,84).lineTo(-38.3,84.3).curveTo(-39.3,80.8,-40.2,76.5).closePath();
+	this.shape_7.setTransform(91.7179,84.35);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(33.1,83.2).curveTo(28.5,84.1,17.6,84.2).curveTo(5.7,84.2,1.9,84.2).curveTo(-10.9,84.2,-19.6,78.7).curveTo(-24.6,75.6,-27.7,70.9).curveTo(-31,65.9,-31.4,60.5).curveTo(-31.6,56.9,-30.6,52.3).curveTo(-30.4,51.4,-28.4,44.3).curveTo(-25.3,33.7,-24.5,19.5).curveTo(-24,2.8,-23.8,-5.9).curveTo(-23.6,-13.4,-26.8,-22.8).curveTo(-31,-34.7,-31.3,-36.4).curveTo(-35.2,-59,-30.5,-63.6).curveTo(-28.1,-66.1,-12,-73).curveTo(4.6,-80.2,17.5,-84.2).lineTo(25.9,-80.3).curveTo(27,-79.8,27.7,-78.8).curveTo(28.4,-77.8,28.5,-76.6).lineTo(29.5,-61.6);
+	this.shape_8.setTransform(33.0981,84.1561);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill("#EFF1EC").beginStroke().moveTo(1.9,84.2).curveTo(-10.9,84.2,-19.6,78.7).curveTo(-24.6,75.6,-27.7,70.9).curveTo(-31,65.9,-31.4,60.4).curveTo(-31.6,56.9,-30.6,52.3).lineTo(-28.4,44.3).curveTo(-25.3,33.7,-24.5,19.5).lineTo(-23.8,-6).curveTo(-23.6,-13.4,-26.8,-22.8).curveTo(-31,-34.7,-31.3,-36.4).curveTo(-35.2,-59,-30.5,-63.7).curveTo(-28.1,-66.1,-12,-73).curveTo(4.6,-80.2,17.5,-84.2).lineTo(25.9,-80.3).curveTo(27,-79.8,27.7,-78.9).curveTo(28.4,-77.9,28.5,-76.6).lineTo(29.5,-61.6).lineTo(33.1,83.2).curveTo(28.5,84.1,17.6,84.2).lineTo(1.9,84.2).closePath();
+	this.shape_9.setTransform(33.0981,84.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.shirt_01_btn, new cjs.Rectangle(-1.6,-1.3,143,174.9), null);
 
 
 (lib.shirt_01 = function(mode,startPosition,loop,reversed) {
@@ -9126,45 +10888,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.hanger_boy, new cjs.Rectangle(2.5,-1.2,160.7,116.9), null);
 
 
-(lib.hanger = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#5F1806").beginStroke().moveTo(-1.8,1.8).curveTo(-2.4,1,-2.4,-0).curveTo(-2.4,-1,-1.8,-1.7).curveTo(-1,-2.5,0,-2.5).curveTo(1,-2.5,1.7,-1.7).curveTo(2.5,-1,2.5,-0).curveTo(2.5,1,1.7,1.8).curveTo(1,2.4,0,2.4).curveTo(-1,2.4,-1.8,1.8).closePath();
-	this.shape.setTransform(70.55,6.1);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(4.9,19.4).curveTo(5,19,4.9,3.4).lineTo(12.9,3.4).lineTo(12.9,20).lineTo(-6.4,20).lineTo(-6.4,-4).lineTo(-12.4,-19.9).lineTo(5,-19.9).lineTo(-0,-3.2).lineTo(-0,19.2);
-	this.shape_1.setTransform(73.8666,19.95);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(5.6,8.8).curveTo(2.2,9.5,-0.8,7.2).curveTo(-3.9,5,-4.4,1.5).curveTo(-4.9,-1.8,-2.9,-4.9).curveTo(-0.9,-8,2.4,-9);
-	this.shape_2.setTransform(76.7349,41.8728);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-40.8).curveTo(8.9,-39.6,10.7,-37.1).curveTo(12.6,-34.3,12.9,-30.6).curveTo(13.1,-27.1,11.6,-23.9).curveTo(10.2,-20.9,7.2,-18.1).curveTo(5.3,-16.3,1.2,-13.4).lineTo(-1.9,-11.2).lineTo(-8.9,-6.3).curveTo(-9.9,-4.5,-10,-2.6).curveTo(-10,0.3,-8.1,2.6).curveTo(-6.2,5.1,-3.4,5.4).curveTo(-0.5,5.8,1.9,3.8).curveTo(4.4,1.9,4.4,-1).moveTo(69.3,36.6).lineTo(13.5,-5.1).curveTo(8.7,-8.7,5.4,-10.1).curveTo(1.5,-11.8,-1.9,-11.2).curveTo(-2.6,-11.1,-3.4,-10.9).curveTo(-6.1,-10.1,-8,-7.8).curveTo(-8.5,-7.1,-8.9,-6.3).lineTo(-68.6,35.6).lineTo(-73.5,39).curveTo(-75.3,40.3,-77,40.7).curveTo(-79.1,41.2,-80.2,39.9).curveTo(-81.2,38.7,-80.5,36.9).curveTo(-79.8,35.3,-78.2,34.7).curveTo(-76.9,34.2,-75,34.4).curveTo(-73.9,34.6,-71.7,35).curveTo(-70.2,35.3,-68.6,35.6).curveTo(-41.3,39.9,12.2,39.5).curveTo(33.9,39.3,51.2,38.3).curveTo(65.5,37.5,69.3,36.6).curveTo(70,36.4,70.3,36.3).curveTo(71.3,35.8,73.3,34.9).curveTo(75.1,34.2,76.5,34.2).curveTo(78.3,34.2,79.6,35.5).curveTo(81,36.7,80.7,38.3).curveTo(80.4,39.6,79.1,40.3).curveTo(77.8,41,76.4,40.8).curveTo(75.2,40.6,73.9,39.9).curveTo(73.2,39.5,71.6,38.3).closePath();
-	this.shape_3.setTransform(80.7528,74.3235);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#C6EAE6").beginStroke().moveTo(5.5,17.4).curveTo(5,17.3,4.6,16.9).curveTo(4.1,16.3,3.8,15).lineTo(3.4,12.7).curveTo(3.4,12.1,3.5,11.7).lineTo(3.8,11.2).lineTo(3.8,10.3).lineTo(3.9,6.7).lineTo(4.1,5.3).curveTo(4.1,4.4,4.2,4.1).curveTo(4.5,3.4,5.9,3.2).lineTo(8.8,3.1).curveTo(10,3.1,10.4,4).curveTo(10.7,4.7,10.3,5.3).curveTo(9.9,5.9,9,6).curveTo(9,7.4,9.3,9.3).lineTo(10.1,12.5).lineTo(10.4,14.7).curveTo(10.6,15.8,10.1,16.3).curveTo(9.7,16.8,9,16.8).lineTo(7.9,16.7).curveTo(7.3,16.6,7,16.8).lineTo(6.5,17.2).curveTo(6.2,17.5,5.8,17.5).lineTo(5.5,17.4).closePath().moveTo(7.2,13.8).lineTo(7.5,13.8).lineTo(7.4,13.1).lineTo(7.4,12.7).curveTo(7.2,12.3,7.3,12.1).lineTo(7.2,12.1).closePath().moveTo(-4.9,16.7).curveTo(-5.6,16.3,-6,15.4).curveTo(-6.4,14.5,-6.3,13.6).lineTo(-6,12.2).lineTo(-5.6,10.7).lineTo(-5.6,9.1).lineTo(-5.8,7.4).lineTo(-5.8,4.6).curveTo(-5.8,2.8,-5.9,1.9).lineTo(-6.3,-0.9).curveTo(-6.4,-2.4,-5.8,-3.4).curveTo(-7.4,-7.5,-8.4,-11.3).curveTo(-8.8,-12.7,-9.2,-13.3).lineTo(-9.8,-13.9).lineTo(-10.4,-14.5).curveTo(-10.6,-15.1,-10.4,-15.8).curveTo(-10.2,-16.4,-9.7,-16.9).curveTo(-8.7,-17.6,-7.2,-17.4).lineTo(-4.6,-17.1).curveTo(-3.7,-17.1,-2,-17.3).curveTo(-0.3,-17.5,0.6,-17.5).curveTo(2.1,-17.5,2.6,-16.5).curveTo(2.8,-16,2.5,-14.9).lineTo(0.6,-10.2).curveTo(-0.7,-7.2,-1.1,-5.4).lineTo(-1.3,-4.2).lineTo(-1,-3.1).curveTo(-0.8,-2.1,-1,-0.2).curveTo(-1.1,2,-1.4,3.6).curveTo(-1.8,5.9,-1.8,6.6).lineTo(-1.6,8.5).lineTo(-1.6,11).lineTo(-1.6,13.6).curveTo(-1.5,15.4,-1.8,16).curveTo(-2.2,16.8,-3.2,17).lineTo(-3.7,17).curveTo(-4.4,17,-4.9,16.7).closePath();
-	this.shape_4.setTransform(75.4406,20.5083);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.hanger, new cjs.Rectangle(-7,-1.2,170.4,125.8), null);
-
-
 (lib.hand = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -10823,29 +12546,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.collar_white, new cjs.Rectangle(-1.2,-8.9,80.4,37.2), null);
 
 
-(lib.btn_yellow = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#FBC85B").beginStroke().moveTo(-28,43.7).curveTo(-39.6,32.1,-39.6,15.7).curveTo(-39.6,2,-18.8,-28).curveTo(-8.5,-43,1.9,-55.3).curveTo(11.3,-43,20.8,-28).curveTo(39.6,2,39.6,15.7).curveTo(39.6,32.1,28,43.7).curveTo(16.4,55.3,-0,55.3).curveTo(-16.4,55.3,-28,43.7).closePath();
-	this.shape.setTransform(39.6,23.875);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_yellow, new cjs.Rectangle(0,-31.4,79.2,110.6), null);
-
-
 (lib.btn_wigs_color = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -11561,6 +13261,1654 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.btn_shoe_01, new cjs.Rectangle(-9.9,4.9,162.4,55.9), null);
 
 
+(lib.btn_shirt_12 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// shirt
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,-2.9).lineTo(0.8,-4.1).curveTo(2.2,0,3.2,2.4).lineTo(-0.7,4).curveTo(-2.2,0.8,-3.2,-2.9).closePath();
+	this.shape.setTransform(107.9233,126);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill("#384663").beginStroke().moveTo(-3.6,-2.2).lineTo(0.2,-4.1).curveTo(1.3,-1.9,3.6,2).lineTo(-0.1,4.1).curveTo(-2.5,-0,-3.6,-2.2).closePath();
+	this.shape_1.setTransform(113.2233,137.5);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill("#384663").beginStroke().moveTo(-3.8,-1.8).lineTo(-0.2,-4.1).lineTo(3.8,1.7).lineTo(0.3,4.1).closePath();
+	this.shape_2.setTransform(119.8482,148.325);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#384663").beginStroke().moveTo(-2.9,3.1).lineTo(-1.2,-3.9).lineTo(2.9,-2.8).lineTo(1.3,3.9).closePath();
+	this.shape_3.setTransform(106.5984,88.05);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill("#384663").beginStroke().moveTo(-2.4,3.6).curveTo(-2.3,-0.1,-1.8,-3.7).lineTo(2.4,-3.2).curveTo(1.9,0.5,1.8,3.7).closePath();
+	this.shape_4.setTransform(104.5984,100.575);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#384663").beginStroke().moveTo(-2.6,-3.6).lineTo(1.7,-3.8).lineTo(2.6,3).lineTo(-1.6,3.8).closePath();
+	this.shape_5.setTransform(104.8484,113.575);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.5).lineTo(-0.9,-4).lineTo(3.2,-2.7).lineTo(0.8,4).closePath();
+	this.shape_6.setTransform(118.8232,52.075);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.6).lineTo(-0.7,-4).lineTo(3.2,-2.6).lineTo(0.8,4.1).closePath();
+	this.shape_7.setTransform(114.4232,63.85);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.8).lineTo(-0.9,-4).lineTo(3.1,-2.6).lineTo(0.9,4).closePath();
+	this.shape_8.setTransform(110.1483,75.775);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill("#384663").beginStroke().moveTo(-1.9,3.6).lineTo(-2.4,-3.1).lineTo(1.9,-3.6).lineTo(2.2,-0).lineTo(2.3,3.6).closePath();
+	this.shape_9.setTransform(125.5481,14.975);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill("#384663").beginStroke().moveTo(-2.6,3).lineTo(-2,-0.4).lineTo(-1.7,-3.7).lineTo(2.6,-3.4).lineTo(2.1,0.2).lineTo(1.6,3.7).closePath();
+	this.shape_10.setTransform(125.0981,27.65);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill("#384663").beginStroke().moveTo(-2.9,2.8).curveTo(-1.8,-1.1,-1.2,-4).lineTo(2.9,-3).curveTo(2,0.9,1.1,4).closePath();
+	this.shape_11.setTransform(122.5981,39.95);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.4).curveTo(-2.1,-0.2,-0.8,-4).lineTo(3.2,-2.8).curveTo(2.1,1,0.8,4).closePath();
+	this.shape_12.setTransform(26.8996,125.575);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill("#384663").beginStroke().moveTo(-3.6,2).curveTo(-1.7,-1.2,-0.2,-4.1).lineTo(3.6,-2.2).curveTo(1.9,1.1,0.1,4.1).closePath();
+	this.shape_13.setTransform(21.6997,136.9);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#384663").beginStroke().moveTo(-3.7,1.7).curveTo(-1.9,-0.9,0.2,-4.1).lineTo(3.7,-1.8).curveTo(2.5,0.2,-0.2,4.1).closePath();
+	this.shape_14.setTransform(15.0748,147.625);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill("#384663").beginStroke().moveTo(-2.9,-2.8).lineTo(1.2,-3.9).lineTo(2.9,3.1).lineTo(-1.3,3.9).closePath();
+	this.shape_15.setTransform(28.1746,88.35);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill("#384663").beginStroke().moveTo(-2.4,-3.1).lineTo(1.8,-3.6).curveTo(2.4,-0,2.4,3.6).lineTo(-1.8,3.6).curveTo(-1.9,0.5,-2.4,-3.1).closePath();
+	this.shape_16.setTransform(30.1495,100.65);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#384663").beginStroke().moveTo(-2.6,2.9).lineTo(-1.7,-3.8).lineTo(2.6,-3.4).lineTo(1.6,3.8).closePath();
+	this.shape_17.setTransform(29.8995,113.4);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,-2.7).lineTo(0.8,-4).lineTo(3.2,2.6).lineTo(-0.8,4.1).closePath();
+	this.shape_18.setTransform(16.0247,52.45);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,-2.6).lineTo(0.8,-4).lineTo(3.2,2.6).lineTo(-0.7,4.1).closePath();
+	this.shape_19.setTransform(20.3747,64.3);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill("#384663").beginStroke().moveTo(-3.1,-2.6).lineTo(0.9,-4).lineTo(3.1,2.7).lineTo(-0.9,4).closePath();
+	this.shape_20.setTransform(24.6746,76.175);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill("#384663").beginStroke().moveTo(-2.4,3.7).lineTo(-2.2,0).lineTo(-1.9,-3.7).lineTo(2.4,-3.1).lineTo(1.9,3.7).closePath();
+	this.shape_21.setTransform(9.1998,14.9);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill("#384663").beginStroke().moveTo(-2.2,0.2).lineTo(-2.6,-3.4).lineTo(1.7,-3.8).lineTo(2,-0.4).lineTo(2.6,3.1).lineTo(-1.6,3.8).lineTo(-2.2,0.2).closePath();
+	this.shape_22.setTransform(9.6748,27.825);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill("#384663").beginStroke().moveTo(-3,-3).lineTo(1.2,-4).lineTo(3,2.8).lineTo(-1.1,4).curveTo(-2.3,0,-3,-3).closePath();
+	this.shape_23.setTransform(12.1748,40.275);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(35.8,-80.6).curveTo(37.4,-80.1,38.9,-79.7).curveTo(52.2,-75.6,61.3,-70.4).curveTo(64.3,-68.7,65.4,-67.1).curveTo(66.4,-65.5,66.6,-61.9).curveTo(67.2,-48.6,63.8,-35.9).curveTo(62.3,-30.5,59.1,-22).curveTo(55,-11.2,54,-8.3).curveTo(47.3,12.2,48.6,30.8).curveTo(49.4,41,52.6,50.3).curveTo(56,60,61.7,67.8).curveTo(58.8,70.6,51.8,73.6).curveTo(37.9,79.6,17.9,80.6).curveTo(14.1,80.8,9.1,80.9).moveTo(-7.7,80.9).curveTo(-14,80.8,-17.9,80.6).curveTo(-37.9,79.6,-51.8,73.6).curveTo(-56.1,71.7,-59.3,69.6).lineTo(-61.7,67.8).curveTo(-55.9,60,-52.6,50.3).curveTo(-49.3,41,-48.6,30.8).curveTo(-47.2,12.1,-54,-8.3).curveTo(-55,-11.4,-59.1,-22).curveTo(-62.3,-30.5,-63.7,-35.9).curveTo(-67.2,-48.6,-66.6,-61.9).curveTo(-66.5,-65.3,-65.4,-67.1).curveTo(-64.4,-68.6,-61.3,-70.4).curveTo(-52.1,-75.6,-38.9,-79.7).curveTo(-36.7,-80.3,-34.6,-80.9);
+	this.shape_24.setTransform(66.8428,80.7125);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(-10.1,1.6).lineTo(-4.8,-0.4).curveTo(-1.8,-1.4,-0.2,-1.5).curveTo(1.1,-1.5,2.7,-1.3).curveTo(7,-0.7,9,0.1);
+	this.shape_25.setTransform(78.1672,115.0886);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(11.6,-1.6).curveTo(6.2,-3.3,-0.8,-1.7).curveTo(-3.5,-1,-6.8,0.2).curveTo(-8.4,0.8,-12.7,2.6);
+	this.shape_26.setTransform(57.3132,117.9745);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(-1.7,4.7).curveTo(0.2,6.6,2,7.3).curveTo(4.4,8.1,6.3,7).curveTo(6.9,6.7,7.1,6.2).curveTo(7.4,5.7,7.3,5).curveTo(7,2.2,5.9,0.5).curveTo(4.7,-1.2,1.9,-2.8).curveTo(-1.9,-4.9,-6.6,-6.6).curveTo(-5.3,-1.8,-4.9,-0.6).curveTo(-3.7,2.5,-1.7,4.7).closePath();
+	this.shape_27.setTransform(74.5086,122.7866);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(-4,0.7).curveTo(-5.4,2.4,-5.7,3.6).curveTo(-5.9,4.5,-5.7,5.3).curveTo(-5.5,6.2,-4.9,6.7).curveTo(-3.8,7.6,-2.2,7.2).curveTo(-1.1,6.9,0.2,5.8).curveTo(2.6,3.7,4.3,0.6).curveTo(6.1,-2.8,5.8,-5.7).curveTo(5.6,-7.9,4,-7).curveTo(3.7,-6.9,1.3,-4.9).curveTo(-1.8,-2.1,-4,0.7).closePath();
+	this.shape_28.setTransform(62.626,123.9809);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-6.2,5.2).curveTo(-4.5,3.8,0,0).curveTo(4.4,-3.6,6.2,-5.2);
+	this.shape_29.setTransform(73.2489,111.55);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(12.9,-13.4).curveTo(9.8,-10.2,0.1,0.1).curveTo(-8.2,8.8,-12.9,13.4);
+	this.shape_30.setTransform(67.849,93.95);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-6.7,-5.2).lineTo(6.7,5.2);
+	this.shape_31.setTransform(61.799,111.05);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(13.1,-13.7).curveTo(-0.2,-0.2,-13.7,13.1);
+	this.shape_32.setTransform(66.6024,69.9035);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-12.6,-13.2).curveTo(0.2,-0.2,13.2,12.6);
+	this.shape_33.setTransform(66.5953,94.7036);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-12.1,-12.7).curveTo(0.2,-0.2,12.7,12.1);
+	this.shape_34.setTransform(67.0951,68.9038);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-0.9).lineTo(0.4,-1.4).lineTo(1,1).lineTo(-0.4,1.3).closePath();
+	this.shape_35.setTransform(85.4987,151.85);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.9).lineTo(-0.4,1.3).closePath();
+	this.shape_36.setTransform(86.7737,155.9);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.9).lineTo(-0.3,1.4).closePath();
+	this.shape_37.setTransform(88.0986,159.925);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-1).lineTo(0.5,-1.3).lineTo(1,1).lineTo(-0.5,1.3).closePath();
+	this.shape_38.setTransform(82.3237,139.525);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-1).lineTo(0.4,-1.3).lineTo(1,1).lineTo(-0.4,1.3).closePath();
+	this.shape_39.setTransform(83.2737,143.625);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-1).lineTo(0.4,-1.3).lineTo(1,0.9).lineTo(-0.4,1.4).closePath();
+	this.shape_40.setTransform(84.3237,147.75);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1.1).lineTo(0.6,-1.3).lineTo(0.9,1).lineTo(-0.6,1.3).closePath();
+	this.shape_41.setTransform(80.0238,126.975);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1).lineTo(0.5,-1.3).lineTo(0.9,1).lineTo(-0.5,1.3).closePath();
+	this.shape_42.setTransform(80.6738,131.15);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1).lineTo(0.5,-1.3).lineTo(1,1).lineTo(-0.5,1.3).closePath();
+	this.shape_43.setTransform(81.4487,135.325);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.1).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
+	this.shape_44.setTransform(78.6238,114.275);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1.2).lineTo(0.6,-1.2).lineTo(0.9,1.1).lineTo(-0.6,1.3).closePath();
+	this.shape_45.setTransform(78.9738,118.5);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1.1).lineTo(0.6,-1.3).lineTo(0.9,1.1).lineTo(-0.6,1.3).closePath();
+	this.shape_46.setTransform(79.4488,122.725);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_47.setTransform(78.1488,101.525);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_48.setTransform(78.2238,105.75);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.1).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.6,1.2).lineTo(-0.8,-1.1).closePath();
+	this.shape_49.setTransform(78.3488,110);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_50.setTransform(78.3238,88.75);
+
+	this.shape_51 = new cjs.Shape();
+	this.shape_51.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_51.setTransform(78.2488,93);
+
+	this.shape_52 = new cjs.Shape();
+	this.shape_52.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_52.setTransform(78.1988,97.225);
+
+	this.shape_53 = new cjs.Shape();
+	this.shape_53.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.1).lineTo(0.7,1.2).closePath();
+	this.shape_53.setTransform(78.5238,76);
+
+	this.shape_54 = new cjs.Shape();
+	this.shape_54.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_54.setTransform(78.4738,80.25);
+
+	this.shape_55 = new cjs.Shape();
+	this.shape_55.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_55.setTransform(78.3738,84.5);
+
+	this.shape_56 = new cjs.Shape();
+	this.shape_56.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_56.setTransform(78.7738,63.25);
+
+	this.shape_57 = new cjs.Shape();
+	this.shape_57.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_57.setTransform(78.6738,67.5);
+
+	this.shape_58 = new cjs.Shape();
+	this.shape_58.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_58.setTransform(78.6238,71.75);
+
+	this.shape_59 = new cjs.Shape();
+	this.shape_59.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_59.setTransform(78.9738,50.5);
+
+	this.shape_60 = new cjs.Shape();
+	this.shape_60.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_60.setTransform(78.9238,54.75);
+
+	this.shape_61 = new cjs.Shape();
+	this.shape_61.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_61.setTransform(78.8238,59);
+
+	this.shape_62 = new cjs.Shape();
+	this.shape_62.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_62.setTransform(85.3737,56.075);
+
+	this.shape_63 = new cjs.Shape();
+	this.shape_63.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_63.setTransform(85.3237,51.775);
+
+	this.shape_64 = new cjs.Shape();
+	this.shape_64.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,-0.9).lineTo(0.6,-1.3).curveTo(0.9,-0.2,0.9,1.3).lineTo(-0.6,1.3).curveTo(-0.6,-0,-0.9,-0.9).closePath();
+	this.shape_64.setTransform(85.1237,47.325);
+
+	this.shape_65 = new cjs.Shape();
+	this.shape_65.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_65.setTransform(85.5737,69.05);
+
+	this.shape_66 = new cjs.Shape();
+	this.shape_66.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_66.setTransform(85.5237,64.75);
+
+	this.shape_67 = new cjs.Shape();
+	this.shape_67.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).lineTo(-0.8,1.2).closePath();
+	this.shape_67.setTransform(85.4487,60.425);
+
+	this.shape_68 = new cjs.Shape();
+	this.shape_68.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_68.setTransform(85.7737,82.025);
+
+	this.shape_69 = new cjs.Shape();
+	this.shape_69.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).lineTo(-0.8,1.2).closePath();
+	this.shape_69.setTransform(85.6987,77.725);
+
+	this.shape_70 = new cjs.Shape();
+	this.shape_70.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_70.setTransform(85.6487,73.4);
+
+	this.shape_71 = new cjs.Shape();
+	this.shape_71.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_71.setTransform(85.9737,95.025);
+
+	this.shape_72 = new cjs.Shape();
+	this.shape_72.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).lineTo(-0.8,1.2).closePath();
+	this.shape_72.setTransform(85.8987,90.725);
+
+	this.shape_73 = new cjs.Shape();
+	this.shape_73.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_73.setTransform(85.8237,86.375);
+
+	this.shape_74 = new cjs.Shape();
+	this.shape_74.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_74.setTransform(86.1487,108);
+
+	this.shape_75 = new cjs.Shape();
+	this.shape_75.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_75.setTransform(86.0737,103.7);
+
+	this.shape_76 = new cjs.Shape();
+	this.shape_76.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_76.setTransform(86.0237,99.375);
+
+	this.shape_77 = new cjs.Shape();
+	this.shape_77.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_77.setTransform(86.3737,120.975);
+
+	this.shape_78 = new cjs.Shape();
+	this.shape_78.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_78.setTransform(86.2737,116.675);
+
+	this.shape_79 = new cjs.Shape();
+	this.shape_79.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_79.setTransform(86.2237,112.35);
+
+	this.shape_80 = new cjs.Shape();
+	this.shape_80.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,-1).lineTo(0.5,-1.3).lineTo(1,1).lineTo(-0.5,1.3).closePath();
+	this.shape_80.setTransform(87.8236,133.825);
+
+	this.shape_81 = new cjs.Shape();
+	this.shape_81.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,-1.1).lineTo(0.6,-1.3).lineTo(0.9,1.1).lineTo(-0.6,1.3).closePath();
+	this.shape_81.setTransform(87.0987,129.6);
+
+	this.shape_82 = new cjs.Shape();
+	this.shape_82.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.6,-1.3).lineTo(0.8,1.1).lineTo(-0.6,1.3).closePath();
+	this.shape_82.setTransform(86.6237,125.325);
+
+	this.shape_83 = new cjs.Shape();
+	this.shape_83.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.4,-1.4).lineTo(1.1,0.9).lineTo(-0.3,1.4).closePath();
+	this.shape_83.setTransform(91.1986,146.325);
+
+	this.shape_84 = new cjs.Shape();
+	this.shape_84.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-1).lineTo(0.4,-1.4).lineTo(1.1,0.9).lineTo(-0.4,1.4).closePath();
+	this.shape_84.setTransform(89.9236,142.225);
+
+	this.shape_85 = new cjs.Shape();
+	this.shape_85.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,-1).lineTo(0.5,-1.4).lineTo(1,1).lineTo(-0.4,1.3).closePath();
+	this.shape_85.setTransform(88.7736,138.05);
+
+	this.shape_86 = new cjs.Shape();
+	this.shape_86.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.8).lineTo(-0.3,1.4).closePath();
+	this.shape_86.setTransform(95.5735,158.55);
+
+	this.shape_87 = new cjs.Shape();
+	this.shape_87.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.8).lineTo(-0.3,1.4).closePath();
+	this.shape_87.setTransform(94.0736,154.5);
+
+	this.shape_88 = new cjs.Shape();
+	this.shape_88.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.9).lineTo(-0.3,1.4).closePath();
+	this.shape_88.setTransform(92.5986,150.45);
+
+	this.shape_89 = new cjs.Shape();
+	this.shape_89.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,0.9).lineTo(-0.4,-1.4).lineTo(1.1,-0.9).lineTo(0.4,1.3).closePath();
+	this.shape_89.setTransform(48.0493,151.75);
+
+	this.shape_90 = new cjs.Shape();
+	this.shape_90.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,0.9).lineTo(-0.4,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
+	this.shape_90.setTransform(46.7993,155.775);
+
+	this.shape_91 = new cjs.Shape();
+	this.shape_91.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,0.8).lineTo(-0.3,-1.3).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
+	this.shape_91.setTransform(45.4493,159.8);
+
+	this.shape_92 = new cjs.Shape();
+	this.shape_92.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,1).lineTo(-0.5,-1.3).lineTo(1,-1).lineTo(0.5,1.3).closePath();
+	this.shape_92.setTransform(51.2242,139.425);
+
+	this.shape_93 = new cjs.Shape();
+	this.shape_93.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,1).lineTo(-0.4,-1.3).lineTo(1,-1).lineTo(0.4,1.3).closePath();
+	this.shape_93.setTransform(50.2742,143.525);
+
+	this.shape_94 = new cjs.Shape();
+	this.shape_94.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,0.9).lineTo(-0.4,-1.3).lineTo(1,-0.9).lineTo(0.4,1.3).closePath();
+	this.shape_94.setTransform(49.2242,147.625);
+
+	this.shape_95 = new cjs.Shape();
+	this.shape_95.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.3).lineTo(0.9,-1.1).lineTo(0.6,1.3).closePath();
+	this.shape_95.setTransform(53.5242,126.875);
+
+	this.shape_96 = new cjs.Shape();
+	this.shape_96.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.5,-1.3).lineTo(0.9,-1).lineTo(0.5,1.3).closePath();
+	this.shape_96.setTransform(52.8742,131.05);
+
+	this.shape_97 = new cjs.Shape();
+	this.shape_97.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1).lineTo(-0.5,-1.3).lineTo(1,-1.1).lineTo(0.5,1.3).closePath();
+	this.shape_97.setTransform(52.0992,135.25);
+
+	this.shape_98 = new cjs.Shape();
+	this.shape_98.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.1).lineTo(0.7,1.2).closePath();
+	this.shape_98.setTransform(54.9242,114.225);
+
+	this.shape_99 = new cjs.Shape();
+	this.shape_99.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.3).lineTo(0.9,-1.1).lineTo(0.6,1.2).closePath();
+	this.shape_99.setTransform(54.5742,118.45);
+
+	this.shape_100 = new cjs.Shape();
+	this.shape_100.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.2).lineTo(0.9,-1.1).lineTo(0.6,1.3).closePath();
+	this.shape_100.setTransform(54.0992,122.65);
+
+	this.shape_101 = new cjs.Shape();
+	this.shape_101.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_101.setTransform(55.3991,101.525);
+
+	this.shape_102 = new cjs.Shape();
+	this.shape_102.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_102.setTransform(55.3241,105.75);
+
+	this.shape_103 = new cjs.Shape();
+	this.shape_103.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_103.setTransform(55.1741,109.975);
+
+	this.shape_104 = new cjs.Shape();
+	this.shape_104.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_104.setTransform(55.2241,88.75);
+
+	this.shape_105 = new cjs.Shape();
+	this.shape_105.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.1).lineTo(-0.8,1.2).closePath();
+	this.shape_105.setTransform(55.2991,93);
+
+	this.shape_106 = new cjs.Shape();
+	this.shape_106.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_106.setTransform(55.3491,97.225);
+
+	this.shape_107 = new cjs.Shape();
+	this.shape_107.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.1).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_107.setTransform(54.9991,76);
+
+	this.shape_108 = new cjs.Shape();
+	this.shape_108.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_108.setTransform(55.0741,80.25);
+
+	this.shape_109 = new cjs.Shape();
+	this.shape_109.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_109.setTransform(55.1491,84.5);
+
+	this.shape_110 = new cjs.Shape();
+	this.shape_110.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_110.setTransform(54.7742,63.25);
+
+	this.shape_111 = new cjs.Shape();
+	this.shape_111.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
+	this.shape_111.setTransform(54.8742,67.5);
+
+	this.shape_112 = new cjs.Shape();
+	this.shape_112.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
+	this.shape_112.setTransform(54.9242,71.75);
+
+	this.shape_113 = new cjs.Shape();
+	this.shape_113.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
+	this.shape_113.setTransform(54.5742,50.5);
+
+	this.shape_114 = new cjs.Shape();
+	this.shape_114.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.1).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
+	this.shape_114.setTransform(54.6242,54.75);
+
+	this.shape_115 = new cjs.Shape();
+	this.shape_115.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
+	this.shape_115.setTransform(54.7242,59);
+
+	this.shape_116 = new cjs.Shape();
+	this.shape_116.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_116.setTransform(49.0242,56.075);
+
+	this.shape_117 = new cjs.Shape();
+	this.shape_117.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_117.setTransform(49.0992,51.775);
+
+	this.shape_118 = new cjs.Shape();
+	this.shape_118.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,1.2).curveTo(-0.8,-0.5,-0.6,-1.3).lineTo(0.9,-0.9).curveTo(0.6,0.2,0.6,1.3).closePath();
+	this.shape_118.setTransform(49.2742,47.425);
+
+	this.shape_119 = new cjs.Shape();
+	this.shape_119.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_119.setTransform(48.8242,69.075);
+
+	this.shape_120 = new cjs.Shape();
+	this.shape_120.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_120.setTransform(48.8992,64.75);
+
+	this.shape_121 = new cjs.Shape();
+	this.shape_121.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_121.setTransform(48.9742,60.425);
+
+	this.shape_122 = new cjs.Shape();
+	this.shape_122.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_122.setTransform(48.6492,82.05);
+
+	this.shape_123 = new cjs.Shape();
+	this.shape_123.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_123.setTransform(48.7242,77.725);
+
+	this.shape_124 = new cjs.Shape();
+	this.shape_124.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_124.setTransform(48.7742,73.425);
+
+	this.shape_125 = new cjs.Shape();
+	this.shape_125.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_125.setTransform(48.4742,95.025);
+
+	this.shape_126 = new cjs.Shape();
+	this.shape_126.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_126.setTransform(48.5242,90.725);
+
+	this.shape_127 = new cjs.Shape();
+	this.shape_127.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_127.setTransform(48.5742,86.4);
+
+	this.shape_128 = new cjs.Shape();
+	this.shape_128.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_128.setTransform(48.2743,108);
+
+	this.shape_129 = new cjs.Shape();
+	this.shape_129.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_129.setTransform(48.3243,103.7);
+
+	this.shape_130 = new cjs.Shape();
+	this.shape_130.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_130.setTransform(48.3993,99.375);
+
+	this.shape_131 = new cjs.Shape();
+	this.shape_131.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_131.setTransform(48.0493,121);
+
+	this.shape_132 = new cjs.Shape();
+	this.shape_132.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_132.setTransform(48.1243,116.675);
+
+	this.shape_133 = new cjs.Shape();
+	this.shape_133.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
+	this.shape_133.setTransform(48.2243,112.375);
+
+	this.shape_134 = new cjs.Shape();
+	this.shape_134.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,1).lineTo(-0.5,-1.3).lineTo(1,-1.1).lineTo(0.5,1.3).closePath();
+	this.shape_134.setTransform(46.5743,133.925);
+
+	this.shape_135 = new cjs.Shape();
+	this.shape_135.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.3).lineTo(0.9,-1.1).lineTo(0.6,1.3).closePath();
+	this.shape_135.setTransform(47.3243,129.65);
+
+	this.shape_136 = new cjs.Shape();
+	this.shape_136.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.3).lineTo(0.9,-1.2).lineTo(0.7,1.3).closePath();
+	this.shape_136.setTransform(47.7993,125.375);
+
+	this.shape_137 = new cjs.Shape();
+	this.shape_137.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.4,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
+	this.shape_137.setTransform(43.1993,146.475);
+
+	this.shape_138 = new cjs.Shape();
+	this.shape_138.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.4,-1.3).lineTo(1.1,-1).lineTo(0.4,1.4).closePath();
+	this.shape_138.setTransform(44.4743,142.35);
+
+	this.shape_139 = new cjs.Shape();
+	this.shape_139.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,1).lineTo(-0.4,-1.4).lineTo(1,-1).lineTo(0.4,1.4).closePath();
+	this.shape_139.setTransform(45.6243,138.175);
+
+	this.shape_140 = new cjs.Shape();
+	this.shape_140.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.3,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
+	this.shape_140.setTransform(38.8244,158.7);
+
+	this.shape_141 = new cjs.Shape();
+	this.shape_141.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.3,-1.4).lineTo(1.1,-0.8).lineTo(0.3,1.4).closePath();
+	this.shape_141.setTransform(40.3244,154.65);
+
+	this.shape_142 = new cjs.Shape();
+	this.shape_142.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.3,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
+	this.shape_142.setTransform(41.7994,150.6);
+
+	this.shape_143 = new cjs.Shape();
+	this.shape_143.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.2,3.5).lineTo(-0.8,-4.6).lineTo(3.2,-3.5).lineTo(0.8,4.6).closePath();
+	this.shape_143.setTransform(102.0734,55.65);
+
+	this.shape_144 = new cjs.Shape();
+	this.shape_144.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.3,3.3).lineTo(-0.7,-4.7).lineTo(3.3,-3.4).lineTo(0.7,4.7).closePath();
+	this.shape_144.setTransform(97.5985,70.125);
+
+	this.shape_145 = new cjs.Shape();
+	this.shape_145.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.5,3.6).curveTo(-2.7,0.8,-0.5,-4.7).lineTo(3.5,-3.1).curveTo(1.1,2.8,0.6,4.7).closePath();
+	this.shape_145.setTransform(92.4236,84.275);
+
+	this.shape_146 = new cjs.Shape();
+	this.shape_146.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.2,4.1).curveTo(-2,0.2,-2.1,-4.1).lineTo(2.1,-4.3).curveTo(2.3,0.3,2.1,4.3).closePath();
+	this.shape_146.setTransform(110.7804,11.2);
+
+	this.shape_147 = new cjs.Shape();
+	this.shape_147.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.8,3.6).curveTo(-1.9,-0.7,-1.5,-4.5).lineTo(2.8,-4).curveTo(2.3,-0.4,1.4,4.5).closePath();
+	this.shape_147.setTransform(109.5233,26.25);
+
+	this.shape_148 = new cjs.Shape();
+	this.shape_148.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.1,3.5).lineTo(-1,-4.6).lineTo(3.1,-3.6).curveTo(2.3,-0.2,0.9,4.6).closePath();
+	this.shape_148.setTransform(106.2734,40.975);
+
+	this.shape_149 = new cjs.Shape();
+	this.shape_149.graphics.beginFill("#CB645F").beginStroke().moveTo(-4.1,-2.1).lineTo(-0.6,-4.5).lineTo(4.1,2).lineTo(0.7,4.5).lineTo(-4.1,-2.1).closePath();
+	this.shape_149.setTransform(110.2983,150.225);
+
+	this.shape_150 = new cjs.Shape();
+	this.shape_150.graphics.beginFill("#CB645F").beginStroke().moveTo(-4,-2.4).lineTo(-0.3,-4.6).lineTo(4,2.2).lineTo(0.4,4.6).closePath();
+	this.shape_150.setTransform(102.1734,138.275);
+
+	this.shape_151 = new cjs.Shape();
+	this.shape_151.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.5,-3.4).lineTo(0.6,-4.4).curveTo(1.2,-1.7,3.5,2.3).lineTo(-0.2,4.4).curveTo(-2.7,-0.1,-3.5,-3.4).closePath();
+	this.shape_151.setTransform(95.1235,125.9);
+
+	this.shape_152 = new cjs.Shape();
+	this.shape_152.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.3,-3.5).lineTo(0.8,-4.7).lineTo(3.3,3.5).lineTo(-0.8,4.7).closePath();
+	this.shape_152.setTransform(29.9245,56.725);
+
+	this.shape_153 = new cjs.Shape();
+	this.shape_153.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.4,-3.5).lineTo(0.7,-4.8).lineTo(3.4,3.3).lineTo(-0.6,4.8).lineTo(-3.4,-3.5).closePath();
+	this.shape_153.setTransform(34.5245,71.425);
+
+	this.shape_154 = new cjs.Shape();
+	this.shape_154.graphics.beginFill("#CB645F").beginStroke().moveTo(-1.9,0.9).lineTo(-3.6,-3).lineTo(0.3,-4.7).lineTo(2,-0.8).curveTo(3,1.6,3.6,3.3).lineTo(-0.4,4.7).curveTo(-0.9,3.2,-1.9,0.9).closePath();
+	this.shape_154.setTransform(40.0244,85.725);
+
+	this.shape_155 = new cjs.Shape();
+	this.shape_155.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.1,-4.4).lineTo(2.1,-4.2).curveTo(2,0.2,2.2,4.2).lineTo(-2.1,4.4).curveTo(-2.3,0.3,-2.1,-4.4).closePath();
+	this.shape_155.setTransform(20.9675,11.325);
+
+	this.shape_156 = new cjs.Shape();
+	this.shape_156.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.8,-4.1).lineTo(1.4,-4.6).curveTo(1.9,-1,2.8,3.8).lineTo(-1.4,4.6).curveTo(-2.3,0.1,-2.8,-4.1).closePath();
+	this.shape_156.setTransform(22.2996,26.75);
+
+	this.shape_157 = new cjs.Shape();
+	this.shape_157.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.2,-3.7).lineTo(1,-4.7).lineTo(3.2,3.5).lineTo(-0.9,4.7).lineTo(-3.2,-3.7).closePath();
+	this.shape_157.setTransform(25.6246,41.8);
+
+	this.shape_158 = new cjs.Shape();
+	this.shape_158.graphics.beginFill("#CB645F").beginStroke().moveTo(-4.1,2).curveTo(-2,-0.7,0.6,-4.5).lineTo(4.1,-2.1).lineTo(-0.7,4.5).closePath();
+	this.shape_158.setTransform(24.6746,150.975);
+
+	this.shape_159 = new cjs.Shape();
+	this.shape_159.graphics.beginFill("#CB645F").beginStroke().moveTo(-4,2.3).curveTo(-1.9,-0.8,0.4,-4.6).lineTo(4,-2.4).curveTo(1.6,1.6,-0.4,4.6).closePath();
+	this.shape_159.setTransform(32.8245,138.925);
+
+	this.shape_160 = new cjs.Shape();
+	this.shape_160.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.6,2.5).curveTo(-1.2,-1.6,-0.6,-4.6).lineTo(3.6,-3.6).curveTo(2.7,-0.2,0.1,4.6).closePath();
+	this.shape_160.setTransform(40.0244,126.375);
+
+	this.shape_161 = new cjs.Shape();
+	this.shape_161.graphics.beginFill().beginStroke("#384663").setStrokeStyle(2.6).moveTo(3.1,-54.7).lineTo(4.2,-1.3).curveTo(4.5,15.8,4.5,24.4).curveTo(4.5,32.4,3.5,37).curveTo(2.8,40.1,-0.1,45.7).curveTo(-1.7,48.8,-4.7,54.1);
+	this.shape_161.setTransform(62.9545,107.8469);
+
+	this.shape_162 = new cjs.Shape();
+	this.shape_162.graphics.beginFill().beginStroke("#384663").setStrokeStyle(2.6).moveTo(-36.1,-25.9).curveTo(-35.2,-16.1,-32,-1.8).curveTo(-28.9,11.6,-28.2,10.9).curveTo(-15.5,20.4,-0.8,25.8).lineTo(26.5,12.5).curveTo(33.5,-5.6,36.2,-25);
+	this.shape_162.setTransform(67.499,27.6041);
+
+	this.shape_163 = new cjs.Shape();
+	this.shape_163.graphics.beginFill().beginStroke("#384663").setStrokeStyle(4.3).moveTo(-2.1,-59.9).curveTo(-5.4,-47,-6,-31.4).curveTo(-6.4,-22,-5.8,-2.5).curveTo(-5.5,7.3,-5.3,11.5).curveTo(-4.8,19.3,-3.9,25.4).curveTo(-2.7,33.6,-0.6,41.1).curveTo(2.3,51.2,6.4,59.9);
+	this.shape_163.setTransform(97.0921,99.25);
+
+	this.shape_164 = new cjs.Shape();
+	this.shape_164.graphics.beginFill().beginStroke("#384663").setStrokeStyle(4.3).moveTo(2.1,-59.9).curveTo(5.4,-47,6,-31.4).curveTo(6.4,-22.2,5.8,-2.5).curveTo(5.6,6.5,5.3,11.5).curveTo(4.8,19.2,3.9,25.4).curveTo(2.8,33.1,0.6,41.1).curveTo(-2.1,50.7,-6.4,59.9);
+	this.shape_164.setTransform(36.8784,99.25);
+
+	this.shape_165 = new cjs.Shape();
+	this.shape_165.graphics.beginFill().beginStroke("#10264F").setStrokeStyle(2.6).moveTo(-5.6,-8).curveTo(-0.2,0,5.8,7.4);
+	this.shape_165.setTransform(72.0049,154.6596);
+
+	this.shape_166 = new cjs.Shape();
+	this.shape_166.graphics.beginFill("#CB645F").beginStroke().moveTo(5.6,70.6).curveTo(0.2,69.4,-3.9,63.1).curveTo(-5.5,60.6,-9.4,51.8).curveTo(-12.3,45.5,-13.5,41.1).curveTo(-15.4,34.4,-14.4,29.5).curveTo(-15.8,22.5,-14.1,13.4).curveTo(-14,9.3,-13.5,6.8).curveTo(-12.8,3.1,-10.9,1).curveTo(-7.5,-10.6,-4.4,-19.7).curveTo(-3,-24.5,-2.1,-27).curveTo(-0.7,-31.3,1.5,-33.6).curveTo(3.2,-43.2,5.9,-52.9).lineTo(5.9,-53).curveTo(6.7,-61.2,5.9,-68.6).curveTo(5.7,-70.1,7.2,-70.6).curveTo(8.7,-71.1,9.7,-70.1).curveTo(15.9,-64.4,14.9,-51.9).curveTo(14.3,-45.1,10.6,-32.2).curveTo(9.3,-27.8,6.9,-21.5).lineTo(2.8,-10.9).curveTo(0.8,-5.4,-2.9,5.8).curveTo(-5.6,28,-0.7,49.1).lineTo(-0.7,49.9).curveTo(2.6,57.1,8.4,66.9).curveTo(9.3,68.4,8.2,69.7).curveTo(7.4,70.7,6.3,70.7).lineTo(5.6,70.6).closePath();
+	this.shape_166.setTransform(118.877,81.2095);
+
+	this.shape_167 = new cjs.Shape();
+	this.shape_167.graphics.beginFill("#CB645F").beginStroke().moveTo(-5.2,70.9).lineTo(-5.5,71).curveTo(-7.4,71.2,-8.3,69.6).curveTo(-9.2,68.1,-8.8,66.3).curveTo(-8.5,64.6,-7.3,62.1).lineTo(-5.5,58.1).curveTo(-4,54.3,-2.3,49.3).curveTo(0.8,40,2.2,33).curveTo(2.6,24.2,2.3,15.3).lineTo(1.5,10).curveTo(1.1,6.5,0.7,4.8).curveTo(-0.6,-1.6,-2.7,-9.7).curveTo(-4,-11.6,-5.2,-14.3).lineTo(-7.3,-19.4).curveTo(-10.8,-29.1,-12.8,-39).curveTo(-15,-50,-15,-58.1).curveTo(-15.1,-62.5,-14.6,-64.4).curveTo(-13.8,-67.8,-11.2,-69.4).curveTo(-10.7,-69.7,-10.1,-69.6).lineTo(-9.5,-70.5).curveTo(-8.9,-71.3,-8,-71.1).curveTo(-7,-70.8,-7,-69.8).curveTo(-7,-58.5,-4.6,-46).curveTo(-2.6,-35.7,1.3,-22.7).lineTo(2,-20.6).curveTo(2.5,-20.6,2.7,-20).lineTo(5.4,-13.5).curveTo(6.9,-9.6,7.3,-6.6).curveTo(9.1,-2.5,10.2,2.3).curveTo(11.7,6.1,12.2,8.7).curveTo(13.9,15.3,14.6,20.5).curveTo(15,24,15,25).curveTo(15,27.6,13.8,29.2).curveTo(13.6,29.5,13.2,29.4).curveTo(12.9,33.8,11.7,39.3).curveTo(11.2,41.6,10.5,43.9).curveTo(9.1,46.2,7.1,50.3).lineTo(3.9,56.6).curveTo(2.7,58.9,-0,63.6).curveTo(-2.3,67.9,-3.3,71).lineTo(-4,71.1).curveTo(-4.6,71.1,-5.2,70.9).closePath();
+	this.shape_167.setTransform(16.7722,81.6697);
+
+	this.shape_168 = new cjs.Shape();
+	this.shape_168.graphics.beginFill("#122313").beginStroke().moveTo(-17.6,60.7).lineTo(-17.6,60.7).curveTo(-18,60.8,-18.5,60.7).curveTo(-20.3,60.3,-21.5,59.7).curveTo(-22.2,59.9,-22.8,59.8).curveTo(-28.7,60.5,-34.2,59).curveTo(-35.5,58.7,-35.6,57.4).curveTo(-35.6,56.1,-34.6,55.5).lineTo(-34.3,54.6).lineTo(-33.8,53.8).curveTo(-31.3,46.2,-29.7,39.8).curveTo(-29.7,39.1,-29.2,38.7).curveTo(-28,33.4,-26.5,28.3).lineTo(-26.3,26.8).curveTo(-26.2,22.2,-24.8,18.3).lineTo(-24.7,17.8).curveTo(-24.5,13.6,-23.9,9.9).curveTo(-23.8,4.9,-23.3,-2).curveTo(-23.4,-2.4,-23.4,-2.9).lineTo(-23.1,-15.4).curveTo(-23.5,-15.9,-23.5,-16.7).lineTo(-22.9,-27.8).curveTo(-22.9,-31.3,-23,-35.5).lineTo(-24.3,-48).curveTo(-24.3,-48.4,-24.1,-48.8).curveTo(-24.8,-52.8,-25.6,-56).curveTo(-25.8,-56.7,-25.1,-56.8).lineTo(-25.2,-57.2).lineTo(-25.3,-57.3).curveTo(-26,-57.8,-25.6,-58.7).lineTo(-26,-60.2).curveTo(-26.2,-60.6,-25.7,-60.8).curveTo(-25.2,-61,-25,-60.6).lineTo(-24.3,-58.9).curveTo(-15.9,-55.8,-6.9,-51.3).lineTo(-3,-49.4).curveTo(-0.6,-48.3,0.7,-47.2).lineTo(2.1,-48.2).curveTo(3.2,-49.4,5.1,-50.7).lineTo(8.4,-52.8).lineTo(14.1,-56.6).curveTo(17.8,-58.8,20.5,-58.4).lineTo(20.7,-58.3).lineTo(21.8,-59.1).curveTo(22,-60.2,23.2,-60.1).lineTo(23.4,-60.2).curveTo(23.8,-60.5,24.2,-60.3).curveTo(25.2,-60.8,26.1,-60.1).curveTo(27.1,-59.5,26.7,-58.3).curveTo(25.6,-54,24.1,-45.7).lineTo(23.7,-40.5).lineTo(23.1,-34.3).curveTo(23.4,-27,24,-18).curveTo(24.2,-14.4,24.7,-9.2).lineTo(25.6,-0.5).curveTo(26.1,5.3,26.1,6.8).curveTo(26.2,11,25.3,14.1).curveTo(25.3,14.2,25.2,14.2).curveTo(25.2,14.3,25.2,14.3).curveTo(25.1,14.3,25.1,14.3).curveTo(25,14.4,25,14.4).curveTo(24.9,14.4,24.8,14.4).curveTo(24.8,14.3,24.8,14.3).curveTo(24.7,14.3,24.7,14.3).curveTo(24.6,14.2,24.6,14.2).lineTo(24.1,13.3).lineTo(24.5,17.3).curveTo(24.9,19.8,26.5,27.5).curveTo(27.9,33.9,28.2,37.7).lineTo(30.4,43.1).curveTo(31.6,46.3,32,48.6).curveTo(32.1,49.1,31.9,49.5).curveTo(33.5,52.8,35.2,55.4).curveTo(36,56.6,35.2,57.8).curveTo(34.4,59,33,59.1).lineTo(26.4,60.1).curveTo(21.9,60.7,19.3,60.2).curveTo(18.5,60.7,17.5,60.7).curveTo(13.3,60.2,10.9,59.1).curveTo(7.7,57.5,6.1,54.4).curveTo(5.6,53.4,6,52.5).lineTo(5.1,51.4).curveTo(4.4,51.2,4,50.8).curveTo(0.9,47.7,-0.7,44.6).lineTo(-0.9,44).lineTo(-1,44).lineTo(-2.8,47.5).curveTo(-5.6,53.3,-7.7,56.3).lineTo(-7.5,56.3).curveTo(-7.1,56.5,-7.2,56.9).lineTo(-7.3,57).curveTo(-7.1,57.4,-7.3,57.9).curveTo(-7.4,58.3,-7.7,58.6).curveTo(-10.4,60.9,-14.9,60.9).curveTo(-16.2,60.9,-17.6,60.7).closePath();
+	this.shape_168.setTransform(66.9353,101.4282);
+
+	this.shape_169 = new cjs.Shape();
+	this.shape_169.graphics.beginFill("#10264F").beginStroke().moveTo(-8.1,78.3).curveTo(-9.2,77.9,-9.6,77).lineTo(-11.7,72.1).curveTo(-12.1,71.3,-12,70.4).curveTo(-13.4,66.7,-14.3,63.6).curveTo(-14.5,63.1,-14.4,62.5).curveTo(-15.9,58.4,-16.9,54.6).curveTo(-20,45.7,-20.7,36.1).curveTo(-20.9,34.2,-19,33.6).curveTo(-19.8,29.3,-20.2,24.2).lineTo(-20.2,24).curveTo(-20.9,18.2,-20.5,12.6).lineTo(-20.5,8.5).curveTo(-21.6,7.4,-21.5,5.6).curveTo(-21.4,0.7,-20.8,-4.8).curveTo(-21,-11.9,-20.7,-17.2).lineTo(-20.6,-17.9).curveTo(-20.6,-26.3,-19.1,-34.1).curveTo(-19.6,-34.9,-19.3,-36.1).curveTo(-14.8,-49.2,-12.6,-57.7).curveTo(-12.3,-58.9,-11.1,-59.4).lineTo(-10,-62.6).curveTo(-8.5,-70.4,-9.2,-75).curveTo(-9.4,-76.5,-8.4,-77.6).curveTo(-7.4,-78.8,-5.9,-78.3).curveTo(-3,-77.4,-1.4,-74.6).curveTo(-0.8,-75.5,0.5,-75.8).curveTo(1.9,-76.1,2.8,-75.5).curveTo(8,-71.6,12.2,-70.1).lineTo(14.8,-69.5).curveTo(16.8,-69.1,17.9,-67.1).curveTo(21.9,-65.1,21.5,-55.7).curveTo(21.5,-54.5,19.9,-43.2).curveTo(17,-23.9,8,-7.9).curveTo(5.9,-1,4.7,5.5).curveTo(2.6,17.4,2.7,26.2).curveTo(2.7,28.3,3.4,33.7).curveTo(3.9,38.6,3.9,41.3).lineTo(3.9,41.3).curveTo(5.3,47.6,8.6,55.1).curveTo(9.8,57.9,14.8,68.3).curveTo(15.3,69.4,14.7,70.2).curveTo(14.2,71,13.3,71.1).curveTo(12.9,71.5,12.4,71.7).lineTo(10.4,72.6).curveTo(9.3,73.3,8.7,73.4).curveTo(7.9,74.9,6.3,75.5).curveTo(1.7,77.1,-6.3,78.4).lineTo(-7.1,78.4).curveTo(-7.6,78.4,-8.1,78.3).closePath();
+	this.shape_169.setTransform(112.2903,80.1915);
+
+	this.shape_170 = new cjs.Shape();
+	this.shape_170.graphics.beginFill("#10264F").beginStroke().moveTo(3.4,78.8).curveTo(0.9,78.3,-1.8,76.7).curveTo(-3.4,76.1,-4.5,74.8).lineTo(-4.7,74.5).lineTo(-5.7,74.4).curveTo(-6.2,74.4,-6.8,73.8).curveTo(-9.7,72.9,-12.6,70.4).lineTo(-12.7,70.3).lineTo(-13.9,70.6).curveTo(-15.1,70.8,-15.7,69.8).curveTo(-16.3,68.8,-15.5,67.8).lineTo(-13.6,65.5).curveTo(-13.5,63.9,-12.4,61.4).lineTo(-10.6,57.5).curveTo(-9.3,54.5,-8.6,53.8).lineTo(-6.6,46.3).curveTo(-5.5,41.9,-4.4,36.1).curveTo(-4.5,32.9,-3.9,27.5).lineTo(-3.2,21.7).curveTo(-3.2,17.1,-4.7,10.1).lineTo(-7.1,-1.4).lineTo(-8.2,-4.5).lineTo(-12.6,-14.5).curveTo(-15.3,-20.6,-16.3,-24.7).lineTo(-19.2,-35.5).curveTo(-20.9,-42,-21.5,-46.4).curveTo(-22.2,-52.5,-22.2,-56).curveTo(-22.2,-62.2,-20.2,-65.2).curveTo(-19.5,-66.2,-18.6,-66.5).curveTo(-16.3,-70.4,-8.2,-74.1).curveTo(-5.7,-75.3,2.7,-78.4).curveTo(5.8,-79.5,7.5,-78.7).curveTo(9.4,-77.8,9.2,-74.6).lineTo(8.9,-70.6).curveTo(10.5,-70.1,10.7,-68.7).curveTo(11.9,-60,13.4,-51.1).lineTo(13.4,-50.9).curveTo(14.3,-49.2,15,-46.5).curveTo(15.6,-46.1,16,-45.6).curveTo(17.7,-43.2,18.3,-38.8).curveTo(18.7,-36.3,19.2,-31.4).curveTo(20.1,-24.6,20.7,-17.8).curveTo(21.3,-16.7,21.3,-15.4).curveTo(21.7,-10.2,21.9,2.8).lineTo(22.2,11.3).curveTo(22.1,16.3,20.4,19.5).lineTo(20,20.1).lineTo(20,20.4).curveTo(20.1,20.8,20.1,21.3).curveTo(19.1,43.4,13.2,64.4).lineTo(12.7,65.2).lineTo(11.8,68.8).lineTo(10.6,73.8).curveTo(9.6,77.1,8.1,78.2).curveTo(6.9,79,5.2,79).curveTo(4.4,79,3.4,78.8).closePath();
+	this.shape_170.setTransform(22.4481,80.3109);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_shirt_12, new cjs.Rectangle(-1.1,-3.8,141,169.20000000000002), null);
+
+
+(lib.btn_shirt_11 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.9).curveTo(-1.2,0.5,-1.2,0).curveTo(-1.2,-0.5,-0.8,-0.9).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.9,-0.9).curveTo(1.2,-0.5,1.2,0).curveTo(1.2,0.5,0.9,0.9).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.9).closePath();
+	this.shape.setTransform(67.4,124.8);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.8).curveTo(-1.2,0.5,-1.2,-0).curveTo(-1.2,-0.5,-0.8,-0.8).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.9,-0.8).curveTo(1.2,-0.5,1.2,-0).curveTo(1.2,0.5,0.9,0.8).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.8).closePath();
+	this.shape_1.setTransform(82.5,100.45);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.8).curveTo(-1.2,0.5,-1.2,0).curveTo(-1.2,-0.5,-0.8,-0.9).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.9,-0.9).curveTo(1.2,-0.5,1.2,0).curveTo(1.2,0.5,0.9,0.8).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.8).closePath();
+	this.shape_2.setTransform(55.05,103.2);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.9,0.8).curveTo(-1.2,0.5,-1.2,0).curveTo(-1.2,-0.5,-0.9,-0.9).curveTo(-0.5,-1.2,0,-1.2).curveTo(0.5,-1.2,0.8,-0.9).curveTo(1.2,-0.5,1.2,0).curveTo(1.2,0.5,0.8,0.8).curveTo(0.5,1.2,0,1.2).curveTo(-0.5,1.2,-0.9,0.8).closePath();
+	this.shape_3.setTransform(90.2,79.9);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.9).curveTo(-1.2,0.5,-1.2,-0).curveTo(-1.2,-0.5,-0.8,-0.8).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.8,-0.8).curveTo(1.2,-0.5,1.2,-0).curveTo(1.2,0.5,0.8,0.9).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.9).closePath();
+	this.shape_4.setTransform(42.35,80.6);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#006E91").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,-0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,-0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,-0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_5.setTransform(66.85,125.875);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#006E91").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,1,-2.3,0).curveTo(-2.3,-0.9,-1.6,-1.6).curveTo(-1,-2.3,-0,-2.3).curveTo(0.9,-2.3,1.6,-1.6).curveTo(2.3,-0.9,2.3,0).curveTo(2.3,1,1.6,1.6).curveTo(0.9,2.3,-0,2.3).curveTo(-1,2.3,-1.6,1.6).closePath();
+	this.shape_6.setTransform(89.575,80.925);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#006E91").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,-0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_7.setTransform(81.8,101.5);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill("#006E91").beginStroke().moveTo(-1.4,1.3).curveTo(-1.9,0.8,-1.9,-0).curveTo(-1.9,-0.8,-1.4,-1.4).curveTo(-0.8,-1.9,-0,-1.9).curveTo(0.8,-1.9,1.4,-1.4).curveTo(1.9,-0.8,2,-0).curveTo(1.9,0.8,1.4,1.3).curveTo(0.8,2,-0,1.9).curveTo(-0.8,2,-1.4,1.3).closePath();
+	this.shape_8.setTransform(54.7,103.9);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill("#006E91").beginStroke().moveTo(-1.5,1.5).curveTo(-2.2,0.9,-2.2,-0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.2,0,-2.2).curveTo(0.9,-2.2,1.5,-1.5).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.5,1.5).curveTo(0.9,2.2,0,2.2).curveTo(-0.9,2.2,-1.5,1.5).closePath();
+	this.shape_9.setTransform(41.675,81.275);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,-0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.3).curveTo(6.1,-2.5,6.1,-0).curveTo(6.1,2.5,4.3,4.3).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.3).closePath();
+	this.shape_10.setTransform(52.65,106.4);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.3).curveTo(-2.5,-6.1,0,-6.1).curveTo(2.5,-6.1,4.3,-4.3).curveTo(6,-2.5,6.1,-0).curveTo(6,2.5,4.3,4.3).curveTo(2.5,6.1,0,6.1).curveTo(-2.5,6.1,-4.3,4.3).closePath();
+	this.shape_11.setTransform(65.55,128.675);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,-0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.3,-4.3).curveTo(6.1,-2.5,6.1,-0).curveTo(6.1,2.5,4.3,4.3).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.3,4.3).closePath();
+	this.shape_12.setTransform(80.075,103.8);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,-0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6.1,-0,-6.1).curveTo(2.5,-6.1,4.3,-4.3).curveTo(6,-2.5,6.1,-0).curveTo(6,2.5,4.3,4.3).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.3).closePath();
+	this.shape_13.setTransform(40.85,84);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6.1,0,-6.1).curveTo(2.5,-6.1,4.3,-4.3).curveTo(6.1,-2.5,6.1,0).curveTo(6.1,2.5,4.3,4.3).curveTo(2.5,6.1,0,6.1).curveTo(-2.5,6.1,-4.3,4.3).closePath();
+	this.shape_14.setTransform(88.075,83.325);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.2).lineTo(1.5,-3.8).curveTo(1.8,-1.1,2.7,2.8).lineTo(-1.4,3.8).curveTo(-2.2,0.3,-2.7,-3.2).closePath();
+	this.shape_15.setTransform(110.325,129.1);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.2,-2.7).lineTo(0.9,-4).curveTo(2.3,0.2,3.2,2.3).lineTo(-0.8,4).curveTo(-2.2,0.5,-3.2,-2.7).closePath();
+	this.shape_16.setTransform(113.575,140.95);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.6,-2.1).lineTo(0.3,-4).curveTo(1,-2.5,3.5,1.7).lineTo(0,4.1).curveTo(-2.5,0,-3.6,-2.1).closePath();
+	this.shape_17.setTransform(118.75,152.1);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,3.1).curveTo(-2.1,-0.6,-1.5,-3.7).lineTo(2.6,-3).curveTo(2,0.6,1.6,3.7).closePath();
+	this.shape_18.setTransform(110.275,92.175);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.4,3.4).lineTo(-1.9,-3.5).lineTo(2.4,-3.2).lineTo(1.9,3.6).closePath();
+	this.shape_19.setTransform(108.9,104.35);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.3,-3.5).lineTo(1.9,-3.6).curveTo(2,0.4,2.3,3.2).lineTo(-1.9,3.5).curveTo(-2.3,-0.4,-2.3,-3.5).closePath();
+	this.shape_20.setTransform(108.825,116.8);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,2.7).lineTo(-1.1,-3.9).lineTo(3,-2.7).lineTo(1,3.9).closePath();
+	this.shape_21.setTransform(119.35,56.525);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,2.7).lineTo(-1.1,-3.9).lineTo(3,-2.7).lineTo(1.1,3.9).closePath();
+	this.shape_22.setTransform(115.85,68.225);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,2.9).curveTo(-2.2,-0.2,-1.2,-3.8).lineTo(2.8,-2.8).lineTo(1.3,3.8).closePath();
+	this.shape_23.setTransform(112.7,80.075);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill("#2E2014").beginStroke().moveTo(-2,3.4).curveTo(-2,0.4,-2.3,-3.1).lineTo(2,-3.5).curveTo(2.3,0.2,2.2,3.5).closePath();
+	this.shape_24.setTransform(125.4536,20.575);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,2.9).lineTo(-1.7,-3.6).lineTo(2.5,-3.3).lineTo(1.7,3.7).closePath();
+	this.shape_25.setTransform(124.85,32.8);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.9,2.7).lineTo(-1.3,-3.8).lineTo(2.9,-2.9).lineTo(1.2,3.8).closePath();
+	this.shape_26.setTransform(122.575,44.7);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,3.2).lineTo(-2.1,-3.3).lineTo(2.1,-3.2).lineTo(2.1,3.2).closePath();
+	this.shape_27.setTransform(95.975,121.8);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.2).lineTo(-2,-3.3).lineTo(2.2,-3.1).lineTo(2,3.3).closePath();
+	this.shape_28.setTransform(96.2,110.25);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.2).lineTo(-2.1,-3.3).lineTo(2.2,-3.1).lineTo(2.1,3.3).closePath();
+	this.shape_29.setTransform(96.45,98.625);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,-2.7).lineTo(1.2,-3.7).curveTo(1.9,-0.9,3,2.3).lineTo(-1.1,3.7).curveTo(-2,0.8,-3,-2.7).closePath();
+	this.shape_30.setTransform(99.75,156.275);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,-3).lineTo(1.6,-3.5).curveTo(2,-0.5,2.5,2.7).lineTo(-1.6,3.5).curveTo(-2.3,-0.4,-2.5,-3).closePath();
+	this.shape_31.setTransform(97.35,145.05);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.3,-3.2).lineTo(2,-3.3).lineTo(2.3,3).lineTo(-2,3.3).lineTo(-2.3,-3.2).closePath();
+	this.shape_32.setTransform(96.25,133.525);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,4.1).lineTo(-1.7,-4.5).lineTo(2.5,-4.1).lineTo(1.7,4.5).closePath();
+	this.shape_33.setTransform(98.625,69.75);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,4).lineTo(-1.6,-4.5).lineTo(2.7,-4).lineTo(1.6,4.6).closePath();
+	this.shape_34.setTransform(100.35,54.4);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,3.9).lineTo(-1.4,-4.6).lineTo(2.8,-3.9).lineTo(1.4,4.6).closePath();
+	this.shape_35.setTransform(102.575,39.1);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.4,4).lineTo(-1.9,-4.3).lineTo(2.3,-4.1).lineTo(1.9,4.3).closePath();
+	this.shape_36.setTransform(78,120);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,3.8).curveTo(-2,0.2,-1.6,-4.4).lineTo(2.6,-4).curveTo(2,1.8,1.6,4.4).closePath();
+	this.shape_37.setTransform(76.75,134.975);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,3.4).curveTo(-1.8,-1.2,-1.2,-4.6).lineTo(3,-3.7).curveTo(2.2,0.6,1.1,4.6).closePath();
+	this.shape_38.setTransform(74.225,149.775);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.9).lineTo(1.5,-4.5).lineTo(2.7,3.9).lineTo(-1.5,4.4).closePath();
+	this.shape_39.setTransform(75.4,75.05);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.8).lineTo(1.5,-4.4).lineTo(2.7,3.9).lineTo(-1.5,4.4).closePath();
+	this.shape_40.setTransform(77.55,89.925);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,4.1).curveTo(-2,-0.9,-2.1,-4.1).lineTo(2.2,-4.2).curveTo(2.3,-0.8,2,4.2).closePath();
+	this.shape_41.setTransform(78.6143,104.85);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,3.3).lineTo(-2.1,-0.3).lineTo(-1.7,-3.8).lineTo(2.5,-3.5).lineTo(1.8,3.8).closePath();
+	this.shape_42.setTransform(50.4,133.575);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,3.1).curveTo(-2.5,2,-2.1,-0.4).lineTo(-1.4,-4).lineTo(2.8,-3.3).lineTo(2.1,0.3).lineTo(1.4,4).closePath();
+	this.shape_43.setTransform(48.575,146.425);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.1,2.7).lineTo(-2,-0.7).lineTo(-1,-4.1).lineTo(3.1,-3).lineTo(1,4.1).closePath();
+	this.shape_44.setTransform(45.5,159.075);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,3.6).lineTo(-2.1,0.1).lineTo(-2.2,-3.5).lineTo(2,-3.7).curveTo(2.3,-0,2.2,3.7).closePath();
+	this.shape_45.setTransform(51.8143,94.3);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.6).lineTo(-2.1,-3.7).lineTo(2.2,-3.6).lineTo(2.1,3.7).closePath();
+	this.shape_46.setTransform(51.775,107.375);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.3,3.5).lineTo(-2,-3.7).lineTo(2.3,-3.6).lineTo(1.9,3.8).closePath();
+	this.shape_47.setTransform(51.375,120.45);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,-2.9).lineTo(1.1,-4.1).curveTo(2.4,0.4,3,3.1).lineTo(-1.2,4).curveTo(-2,0.7,-3,-2.9).closePath();
+	this.shape_48.setTransform(46.175,55.65);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.2).lineTo(1.4,-4).curveTo(2,-1.3,2.7,3.3).lineTo(-1.5,3.9).lineTo(-2.7,-3.2).closePath();
+	this.shape_49.setTransform(48.875,68.35);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,-3.3).lineTo(1.6,-3.8).lineTo(2.5,3.4).lineTo(-1.7,3.8).closePath();
+	this.shape_50.setTransform(50.8,81.25);
+
+	this.shape_51 = new cjs.Shape();
+	this.shape_51.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,3.1).curveTo(-2.2,0.9,-1.7,-3.8).lineTo(2.6,-3.4).lineTo(1.6,3.8).closePath();
+	this.shape_51.setTransform(31.175,130.475);
+
+	this.shape_52 = new cjs.Shape();
+	this.shape_52.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.9,2.9).lineTo(-1.3,-3.9).lineTo(2.9,-3.1).lineTo(2.1,0.5).lineTo(1.2,4).closePath();
+	this.shape_52.setTransform(28.875,143);
+
+	this.shape_53 = new cjs.Shape();
+	this.shape_53.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.2,2.6).lineTo(-0.9,-4.1).lineTo(3.2,-2.8).lineTo(0.8,4.1).closePath();
+	this.shape_53.setTransform(25.275,155.275);
+
+	this.shape_54 = new cjs.Shape();
+	this.shape_54.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,-3.1).lineTo(1.6,-3.8).lineTo(2.6,3.3).lineTo(-1.6,3.8).lineTo(-2.6,-3.1).closePath();
+	this.shape_54.setTransform(30.85,91.975);
+
+	this.shape_55 = new cjs.Shape();
+	this.shape_55.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,0.2).lineTo(-2.3,-3.3).lineTo(2,-3.7).lineTo(2.1,-0.1).curveTo(2.3,1.7,2.3,3.6).lineTo(-2,3.7).curveTo(-2,1.9,-2.1,0.2).closePath();
+	this.shape_55.setTransform(32.1,104.675);
+
+	this.shape_56 = new cjs.Shape();
+	this.shape_56.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.4).lineTo(-2,-3.7).lineTo(2.3,-3.6).lineTo(2.2,0).lineTo(1.9,3.6).closePath();
+	this.shape_56.setTransform(32.25,117.6);
+
+	this.shape_57 = new cjs.Shape();
+	this.shape_57.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,-3).lineTo(1.1,-4.1).curveTo(1.9,-0.7,3,2.8).lineTo(-1,4).curveTo(-2.5,-0.9,-3,-3).closePath();
+	this.shape_57.setTransform(21.275,54.75);
+
+	this.shape_58 = new cjs.Shape();
+	this.shape_58.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.1,-2.6).lineTo(0.9,-4.1).lineTo(3.1,2.9).lineTo(-1,4).lineTo(-3.1,-2.6).closePath();
+	this.shape_58.setTransform(25.15,66.9);
+
+	this.shape_59 = new cjs.Shape();
+	this.shape_59.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.9,-2.9).lineTo(1.3,-4).lineTo(2.9,3.1).lineTo(-1.3,4).lineTo(-2.9,-2.9).closePath();
+	this.shape_59.setTransform(28.525,79.275);
+
+	this.shape_60 = new cjs.Shape();
+	this.shape_60.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,-3.7).lineTo(2.2,-3.5).lineTo(2.1,3.6).lineTo(-2.2,3.6).closePath();
+	this.shape_60.setTransform(15.825,16.35);
+
+	this.shape_61 = new cjs.Shape();
+	this.shape_61.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,-3.5).lineTo(1.7,-3.8).curveTo(2,-0.6,2.5,3.3).lineTo(-1.8,3.8).curveTo(-2.4,-2,-2.5,-3.5).closePath();
+	this.shape_61.setTransform(16.4,29.3);
+
+	this.shape_62 = new cjs.Shape();
+	this.shape_62.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,-3.2).lineTo(1.4,-3.9).lineTo(2.8,3).lineTo(-1.4,4).closePath();
+	this.shape_62.setTransform(18.225,42.1);
+
+	this.shape_63 = new cjs.Shape();
+	this.shape_63.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-23.3,25.9).lineTo(13.1,2.6).curveTo(15.2,1.2,15.9,0.3).curveTo(16.7,-0.7,17.5,-3.2).curveTo(21.2,-14.8,22.7,-26.8);
+	this.shape_63.setTransform(85.7188,34.5828);
+
+	this.shape_64 = new cjs.Shape();
+	this.shape_64.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.1,78.6).curveTo(3,76.5,8.6,72.3).curveTo(10.7,70.7,13.9,65.3).curveTo(21.3,53.1,29.1,25.2).curveTo(35.6,2,37.2,-11.1).curveTo(22.7,-14.1,5.8,-23.9).curveTo(-4.5,-29.9,-22.7,-43).curveTo(-24.5,-44.4,-27.7,-47.1).lineTo(-30.5,-49.6).curveTo(-37.1,-64,-37.4,-79.8);
+	this.shape_64.setTransform(61.5163,87.8274);
+
+	this.shape_65 = new cjs.Shape();
+	this.shape_65.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(41.2,-79.9).curveTo(53,-76.1,61.3,-71.3).curveTo(64.3,-69.7,65.4,-68.1).curveTo(66.4,-66.4,66.6,-62.8).curveTo(67.2,-49.6,63.8,-36.9).curveTo(62.3,-31.5,59.1,-23).curveTo(55.1,-12.5,54,-9.3).curveTo(47.2,11.4,48.6,29.9).curveTo(49.4,40,52.6,49.3).curveTo(55.9,59,61.7,66.8).curveTo(58.8,69.6,51.8,72.7).curveTo(45.8,75.3,38.7,76.9).moveTo(-10.9,79.9).curveTo(-15.1,79.8,-17.9,79.7).curveTo(-37.9,78.7,-51.8,72.7).curveTo(-56.1,70.8,-59.3,68.6).lineTo(-61.7,66.8).curveTo(-55.9,59,-52.6,49.3).curveTo(-49.4,40,-48.6,29.9).curveTo(-47.2,11.2,-54,-9.3).curveTo(-55,-12.3,-59.1,-23).curveTo(-62.3,-31.5,-63.7,-36.9).curveTo(-67.2,-49.6,-66.6,-62.8).curveTo(-66.5,-66.3,-65.4,-68.1).curveTo(-64.3,-69.7,-61.3,-71.3).curveTo(-53,-76,-41.4,-79.8);
+	this.shape_65.setTransform(66.6938,86.725);
+
+	this.shape_66 = new cjs.Shape();
+	this.shape_66.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(6.5,-74.5).curveTo(7.8,-69.7,7.4,-63.5).curveTo(7.2,-59.3,5.9,-52.5).curveTo(5.2,-48.6,-0.9,-20.6).curveTo(-5.1,-1.2,-6.5,11.5).curveTo(-10.8,49.7,2.3,75.2);
+	this.shape_66.setTransform(109.85,84.4779);
+
+	this.shape_67 = new cjs.Shape();
+	this.shape_67.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(2.4,13.6).curveTo(1.9,13.6,1.7,12.8).curveTo(0.2,7,-0.8,-0.3).curveTo(-1.6,-7.2,-1.7,-13.6);
+	this.shape_67.setTransform(86.25,145.8);
+
+	this.shape_68 = new cjs.Shape();
+	this.shape_68.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(0.2,-11.4).curveTo(-0.5,-7.8,-0.2,-0.3).lineTo(0.3,12.6);
+	this.shape_68.setTransform(82.5794,58.2147);
+
+	this.shape_69 = new cjs.Shape();
+	this.shape_69.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-5.1,-53.4).curveTo(-2.6,-48,-0.8,-40.9).curveTo(0.2,-36.7,1.7,-27.9).curveTo(3.3,-18.7,4,-13.6).curveTo(5,-5.7,5,0.8).curveTo(4.9,8,3.5,17.7).curveTo(0.9,36.2,-4.5,54.3);
+	this.shape_69.setTransform(61.234,110.5213);
+
+	this.shape_70 = new cjs.Shape();
+	this.shape_70.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-7.2,-64.9).curveTo(-5.1,-60,-3.5,-53.6).curveTo(-2.3,-49.3,-0.8,-41.9).curveTo(2.7,-25.4,4.3,-15).curveTo(6.6,-0.2,7,12.2).curveTo(8.1,43,-2.2,65.7);
+	this.shape_70.setTransform(35.6787,97.8759);
+
+	this.shape_71 = new cjs.Shape();
+	this.shape_71.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-8.5,-71.7).curveTo(-10.7,-54.3,-5.3,-37.6).curveTo(-4.8,-36.1,-1.2,-26.5).curveTo(8.8,-0.1,9.1,22.5).curveTo(9.3,35.5,6.3,47.5).curveTo(3.2,60.2,-3.3,70.6);
+	this.shape_71.setTransform(14.7128,86.0825);
+
+	this.shape_72 = new cjs.Shape();
+	this.shape_72.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-17.7,-4.4).curveTo(-9.6,0.7,-0.1,2.8).curveTo(9.4,4.9,18.9,3.8);
+	this.shape_72.setTransform(93.3358,158.2356);
+
+	this.shape_73 = new cjs.Shape();
+	this.shape_73.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-21.6,79.3).lineTo(-28.9,78.7).curveTo(-34.5,77.9,-36.4,76.2).lineTo(-37,76.2).lineTo(-37.1,76.1).lineTo(-37.2,76.1).curveTo(-39.2,76,-41.3,75.4).curveTo(-47.3,74.1,-53.7,71.5).curveTo(-54.2,71.6,-54.5,71.4).curveTo(-57.2,70.3,-58.8,69.1).curveTo(-59.7,68.5,-59.9,67.5).curveTo(-60.2,66.5,-59.7,65.6).curveTo(-55,57.4,-51.1,44.9).curveTo(-50.6,43.5,-50,40.7).lineTo(-49,36.1).curveTo(-48.5,28.8,-47.5,22.7).lineTo(-47.6,17.6).lineTo(-48.4,12.3).lineTo(-50.2,1.2).lineTo(-50.6,-0.3).curveTo(-51.9,-4.1,-52.5,-7.9).lineTo(-56.1,-16.4).curveTo(-58,-21.2,-58.9,-25).curveTo(-62.2,-32.8,-63.9,-40.6).curveTo(-64.1,-41.3,-63.9,-41.9).curveTo(-64.5,-44.7,-64.7,-46.3).curveTo(-65.3,-46.9,-65.3,-47.9).lineTo(-65.6,-58.9).lineTo(-65.9,-63.1).curveTo(-66,-65.8,-65.6,-67.3).curveTo(-64.7,-70.3,-60.7,-72.3).curveTo(-59.1,-73.1,-53.9,-74.9).curveTo(-53.1,-75.2,-52.3,-74.8).curveTo(-50.4,-76.5,-47.5,-76.3).curveTo(-47,-77.4,-46.4,-78.2).curveTo(-45.4,-79.8,-43.4,-79.3).curveTo(-41.3,-78.9,-41.6,-76.9).lineTo(-42.1,-70.6).curveTo(-41.2,-67.3,-40.2,-60.7).lineTo(-38.4,-54.9).lineTo(-37.1,-50.9).curveTo(-36.4,-48.4,-36,-46.7).lineTo(-31.7,-43).lineTo(-22.1,-36.9).lineTo(-15.6,-32.8).curveTo(-11.7,-30.2,-9.5,-27.9).lineTo(-4.1,-24.9).curveTo(3.4,-31.4,15.6,-39).curveTo(22.6,-43.3,36.5,-51.6).curveTo(39.5,-62.9,41.8,-77.1).curveTo(41.9,-77.9,42.7,-78).curveTo(43.4,-78.1,43.9,-77.5).curveTo(46.3,-77.8,49.3,-76.5).lineTo(54.4,-74.1).lineTo(59.2,-72.4).curveTo(62,-71.2,63.2,-69.5).curveTo(65.9,-66.5,65.9,-58.9).curveTo(65.9,-55.1,64.9,-48.4).curveTo(64.2,-42.9,62.3,-36).lineTo(58.7,-23.8).curveTo(57.9,-20.4,57,-17.7).curveTo(56.8,-16.5,55.7,-16.1).lineTo(52.8,-6.2).curveTo(51.9,-3.2,50.9,4).curveTo(50,10.6,48.8,14).lineTo(48.3,14.7).lineTo(48,21.7).curveTo(47.8,25.2,47.8,32.4).lineTo(47.9,32.7).curveTo(49.2,34.4,49.2,36.7).lineTo(49.3,36.7).curveTo(49.5,38.9,49.3,41.4).lineTo(49.3,41.7).lineTo(50,45).lineTo(50.8,48.4).curveTo(55.3,51.9,58.2,60.8).curveTo(60.9,69.7,57.3,69.2).lineTo(57.2,69.4).curveTo(55.5,72,51,73.7).curveTo(46.8,75.3,43.2,75).lineTo(40.6,75.7).curveTo(36.6,76.5,34.1,76.5).curveTo(29.7,76.5,27.9,74.6).curveTo(19,73.8,10.6,67.8).curveTo(10.1,67.5,9.8,66.9).lineTo(9,66.3).curveTo(5.3,72.6,0.8,73.7).curveTo(-3.4,77.6,-9.7,78.8).curveTo(-12.8,79.4,-16.9,79.4).curveTo(-19.1,79.4,-21.6,79.3).closePath();
+	this.shape_73.setTransform(66.8063,86.497);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_shirt_11, new cjs.Rectangle(-6.3,5.6,146,162.3), null);
+
+
+(lib.btn_shirt_09 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-2.4,-6.2).curveTo(-0.7,0.3,2.4,6.2);
+	this.shape.setTransform(71.125,147.825);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(1,-8.2).curveTo(1.6,0.1,-1.1,8.2);
+	this.shape_1.setTransform(66.7545,149.5);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(1,4.9).curveTo(2.4,6.8,3.7,6.1).curveTo(4.1,5.9,4.3,5.3).curveTo(5,4.1,4.9,2.6).curveTo(4.8,1.1,4.1,-0.2).curveTo(2.9,-2.2,0.1,-4.6).curveTo(-3.4,-7.4,-4.7,-5.4).curveTo(-5.9,-3.4,1,4.9).closePath();
+	this.shape_2.setTransform(72.6858,141.3819);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-4.2,5).curveTo(-4.5,7.8,-3,8.3).curveTo(-1.7,8.7,-0.2,7).curveTo(2.2,4,3.6,-0.4).curveTo(5.3,-5.8,2.9,-8).curveTo(0.1,-6.2,-1.9,-2.3).curveTo(-3.7,1.2,-4.2,5).closePath();
+	this.shape_3.setTransform(63.3496,142.5058);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-10.4,0).lineTo(10.5,0);
+	this.shape_4.setTransform(68.3,133.4);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill().beginStroke("#FBC85B").setStrokeStyle(3.4,1).moveTo(9.5,-38).lineTo(-7.8,-19.5).lineTo(7.3,1.5).lineTo(-9,21).lineTo(9.7,38.1);
+	this.shape_5.setTransform(68.1498,94.3);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-8.4,-38.6).lineTo(8.2,-20.1).lineTo(-6.9,1.6).lineTo(9.1,20.4).lineTo(-9.7,38.6);
+	this.shape_6.setTransform(66.7391,94.825);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-7.8,0).lineTo(7.8,0);
+	this.shape_7.setTransform(67.325,56.6);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2.5,2.2).curveTo(-3.1,-2.5,-1.7,-6.2).curveTo(-0.9,-8.1,0.4,-8.2).curveTo(1.4,-8.2,2.1,-7.1).curveTo(2.5,-6.3,2.6,-4.9).curveTo(3,0.8,1.2,5.9).curveTo(-0.2,9.6,-1.3,7.3).curveTo(-2,5.7,-2.5,2.2).closePath();
+	this.shape_8.setTransform(109.435,119.9766);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.1,7.3).curveTo(-2.7,1.8,-5.3,-5).curveTo(-6.5,-8,-5.1,-9.3).curveTo(-4.5,-9.9,-3.7,-9.9).curveTo(-2.9,-10,-2.1,-9.6).curveTo(-0.9,-9,0.2,-7.3).curveTo(3.8,-2.4,5,3.4).curveTo(5.1,4.1,5.6,6.4).curveTo(6,8.6,5.6,9.3).curveTo(4.9,10.5,3.9,9.5).curveTo(2.7,7.9,2.1,7.3).closePath();
+	this.shape_9.setTransform(92.6105,85.4869);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(5.9,-3.3).curveTo(7.2,-5.6,6.1,-6.6).curveTo(5.6,-7.1,4.6,-7.1).curveTo(2.2,-7.2,-0.1,-5.3).curveTo(-1.7,-4.1,-3.5,-1.4).curveTo(-5.4,1.4,-6.3,4.6).curveTo(-7.5,8.6,-3.6,6.2).curveTo(2.6,2.2,5.9,-3.3).closePath();
+	this.shape_10.setTransform(104.9359,102.6611);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-0.7,4).curveTo(-3.6,3.5,-4.9,2.7).curveTo(-7.2,1.4,-7.4,-0.8).curveTo(-7.5,-2,-6.9,-3).curveTo(-6.2,-4,-5.1,-4.2).curveTo(-4.5,-4.3,-3.6,-4.2).curveTo(-0.7,-3.8,2.1,-2.6).curveTo(5.6,-1.1,6.9,0.8).curveTo(8.5,3.3,4.9,4).curveTo(2.2,4.5,-0.7,4).closePath();
+	this.shape_11.setTransform(95.7002,121.28);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(4.7,7.7).curveTo(6.3,4.3,6.7,0.5).curveTo(7,-3.3,6,-6.9).curveTo(5.9,-7.4,5.7,-7.6).curveTo(5.4,-7.8,4.9,-7.7).curveTo(-0.5,-6.9,-3.6,-3.8).curveTo(-5.4,-2,-6.2,0.2).curveTo(-7,2.6,-6.6,4.9);
+	this.shape_12.setTransform(106.9425,60.4833);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.6,-2.4).curveTo(2,-4.3,1.2,-5.2).curveTo(-0.2,-6.7,-1.7,-6.3).curveTo(-2.5,-6,-3.1,-5.4).curveTo(-4,-4.4,-4.2,-2.9).curveTo(-4.4,-1.5,-3.9,-0.2).curveTo(-3.2,1.7,-1.2,4).curveTo(1.2,6.6,2.8,6.3).curveTo(4.7,5.8,4.1,2.3).curveTo(3.9,1.4,2.6,-2.4).closePath();
+	this.shape_13.setTransform(97.8543,68.7022);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(1.9,-3.3).curveTo(3,-4.1,3.8,-4).curveTo(5.2,-4,5.8,-2.4).curveTo(6.2,-1.5,6.1,0.3).curveTo(6,1.8,5.6,2.4).curveTo(4.5,4.2,0.5,4).curveTo(-1.6,3.9,-2.7,3.9).curveTo(-4.6,3.8,-5.6,3.2).curveTo(-4.5,1.4,-2.3,-0.5).curveTo(-0.1,-2.3,1.9,-3.3).closePath();
+	this.shape_14.setTransform(107.4392,72.5587);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.4,33.2).lineTo(-3.6,13.5).curveTo(-5.8,10.2,-6.7,8.5).curveTo(-8.2,5.6,-8.8,3.1).curveTo(-9.6,-0.5,-8.8,-7.4).lineTo(-5.8,-33.8);
+	this.shape_15.setTransform(107.1444,109.5295);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.5,2.2).curveTo(3.1,-2.5,1.7,-6.2).curveTo(0.9,-8.1,-0.4,-8.2).curveTo(-1.4,-8.2,-2.1,-7.1).curveTo(-2.5,-6.3,-2.6,-4.9).curveTo(-3,0.8,-1.2,5.9).curveTo(0.2,9.6,1.3,7.3).curveTo(2.1,5.7,2.5,2.2).closePath();
+	this.shape_16.setTransform(25.565,119.9766);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2.1,7.3).curveTo(2.8,1.8,5.3,-5).curveTo(6.5,-8.1,5.1,-9.3).curveTo(4.6,-9.9,3.7,-9.9).curveTo(2.9,-10,2.1,-9.6).curveTo(0.9,-9,-0.2,-7.3).curveTo(-3.7,-2.6,-5,3.4).curveTo(-5.1,4.1,-5.6,6.4).curveTo(-6,8.6,-5.6,9.3).curveTo(-4.9,10.5,-3.8,9.5).curveTo(-2.6,7.9,-2.1,7.3).closePath();
+	this.shape_17.setTransform(42.3895,85.4869);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-5.9,-3.3).curveTo(-7.2,-5.6,-6.1,-6.6).curveTo(-5.6,-7.1,-4.6,-7.1).curveTo(-2.2,-7.2,0.1,-5.3).curveTo(1.7,-4.1,3.5,-1.4).curveTo(5.4,1.4,6.3,4.6).curveTo(7.5,8.6,3.6,6.2).curveTo(-2.6,2.2,-5.9,-3.3).closePath();
+	this.shape_18.setTransform(30.0641,102.6611);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(0.7,4).curveTo(3.5,3.5,4.9,2.7).curveTo(7.2,1.4,7.4,-0.8).curveTo(7.5,-2,6.8,-3).curveTo(6.1,-4,5.1,-4.2).curveTo(4.5,-4.3,3.5,-4.2).curveTo(0.6,-3.8,-2.2,-2.6).curveTo(-5.7,-1.1,-6.9,0.8).curveTo(-8.5,3.3,-4.9,4).curveTo(-2.3,4.5,0.7,4).closePath();
+	this.shape_19.setTransform(39.3105,121.28);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-4.7,7.7).curveTo(-6.3,4.3,-6.7,0.5).curveTo(-7,-3.3,-6,-6.9).curveTo(-5.9,-7.4,-5.7,-7.6).curveTo(-5.4,-7.8,-4.9,-7.7).curveTo(0.5,-6.9,3.6,-3.8).curveTo(5.4,-2.1,6.2,0.2).curveTo(7,2.6,6.6,4.9);
+	this.shape_20.setTransform(28.0575,60.4833);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2.6,-2.4).curveTo(-2,-4.3,-1.1,-5.2).curveTo(0.1,-6.7,1.7,-6.3).curveTo(2.5,-6,3.1,-5.4).curveTo(4,-4.4,4.2,-2.9).curveTo(4.4,-1.5,3.9,-0.2).curveTo(3.2,1.7,1.2,4).curveTo(-1.2,6.6,-2.8,6.3).curveTo(-4.7,5.8,-4.1,2.3).curveTo(-3.9,1.4,-2.6,-2.4).closePath();
+	this.shape_21.setTransform(37.1457,68.7022);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-1.9,-3.3).curveTo(-3,-4.1,-3.8,-4).curveTo(-4.4,-4,-5,-3.5).curveTo(-5.5,-3.1,-5.8,-2.4).curveTo(-6.2,-1.5,-6.1,0.3).curveTo(-6,1.7,-5.6,2.4).curveTo(-4.5,4.2,-0.5,4).curveTo(0.4,3.9,2.7,3.9).curveTo(4.7,3.8,5.6,3.2).curveTo(4.5,1.4,2.3,-0.5).curveTo(0.1,-2.3,-1.9,-3.3).closePath();
+	this.shape_22.setTransform(27.5539,72.5587);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-9.4,33.2).lineTo(3.6,13.5).curveTo(5.8,10.2,6.7,8.5).curveTo(8.2,5.6,8.8,3.1).curveTo(9.6,-0.5,8.8,-7.4).lineTo(5.8,-33.8);
+	this.shape_23.setTransform(27.8556,109.5295);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2,77.4).lineTo(-19.4,43.8).curveTo(-21.1,40.7,-21.5,38.9).curveTo(-21.8,37.2,-21.8,34.7).lineTo(-21.8,-17.3).curveTo(-21.8,-22.3,-21.3,-25).curveTo(-20.7,-29.3,-18.7,-32.1).curveTo(-16.6,-35,-12.4,-37.1).curveTo(-9.8,-38.4,-4.7,-40.1).curveTo(1.4,-42,4.5,-43.4).curveTo(9.4,-45.7,12.6,-48.6).curveTo(18.3,-54,20.4,-61.9).curveTo(22.2,-68.7,21.6,-77.8);
+	this.shape_24.setTransform(97.0612,88.3984);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.1,77.6).curveTo(5.2,71.6,10.7,60.8).curveTo(16.4,49.5,19.3,44).curveTo(20.9,40.9,21.3,39.1).curveTo(21.6,37.7,21.6,34.9).lineTo(21.6,-17.1).curveTo(21.6,-22.1,21.2,-24.8).curveTo(20.5,-29.1,18.6,-31.9).curveTo(16.4,-34.8,12.3,-36.9).curveTo(9.7,-38.2,4.5,-39.9).curveTo(-1.5,-41.8,-4.7,-43.2).curveTo(-9.6,-45.5,-12.7,-48.4).curveTo(-23,-58.1,-21.4,-78.8);
+	this.shape_25.setTransform(38.3674,88.1633);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.6,7.6).curveTo(-1.4,7.5,-1.4,6.6).lineTo(-1.6,3.9).curveTo(-2.2,3.7,-2.4,3.2).curveTo(-3.7,-0.5,-1.5,-3.4).curveTo(-1.5,-5,-1.3,-5.7).curveTo(-1.1,-7,-0.1,-7.4).curveTo(2.6,-8.5,2.8,-3.5).curveTo(2.9,-2,2.4,2.9).curveTo(2.3,4.1,1.5,4.5).lineTo(0.7,4.8).lineTo(0.7,6.2).curveTo(0.7,6.7,0.4,6.8).lineTo(0.4,6.9).curveTo(0.2,7.6,-0.4,7.6).lineTo(-0.6,7.6).closePath();
+	this.shape_26.setTransform(109.4069,119.5239);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill("#3F7745").beginStroke().moveTo(4.9,3.7).curveTo(4,3.5,0.1,3.5).curveTo(-2.8,3.4,-4.5,2.8).curveTo(-6.2,2.1,-7,0.5).curveTo(-7.9,-1.2,-6.6,-2.7).curveTo(-4.8,-4.8,1.3,-2.7).curveTo(4.3,-1.7,5.8,-0.1).lineTo(5.9,-0.1).curveTo(7.8,0.2,7.3,2.1).curveTo(6.8,3.7,5.4,3.7).lineTo(4.9,3.7).closePath();
+	this.shape_27.setTransform(95.4897,121.1016);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.6,6.6).curveTo(-4.2,6.5,-4.6,5.9).curveTo(-5.2,6.2,-5.6,5.9).curveTo(-6.1,5.5,-5.9,4.9).curveTo(-5.5,3.1,-4,0.9).curveTo(-3.2,-0.3,-1.2,-2.7).lineTo(1.2,-5.4).curveTo(2.9,-7,4.4,-6.5).curveTo(6,-5.9,5.9,-4.4).curveTo(5.9,-3.2,4.8,-1.9).curveTo(0.8,2.9,-2.4,6.1).curveTo(-2.9,6.6,-3.5,6.6).lineTo(-3.6,6.6).closePath();
+	this.shape_28.setTransform(105.1091,102.3661);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill("#3F7745").beginStroke().moveTo(2.4,8.8).curveTo(-0.8,4.3,-3.4,-0.3).lineTo(-5.4,-4.1).curveTo(-6.3,-6.3,-5.9,-8.2).curveTo(-5.7,-9.3,-4.5,-9.6).curveTo(-3.3,-9.9,-2.5,-9.1).curveTo(-1.4,-8.1,-1.1,-6.7).curveTo(-0.4,-6.5,-0.2,-6).curveTo(1.3,-3.5,3,0.2).lineTo(5.8,6.7).curveTo(6.6,8.5,5,9.4).curveTo(4.4,9.7,3.9,9.7).curveTo(3.1,9.7,2.4,8.8).closePath();
+	this.shape_29.setTransform(93.338,85.5494);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.9,3.8).curveTo(-4.7,4.1,-5.5,3.8).lineTo(-6.3,3.3).curveTo(-7,3.1,-7.1,2.5).curveTo(-7.3,2,-7,1.4).curveTo(-6.9,0.2,-5.8,-0.6).curveTo(-1.7,-3.6,2.4,-4.1).curveTo(4.4,-4.4,5.7,-3.7).curveTo(7.3,-3,7.1,-1).curveTo(7,0.7,5.4,2).curveTo(4.1,3.1,2.2,3.7).curveTo(0.9,4.2,-0.8,4.2).curveTo(-2.2,4.2,-3.9,3.8).closePath();
+	this.shape_30.setTransform(39.5564,121.2036);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill("#3F7745").beginStroke().moveTo(0.2,7.4).curveTo(-1,6.7,-1.5,4.9).lineTo(-2.1,1.9).curveTo(-2.8,-2,-2.3,-6.5).curveTo(-2.2,-7.5,-1.1,-7.6).curveTo(-0.1,-7.6,-0.1,-6.5).lineTo(-0.1,-6.3).curveTo(0.4,-6.3,0.7,-6).curveTo(1.6,-5.1,1.9,-3.4).lineTo(2.2,-0.4).curveTo(2.7,2.6,2.4,6.1).curveTo(2.3,6.9,1.6,7.4).curveTo(1.3,7.6,0.9,7.6).curveTo(0.5,7.6,0.2,7.4).closePath();
+	this.shape_31.setTransform(25.783,119.8875);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#3F7745").beginStroke().moveTo(3.2,6.8).curveTo(-0.5,2.8,-1.8,1.2).curveTo(-4.5,-2.1,-6.1,-4.9).curveTo(-6.6,-5.8,-6,-6.7).curveTo(-5.3,-7.6,-4.3,-7.3).curveTo(-3.4,-7,-2.9,-6.6).curveTo(-2.6,-6.3,-2.1,-5.6).curveTo(-1,-6,-0.3,-5.1).curveTo(2.6,-2.2,3.9,-0.3).curveTo(6.1,2.8,6.3,5.5).curveTo(6.4,6.7,5.2,7.2).curveTo(4.7,7.4,4.4,7.4).curveTo(3.7,7.4,3.2,6.8).closePath();
+	this.shape_32.setTransform(30.52,103.0801);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill("#3F7745").beginStroke().moveTo(-4.9,9.1).curveTo(-6,8.4,-5.5,7.3).lineTo(-4.8,5.8).curveTo(-5,5.1,-4.8,4.6).curveTo(-2.8,-2.8,1.8,-8.6).curveTo(2.3,-9.3,3,-9.3).curveTo(3.6,-9.3,4.2,-8.7).curveTo(5.4,-8.6,5.6,-7.2).curveTo(5.7,-5.4,5,-3.5).curveTo(4.5,-2.3,3.3,-0.1).lineTo(1.6,3.3).curveTo(0.4,5.3,-1,5.7).curveTo(-1.4,6.5,-2.1,6.8).lineTo(-3.1,8.6).curveTo(-3.5,9.3,-4.1,9.3).curveTo(-4.5,9.3,-4.9,9.1).closePath();
+	this.shape_33.setTransform(42.1094,85.4174);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill("#C6EAE6").beginStroke().moveTo(-2.2,5.5).curveTo(-2.6,5.5,-2.8,5.1).curveTo(-2.9,5.1,-2.9,5.1).curveTo(-3,5.1,-3,5.1).curveTo(-3,5.1,-3.1,5).curveTo(-3.1,5,-3.2,5).curveTo(-3.2,4.9,-3.2,4.9).curveTo(-3.2,4.8,-3.2,4.8).curveTo(-3.3,4.7,-3.2,4.7).curveTo(-3.2,4.6,-3.2,4.6).lineTo(-2.8,3.1).curveTo(-2.6,0.5,-1.7,-1.4).lineTo(-1.8,-2.1).curveTo(-1.8,-3.1,-1.3,-3.9).curveTo(-0.8,-4.5,-0,-4.8).curveTo(0.5,-5.3,1.3,-5.5).curveTo(2.2,-5.7,2.5,-5).curveTo(3,-4.1,3.1,-3.2).curveTo(3.3,-2.9,3.2,-2.6).lineTo(3.2,-2.4).lineTo(3.2,-2.3).curveTo(3.3,-2,3.2,-1.7).lineTo(2.7,0).curveTo(1.9,2.7,0.4,4.7).curveTo(-0.4,5.8,-1.5,5.3).curveTo(-1.7,5.5,-2.1,5.5).lineTo(-2.2,5.5).closePath();
+	this.shape_34.setTransform(37.2612,68.6319);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill("#C6EAE6").beginStroke().moveTo(2.8,3.5).curveTo(1.5,3.2,0.2,2.5).curveTo(-0.3,2.8,-0.9,2.9).curveTo(-1.8,3,-2.5,2.6).curveTo(-3.3,2.2,-3.7,1.5).curveTo(-4.8,0.7,-4.8,-0.7).curveTo(-4.7,-2.1,-3.6,-2.8).curveTo(-3.2,-3.2,-2.7,-3.2).curveTo(-2.2,-3.7,-1.5,-3.5).curveTo(-0.8,-3.4,-0.4,-2.8).curveTo(2.6,-2.3,3.1,-0.7).curveTo(3.2,-0.4,3.1,-0.1).curveTo(3.5,-0,3.8,0.3).lineTo(4,0.6).curveTo(5.1,1.4,4.6,2.6).curveTo(4.3,3.6,3.3,3.6).lineTo(2.8,3.5).closePath();
+	this.shape_35.setTransform(26.7175,72.9863);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill("#C6EAE6").beginStroke().moveTo(-3.5,3.7).curveTo(-4.3,3.2,-4.5,2.3).curveTo(-5.2,2.3,-5.4,1.5).curveTo(-5.7,0.7,-5,0.3).curveTo(-4,-0.2,-2.3,-1.8).curveTo(-0.8,-3.4,0.3,-3.8).curveTo(1.6,-4.4,2.9,-4).curveTo(4.2,-3.7,5,-2.6).curveTo(5.7,-1.6,5.5,-0.3).curveTo(5.2,0.9,4.2,1.7).curveTo(3.2,2.5,1.7,2.7).lineTo(1.1,2.8).curveTo(-0.2,3.8,-1.7,4.1).lineTo(-2.2,4.2).curveTo(-2.9,4.2,-3.5,3.7).closePath();
+	this.shape_36.setTransform(108.1984,72.7819);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill("#C6EAE6").beginStroke().moveTo(1.1,5.4).curveTo(-1.3,3.8,-2.6,1.3).curveTo(-3.9,-1.2,-3.7,-4).curveTo(-3.6,-4.9,-2.8,-5.3).curveTo(-2,-5.8,-1.3,-5.4).curveTo(0.1,-6.2,0.9,-4.9).curveTo(1.3,-4.2,1.6,-3).lineTo(2.2,-1.1).lineTo(3.6,3.4).curveTo(4,4.5,3,5.2).curveTo(2.4,5.7,1.9,5.7).curveTo(1.5,5.7,1.1,5.4).closePath();
+	this.shape_37.setTransform(98.2316,68.9585);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill("#006E91").beginStroke().moveTo(-3.4,9.9).curveTo(-4.4,9.6,-4.8,8.6).curveTo(-5.5,6.6,-5.7,5.1).curveTo(-6.2,4.5,-6.3,3.6).curveTo(-6.4,1.9,-5.8,0.3).lineTo(-5.8,0.1).curveTo(-6.2,-2.6,-4,-5).curveTo(-2.2,-7,0.9,-8.4).lineTo(2.9,-9.7).curveTo(4.2,-10.4,5.2,-9.4).curveTo(6.2,-9,6.2,-7.9).curveTo(6.5,-1.3,4.8,2.5).curveTo(4.1,3.8,2.7,4.9).curveTo(1.3,6.7,-1.7,9.5).curveTo(-2.3,10,-2.9,10).lineTo(-3.4,9.9).closePath();
+	this.shape_38.setTransform(106.6648,62.9759);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill("#006E91").beginStroke().moveTo(3,9.7).curveTo(1.7,9.7,1.2,8.4).lineTo(0.4,6.7).curveTo(-0.1,7.2,-0.9,7.2).curveTo(-1.6,7.1,-2.3,6.6).lineTo(-3.6,5.3).curveTo(-4.7,5.2,-4.8,4.2).lineTo(-4.9,3.3).lineTo(-5.3,-0.3).lineTo(-5.6,-3.9).lineTo(-5.5,-4.2).lineTo(-5.5,-4.6).curveTo(-6.3,-6.7,-5.3,-8.7).curveTo(-5,-9.3,-4.4,-9.5).curveTo(-3.7,-9.6,-3.2,-9.2).curveTo(-1.7,-10.3,-0.6,-8.9).curveTo(0.3,-7.8,1.3,-6.3).lineTo(3.7,-4.4).curveTo(4.9,-3,5.4,-1.2).curveTo(6.1,0.9,5.8,3.6).curveTo(5.6,5.5,4.7,8.4).curveTo(4.3,9.7,3.1,9.7).lineTo(3,9.7).closePath();
+	this.shape_39.setTransform(28.2672,62.9962);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(51.2,-77.6).curveTo(56.7,-75.3,61.3,-72.7).curveTo(64.3,-71.1,65.4,-69.5).curveTo(66.4,-67.8,66.6,-64.2).curveTo(67.2,-51,63.8,-38.3).curveTo(62.3,-32.9,59.1,-24.4).curveTo(55.1,-13.9,54,-10.7).curveTo(47.2,10,48.6,28.5).curveTo(49.4,38.6,52.6,47.9).curveTo(55.9,57.6,61.7,65.4).curveTo(58.8,68.2,51.8,71.3).curveTo(37.9,77.3,17.9,78.3).curveTo(10.6,78.6,-1,78.6).curveTo(-12.1,78.6,-17.9,78.3).curveTo(-37.9,77.3,-51.8,71.3).curveTo(-56.1,69.4,-59.3,67.2).lineTo(-61.7,65.4).curveTo(-55.9,57.6,-52.6,47.9).curveTo(-49.4,38.6,-48.6,28.5).curveTo(-47.2,9.8,-54,-10.7).curveTo(-55,-13.7,-59.1,-24.4).curveTo(-62.3,-32.9,-63.7,-38.3).curveTo(-67.2,-51,-66.6,-64.2).curveTo(-66.5,-67.7,-65.4,-69.5).curveTo(-64.3,-71.1,-61.3,-72.7).curveTo(-55.8,-75.9,-48.7,-78.6);
+	this.shape_40.setTransform(66.7438,88.1375);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(18.7,-74.7).lineTo(22.9,-62.3).lineTo(18.7,-57.3).lineTo(19.3,-47).lineTo(10.4,-44.5).lineTo(8.4,-37.6).lineTo(1,-38.1).lineTo(-3.3,-30.8).lineTo(-11.1,-33).lineTo(-12.7,-25.3).lineTo(-19.8,-24.8).lineTo(-16.6,-18.7).lineTo(-22.2,-12.5).lineTo(-16.5,-2.7).lineTo(-22.2,4.4).lineTo(-14.2,13.6).lineTo(-22.5,21.6).lineTo(-14.3,29.1).lineTo(-21,36.9).lineTo(-14.8,43.6).lineTo(-15.8,51.7).lineTo(-9.1,55.9).lineTo(-9.4,63.5).lineTo(-2.7,64).lineTo(-4.5,72.1).lineTo(3.1,73.7).lineTo(5.6,65).lineTo(13.6,69.3).lineTo(16.5,61.1).lineTo(21.9,64.9).lineTo(20.2,57.4);
+	this.shape_41.setTransform(101.0894,86.5901);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(7.9,-30.7).lineTo(2.7,-24).lineTo(5.6,-14.4).lineTo(-0.2,-7.6).lineTo(2.1,1.2).lineTo(-3.6,6.6).lineTo(-1.7,14.5).lineTo(-7.6,19.5).lineTo(-6.1,31.4);
+	this.shape_42.setTransform(125.6777,48.7883);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-17.9,-75.7).lineTo(-23.1,-61.3).lineTo(-18.9,-56.3).lineTo(-19.5,-46).lineTo(-10.6,-43.5).lineTo(-8.6,-36.6).lineTo(-1.2,-37.1).lineTo(3.1,-29.8).lineTo(10.9,-32).lineTo(12.5,-24.3).lineTo(19.6,-23.8).lineTo(16.4,-17.7).lineTo(23,-11.5).lineTo(16.3,-1.7).lineTo(22,5.4).lineTo(14,14.6).lineTo(22.3,22.6).lineTo(14.1,30.1).lineTo(20.8,37.9).lineTo(14.6,44.6).lineTo(16.6,52.7).lineTo(8.9,56.9).lineTo(9.2,64.5).lineTo(2.5,65).lineTo(4.3,73.1).lineTo(-3.3,74.7).lineTo(-5.8,66).lineTo(-13.8,70.3).lineTo(-16.7,62.1).lineTo(-23.1,65.9).lineTo(-22.4,58.4);
+	this.shape_43.setTransform(34.1488,85.5784);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-7.4,-31.2).lineTo(-2.2,-24.5).lineTo(-5.1,-14.9).lineTo(0.7,-8.1).lineTo(-1.6,0.7).lineTo(4.1,6.1).lineTo(2.2,14).lineTo(7.1,20).lineTo(5.6,31.9);
+	this.shape_44.setTransform(8.8132,49.2883);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-9.3,18.8).curveTo(-9.9,18.3,-10.7,17).curveTo(-14.9,10.5,-20.4,-0.5).curveTo(-21,-1.2,-21.4,-2.1).lineTo(-21.7,-3.3).lineTo(-23.1,-6.1).curveTo(-23.9,-6.3,-23.7,-7).curveTo(-23.6,-7.8,-22.8,-7.8).curveTo(-14.9,-7.9,-6.2,-11.4).curveTo(-0.6,-13.7,9,-19.2).curveTo(10.2,-19.9,11.5,-19.2).curveTo(12.7,-18.5,12.7,-17).curveTo(12.9,-9.4,15.2,-3.8).curveTo(17.8,-1.9,18,0.9).lineTo(19.5,3.3).lineTo(19.5,3.3).lineTo(19.7,3.9).lineTo(20.6,5.2).curveTo(21.1,5.8,21.5,5.8).curveTo(22.9,5.9,23.5,7.2).curveTo(24.1,8.6,23,9.5).curveTo(18.8,13,14.8,13.7).lineTo(12.5,14).lineTo(10.1,14.3).curveTo(6.7,16.4,2.8,17.5).curveTo(-1.3,18.6,-4.5,18.2).lineTo(-5.3,18.6).curveTo(-6.6,19.4,-7.2,19.5).lineTo(-7.4,19.5).curveTo(-8.5,19.5,-9.3,18.8).closePath();
+	this.shape_45.setTransform(105.0082,144.8306);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill("#CA2C2B").beginStroke().moveTo(8.7,17.9).curveTo(7.2,17.6,5.1,16.6).lineTo(1.5,15).curveTo(-1.2,14.1,-6.1,13.1).lineTo(-11.9,12.4).curveTo(-15.6,11.8,-17.4,10.4).curveTo(-18.4,9.5,-18.9,8.6).curveTo(-21.1,8.9,-22.4,7.2).curveTo(-23.7,5.4,-22.6,3.4).lineTo(-19,-3.7).curveTo(-16.9,-8.1,-15.1,-10.7).lineTo(-15.1,-11.1).curveTo(-14.3,-13.7,-13.8,-14.7).lineTo(-13.6,-15.7).lineTo(-13.5,-15.9).lineTo(-13.6,-16).curveTo(-14.3,-16.8,-13.5,-17.6).curveTo(-12.8,-18.3,-12.1,-17.5).curveTo(-10.3,-15.6,-8.5,-14.5).lineTo(-6.5,-13.6).curveTo(-5.2,-13.1,-4.5,-12.7).curveTo(-4.5,-12.7,-4.4,-12.7).curveTo(-4.4,-12.6,-4.3,-12.6).curveTo(-4.3,-12.5,-4.3,-12.5).curveTo(-4.2,-12.4,-4.2,-12.4).curveTo(-1.2,-11,0.1,-10.5).curveTo(2.5,-9.6,4.8,-9.3).curveTo(8.2,-8.8,12.3,-9.2).lineTo(15.9,-9.3).curveTo(18.2,-9.3,19.5,-9.7).curveTo(21.2,-10.1,22.4,-8.6).curveTo(23.6,-7.2,22.6,-5.6).curveTo(21.3,-3.5,19.3,0.4).curveTo(17.1,4.8,16.1,6.4).curveTo(15.7,8.2,15.6,10.8).curveTo(14.6,11.5,13.5,13).lineTo(12,15.4).lineTo(10.6,17.9).lineTo(9.8,18).lineTo(8.7,17.9).closePath();
+	this.shape_46.setTransform(29.1252,147.8385);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-27.7,23.2).curveTo(-28.4,21.2,-27.1,19.9).curveTo(-22.5,15.3,-16.3,14.2).curveTo(-13.5,12,-7.6,9.8).curveTo(0.6,6.6,6,0.5).curveTo(12.5,-7,14,-14.2).lineTo(15.1,-18.9).curveTo(14.2,-20,13.9,-22.2).curveTo(13.8,-23.7,15,-24.5).curveTo(16.2,-25.2,17.5,-25).curveTo(20,-24.7,22.1,-22.6).curveTo(22.5,-22.2,22.8,-21.6).lineTo(23.9,-21.3).curveTo(25.8,-20.4,26.7,-18.2).curveTo(27.7,-16,27.9,-12.4).lineTo(27.9,-6.4).curveTo(27.6,7.2,23,17.3).curveTo(20.7,22.2,15.7,23.4).curveTo(14.1,23.8,5.7,23.9).lineTo(-9.7,24.1).curveTo(-18.7,24.3,-25,25).lineTo(-25.4,25).curveTo(-27,25,-27.7,23.2).closePath();
+	this.shape_47.setTransform(104.5211,37.7119);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-16.9,27.7).curveTo(-19.1,26.9,-20.2,25).curveTo(-21.3,23.2,-21.1,20.9).curveTo(-21.1,20.3,-20.8,19.5).curveTo(-22,18.3,-22.4,15.8).lineTo(-22.9,15).curveTo(-23.3,14.6,-23.3,14.1).lineTo(-23.5,13.2).curveTo(-25.3,7.7,-26.2,2.6).curveTo(-29.6,-5.9,-28.3,-14).curveTo(-28.1,-15.8,-27.3,-17.6).lineTo(-27.5,-18.3).curveTo(-27.7,-19.5,-27.1,-20.6).curveTo(-26.6,-21.6,-25.5,-22).curveTo(-23.4,-26.3,-20.1,-25.4).lineTo(-16.2,-27.9).curveTo(-14.7,-28.7,-13.2,-27.6).curveTo(-11.7,-26.5,-12.2,-24.8).curveTo(-13.3,-21.5,-12,-17.2).curveTo(-11.7,-16.2,-9,-9.9).curveTo(-6.8,-4.6,-5.1,1.3).lineTo(-4.8,1.1).curveTo(-4.2,0.7,-3.2,0.7).curveTo(-2.4,0.7,-1.7,1.1).curveTo(2.7,3.5,5.5,6.6).curveTo(9.5,6.7,12.1,7.6).curveTo(13.4,8.1,14.7,9).lineTo(17,10.9).curveTo(23,11.8,28,16.7).curveTo(28.9,17.6,28.6,19).curveTo(28.2,20.4,27.1,20.8).curveTo(26.2,21.6,25,21.5).curveTo(11.6,20.9,-5.1,25.8).curveTo(-9,27.2,-10.9,27.8).curveTo(-12.6,28.2,-14.1,28.2).curveTo(-15.6,28.2,-16.9,27.7).closePath();
+	this.shape_48.setTransform(28.6791,40.5212);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill("#A3250C").beginStroke().moveTo(-7.2,76).curveTo(-8.4,75.8,-9,74.8).curveTo(-14.1,67.4,-16.7,58.8).lineTo(-18.7,55).curveTo(-19.5,54.2,-19.7,53.2).lineTo(-19.9,52.6).lineTo(-21.4,49.1).curveTo(-21.8,48.8,-22.1,48.4).curveTo(-23.4,46.4,-24.7,43.7).curveTo(-25.2,43.4,-25.5,42.8).lineTo(-25.8,42.2).lineTo(-25.8,42.1).lineTo(-27,39).curveTo(-27.3,38.6,-27.4,38).lineTo(-27.8,36.2).curveTo(-28.5,33.5,-28.7,31.5).lineTo(-28.8,31.4).lineTo(-28.9,30.7).curveTo(-29,29.5,-28.2,28.9).lineTo(-28.2,25.2).curveTo(-28.5,21.1,-28,17.2).curveTo(-28,16.4,-27.5,15.8).curveTo(-27.4,13.5,-27,10.2).curveTo(-27.9,6.1,-28,1.2).lineTo(-28.1,0.3).lineTo(-28.2,0.3).lineTo(-27.9,-3.8).lineTo(-27.8,-5.8).curveTo(-29.1,-9.7,-28.6,-15.8).curveTo(-28.5,-18.2,-27.3,-25.8).curveTo(-27.1,-26.7,-26.5,-27.2).curveTo(-25.5,-30.7,-23.6,-33).curveTo(-21.6,-35.5,-18.6,-37.2).curveTo(-16.2,-38.6,-12.5,-39.7).curveTo(-7.4,-41.4,-3.7,-43.3).curveTo(0,-46,3.2,-47.6).curveTo(3.8,-48,4.4,-48.2).lineTo(6.4,-50.2).curveTo(6.8,-50.7,7.3,-50.9).curveTo(10.4,-56.6,12.1,-60.2).curveTo(14.5,-65.4,15.7,-69.8).lineTo(15.1,-72.5).curveTo(14.7,-74.3,16.1,-75.4).curveTo(17.6,-76.6,19.2,-75.7).curveTo(20.7,-74.9,23.2,-73.9).curveTo(25.3,-73,26.5,-71.1).lineTo(26.7,-70.7).curveTo(27.8,-70.1,28,-68).lineTo(28.2,-66.8).curveTo(28.5,-65.3,28.7,-63.5).curveTo(29.2,-58.9,28.6,-54.1).curveTo(28.8,-52.3,28.6,-48.9).lineTo(28.4,-46.6).curveTo(28.3,-45.3,27.9,-44.4).curveTo(27.6,-40.4,26.2,-37.5).curveTo(25.1,-33.2,23.2,-29.5).curveTo(21.2,-20.9,17.8,-14.9).lineTo(15.7,-7.8).curveTo(14.5,-3.6,13.2,-0.8).curveTo(12.2,3.6,11.3,6.5).lineTo(10.9,10.8).curveTo(10.4,17.3,10.3,20.5).lineTo(10.8,27).curveTo(11.2,31.7,12.8,40.9).curveTo(13.2,41.4,13.4,42).curveTo(16,50,19.2,55.8).lineTo(20.4,57.9).curveTo(21.1,59.1,21.2,60.1).curveTo(22.4,61.8,22.5,63.1).lineTo(22.6,63.1).curveTo(23.2,62.9,23.5,63.3).curveTo(23.9,63.8,23.5,64.3).curveTo(21.5,66.8,17.5,68.9).curveTo(15.7,69.9,10.5,72).curveTo(7.1,73.6,5,74.4).curveTo(1,75.9,-0.9,75).lineTo(-1.2,75.1).curveTo(-2.5,75.4,-5.1,75.6).curveTo(-5.8,76.1,-6.7,76.1).lineTo(-7.2,76).closePath();
+	this.shape_49.setTransform(103.7328,88.726);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#A3250C").beginStroke().moveTo(5.4,76.6).curveTo(3.7,76.5,1.8,75.5).curveTo(-1.7,75.3,-5.2,74.1).curveTo(-5.8,74.5,-6.4,74.3).curveTo(-13.6,72,-20.5,68.8).curveTo(-22.4,69.2,-23.8,67.3).curveTo(-25.2,65.3,-24.1,63.6).curveTo(-21.1,59,-19.7,56.7).curveTo(-17.6,52.8,-16.3,49.2).curveTo(-16,48.1,-14.9,47.6).lineTo(-14.4,46.7).lineTo(-14.1,45).curveTo(-12,33.9,-12,20.8).curveTo(-12,20.4,-11.8,19.8).curveTo(-12.8,7,-13.6,0.7).lineTo(-15.1,-5.4).curveTo(-16.1,-8.3,-17.3,-12.2).curveTo(-18.9,-15.4,-19.6,-17.8).lineTo(-19.7,-18).curveTo(-22.2,-24.3,-23.9,-30.2).curveTo(-24.7,-30.6,-25,-31.6).curveTo(-29.1,-44.3,-29.3,-57.3).curveTo(-29.4,-57.6,-29.4,-58).lineTo(-29.9,-63).lineTo(-30,-63).curveTo(-30.3,-63.6,-30.3,-64.3).curveTo(-30.3,-65.1,-30,-65.6).lineTo(-29.8,-65.9).lineTo(-28.9,-66.7).lineTo(-28.8,-68.2).curveTo(-28.6,-70.1,-26.8,-70.5).curveTo(-26.2,-71.3,-25.2,-72.2).curveTo(-22.7,-74.3,-17.2,-76.5).curveTo(-16,-77,-14.9,-76).curveTo(-14,-75.2,-13.8,-73.9).curveTo(-13.1,-67.7,-13.5,-62).lineTo(-13.5,-61.7).lineTo(-13.5,-60.7).lineTo(-5.8,-49.3).curveTo(-4.9,-48.1,-3.6,-46.6).lineTo(-3.2,-46.4).curveTo(-1.2,-44.8,0.6,-43.6).curveTo(2.1,-43.1,4.1,-42).lineTo(7.3,-40.1).curveTo(9,-39.9,10.9,-39.4).curveTo(14.3,-39.6,18.3,-36.9).lineTo(18.7,-37).curveTo(22,-36.4,25.4,-31.2).curveTo(28.2,-26.8,29.3,-22.7).curveTo(29.9,-20.2,30,-16.9).lineTo(30.1,-11).lineTo(30.3,-4.7).curveTo(30.2,-1,28.9,1.3).lineTo(28.9,2.5).lineTo(29.1,8.1).curveTo(29.2,11.5,29,13.8).curveTo(29,19.9,28.6,24.4).curveTo(29.6,30.3,28.8,34.5).lineTo(28.7,36).curveTo(27.8,42.9,25,47).lineTo(16.4,65.7).curveTo(15.7,67.2,13.9,67).lineTo(10.9,75).curveTo(10.5,75.9,9.5,75.9).lineTo(9.2,76.1).curveTo(7.5,76.7,6,76.7).lineTo(5.4,76.6).closePath();
+	this.shape_50.setTransform(30.525,88.2279);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_shirt_09, new cjs.Rectangle(-6.3,8.2,146,159.9), null);
+
+
+(lib.btn_shirt_08 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.8,1.8).curveTo(-2.5,1,-2.5,0).curveTo(-2.5,-1,-1.8,-1.8).curveTo(-1,-2.5,-0,-2.5).curveTo(1.1,-2.5,1.8,-1.8).curveTo(2.5,-1,2.5,0).curveTo(2.5,1,1.8,1.8).curveTo(1.1,2.5,-0,2.5).curveTo(-1,2.5,-1.8,1.8).closePath();
+	this.shape.setTransform(65.8,96.55);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_1.setTransform(57.425,102.875);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_2.setTransform(55.95,91.55);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.3,1.3).curveTo(-2,0.8,-1.9,-0).curveTo(-2,-0.8,-1.3,-1.4).curveTo(-0.8,-1.9,0,-1.9).curveTo(0.8,-1.9,1.4,-1.4).curveTo(1.9,-0.8,1.9,-0).curveTo(1.9,0.8,1.4,1.3).curveTo(0.8,2,0,1.9).curveTo(-0.8,2,-1.3,1.3).closePath();
+	this.shape_3.setTransform(66.8,111.1);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.4,1.4).curveTo(-1.9,0.8,-2,0).curveTo(-1.9,-0.8,-1.4,-1.4).curveTo(-0.8,-1.9,0,-1.9).curveTo(0.8,-1.9,1.4,-1.4).curveTo(1.9,-0.8,1.9,0).curveTo(1.9,0.8,1.4,1.4).curveTo(0.8,1.9,0,1.9).curveTo(-0.8,1.9,-1.4,1.4).closePath();
+	this.shape_4.setTransform(77.35,101.85);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.3,1.4).curveTo(-1.9,0.8,-2,0).curveTo(-1.9,-0.8,-1.3,-1.3).curveTo(-0.8,-2,-0,-2).curveTo(0.8,-2,1.4,-1.3).curveTo(2,-0.8,2,0).curveTo(2,0.8,1.4,1.4).curveTo(0.8,1.9,-0,2).curveTo(-0.8,1.9,-1.3,1.4).closePath();
+	this.shape_5.setTransform(77.1,92.7);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.5,1.5).curveTo(-2,0.8,-2,-0).curveTo(-2,-0.9,-1.5,-1.5).curveTo(-0.8,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.5).curveTo(2,-0.9,2,-0).curveTo(2,0.8,1.5,1.5).curveTo(0.8,2.1,0,2.1).curveTo(-0.8,2.1,-1.5,1.5).closePath();
+	this.shape_6.setTransform(66.8,83.675);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.5).curveTo(-2.1,0.9,-2.1,0).curveTo(-2.1,-0.9,-1.4,-1.4).curveTo(-0.9,-2.1,0,-2.1).curveTo(0.9,-2.1,1.5,-1.4).curveTo(2,-0.9,2.1,0).curveTo(2,0.9,1.5,1.5).curveTo(0.9,2,0,2.1).curveTo(-0.9,2,-1.4,1.5).closePath();
+	this.shape_7.setTransform(56.75,71.55);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.5).curveTo(-2,0.8,-2,-0).curveTo(-2,-0.9,-1.5,-1.5).curveTo(-0.8,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.5).curveTo(2,-0.9,2,-0).curveTo(2,0.8,1.5,1.5).curveTo(0.8,2.1,0,2.1).curveTo(-0.8,2.1,-1.5,1.5).closePath();
+	this.shape_8.setTransform(66.35,69.275);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.1).curveTo(-1.6,0.7,-1.6,0).curveTo(-1.6,-0.7,-1.2,-1.1).curveTo(-0.6,-1.6,0,-1.6).curveTo(0.7,-1.6,1.2,-1.1).curveTo(1.6,-0.7,1.6,0).curveTo(1.6,0.7,1.2,1.1).curveTo(0.7,1.6,0,1.6).curveTo(-0.6,1.6,-1.2,1.1).closePath();
+	this.shape_9.setTransform(46.5,44.8);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.5,1.5).curveTo(-2.1,0.8,-2.1,-0).curveTo(-2.1,-0.8,-1.5,-1.5).curveTo(-0.8,-2,0,-2).curveTo(0.9,-2,1.5,-1.5).curveTo(2.1,-0.8,2.1,-0).curveTo(2.1,0.8,1.5,1.5).curveTo(0.9,2,0,2).curveTo(-0.8,2,-1.5,1.5).closePath();
+	this.shape_10.setTransform(87.825,45.5);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_11.setTransform(49.425,78.65);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_12.setTransform(39.825,51.45);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,1,-2.3,0).curveTo(-2.3,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-0.9,2.3,0).curveTo(2.3,1,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_13.setTransform(76.625,71.55);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,1,-2.3,0).curveTo(-2.3,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-0.9,2.3,0).curveTo(2.3,1,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
+	this.shape_14.setTransform(77.075,61.725);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
+	this.shape_15.setTransform(66.675,56.125);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.5).curveTo(-2.1,0.9,-2,0).curveTo(-2.1,-0.8,-1.4,-1.5).curveTo(-0.9,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.5).curveTo(2,-0.8,2,0).curveTo(2,0.9,1.5,1.5).curveTo(0.8,2.1,0,2.1).curveTo(-0.9,2.1,-1.4,1.5).closePath();
+	this.shape_16.setTransform(57.9,48.925);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.7,1.7).curveTo(-2.4,1,-2.4,-0).curveTo(-2.4,-0.9,-1.7,-1.7).curveTo(-0.9,-2.4,-0,-2.4).curveTo(1,-2.4,1.7,-1.7).curveTo(2.4,-1,2.4,-0).curveTo(2.4,1,1.7,1.7).curveTo(1,2.4,-0,2.4).curveTo(-1,2.4,-1.7,1.7).closePath();
+	this.shape_17.setTransform(42.9,26.85);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.3,1.3).curveTo(-1.8,0.7,-1.8,-0).curveTo(-1.8,-0.8,-1.3,-1.3).curveTo(-0.8,-1.8,-0,-1.8).curveTo(0.7,-1.8,1.3,-1.3).curveTo(1.8,-0.8,1.8,-0).curveTo(1.8,0.7,1.3,1.3).curveTo(0.7,1.8,-0,1.8).curveTo(-0.8,1.8,-1.3,1.3).closePath();
+	this.shape_18.setTransform(53.325,26.775);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.6).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.5,-1.5).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.5,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-0.9,2.2,-1.5,1.6).closePath();
+	this.shape_19.setTransform(91.375,27.325);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.4,1.4).curveTo(-2.1,0.9,-2.1,0).curveTo(-2.1,-0.9,-1.4,-1.4).curveTo(-0.9,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.4).curveTo(2,-0.9,2.1,0).curveTo(2,0.9,1.5,1.4).curveTo(0.8,2,0,2.1).curveTo(-0.9,2,-1.4,1.4).closePath();
+	this.shape_20.setTransform(79.15,27.45);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.5).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.1,-0,-2.2).curveTo(0.9,-2.1,1.5,-1.5).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.5,1.5).curveTo(0.9,2.2,-0,2.2).curveTo(-0.9,2.2,-1.5,1.5).closePath();
+	this.shape_21.setTransform(66.925,27.1);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.4).curveTo(-2,0.9,-2,-0).curveTo(-2,-0.9,-1.4,-1.4).curveTo(-0.8,-2.1,0,-2.1).curveTo(0.8,-2.1,1.4,-1.4).curveTo(2,-0.9,2,-0).curveTo(2,0.9,1.4,1.4).curveTo(0.8,2.1,0,2.1).curveTo(-0.8,2.1,-1.4,1.4).closePath();
+	this.shape_22.setTransform(56.825,61.3);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.4).curveTo(-2,0.9,-2,0).curveTo(-2,-0.8,-1.4,-1.4).curveTo(-0.9,-2,-0,-2).curveTo(0.8,-2,1.4,-1.4).curveTo(2,-0.8,2,0).curveTo(2,0.9,1.4,1.4).curveTo(0.8,2,-0,2).curveTo(-0.8,2,-1.4,1.4).closePath();
+	this.shape_23.setTransform(67.575,39.575);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.6).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.6,-1.5).curveTo(2.1,-0.9,2.1,0).curveTo(2.1,0.9,1.6,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-0.9,2.2,-1.5,1.6).closePath();
+	this.shape_24.setTransform(75.6,49.025);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).closePath();
+	this.shape_25.setTransform(65.7,58.15);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_26.setTransform(65.7,58.15);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(16.1,-71.5).curveTo(14.9,-29.9,8.4,2.1).curveTo(0.4,41.1,-16.3,70.9);
+	this.shape_27.setTransform(82.4308,75.1921);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(-18.9,-81.9).curveTo(-23.2,-46.3,-12,-3.8).curveTo(-7.5,13.3,0,33.7).curveTo(5.2,47.4,14.7,70.3).curveTo(16.2,73.8,17.2,75.7).curveTo(18.7,78.7,20.4,80.7);
+	this.shape_28.setTransform(54.3698,85.6101);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(3.2,-4.7).curveTo(1.2,-4.9,-0.3,-3.7).curveTo(-1.8,-2.5,-2.1,-0.5).curveTo(-2.3,1.5,-1.1,3).curveTo(0.1,4.6,2.1,4.8);
+	this.shape_29.setTransform(90.6116,53.5857);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.beginFill("#FDD888").beginStroke().moveTo(-1.6,3).curveTo(-2.8,1.5,-2.6,-0.5).curveTo(-2.4,-2.5,-0.9,-3.7).curveTo(0.7,-4.9,2.7,-4.7).lineTo(1.6,4.8).curveTo(-0.4,4.6,-1.6,3).closePath();
+	this.shape_30.setTransform(91.1857,53.5857);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-3.2,-4.7).curveTo(-1.2,-4.9,0.3,-3.7).curveTo(1.9,-2.5,2.1,-0.5).curveTo(2.3,1.5,1.1,3).curveTo(-0.2,4.6,-2.1,4.8);
+	this.shape_31.setTransform(40.1449,53.5857);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.beginFill("#FDD888").beginStroke().moveTo(-2.7,-4.7).curveTo(-0.7,-4.9,0.9,-3.7).curveTo(2.4,-2.5,2.6,-0.5).curveTo(2.9,1.5,1.6,3).curveTo(0.4,4.6,-1.6,4.8).closePath();
+	this.shape_32.setTransform(39.5708,53.5857);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_33.setTransform(90.15,29.85);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_34.setTransform(90.15,29.85);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_35.setTransform(77.95,29.85);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_36.setTransform(77.95,29.85);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_37.setTransform(41,29.85);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_38.setTransform(41,29.85);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_39.setTransform(52.45,29.85);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_40.setTransform(52.45,29.85);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).closePath();
+	this.shape_41.setTransform(75.5,63.85);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_42.setTransform(75.5,63.85);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_43.setTransform(74.5,51.85);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_44.setTransform(74.5,51.85);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(3.4,-4.6).curveTo(1.5,-5,-0.2,-4).curveTo(-1.9,-2.9,-2.3,-1).curveTo(-2.7,0.9,-1.7,2.6).curveTo(-0.6,4.3,1.3,4.8);
+	this.shape_45.setTransform(93.3137,43.8948);
+
+	this.shape_46 = new cjs.Shape();
+	this.shape_46.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.2,2.6).curveTo(-3.2,0.9,-2.8,-1).curveTo(-2.4,-2.9,-0.7,-4).curveTo(1,-5,2.9,-4.6).lineTo(0.8,4.8).curveTo(-1.1,4.3,-2.2,2.6).closePath();
+	this.shape_46.setTransform(93.8198,43.8948);
+
+	this.shape_47 = new cjs.Shape();
+	this.shape_47.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(3.4,-4.6).curveTo(1.5,-5.1,-0.2,-4).curveTo(-1.9,-3,-2.3,-1).curveTo(-2.8,0.9,-1.7,2.6).curveTo(-0.7,4.3,1.3,4.7);
+	this.shape_47.setTransform(89.9133,65.6075);
+
+	this.shape_48 = new cjs.Shape();
+	this.shape_48.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.2,2.6).curveTo(-3.3,0.9,-2.8,-1).curveTo(-2.4,-3,-0.7,-4).curveTo(1,-5.1,2.9,-4.6).lineTo(0.8,4.7).curveTo(-1.2,4.3,-2.2,2.6).closePath();
+	this.shape_48.setTransform(90.4075,65.6075);
+
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-4.8,0).curveTo(-4.8,2,-3.4,3.4).curveTo(-2,4.8,0,4.8).curveTo(2,4.8,3.4,3.4).curveTo(4.8,2,4.8,0).curveTo(4.8,-2,3.4,-3.4).curveTo(2,-4.8,0,-4.8).curveTo(-2,-4.8,-3.4,-3.4).curveTo(-4.8,-2,-4.8,0).closePath();
+	this.shape_49.setTransform(86.7,57.35);
+
+	this.shape_50 = new cjs.Shape();
+	this.shape_50.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_50.setTransform(86.7,57.35);
+
+	this.shape_51 = new cjs.Shape();
+	this.shape_51.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-4.8,0).curveTo(-4.8,2,-3.4,3.4).curveTo(-2,4.8,0,4.8).curveTo(2,4.8,3.4,3.4).curveTo(4.8,2,4.8,0).curveTo(4.8,-2,3.4,-3.4).curveTo(2,-4.8,0,-4.8).curveTo(-2,-4.8,-3.4,-3.4).curveTo(-4.8,-2,-4.8,0).closePath();
+	this.shape_51.setTransform(86.95,48);
+
+	this.shape_52 = new cjs.Shape();
+	this.shape_52.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_52.setTransform(86.95,48);
+
+	this.shape_53 = new cjs.Shape();
+	this.shape_53.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-3.5,-4.6).curveTo(-1.5,-5,0.2,-4).curveTo(1.8,-2.9,2.3,-1).curveTo(2.7,0.9,1.7,2.6).curveTo(0.6,4.3,-1.3,4.8);
+	this.shape_53.setTransform(38.5019,43.8948);
+
+	this.shape_54 = new cjs.Shape();
+	this.shape_54.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.9,-4.6).curveTo(-1,-5,0.7,-4).curveTo(2.4,-2.9,2.8,-1).curveTo(3.3,0.9,2.2,2.6).curveTo(1.1,4.3,-0.8,4.8).closePath();
+	this.shape_54.setTransform(37.9925,43.8948);
+
+	this.shape_55 = new cjs.Shape();
+	this.shape_55.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-3.4,-4.6).curveTo(-1.5,-5.1,0.2,-4).curveTo(1.9,-3,2.3,-1).curveTo(2.7,0.9,1.7,2.6).curveTo(0.6,4.3,-1.3,4.7);
+	this.shape_55.setTransform(41.9208,65.6075);
+
+	this.shape_56 = new cjs.Shape();
+	this.shape_56.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.9,-4.6).curveTo(-1,-5.1,0.7,-4).curveTo(2.4,-3,2.8,-1).curveTo(3.2,0.9,2.2,2.6).curveTo(1.1,4.3,-0.8,4.7).closePath();
+	this.shape_56.setTransform(41.4302,65.6075);
+
+	this.shape_57 = new cjs.Shape();
+	this.shape_57.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_57.setTransform(45.1,57.35);
+
+	this.shape_58 = new cjs.Shape();
+	this.shape_58.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_58.setTransform(45.1,57.35);
+
+	this.shape_59 = new cjs.Shape();
+	this.shape_59.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_59.setTransform(44.9,48);
+
+	this.shape_60 = new cjs.Shape();
+	this.shape_60.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_60.setTransform(44.9,48);
+
+	this.shape_61 = new cjs.Shape();
+	this.shape_61.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_61.setTransform(56.45,51.85);
+
+	this.shape_62 = new cjs.Shape();
+	this.shape_62.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_62.setTransform(56.45,51.85);
+
+	this.shape_63 = new cjs.Shape();
+	this.shape_63.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_63.setTransform(83.9,81.6);
+
+	this.shape_64 = new cjs.Shape();
+	this.shape_64.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_64.setTransform(83.9,81.6);
+
+	this.shape_65 = new cjs.Shape();
+	this.shape_65.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_65.setTransform(47.9,81.6);
+
+	this.shape_66 = new cjs.Shape();
+	this.shape_66.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_66.setTransform(47.9,81.6);
+
+	this.shape_67 = new cjs.Shape();
+	this.shape_67.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_67.setTransform(65.3,98.65);
+
+	this.shape_68 = new cjs.Shape();
+	this.shape_68.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_68.setTransform(65.3,98.65);
+
+	this.shape_69 = new cjs.Shape();
+	this.shape_69.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_69.setTransform(75.6,73.5);
+
+	this.shape_70 = new cjs.Shape();
+	this.shape_70.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_70.setTransform(75.6,73.5);
+
+	this.shape_71 = new cjs.Shape();
+	this.shape_71.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_71.setTransform(55.55,73.5);
+
+	this.shape_72 = new cjs.Shape();
+	this.shape_72.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_72.setTransform(55.55,73.5);
+
+	this.shape_73 = new cjs.Shape();
+	this.shape_73.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_73.setTransform(55.45,64.2);
+
+	this.shape_74 = new cjs.Shape();
+	this.shape_74.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_74.setTransform(55.45,64.2);
+
+	this.shape_75 = new cjs.Shape();
+	this.shape_75.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_75.setTransform(56.15,105.65);
+
+	this.shape_76 = new cjs.Shape();
+	this.shape_76.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_76.setTransform(56.15,105.65);
+
+	this.shape_77 = new cjs.Shape();
+	this.shape_77.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_77.setTransform(76.05,104.5);
+
+	this.shape_78 = new cjs.Shape();
+	this.shape_78.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_78.setTransform(76.05,104.5);
+
+	this.shape_79 = new cjs.Shape();
+	this.shape_79.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_79.setTransform(75.65,94.65);
+
+	this.shape_80 = new cjs.Shape();
+	this.shape_80.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_80.setTransform(75.65,94.65);
+
+	this.shape_81 = new cjs.Shape();
+	this.shape_81.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_81.setTransform(55,94.65);
+
+	this.shape_82 = new cjs.Shape();
+	this.shape_82.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_82.setTransform(55,94.65);
+
+	this.shape_83 = new cjs.Shape();
+	this.shape_83.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_83.setTransform(65.55,85.65);
+
+	this.shape_84 = new cjs.Shape();
+	this.shape_84.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_84.setTransform(65.55,85.65);
+
+	this.shape_85 = new cjs.Shape();
+	this.shape_85.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_85.setTransform(65.55,113.85);
+
+	this.shape_86 = new cjs.Shape();
+	this.shape_86.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_86.setTransform(65.55,113.85);
+
+	this.shape_87 = new cjs.Shape();
+	this.shape_87.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_87.setTransform(65.55,72.2);
+
+	this.shape_88 = new cjs.Shape();
+	this.shape_88.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_88.setTransform(65.55,72.2);
+
+	this.shape_89 = new cjs.Shape();
+	this.shape_89.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_89.setTransform(65.55,42.35);
+
+	this.shape_90 = new cjs.Shape();
+	this.shape_90.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_90.setTransform(65.55,42.35);
+
+	this.shape_91 = new cjs.Shape();
+	this.shape_91.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
+	this.shape_91.setTransform(65.55,29.85);
+
+	this.shape_92 = new cjs.Shape();
+	this.shape_92.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
+	this.shape_92.setTransform(65.55,29.85);
+
+	this.shape_93 = new cjs.Shape();
+	this.shape_93.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(-31.4,0).lineTo(31.4,0);
+	this.shape_93.setTransform(66.125,20.6);
+
+	this.shape_94 = new cjs.Shape();
+	this.shape_94.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(30.4,-81.5).curveTo(34.7,-80.5,38.9,-79.2).curveTo(52.2,-75,61.3,-69.8).curveTo(64.3,-68.2,65.4,-66.6).curveTo(66.4,-65,66.6,-61.4).curveTo(67.2,-48.1,63.8,-35.4).curveTo(62.3,-30,59.1,-21.5).curveTo(55.1,-11,54,-7.8).curveTo(47.2,12.8,48.6,31.3).curveTo(49.4,41.5,52.6,50.8).curveTo(55.9,60.5,61.7,68.3).curveTo(58.8,71.1,51.8,74.2).curveTo(37.9,80.2,17.9,81.2).curveTo(10.6,81.5,-1,81.5).curveTo(-12.1,81.4,-17.9,81.2).curveTo(-37.9,80.2,-51.8,74.2).curveTo(-56.1,72.2,-59.3,70.1).lineTo(-61.7,68.3).curveTo(-55.9,60.5,-52.6,50.8).curveTo(-49.4,41.5,-48.6,31.3).curveTo(-47.2,12.7,-54,-7.8).curveTo(-55,-10.8,-59.1,-21.5).curveTo(-62.3,-30,-63.7,-35.4).curveTo(-67.2,-48.1,-66.6,-61.4).curveTo(-66.5,-64.8,-65.4,-66.6).curveTo(-64.4,-68.1,-61.3,-69.8).curveTo(-52.1,-75,-38.9,-79.2).curveTo(-34.7,-80.4,-30.5,-81.5);
+	this.shape_94.setTransform(67.2438,85.25);
+
+	this.shape_95 = new cjs.Shape();
+	this.shape_95.graphics.beginFill("#10264F").beginStroke().moveTo(-19.5,79.6).curveTo(-26.3,79.9,-32.9,78.1).curveTo(-40.6,77.5,-47.4,75.3).curveTo(-48.1,75,-48.5,74.5).lineTo(-48.7,74.5).lineTo(-48.8,74.4).curveTo(-51.6,73.6,-55.2,72.3).curveTo(-56.1,72,-56.4,71.1).lineTo(-58.8,70).curveTo(-59.8,69.6,-59.8,68.6).curveTo(-60.3,68.1,-60.4,67.6).curveTo(-60.5,66.9,-60.1,66.4).lineTo(-60,66.3).curveTo(-59.9,65.5,-59.4,64.8).curveTo(-55.5,58.9,-52.7,52.1).curveTo(-49.9,45.3,-48.7,38.3).curveTo(-47.1,28.7,-47.9,17.9).lineTo(-48,17.4).curveTo(-48.9,11.5,-49.7,3.2).curveTo(-53.4,-8,-60.2,-27.3).curveTo(-60.4,-28.2,-60.3,-29).lineTo(-61.5,-31.9).curveTo(-62.7,-32.4,-63,-33.6).curveTo(-66.1,-44.7,-66.8,-48.9).curveTo(-68.2,-58.6,-65.1,-64.3).curveTo(-65.5,-65.4,-64.8,-66.8).curveTo(-64.3,-67.8,-63.1,-68.4).curveTo(-62.3,-68.7,-60.7,-69.1).curveTo(-58.9,-70.4,-56.2,-71.7).lineTo(-51.5,-73.8).curveTo(-48.7,-75.1,-43.5,-76.9).curveTo(-37.8,-78.8,-35.5,-79.8).lineTo(-35.3,-79.9).curveTo(-35.1,-80.8,-34.2,-80.8).curveTo(-33.3,-80.7,-33.2,-79.7).lineTo(-33.2,-78.7).lineTo(-33,-78).lineTo(-33.2,-73.7).curveTo(-33.2,-69.5,-33.4,-66.2).lineTo(-33.7,-54.2).lineTo(-33.7,-54.1).curveTo(-32.8,-50.5,-32.6,-44.6).lineTo(-32.2,-34.9).curveTo(-30.9,-31.1,-29.6,-25.4).lineTo(-27.5,-15.8).lineTo(-25.3,-7.1).curveTo(-24.1,-1.8,-24.5,1.8).lineTo(-24.2,2.6).curveTo(-20.9,10.6,-17.8,21.8).curveTo(-15.9,28.6,-14.8,32).lineTo(-12.7,37).curveTo(-11.8,38.8,-10.4,42.4).lineTo(-8.2,47.4).lineTo(-4.4,54.8).curveTo(-2.3,59.2,-1.9,62.5).lineTo(-1.6,61.9).lineTo(-1.2,61).curveTo(-0.7,59.2,1.2,59.3).lineTo(4.5,51.8).curveTo(6.1,46.7,9.1,40).lineTo(14.4,28.6).lineTo(14.5,28.2).lineTo(18.7,15.6).lineTo(22.1,4.3).lineTo(24.7,-9.9).lineTo(24.8,-10.2).curveTo(24,-16.6,25.8,-26.5).lineTo(28.8,-42.8).curveTo(30.1,-53.4,30.7,-60.5).curveTo(31.5,-70.3,31.4,-78.3).curveTo(31.4,-79.7,32.5,-80).curveTo(32.9,-80.9,34,-80.9).curveTo(37.1,-80.8,39.5,-79.5).curveTo(40.7,-79.3,42,-78.4).curveTo(42.6,-77.9,43.2,-77.2).curveTo(46.8,-77.1,51.2,-75.5).curveTo(52.7,-74.9,58.8,-72.1).curveTo(63,-70.2,64.3,-69.1).curveTo(66.7,-67.1,67,-63.8).curveTo(67.9,-54.4,63.8,-40.7).curveTo(63.3,-36.7,62.3,-33.1).curveTo(61.1,-28.5,59,-24.1).curveTo(60,-22.7,59.3,-21.2).curveTo(54.6,-10.4,51.8,-3.1).curveTo(49.7,4.7,48.8,16.2).lineTo(48.3,24.5).lineTo(48.5,31.5).curveTo(49.3,40.9,51.4,48.1).curveTo(54,56.8,58.8,63.4).curveTo(59.5,64.4,58.8,65.5).lineTo(60,67).curveTo(60.7,67.7,60.6,68.7).curveTo(60.5,69.7,59.6,70.2).curveTo(41.4,80.3,20.4,80.6).curveTo(19.5,80.6,18.8,80).lineTo(11.5,80.7).curveTo(10.2,80.7,9.7,79.7).curveTo(7.1,80,5,80.1).curveTo(4.3,80.7,3.3,80.8).curveTo(0.3,80.9,-2.7,80.9).curveTo(-11.1,80.9,-19.5,79.6).closePath();
+	this.shape_95.setTransform(67.2059,85.5862);
+
+	this.shape_96 = new cjs.Shape();
+	this.shape_96.graphics.beginFill("#070F21").beginStroke().moveTo(-1.4,61.2).lineTo(-5.6,50).curveTo(-5.8,49.8,-6.1,49.1).lineTo(-15.8,23).lineTo(-15.8,23).lineTo(-16,22.3).lineTo(-17.4,18.6).lineTo(-17.5,18.2).curveTo(-20.9,8.6,-23.5,-1.7).curveTo(-24.6,-2.6,-25,-4).curveTo(-26.4,-10.2,-26.9,-18).curveTo(-30.1,-29.1,-31.3,-38.4).curveTo(-32.8,-49.3,-31.7,-59.4).curveTo(-31.6,-60.6,-30.5,-61.1).curveTo(-29.5,-61.7,-28.6,-61.1).curveTo(-27.6,-61.8,-26.4,-61.7).lineTo(-22.8,-61).curveTo(-21.7,-62.5,-20,-62.4).lineTo(-13,-62.3).curveTo(-9,-62.2,-6,-61.8).curveTo(-4.3,-62,-3.4,-60.5).curveTo(-2.5,-61.7,-1.3,-61.7).curveTo(3.5,-62.3,9,-61.9).curveTo(13.2,-61.7,19.1,-60.8).curveTo(24.2,-61,28.7,-61.8).curveTo(30,-62,31.1,-61.3).curveTo(32.3,-60.5,32.2,-59.1).curveTo(31.2,-49.4,29.5,-39.7).curveTo(30.5,-36.7,29.8,-31.7).curveTo(29.4,-28.9,28.4,-23.8).curveTo(27.2,-16.8,24.4,-8).curveTo(24.2,-1.2,21.4,6.2).curveTo(21,10.3,20.2,14).curveTo(19.1,19.6,17.9,23.2).curveTo(16.2,28.6,13.7,31.9).lineTo(11.3,38).lineTo(11.1,38.4).lineTo(7.3,49.4).curveTo(4.8,55.7,2.1,59.7).lineTo(2,60.7).curveTo(1.9,62.2,0.5,62.4).lineTo(0.2,62.4).curveTo(-0.9,62.4,-1.4,61.2).closePath();
+	this.shape_96.setTransform(65.9961,82.3067);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_shirt_08, new cjs.Rectangle(-0.7,1.1,141,167), null);
+
+
 (lib.btn_reset = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -11574,36 +14922,36 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#F9EFE5").beginStroke().moveTo(7.1,8.1).lineTo(7.1,-2).curveTo(7.1,-3.4,6.5,-4).curveTo(6.1,-4.6,4.7,-4.6).curveTo(2.8,-4.6,2,-2.8).lineTo(2.1,8.1).lineTo(-2.1,8.1).lineTo(-2.1,-2).curveTo(-2.1,-3.4,-2.7,-4).curveTo(-3.3,-4.6,-4.6,-4.6).curveTo(-6.3,-4.6,-7.2,-3.1).lineTo(-7.2,8.1).lineTo(-11.4,8.1).lineTo(-11.4,-7.8).lineTo(-7.4,-7.8).lineTo(-7.2,-6).curveTo(-5.6,-8.1,-2.7,-8.1).curveTo(0.3,-8.1,1.5,-5.7).curveTo(3.1,-8.1,6.2,-8.1).curveTo(8.9,-8.1,10.1,-6.6).curveTo(11.4,-5.1,11.4,-2).lineTo(11.4,8.1).closePath();
-	this.shape.setTransform(137.75,25.525);
+	this.shape.graphics.beginFill("#F9EFE5").beginStroke().moveTo(7.1,8.1).lineTo(7.1,-2).curveTo(7.1,-3.4,6.6,-4).curveTo(6,-4.6,4.7,-4.6).curveTo(2.8,-4.6,2.1,-2.8).lineTo(2.1,8.1).lineTo(-2.2,8.1).lineTo(-2.2,-2).curveTo(-2.2,-3.4,-2.7,-4).curveTo(-3.3,-4.6,-4.6,-4.6).curveTo(-6.3,-4.6,-7.2,-3.1).lineTo(-7.2,8.1).lineTo(-11.3,8.1).lineTo(-11.3,-7.8).lineTo(-7.4,-7.8).lineTo(-7.3,-6).curveTo(-5.6,-8.1,-2.7,-8.1).curveTo(0.3,-8.1,1.5,-5.7).curveTo(3.2,-8.1,6.2,-8.1).curveTo(8.8,-8.1,10.1,-6.6).curveTo(11.3,-5.1,11.3,-2).lineTo(11.3,8.1).closePath();
+	this.shape.setTransform(137.6,28.475);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6).curveTo(-7.5,3.8,-7.5,0).lineTo(-7.5,-0.1).curveTo(-7.5,-2.5,-6.6,-4.4).curveTo(-5.7,-6.2,-4,-7.2).curveTo(-2.3,-8.2,-0,-8.2).curveTo(3.2,-8.2,5.2,-6.3).curveTo(7.2,-4.3,7.5,-0.9).lineTo(7.5,0.2).curveTo(7.5,3.8,5.5,6).curveTo(3.4,8.2,0,8.2).curveTo(-3.4,8.2,-5.5,6).closePath().moveTo(-2.4,-3.6).curveTo(-3.3,-2.4,-3.3,0.2).curveTo(-3.3,2.4,-2.4,3.6).curveTo(-1.6,4.8,0,4.8).curveTo(1.5,4.8,2.4,3.6).curveTo(3.3,2.4,3.3,-0.2).curveTo(3.3,-2.4,2.4,-3.6).curveTo(1.5,-4.8,-0,-4.8).curveTo(-1.6,-4.8,-2.4,-3.6).closePath();
-	this.shape_1.setTransform(116.275,25.675);
+	this.shape_1.setTransform(116.125,28.625);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7.1,5.5,-7.1,3.5).curveTo(-7.1,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.1,-1.8).lineTo(2.1,-2.7).curveTo(2.2,-3.8,1.6,-4.4).curveTo(1.1,-5.1,-0.2,-5.1).curveTo(-1.2,-5.1,-1.9,-4.6).curveTo(-2.4,-4.1,-2.5,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.8,-5.7).curveTo(-5,-6.9,-3.5,-7.5).curveTo(-1.9,-8.2,0,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7.1,7.7).lineTo(7.1,7.9).lineTo(2.7,7.9).curveTo(2.5,7.4,2.4,6.5).curveTo(0.8,8.2,-1.7,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.2,4.5).curveTo(-1.7,5,-0.8,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.1,3.4).lineTo(2.1,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
-	this.shape_2.setTransform(92.3,25.675);
+	this.shape_2.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7.1,5.5,-7.1,3.5).curveTo(-7.1,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.1,-1.8).lineTo(2.1,-2.7).curveTo(2.2,-3.8,1.6,-4.4).curveTo(1.1,-5.1,-0.2,-5.1).curveTo(-1.3,-5.1,-1.8,-4.6).curveTo(-2.5,-4.1,-2.5,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.9,-5.7).curveTo(-5,-6.9,-3.5,-7.5).curveTo(-1.9,-8.2,0,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7.1,7.7).lineTo(7.1,7.9).lineTo(2.7,7.9).curveTo(2.5,7.4,2.4,6.5).curveTo(0.8,8.2,-1.7,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.3,4.5).curveTo(-1.7,5,-0.8,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.1,3.4).lineTo(2.1,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
+	this.shape_2.setTransform(92.2,28.625);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.9,-10).lineTo(1.9,-6.1).lineTo(4.6,-6.1).lineTo(4.6,-3).lineTo(1.9,-3).lineTo(1.9,4.9).curveTo(1.8,5.8,2.2,6.2).curveTo(2.5,6.5,3.5,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.5,10,2.1,10).curveTo(-2.3,10,-2.4,5.5).closePath();
-	this.shape_3.setTransform(78.95,23.875);
+	this.shape_3.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.8,-10).lineTo(1.8,-6.1).lineTo(4.5,-6.1).lineTo(4.5,-3).lineTo(1.8,-3).lineTo(1.8,4.9).curveTo(1.9,5.8,2.2,6.2).curveTo(2.5,6.5,3.4,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.5,10,2.2,10).curveTo(-2.3,10,-2.4,5.5).closePath();
+	this.shape_3.setTransform(78.9,26.825);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-4.5,8.1).lineTo(-4.5,-7.8).lineTo(-0.5,-7.8).lineTo(-0.4,-5.9).curveTo(0.9,-8.1,3.1,-8.1).curveTo(3.9,-8.1,4.5,-7.9).lineTo(4.4,-3.8).lineTo(2.9,-3.9).curveTo(0.5,-3.9,-0.3,-2.3).lineTo(-0.3,8.1).closePath();
-	this.shape_4.setTransform(69.275,25.525);
+	this.shape_4.setTransform(69.275,28.475);
 
 	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7,5.5,-7,3.5).curveTo(-7,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.1,-1.8).lineTo(2.1,-2.7).curveTo(2.1,-3.8,1.6,-4.4).curveTo(1.1,-5.1,-0.2,-5.1).curveTo(-1.3,-5.1,-1.8,-4.6).curveTo(-2.5,-4.1,-2.5,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.9,-5.7).curveTo(-5,-6.9,-3.4,-7.5).curveTo(-1.9,-8.2,0.1,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7.1,7.7).lineTo(7.1,7.9).lineTo(2.8,7.9).curveTo(2.5,7.4,2.3,6.5).curveTo(0.8,8.2,-1.6,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.3,4.5).curveTo(-1.7,5,-0.7,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.1,3.4).lineTo(2.1,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
-	this.shape_5.setTransform(55.1,25.675);
+	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7,5.5,-7.1,3.5).curveTo(-7,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.2,-1.8).lineTo(2.2,-2.7).curveTo(2.2,-3.8,1.6,-4.4).curveTo(1,-5.1,-0.2,-5.1).curveTo(-1.2,-5.1,-1.9,-4.6).curveTo(-2.4,-4.1,-2.4,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.8,-5.7).curveTo(-5,-6.9,-3.5,-7.5).curveTo(-1.9,-8.2,0,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7,7.7).lineTo(7,7.9).lineTo(2.7,7.9).curveTo(2.4,7.4,2.4,6.5).curveTo(0.8,8.2,-1.7,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.2,4.5).curveTo(-1.7,5,-0.8,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.2,3.4).lineTo(2.2,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
+	this.shape_5.setTransform(55.15,28.625);
 
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.8,-10).lineTo(1.8,-6.1).lineTo(4.5,-6.1).lineTo(4.5,-3).lineTo(1.8,-3).lineTo(1.8,4.9).curveTo(1.8,5.8,2.2,6.2).curveTo(2.5,6.5,3.4,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.5,10,2.2,10).curveTo(-2.3,10,-2.4,5.5).closePath();
-	this.shape_6.setTransform(41.75,23.875);
+	this.shape_6.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.9,-10).lineTo(1.9,-6.1).lineTo(4.6,-6.1).lineTo(4.6,-3).lineTo(1.9,-3).lineTo(1.9,4.9).curveTo(1.9,5.8,2.2,6.2).curveTo(2.5,6.5,3.4,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.4,10,2.2,10).curveTo(-2.3,10,-2.4,5.5).closePath();
+	this.shape_6.setTransform(41.85,26.825);
 
 	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-4,10.1).curveTo(-6,9.1,-7.1,7.6).curveTo(-8.2,6,-8.2,4).lineTo(-3.8,4).curveTo(-3.8,7.4,0.5,7.5).curveTo(2,7.5,2.9,6.8).curveTo(3.8,6.2,3.8,5).curveTo(3.8,3.8,2.9,3.2).curveTo(2,2.5,-0.3,1.7).curveTo(-2.5,1,-3.9,0.3).curveTo(-7.5,-1.7,-7.5,-5).curveTo(-7.5,-6.8,-6.5,-8.1).curveTo(-5.6,-9.5,-3.7,-10.2).curveTo(-1.9,-11,0.4,-11).curveTo(2.6,-10.9,4.4,-10.2).curveTo(6.2,-9.3,7.2,-7.8).curveTo(8.2,-6.3,8.2,-4.4).lineTo(3.8,-4.4).curveTo(3.8,-5.8,2.9,-6.7).curveTo(2,-7.4,0.3,-7.5).curveTo(-1.3,-7.4,-2.2,-6.8).curveTo(-3.1,-6.1,-3.1,-5).curveTo(-3.1,-4,-2.1,-3.2).curveTo(-1,-2.6,1,-2).curveTo(4.8,-0.8,6.5,0.8).curveTo(8.2,2.6,8.2,5).curveTo(8.2,7.8,6.1,9.4).curveTo(4,11,0.5,11).curveTo(-2,10.9,-4,10.1).closePath();
-	this.shape_7.setTransform(27.625,22.95);
+	this.shape_7.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-4,10).curveTo(-6,9.2,-7.1,7.6).curveTo(-8.2,6,-8.2,4).lineTo(-3.8,4).curveTo(-3.8,7.4,0.5,7.5).curveTo(2,7.4,2.9,6.9).curveTo(3.8,6.2,3.8,5.1).curveTo(3.8,3.8,2.9,3.2).curveTo(2,2.5,-0.3,1.7).curveTo(-2.5,1,-3.9,0.3).curveTo(-7.5,-1.7,-7.5,-5).curveTo(-7.5,-6.7,-6.5,-8.1).curveTo(-5.6,-9.4,-3.7,-10.2).curveTo(-1.9,-10.9,0.4,-11).curveTo(2.6,-11,4.4,-10.1).curveTo(6.2,-9.3,7.2,-7.8).curveTo(8.2,-6.3,8.2,-4.4).lineTo(3.8,-4.4).curveTo(3.8,-5.9,2.9,-6.6).curveTo(2,-7.5,0.3,-7.5).curveTo(-1.3,-7.4,-2.2,-6.8).curveTo(-3.1,-6.1,-3.1,-5).curveTo(-3.1,-4,-2.1,-3.2).curveTo(-1,-2.5,1,-2).curveTo(4.8,-0.8,6.5,0.8).curveTo(8.2,2.5,8.2,5.1).curveTo(8.2,7.8,6.1,9.4).curveTo(4,10.9,0.5,10.9).curveTo(-2,10.9,-4,10).closePath();
+	this.shape_7.setTransform(27.775,25.9);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
@@ -12507,29 +15855,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.btn_jacket_long_blue, new cjs.Rectangle(-17.6,-1.2,81.2,248.5), null);
 
 
-(lib.btn_gray = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#CED6CB").beginStroke().moveTo(-28,40).curveTo(-39.6,28.4,-39.6,12).curveTo(-39.6,-1.7,-20.9,-28).curveTo(-11.5,-41.1,-2.2,-51.6).curveTo(8.3,-41.1,18.7,-28).curveTo(39.6,-1.7,39.6,12).curveTo(39.6,28.4,28,40).curveTo(16.4,51.6,-0,51.6).curveTo(-16.4,51.6,-28,40).closePath();
-	this.shape.setTransform(39.6,27.575);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_gray, new cjs.Rectangle(0,-24,79.2,103.2), null);
-
-
 (lib.btn_girl = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -12544,19 +15869,19 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.beginFill("#000000").beginStroke().moveTo(-3.9,20.6).lineTo(-3.9,-20.6).lineTo(3.9,-20.6).lineTo(3.9,20.6).closePath();
-	this.shape.setTransform(145.325,118.775);
+	this.shape.setTransform(145.325,124.175);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#000000").beginStroke().moveTo(-8.2,14.8).lineTo(-8.2,-14.3).lineTo(-0.9,-14.3).lineTo(-0.7,-10.8).curveTo(1.7,-14.8,5.8,-14.8).curveTo(7.1,-14.8,8.2,-14.4).lineTo(8.1,-7).curveTo(6.5,-7.2,5.3,-7.2).curveTo(0.9,-7.2,-0.4,-4.2).lineTo(-0.4,14.8).closePath();
-	this.shape_1.setTransform(129.2,124.6);
+	this.shape_1.graphics.beginFill("#000000").beginStroke().moveTo(-8.2,14.8).lineTo(-8.2,-14.3).lineTo(-0.9,-14.3).lineTo(-0.7,-10.8).curveTo(1.7,-14.8,5.8,-14.8).curveTo(7.1,-14.8,8.2,-14.4).lineTo(8.1,-7).lineTo(5.3,-7.2).curveTo(0.9,-7.2,-0.4,-4.2).lineTo(-0.4,14.8).closePath();
+	this.shape_1.setTransform(129.2,130);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.beginFill("#000000").beginStroke().moveTo(-3.9,20.3).lineTo(-3.9,-8.8).lineTo(3.8,-8.8).lineTo(3.8,20.3).closePath().moveTo(-3.1,-13.4).curveTo(-4.3,-14.5,-4.4,-16.3).curveTo(-4.4,-18,-3.2,-19.1).curveTo(-2.1,-20.3,0,-20.3).curveTo(2,-20.3,3.2,-19.1).curveTo(4.3,-18,4.4,-16.3).curveTo(4.3,-14.5,3.2,-13.4).curveTo(2,-12.3,0,-12.3).curveTo(-2,-12.3,-3.1,-13.4).closePath();
-	this.shape_2.setTransform(110.75,119.1);
+	this.shape_2.setTransform(110.75,124.5);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.beginFill("#000000").beginStroke().moveTo(-7.9,17.9).curveTo(-11.7,15.6,-13.8,11.5).curveTo(-15.9,7.2,-16,1.6).lineTo(-16,-1.1).curveTo(-16,-7,-14,-11.2).curveTo(-12,-15.6,-8.3,-17.8).curveTo(-4.6,-20.1,0.4,-20.1).curveTo(7.4,-20.1,11.3,-16.7).curveTo(15.2,-13.5,16,-7.1).lineTo(8.1,-7.1).curveTo(7.6,-10.5,5.7,-12).curveTo(3.9,-13.6,0.7,-13.6).curveTo(-3.4,-13.6,-5.6,-10.5).curveTo(-7.7,-7.4,-7.8,-1.3).lineTo(-7.8,1.2).curveTo(-7.8,7.3,-5.4,10.5).curveTo(-3.1,13.6,1.4,13.6).curveTo(6,13.6,7.9,11.7).lineTo(7.9,5).lineTo(0.6,5).lineTo(0.6,-1).lineTo(16,-1).lineTo(16,14.6).curveTo(13.8,17.2,9.8,18.7).curveTo(5.8,20.1,1,20.1).curveTo(-4.1,20.1,-7.9,17.9).closePath();
-	this.shape_3.setTransform(84.475,119.85);
+	this.shape_3.setTransform(84.475,125.25);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.beginFill().beginStroke("#F9EFE5").setStrokeStyle(1,1,1).moveTo(-129,-129).lineTo(129,-129).lineTo(129,129).lineTo(-129,129).closePath();
@@ -12573,29 +15898,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.btn_girl, new cjs.Rectangle(-1,-1,260,260), null);
 
 
-(lib.btn_brown = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#A3250C").beginStroke().moveTo(-28,42).curveTo(-39.6,30.4,-39.6,14).curveTo(-39.6,0.4,-18.8,-28).curveTo(-8.5,-42.2,1.9,-53.6).curveTo(11.3,-42.2,20.8,-28).curveTo(39.6,0.4,39.6,14).curveTo(39.6,30.4,28,42).curveTo(16.4,53.6,-0,53.6).curveTo(-16.4,53.6,-28,42).closePath();
-	this.shape.setTransform(39.6,25.575);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_brown, new cjs.Rectangle(0,-28,79.2,107.2), null);
-
-
 (lib.btn_boy = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -12609,16 +15911,16 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#000000").beginStroke().moveTo(-10.7,19.9).lineTo(-10.7,14).lineTo(-9.5,14).curveTo(-7.3,14,-6.2,13.3).curveTo(-5.1,12.7,-4.5,11.1).lineTo(-3.6,8.8).lineTo(-13.7,-20.4).lineTo(-5.4,-20.4).lineTo(0,-2.3).lineTo(5.4,-20.4).lineTo(13.7,-20.4).lineTo(2,13.2).lineTo(1.4,14.7).curveTo(-1.2,20.4,-7.2,20.4).curveTo(-8.9,20.4,-10.7,19.9).closePath();
-	this.shape.setTransform(180.025,130.75);
+	this.shape.graphics.beginFill("#000000").beginStroke().moveTo(-10.7,19.9).lineTo(-10.7,14).lineTo(-9.5,14).curveTo(-7.3,14,-6.2,13.3).curveTo(-5.1,12.7,-4.5,11.1).lineTo(-3.6,8.7).lineTo(-13.7,-20.4).lineTo(-5.4,-20.4).lineTo(0,-2.3).lineTo(5.4,-20.4).lineTo(13.7,-20.4).lineTo(2,13.2).lineTo(1.4,14.7).curveTo(-1.2,20.4,-7.2,20.4).curveTo(-8.9,20.4,-10.7,19.9).closePath();
+	this.shape.setTransform(179.975,136.15);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.beginFill("#000000").beginStroke().moveTo(-10,11).curveTo(-13.8,7,-13.8,0.1).lineTo(-13.8,-0.3).curveTo(-13.8,-4.6,-12.1,-8).curveTo(-10.4,-11.4,-7.3,-13.2).curveTo(-4.2,-15.1,-0,-15.1).curveTo(5.9,-15.1,9.6,-11.5).curveTo(13.3,-7.9,13.7,-1.7).lineTo(13.8,0.3).curveTo(13.8,7,10,11).curveTo(6.3,15.1,0,15.1).curveTo(-6.3,15.1,-10,11).closePath().moveTo(-4.4,-6.6).curveTo(-6,-4.4,-6,0.3).curveTo(-6,4.4,-4.4,6.6).curveTo(-2.9,8.8,0,8.8).curveTo(2.8,8.8,4.4,6.6).curveTo(6,4.5,6,-0.3).curveTo(6,-4.4,4.4,-6.6).curveTo(2.8,-8.8,-0,-8.8).curveTo(-2.9,-8.8,-4.4,-6.6).closePath();
-	this.shape_1.setTransform(150.625,124.875);
+	this.shape_1.setTransform(150.625,130.275);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.beginFill("#000000").beginStroke().moveTo(-14.5,19.6).lineTo(-14.5,-19.6).lineTo(-0.8,-19.6).curveTo(6.3,-19.6,10,-16.8).curveTo(13.6,-14.1,13.6,-8.9).curveTo(13.6,-6,12.2,-3.8).curveTo(10.7,-1.6,8.1,-0.5).curveTo(11.1,0.2,12.8,2.5).curveTo(14.5,4.8,14.5,8).curveTo(14.5,13.7,10.9,16.6).curveTo(7.3,19.5,0.7,19.6).closePath().moveTo(-6.5,13.1).lineTo(0.4,13.1).curveTo(3.3,13.1,4.9,11.7).curveTo(6.5,10.3,6.5,8).curveTo(6.5,2.6,0.9,2.5).lineTo(-6.5,2.5).closePath().moveTo(-6.5,-3.1).lineTo(-0.5,-3.1).curveTo(5.6,-3.3,5.6,-8.1).curveTo(5.6,-10.7,4.1,-11.8).curveTo(2.5,-13,-0.8,-13).lineTo(-6.5,-13).closePath();
-	this.shape_2.setTransform(118.025,119.85);
+	this.shape_2.setTransform(118.025,125.25);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.beginFill().beginStroke("#F9EFE5").setStrokeStyle(1,1,1).moveTo(-129,-129).lineTo(129,-129).lineTo(129,129).lineTo(-129,129).closePath();
@@ -16613,1804 +19915,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.shirt_10, new cjs.Rectangle(-6.3,-1.2,146,169.29999999999998), null);
 
 
-(lib.shirt_06_btn = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.7,-9.4).curveTo(-6.8,-7.6,0.4,-6.1).curveTo(4,-0.8,11,9.9);
-	this.shape.setTransform(61.4952,9.5463);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.6,-5).curveTo(5.4,-4,3.3,-3.5).curveTo(-0.3,-2.6,-3.3,-2.1).curveTo(-8.9,5.5,-8.6,4.9);
-	this.shape_1.setTransform(75.7617,5.0627);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(7.2,84.1).curveTo(20,84.1,28.7,78.7).curveTo(33.7,75.6,36.8,70.8).curveTo(40.1,65.9,40.5,60.4).curveTo(40.7,56.9,39.6,52.3).curveTo(39.4,51.4,37.4,44.3).curveTo(34.5,33.9,34,19.5).curveTo(34,2.7,33.7,-6).curveTo(33.5,-13.3,36.5,-22.8).curveTo(40.1,-34,40.4,-36.4).curveTo(42.1,-50.5,42.2,-53.5).curveTo(42.4,-61,39.6,-63.7).curveTo(37.1,-66.2,21.5,-73.1).curveTo(5.2,-80.3,-7.6,-84.2).curveTo(-20.1,-64.2,-21.7,-63.5).curveTo(-24.6,-62.2,-30.9,-60.9).curveTo(-37.7,-59.6,-40.4,-58.6).curveTo(-42.4,53.7,-42.2,64.5).curveTo(-42.1,68.1,-40.2,76.6).curveTo(-39.3,80.9,-38.3,84.5).closePath();
-	this.shape_2.setTransform(92.1679,84.2873);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(33.1,84.4).curveTo(28.5,84.6,17.3,84.4).curveTo(4.5,84.1,1.9,84.1).curveTo(-10.9,84.1,-19.6,78.7).curveTo(-24.6,75.6,-27.7,70.8).curveTo(-31,65.9,-31.4,60.4).curveTo(-31.6,56.9,-30.6,52.3).curveTo(-30.4,51.3,-28.4,44.3).curveTo(-25.3,33.6,-24.5,19.5).curveTo(-24,2.7,-23.8,-6).curveTo(-23.6,-13.4,-26.8,-22.8).curveTo(-31,-34.7,-31.3,-36.4).curveTo(-35.2,-59,-30.5,-63.7).curveTo(-28.1,-66.1,-12,-73.1).curveTo(4.6,-80.2,17.5,-84.2).lineTo(29.5,-61.6);
-	this.shape_3.setTransform(33.5481,84.2796);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape_4.setTransform(70.15,89.975);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-1,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-1,2.2,-1.6,1.6).closePath();
-	this.shape_5.setTransform(71.4,88.025);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.5).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.5).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.5).closePath();
-	this.shape_6.setTransform(70.15,89.975);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1).lineTo(-0.5,-4.1).lineTo(9.6,-1.1).curveTo(9.9,-1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-0.9,-9.6,-1).closePath();
-	this.shape_7.setTransform(70.375,90.7551);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
-	this.shape_8.setTransform(70.85,111.375);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_9.setTransform(72.075,109.375);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1.1,-0.4,-0.4).curveTo(0.3,0.2,1.3,0.2).curveTo(2.2,0.2,2.8,-0.4).curveTo(3.5,-1.1,3.4,-2).curveTo(3.5,-2.9,2.8,-3.6).curveTo(2.2,-4.2,1.3,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
-	this.shape_10.setTransform(70.85,111.375);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1.1).lineTo(-0.5,-4.1).lineTo(9.6,-1.2).curveTo(9.9,-1.1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-1,-9.6,-1.1).closePath();
-	this.shape_11.setTransform(71.075,112.156);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
-	this.shape_12.setTransform(70.15,131.625);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-1,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.6,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-1,2.2,-1.6,1.6).closePath();
-	this.shape_13.setTransform(71.4,129.625);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1.1,-0.4,-0.4).curveTo(0.3,0.2,1.2,0.2).curveTo(2.2,0.2,2.9,-0.4).curveTo(3.5,-1.1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
-	this.shape_14.setTransform(70.15,131.625);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1.1).lineTo(-0.5,-4.1).lineTo(9.6,-1.2).curveTo(9.9,-1.1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-1,-9.6,-1.1).closePath();
-	this.shape_15.setTransform(70.375,132.406);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).closePath();
-	this.shape_16.setTransform(70.85,152.975);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.2,-0).curveTo(-2.2,-1,-1.6,-1.6).curveTo(-0.9,-2.2,0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-1,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_17.setTransform(72.075,151.025);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath().moveTo(-0.4,-3.5).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.3,0.3).curveTo(2.2,0.3,2.8,-0.4).curveTo(3.5,-1,3.4,-2).curveTo(3.5,-2.9,2.8,-3.5).curveTo(2.2,-4.2,1.3,-4.2).curveTo(0.3,-4.2,-0.4,-3.5).closePath();
-	this.shape_18.setTransform(70.85,152.975);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill().beginStroke("#FDD888").setStrokeStyle(2.4).moveTo(-9.6,-1).lineTo(-0.5,-4.1).lineTo(9.6,-1.1).curveTo(9.9,-1,9.9,-0.8).curveTo(9.9,-0.6,9.7,-0.5).lineTo(0.6,4).lineTo(-9.7,-0.4).curveTo(-9.9,-0.5,-9.9,-0.7).curveTo(-9.9,-0.9,-9.6,-1).closePath();
-	this.shape_19.setTransform(71.075,153.7551);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill("#FBC85B").beginStroke().moveTo(-1,72.1).lineTo(-5.7,54.7).lineTo(-5.7,17.4).lineTo(-3.7,-70.9).lineTo(0.5,-72.1).curveTo(4.7,-73.3,4.7,-72.8).curveTo(4.8,-71.3,3.2,-10.5).curveTo(1.7,50.5,1.8,54.1).curveTo(2,58.1,3.8,65.9).curveTo(4.8,69.8,5.7,72.9).closePath();
-	this.shape_20.setTransform(55.525,96.5015);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.5).lineTo(-1.3,-3.2).lineTo(2.4,-2.5).lineTo(1.3,3.2).closePath();
-	this.shape_21.setTransform(109.55,41.2);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.5).lineTo(-1.4,-3.2).lineTo(2.4,-2.6).lineTo(1.4,3.2).closePath();
-	this.shape_22.setTransform(111.375,30.9);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.6).lineTo(-1.4,-3.2).lineTo(2.4,-2.6).lineTo(1.4,3.2).closePath();
-	this.shape_23.setTransform(113.125,20.6);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,2.5).lineTo(-1.3,-3.3).lineTo(2.4,-2.5).lineTo(1.3,3.3).closePath();
-	this.shape_24.setTransform(103.35,72);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,2.4).lineTo(-1.3,-3.3).lineTo(2.5,-2.5).lineTo(1.3,3.2).closePath();
-	this.shape_25.setTransform(105.425,61.8);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,2.5).lineTo(-1.3,-3.2).lineTo(2.4,-2.5).lineTo(1.3,3.2).closePath();
-	this.shape_26.setTransform(107.5,51.525);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
-	this.shape_27.setTransform(102.3,103.375);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.7,3).closePath();
-	this.shape_28.setTransform(101.525,92.975);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,1.1).lineTo(-2.2,0.3).lineTo(-1.5,-3.1).lineTo(2.3,-2.4).lineTo(1.7,0.4).lineTo(1.6,0.7).lineTo(1.6,1.1).lineTo(1.6,1.4).lineTo(1.6,3.1).lineTo(-2.2,3.1).closePath();
-	this.shape_29.setTransform(101.45,82.275);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.7).lineTo(-1.7,3.1).closePath();
-	this.shape_30.setTransform(105,134.725);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.7).lineTo(1.7,-3.1).lineTo(2.1,2.7).lineTo(-1.7,3.1).closePath();
-	this.shape_31.setTransform(104.1,124.325);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.7).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
-	this.shape_32.setTransform(103.2,113.875);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill("#070F21").beginStroke().moveTo(-3,1.4).curveTo(-1.6,-0.8,-0.6,-3.4).lineTo(3,-2).curveTo(2,0.5,0.3,3.4).closePath();
-	this.shape_33.setTransform(103.725,165.475);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill("#070F21").beginStroke().moveTo(-2,2.5).curveTo(-1.8,1.1,-1.8,-0.1).lineTo(-1.9,-2.8).lineTo(2,-3).lineTo(2,1.1).lineTo(1.8,3).closePath();
-	this.shape_34.setTransform(106.275,155.7);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
-	this.shape_35.setTransform(105.825,145.2);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,2.5).lineTo(-1.4,-3.2).lineTo(2.4,-2.6).lineTo(1.4,3.2).closePath();
-	this.shape_36.setTransform(108.4,35.825);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,2.6).lineTo(-1.5,-3.2).lineTo(2.3,-2.6).lineTo(1.5,3.2).closePath();
-	this.shape_37.setTransform(110.075,25.475);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,2.6).lineTo(-1.5,-3.2).lineTo(2.3,-2.6).lineTo(1.5,3.2).closePath();
-	this.shape_38.setTransform(111.625,15.125);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,2.5).lineTo(-1.3,-3.2).lineTo(2.5,-2.4).lineTo(1.3,3.2).closePath();
-	this.shape_39.setTransform(102.125,66.65);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,2.5).lineTo(-1.3,-3.3).lineTo(2.4,-2.5).lineTo(1.3,3.3).closePath();
-	this.shape_40.setTransform(104.25,56.425);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,2.4).lineTo(-1.3,-3.3).lineTo(2.5,-2.5).lineTo(1.3,3.2).closePath();
-	this.shape_41.setTransform(106.375,46.15);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
-	this.shape_42.setTransform(100.675,98.075);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.8,3).closePath();
-	this.shape_43.setTransform(99.975,87.625);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,3).lineTo(-2.3,1.3).lineTo(-2.2,1.1).lineTo(-2.2,0.9).lineTo(-1.4,-3.2).lineTo(2.4,-2.4).lineTo(1.5,1.8).lineTo(1.5,3.1).closePath();
-	this.shape_44.setTransform(100.125,76.95);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.7).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3).closePath();
-	this.shape_45.setTransform(103.075,129.5);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3.1).lineTo(2.1,2.8).lineTo(-1.7,3.1).closePath();
-	this.shape_46.setTransform(102.275,119.075);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.2,-2.8).lineTo(1.7,-3.1).lineTo(2.2,2.8).lineTo(-1.7,3.1).closePath();
-	this.shape_47.setTransform(101.45,108.625);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.7,1.9).curveTo(-1.7,-0.4,-1.1,-3.3).lineTo(2.7,-2.5).lineTo(0.9,3.3).closePath();
-	this.shape_48.setTransform(102.875,160.725);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.9,2.7).lineTo(-1.9,2.4).lineTo(-2,-2.8).lineTo(1.8,-3).lineTo(2,2.3).lineTo(1.9,3).closePath();
-	this.shape_49.setTransform(104.375,150.5);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,-2.8).lineTo(1.7,-3).lineTo(2.1,2.8).lineTo(-1.8,3).closePath();
-	this.shape_50.setTransform(103.85,140.05);
-
-	this.shape_51 = new cjs.Shape();
-	this.shape_51.graphics.beginFill().beginStroke("#EE3D29").setStrokeStyle(2.6).moveTo(13.1,-73.2).lineTo(12.1,-65.5).curveTo(10.8,-56.6,9.4,-51).curveTo(7.7,-44.2,5.3,-30).curveTo(2.9,-15.6,2.3,-8.3).curveTo(1.7,-2.1,3.8,29).curveTo(4.9,45,6.3,64).curveTo(6.6,68.3,4.5,74).curveTo(3.4,76.8,2.3,78.8).lineTo(-12.6,79.3).curveTo(-11.7,77.2,-11,74.1).curveTo(-9.4,68,-9.7,63.6).curveTo(-10.2,53.9,-11.1,27.5).curveTo(-12.2,-4.2,-11.7,-9.5).curveTo(-11.3,-15.1,-8.1,-32.4).curveTo(-5.5,-47,-3.8,-54.6).curveTo(-2.8,-59.4,-1.1,-69.6).lineTo(0.3,-78.9).closePath();
-	this.shape_51.setTransform(104.9945,88.605);
-
-	this.shape_52 = new cjs.Shape();
-	this.shape_52.graphics.beginFill("#EE3D29").beginStroke().moveTo(-11.3,73.9).curveTo(-9.7,67.8,-9.9,63.4).curveTo(-10.5,53.6,-11.4,27.2).curveTo(-12.4,-4.4,-12,-9.8).curveTo(-11.5,-15.3,-8.4,-32.6).curveTo(-5.8,-47.2,-4.1,-54.9).curveTo(-3.1,-59.6,-1.4,-69.8).lineTo(0.1,-79.1).lineTo(12.8,-73.4).lineTo(11.8,-65.7).curveTo(10.5,-56.9,9.1,-51.3).curveTo(7.4,-44.4,5,-30.2).curveTo(2.7,-15.8,2,-8.5).curveTo(1.4,-2.3,3.6,28.8).curveTo(4.6,44.8,6,63.8).curveTo(6.3,68.1,4.2,73.7).curveTo(3.1,76.6,2,78.5).lineTo(-12.9,79.1).curveTo(-12,76.9,-11.3,73.9).closePath();
-	this.shape_52.setTransform(105.25,88.85);
-
-	this.shape_53 = new cjs.Shape();
-	this.shape_53.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,-2.5).lineTo(1.4,-3.2).lineTo(2.4,2.5).lineTo(-1.3,3.2).closePath();
-	this.shape_53.setTransform(23.975,41.2);
-
-	this.shape_54 = new cjs.Shape();
-	this.shape_54.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,-2.6).lineTo(1.4,-3.2).lineTo(2.4,2.5).lineTo(-1.4,3.2).closePath();
-	this.shape_54.setTransform(22.175,30.9);
-
-	this.shape_55 = new cjs.Shape();
-	this.shape_55.graphics.beginFill("#070F21").beginStroke().moveTo(-2.4,-2.6).lineTo(1.4,-3.2).lineTo(2.4,2.6).lineTo(-1.4,3.2).closePath();
-	this.shape_55.setTransform(20.425,20.6);
-
-	this.shape_56 = new cjs.Shape();
-	this.shape_56.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.5).lineTo(-1.3,3.3).closePath();
-	this.shape_56.setTransform(30.2,72);
-
-	this.shape_57 = new cjs.Shape();
-	this.shape_57.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.4).lineTo(-1.3,3.2).closePath();
-	this.shape_57.setTransform(28.125,61.8);
-
-	this.shape_58 = new cjs.Shape();
-	this.shape_58.graphics.beginFill("#070F21").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.2).lineTo(2.4,2.5).lineTo(-1.3,3.2).closePath();
-	this.shape_58.setTransform(26.05,51.525);
-
-	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.8).lineTo(-1.7,-3.1).lineTo(2.2,-2.8).lineTo(1.6,3.1).closePath();
-	this.shape_59.setTransform(31.25,103.375);
-
-	this.shape_60 = new cjs.Shape();
-	this.shape_60.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.7,3).closePath();
-	this.shape_60.setTransform(32.025,92.975);
-
-	this.shape_61 = new cjs.Shape();
-	this.shape_61.graphics.beginFill("#070F21").beginStroke().moveTo(-1.6,3.1).lineTo(-1.6,1.4).lineTo(-1.7,1.1).lineTo(-1.7,0.7).lineTo(-1.8,0.4).lineTo(-2.3,-2.4).lineTo(1.5,-3.1).lineTo(2.2,0.7).lineTo(2.2,1.1).lineTo(2.2,1.5).lineTo(2.2,3.1).closePath();
-	this.shape_61.setTransform(32.1,82.275);
-
-	this.shape_62 = new cjs.Shape();
-	this.shape_62.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.7).lineTo(-1.6,-3.1).lineTo(2.2,-2.8).lineTo(1.6,3.1).closePath();
-	this.shape_62.setTransform(28.55,134.725);
-
-	this.shape_63 = new cjs.Shape();
-	this.shape_63.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.7).lineTo(-1.6,-3.1).lineTo(2.2,-2.7).lineTo(1.6,3.1).closePath();
-	this.shape_63.setTransform(29.45,124.325);
-
-	this.shape_64 = new cjs.Shape();
-	this.shape_64.graphics.beginFill("#070F21").beginStroke().moveTo(-2.2,2.8).lineTo(-1.6,-3.1).lineTo(2.2,-2.7).lineTo(1.6,3.1).closePath();
-	this.shape_64.setTransform(30.35,113.875);
-
-	this.shape_65 = new cjs.Shape();
-	this.shape_65.graphics.beginFill("#070F21").beginStroke().moveTo(-3,-2).lineTo(0.6,-3.4).curveTo(1.6,-0.8,3,1.4).lineTo(-0.3,3.4).curveTo(-2,0.5,-3,-2).closePath();
-	this.shape_65.setTransform(29.825,165.475);
-
-	this.shape_66 = new cjs.Shape();
-	this.shape_66.graphics.beginFill("#070F21").beginStroke().moveTo(-2,1.1).lineTo(-2,-3).lineTo(1.9,-2.8).lineTo(1.8,-0.1).curveTo(1.8,1.1,2,2.5).lineTo(-1.8,3).closePath();
-	this.shape_66.setTransform(27.275,155.7);
-
-	this.shape_67 = new cjs.Shape();
-	this.shape_67.graphics.beginFill("#070F21").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
-	this.shape_67.setTransform(27.725,145.2);
-
-	this.shape_68 = new cjs.Shape();
-	this.shape_68.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.4,-2.6).lineTo(1.4,-3.2).lineTo(2.4,2.5).lineTo(-1.4,3.2).closePath();
-	this.shape_68.setTransform(25.15,35.825);
-
-	this.shape_69 = new cjs.Shape();
-	this.shape_69.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,-2.6).lineTo(1.5,-3.2).lineTo(2.3,2.6).lineTo(-1.5,3.2).closePath();
-	this.shape_69.setTransform(23.475,25.475);
-
-	this.shape_70 = new cjs.Shape();
-	this.shape_70.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.3,-2.6).lineTo(1.5,-3.2).lineTo(2.3,2.6).lineTo(-1.5,3.2).closePath();
-	this.shape_70.setTransform(21.925,15.125);
-
-	this.shape_71 = new cjs.Shape();
-	this.shape_71.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,-2.4).lineTo(1.3,-3.2).lineTo(2.5,2.5).lineTo(-1.3,3.2).closePath();
-	this.shape_71.setTransform(31.425,66.65);
-
-	this.shape_72 = new cjs.Shape();
-	this.shape_72.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.5).lineTo(-1.3,3.3).closePath();
-	this.shape_72.setTransform(29.275,56.425);
-
-	this.shape_73 = new cjs.Shape();
-	this.shape_73.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.5,-2.5).lineTo(1.3,-3.3).lineTo(2.5,2.4).lineTo(-1.3,3.2).closePath();
-	this.shape_73.setTransform(27.175,46.15);
-
-	this.shape_74 = new cjs.Shape();
-	this.shape_74.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
-	this.shape_74.setTransform(32.875,98.075);
-
-	this.shape_75 = new cjs.Shape();
-	this.shape_75.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.8,3).closePath();
-	this.shape_75.setTransform(33.575,87.625);
-
-	this.shape_76 = new cjs.Shape();
-	this.shape_76.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.5,1.8).lineTo(-2.4,-2.4).lineTo(1.4,-3.2).lineTo(2.2,0.9).lineTo(2.2,1.1).lineTo(2.3,1.3).lineTo(2.4,3).lineTo(-1.5,3.1).closePath();
-	this.shape_76.setTransform(33.425,76.95);
-
-	this.shape_77 = new cjs.Shape();
-	this.shape_77.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.7).lineTo(1.7,3).closePath();
-	this.shape_77.setTransform(30.475,129.5);
-
-	this.shape_78 = new cjs.Shape();
-	this.shape_78.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
-	this.shape_78.setTransform(31.275,119.075);
-
-	this.shape_79 = new cjs.Shape();
-	this.shape_79.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3.1).lineTo(2.1,-2.8).lineTo(1.7,3.1).closePath();
-	this.shape_79.setTransform(32.1,108.625);
-
-	this.shape_80 = new cjs.Shape();
-	this.shape_80.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.9,0.5).curveTo(-2.4,-1.1,-2.7,-2.5).lineTo(1.1,-3.3).curveTo(1.7,-0.4,2.7,1.9).lineTo(-0.9,3.3).closePath();
-	this.shape_80.setTransform(30.675,160.725);
-
-	this.shape_81 = new cjs.Shape();
-	this.shape_81.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-1.9,2.6).lineTo(-2,2.3).lineTo(-1.8,-3).lineTo(2,-2.8).lineTo(1.9,2.4).lineTo(1.9,2.7).lineTo(-1.9,3).closePath();
-	this.shape_81.setTransform(29.175,150.5);
-
-	this.shape_82 = new cjs.Shape();
-	this.shape_82.graphics.beginFill("#F3DFC6").beginStroke().moveTo(-2.1,2.8).lineTo(-1.7,-3).lineTo(2.1,-2.8).lineTo(1.7,3).closePath();
-	this.shape_82.setTransform(29.7,140.05);
-
-	this.shape_83 = new cjs.Shape();
-	this.shape_83.graphics.beginFill().beginStroke("#EE3D29").setStrokeStyle(2.6).moveTo(-13.1,-73.2).lineTo(-12.1,-65.5).curveTo(-10.7,-56.6,-9.4,-51).curveTo(-7.7,-44.2,-5.3,-30).curveTo(-2.9,-15.6,-2.3,-8.3).curveTo(-1.8,-2.1,-3.8,29).curveTo(-4.9,45,-6.3,64).curveTo(-6.6,68.3,-4.4,74).curveTo(-3.4,76.8,-2.3,78.8).lineTo(12.6,79.3).curveTo(11.7,77.2,11,74.1).curveTo(9.4,68,9.6,63.6).curveTo(10.2,55.1,11.1,27.5).curveTo(12.2,-4.1,11.7,-9.5).curveTo(11.3,-15.1,8.1,-32.4).curveTo(5.5,-47,3.8,-54.6).curveTo(2.8,-59.4,1.1,-69.6).lineTo(-0.3,-78.9).closePath();
-	this.shape_83.setTransform(28.5555,88.605);
-
-	this.shape_84 = new cjs.Shape();
-	this.shape_84.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2,78.5).curveTo(-3.1,76.6,-4.2,73.7).curveTo(-6.3,68.1,-6.1,63.8).curveTo(-4.6,44.8,-3.5,28.8).curveTo(-1.5,-2.3,-2,-8.5).curveTo(-2.7,-15.8,-5,-30.2).curveTo(-7.4,-44.4,-9.1,-51.3).curveTo(-10.5,-56.9,-11.8,-65.7).lineTo(-12.9,-73.4).lineTo(-0,-79.1).lineTo(1.4,-69.8).curveTo(3,-59.6,4.1,-54.9).curveTo(5.8,-47.2,8.4,-32.6).curveTo(11.5,-15.3,12,-9.8).curveTo(12.5,-4.4,11.4,27.2).curveTo(10.5,54.8,9.9,63.4).curveTo(9.7,67.8,11.2,73.9).curveTo(12,76.9,12.8,79.1).closePath();
-	this.shape_84.setTransform(28.3,88.85);
-
-	this.shape_85 = new cjs.Shape();
-	this.shape_85.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-42.2,64.4).curveTo(-42.4,53.6,-40.4,-58.7).curveTo(-37.7,-59.7,-30.9,-61).curveTo(-24.6,-62.2,-21.6,-63.6).curveTo(-20,-64.3,-7.5,-84.3).curveTo(5.3,-80.4,21.6,-73.2).curveTo(37.1,-66.3,39.7,-63.8).curveTo(42.4,-61.1,42.2,-53.6).curveTo(42.1,-50.6,40.4,-36.5).curveTo(40.1,-34.1,36.6,-22.9).curveTo(33.6,-13.4,33.8,-6.1).curveTo(34,2.6,34.1,19.3).curveTo(34.5,33.8,37.5,44.2).lineTo(39.7,52.2).curveTo(40.8,56.8,40.5,60.3).curveTo(40.2,65.7,36.8,70.7).curveTo(33.7,75.4,28.8,78.5).curveTo(20,84.1,7.2,84).lineTo(-38.3,84.3).curveTo(-42,70.1,-42.2,64.4).closePath();
-	this.shape_85.setTransform(92.2477,85.375);
-
-	this.shape_86 = new cjs.Shape();
-	this.shape_86.graphics.beginFill("#EC6C3B").beginStroke().moveTo(17.6,84.4).curveTo(6.2,83.9,2.5,83.9).curveTo(-10.4,83.9,-19.1,78.4).curveTo(-24,75.3,-27.2,70.6).curveTo(-30.5,65.6,-30.8,60.2).curveTo(-31.1,56.6,-30,52).lineTo(-27.8,44).curveTo(-24.8,33.4,-23.9,19.2).lineTo(-23.2,-6.2).curveTo(-23,-13.6,-26.3,-23).curveTo(-30.4,-34.9,-30.7,-36.7).curveTo(-34.7,-59.3,-30,-63.9).curveTo(-27.5,-66.4,-11.5,-73.3).curveTo(5.1,-80.5,18.1,-84.4).lineTo(30,-61.9).lineTo(32.6,83.8).curveTo(29.3,84.4,22.6,84.4).lineTo(17.6,84.4).closePath();
-	this.shape_86.setTransform(32.5429,84.4391);
-
-	this.shape_87 = new cjs.Shape();
-	this.shape_87.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-3,10).curveTo(-4.3,10,-5.3,8.1).lineTo(-6.7,5.5).lineTo(-9,0.8).curveTo(-9.9,-0.4,-11.5,-3.2).curveTo(-12.8,-5.4,-14.1,-8.9).curveTo(-14.2,-9.3,-13.9,-9.5).curveTo(-13.6,-9.7,-13.3,-9.5).curveTo(-13.1,-9.9,-12.8,-10).curveTo(-12.5,-10,-12.2,-9.7).lineTo(-11.4,-8.8).lineTo(-11.3,-8.8).curveTo(-9.6,-9,-6.5,-7.3).curveTo(-5.7,-7.2,-5.1,-6.4).curveTo(-4.3,-5.4,-3.3,-3).curveTo(-2.2,-0.7,-1.4,0.3).lineTo(-0.5,1.3).lineTo(1,-1.1).curveTo(2.2,-3.5,3.6,-5.8).curveTo(4.8,-8.9,10.9,-10).curveTo(11.5,-10.1,12,-9.7).lineTo(12.5,-9.9).curveTo(13.3,-10.3,13.7,-9.5).curveTo(13.7,-9.6,13.8,-9.6).curveTo(13.8,-9.6,13.9,-9.6).curveTo(13.9,-9.6,14,-9.6).curveTo(14,-9.5,14.1,-9.5).curveTo(14.1,-9.4,14.1,-9.4).curveTo(14.2,-9.4,14.2,-9.3).curveTo(14.2,-9.3,14.1,-9.2).curveTo(14.1,-9.2,14.1,-9.1).lineTo(13.9,-8.8).curveTo(13.8,-8.3,13.6,-8.1).lineTo(12.6,-7.1).lineTo(9.9,-3.3).curveTo(10.6,-2.4,10.1,-1.5).curveTo(6.6,3.3,3.9,6.3).curveTo(4.2,7.2,3.7,7.9).curveTo(3.2,8.6,2.3,8.6).curveTo(1.1,8.6,-0.3,9.1).lineTo(-1.6,9.8).curveTo(-2.2,10,-2.8,10).lineTo(-3,10).closePath();
-	this.shape_87.setTransform(67.5875,11.6729);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger_boy();
-	this.instance.setTransform(69.85,-18.05,1,1,0,0,0,82.8,57.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.shirt_06_btn, new cjs.Rectangle(-10.4,-76.5,160.6,250.1), null);
-
-
-(lib.shirt_05_btn = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape.setTransform(67.05,149.325);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape_1.setTransform(67.05,95.575);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
-	this.shape_2.setTransform(67.05,43.925);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.3,-0,2.2).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_3.setTransform(68.3,147.35);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_4.setTransform(68.3,93.325);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_5.setTransform(68.3,41.675);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
-	this.shape_6.setTransform(67.05,149.325);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.3).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.3).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
-	this.shape_7.setTransform(67.05,95.575);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.4,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.2).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.2).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
-	this.shape_8.setTransform(67.05,43.925);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6,1).moveTo(7.2,84.1).curveTo(20,84.1,28.7,78.7).curveTo(33.7,75.6,36.8,70.8).curveTo(40.1,65.9,40.5,60.4).curveTo(40.7,56.9,39.6,52.3).curveTo(39.4,51.4,37.4,44.3).curveTo(34.5,33.9,34,19.5).curveTo(34,2.7,33.7,-6).curveTo(33.5,-13.3,36.5,-22.8).curveTo(40.1,-34,40.4,-36.4).curveTo(42.1,-50.5,42.2,-53.5).curveTo(42.4,-61,39.6,-63.7).curveTo(37.1,-66.2,21.5,-73.1).curveTo(5.2,-80.3,-7.6,-84.2).lineTo(-9.5,-81.5).curveTo(-12,-78.1,-15.3,-74.8).curveTo(-26,-64.2,-40.4,-58.6).curveTo(-42.4,53.7,-42.2,64.5).curveTo(-42.1,68.1,-40.2,76.6).curveTo(-39.3,80.9,-38.3,84.5).closePath();
-	this.shape_9.setTransform(92.1179,84.9443);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6,1).moveTo(32.5,84.1).curveTo(26.5,84.5,16.2,84.5).curveTo(6.9,84.4,1.3,84).curveTo(-5.6,83.5,-9.9,82.6).curveTo(-16,81.3,-20.3,78.6).curveTo(-25.2,75.5,-28.4,70.7).curveTo(-31.7,65.8,-32,60.3).curveTo(-32.3,56.8,-31.2,52.2).curveTo(-31,51.2,-29,44.2).curveTo(-26,33.5,-25.1,19.4).curveTo(-24.7,2.6,-24.4,-6.1).curveTo(-24.2,-13.5,-27.5,-22.9).curveTo(-31.6,-34.8,-31.9,-36.5).curveTo(-35.9,-59.1,-31.2,-63.8).curveTo(-28.7,-66.2,-12.7,-73.2).curveTo(3.9,-80.3,16.9,-84.3).lineTo(23.2,-77.3).curveTo(30.2,-70,33.8,-68.5);
-	this.shape_10.setTransform(34.1481,85.0114);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill("#006E91").beginStroke().moveTo(-35.5,5.4).curveTo(-38.1,5.5,-39.5,5.3).curveTo(-39.3,4.5,-40.2,2).curveTo(-41,-0.2,-40.5,-0.7).curveTo(-35.5,-2.5,-27.8,-2.8).curveTo(-16.6,-3.1,-15.5,-3.3).lineTo(-6.1,-3.5).curveTo(14.3,-3.9,31.3,-5.2).curveTo(35.2,-5.5,39.2,-5.6).lineTo(39.4,-4.8).lineTo(40.6,0.6).lineTo(40.7,1.4).curveTo(34.7,1.6,24.3,2.5).curveTo(12.7,3.6,7.8,3.8).lineTo(-8,5).curveTo(-16.9,5.4,-23.8,5.5).lineTo(-31.6,5.6).curveTo(-32.9,5.5,-35.5,5.4).closePath();
-	this.shape_11.setTransform(91.2656,136.3);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill("#006E91").beginStroke().moveTo(12.1,4.9).curveTo(3.9,4.7,-0.7,4.3).curveTo(-6.6,3.9,-13.5,3).curveTo(-19.7,2.1,-24.9,1.2).lineTo(-24,-3.4).lineTo(-23.3,-5.4).lineTo(-14.1,-4.6).curveTo(4.9,-2.9,24.8,-2.4).lineTo(24.9,5.3).curveTo(21.4,5.1,12.1,4.9).closePath();
-	this.shape_12.setTransform(27.1,136.4);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill("#FBC85B").beginStroke().moveTo(-39.9,5.4).curveTo(-40.4,5.4,-40.6,2.8).curveTo(-40.8,0,-39.9,-1.4).curveTo(-39.5,-2.2,-37.9,-2.4).curveTo(-37.3,-2.5,-35.1,-2.5).curveTo(12.4,-4.8,39.6,-6.8).lineTo(40.6,1.4).curveTo(13.8,4.4,0.4,5.7).curveTo(-10.7,6.8,-20.2,6.8).curveTo(-31,6.8,-39.9,5.4).closePath();
-	this.shape_13.setTransform(92.281,143.9149);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#FBC85B").beginStroke().moveTo(16.3,6).curveTo(-6.7,6,-9.6,5.8).lineTo(-18.1,5.2).curveTo(-30.6,4.3,-42.2,1.4).lineTo(-42.3,0.3).lineTo(-41.8,-5.3).lineTo(-41.7,-6.2).lineTo(-29.9,-5).lineTo(-18.1,-4).lineTo(-9.6,-3.4).curveTo(-6.3,-3.1,16.3,-3.1).lineTo(42.2,-3).lineTo(42.3,6.2).curveTo(39.4,6,16.3,6).closePath();
-	this.shape_14.setTransform(43.875,143.625);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill("#EE3D29").beginStroke().moveTo(-40.5,7.3).lineTo(-40.5,-3.1).curveTo(-23.8,-2.2,-0,-4.2).curveTo(13.5,-5.4,40.5,-8).lineTo(40.5,-5.4).lineTo(40.2,-2.6).lineTo(39,-0.5).curveTo(38.5,0.5,37.6,1.7).curveTo(5.5,8,-22.9,8).curveTo(-31.9,8,-40.5,7.3).closePath();
-	this.shape_15.setTransform(90.9333,152.513);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill("#EE3D29").beginStroke().moveTo(16.1,7.1).curveTo(10,6.7,7.3,6.6).lineTo(-1.4,6).curveTo(-12,5.1,-21.9,2.8).lineTo(-22.2,2.6).lineTo(-23.4,-1.1).curveTo(-24.2,-3.8,-24.6,-5.9).curveTo(-24.6,-6.2,-24.9,-6.7).lineTo(-25,-7.5).curveTo(-20.6,-7.1,-13.2,-6.3).lineTo(-1.4,-5.1).lineTo(7.3,-4.3).lineTo(16.1,-3.6).curveTo(21.3,-3.2,25,-3.2).lineTo(25,7.5).curveTo(21.8,7.4,16.1,7.1).closePath();
-	this.shape_16.setTransform(26.675,152.2);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#006E91").beginStroke().moveTo(-1.7,-3.5).lineTo(-1.1,-3.5).curveTo(-0.8,-2.5,0.1,-0.9).lineTo(0.9,0.4).lineTo(0.8,0.2).curveTo(1,0.5,1.2,1.5).lineTo(1.6,2.9).lineTo(1.7,3.4).lineTo(-1.7,3.5).closePath();
-	this.shape_17.setTransform(129.15,128.6);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.7).lineTo(2.6,3.4).lineTo(-2.6,3.7).closePath();
-	this.shape_18.setTransform(121.8,128.85);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.8).lineTo(2.7,3.4).lineTo(-2.6,3.8).closePath();
-	this.shape_19.setTransform(113.5,129.35);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.6).lineTo(2.6,-3.9).lineTo(2.7,3.6).lineTo(-2.6,3.8).closePath();
-	this.shape_20.setTransform(96.925,130.5);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.9).lineTo(2.7,3.5).lineTo(-2.6,3.9).closePath();
-	this.shape_21.setTransform(105.225,129.975);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.8).lineTo(2.6,-3.8).lineTo(2.7,3.6).lineTo(-2.6,3.8).closePath();
-	this.shape_22.setTransform(87.25,130.875);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.9).lineTo(2.6,-4).lineTo(2.7,3.8).lineTo(-2.6,4).closePath();
-	this.shape_23.setTransform(78.925,131.075);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.9).lineTo(2.6,-4).lineTo(2.7,3.9).lineTo(-2.6,4).closePath();
-	this.shape_24.setTransform(70.6,131.275);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.8).lineTo(-2.6,-3.7).lineTo(2.6,-3.8).lineTo(2.7,3.8).closePath();
-	this.shape_25.setTransform(53.9,131.6);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.8).lineTo(2.6,-4).lineTo(2.7,3.9).lineTo(-2.6,4).closePath();
-	this.shape_26.setTransform(62.25,131.475);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.6).lineTo(-2.6,-3.7).lineTo(2.6,-3.7).lineTo(2.7,3.7).closePath();
-	this.shape_27.setTransform(44.45,131.575);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.5).lineTo(-2.7,-3.8).lineTo(2.7,-3.5).lineTo(2.7,3.8).closePath();
-	this.shape_28.setTransform(36.1,131.3);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.4).lineTo(-2.7,-3.9).lineTo(2.6,-3.4).lineTo(2.6,3.9).closePath();
-	this.shape_29.setTransform(27.75,130.75);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill("#006E91").beginStroke().moveTo(-1.3,3.5).curveTo(0.3,-0.9,1.1,-3.6).lineTo(1.3,-3.6).lineTo(1.3,3.6).closePath();
-	this.shape_30.setTransform(4.6,128.9);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.9).lineTo(2.6,-3.4).lineTo(2.6,3.9).closePath();
-	this.shape_31.setTransform(11.1,129.3);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.4).lineTo(-2.7,-3.9).lineTo(2.6,-3.4).lineTo(2.6,3.9).closePath();
-	this.shape_32.setTransform(19.4,130.025);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill("#EE3D29").beginStroke().moveTo(-0.9,-1.1).lineTo(0.9,-1.2).lineTo(-0.4,0.6).lineTo(-0.4,0.7).lineTo(-0.9,1.2).closePath();
-	this.shape_33.setTransform(129.525,154.85);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4).lineTo(2.6,-4.6).lineTo(2.6,0.7).lineTo(0.4,2.7).lineTo(0.4,2.8).lineTo(0.3,2.8).lineTo(0.1,2.9).curveTo(-0.9,3.7,-2.2,4.3).lineTo(-2.6,4.6).closePath();
-	this.shape_34.setTransform(123,158.675);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.8).lineTo(2.6,4.2).lineTo(-2.6,4.8).closePath();
-	this.shape_35.setTransform(114.775,159.825);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.7).lineTo(2.6,4.2).lineTo(-2.6,4.7).closePath();
-	this.shape_36.setTransform(98.275,161.7);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.8).lineTo(2.6,4.2).lineTo(-2.6,4.8).closePath();
-	this.shape_37.setTransform(106.525,160.85);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.7).lineTo(2.6,4.3).lineTo(-2.6,4.6).closePath();
-	this.shape_38.setTransform(88.625,162.5);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-4.2).lineTo(2.6,-4.6).lineTo(2.6,4.3).lineTo(-2.6,4.5).closePath();
-	this.shape_39.setTransform(80.325,163.05);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,-4.3).lineTo(2.6,-4.4).lineTo(2.6,4.3).lineTo(-2.7,4.4).closePath();
-	this.shape_40.setTransform(71.95,163.375);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,4.2).lineTo(-2.7,-4.4).lineTo(2.6,-4.2).lineTo(2.6,4.4).closePath();
-	this.shape_41.setTransform(55.2,163.25);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.3).lineTo(-2.6,-4.4).lineTo(2.6,-4.3).lineTo(2.6,4.4).closePath();
-	this.shape_42.setTransform(63.6,163.425);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,4.2).lineTo(-2.6,-4.5).lineTo(2.7,-4.2).lineTo(2.7,4.5).closePath();
-	this.shape_43.setTransform(45.675,162.75);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,4.1).lineTo(-2.7,-4.5).lineTo(2.6,-4.1).lineTo(2.6,4.6).closePath();
-	this.shape_44.setTransform(37.3,162.1);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.2).lineTo(-2.6,-4.6).lineTo(2.6,-4.1).lineTo(2.6,4.6).closePath();
-	this.shape_45.setTransform(28.95,161.425);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill("#EE3D29").beginStroke().moveTo(-1.2,-1).lineTo(-1.3,-1.3).lineTo(-1.3,-1.5).lineTo(1.4,-1.3).lineTo(1.4,1.5).lineTo(-1.2,-1).closePath();
-	this.shape_46.setTransform(5.7,155.8);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill("#EE3D29").beginStroke().moveTo(1.9,4.3).curveTo(2,4.3,2,4.3).curveTo(2,4.3,2.1,4.3).curveTo(2.1,4.3,2,4.3).curveTo(2,4.3,1.9,4.3).lineTo(1.4,4).lineTo(1,3.8).lineTo(-0.9,2.7).lineTo(-2.7,0.6).lineTo(-2.7,-4.7).lineTo(2.7,-4.1).lineTo(2.7,4.7).lineTo(1.9,4.3).closePath();
-	this.shape_47.setTransform(12.25,159.575);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.2).lineTo(-2.6,-4.7).lineTo(2.7,-4.1).lineTo(2.7,4.7).closePath();
-	this.shape_48.setTransform(20.6,160.6);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill("#006E91").beginStroke().moveTo(8.9,2.7).curveTo(-1.2,2.5,-24.7,2.7).curveTo(-33,2.7,-42.2,2.3).curveTo(-43.1,1.6,-41.8,-1.7).curveTo(-40.5,-5,-39,-5.1).curveTo(-33.9,-5.3,-5.1,-4.4).curveTo(28.2,-3.4,42.5,-1.7).lineTo(42.5,5.2).curveTo(27.7,3.2,8.9,2.7).closePath();
-	this.shape_49.setTransform(91.6659,28.2978);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#006E91").beginStroke().moveTo(-25.7,1.2).curveTo(-25.7,-1.1,-25.4,-1.2).curveTo(-13.2,-4,0.1,-4.8).curveTo(4.8,-5.1,8.6,-5.1).curveTo(11.1,-5.1,17.1,-5).curveTo(22.6,-4.9,25.7,-5).lineTo(25.7,2.4).curveTo(22.9,2.5,17.1,2.4).curveTo(11.5,2.4,8.6,2.5).lineTo(0,2.9).curveTo(-5.9,3.3,-25.6,5.1).lineTo(-25.7,1.2).closePath();
-	this.shape_50.setTransform(25.7469,27.9938);
-
-	this.shape_51 = new cjs.Shape();
-	this.shape_51.graphics.beginFill("#FBC85B").beginStroke().moveTo(1.7,4.7).curveTo(-28.7,4.5,-40,4.1).curveTo(-41.2,4.1,-42.7,-0.9).curveTo(-44.3,-5.9,-40.8,-5.9).curveTo(-38.3,-6,-30.8,-5.7).curveTo(-23.3,-5.4,-20.9,-5.5).curveTo(13.3,-5.5,43.2,-2.3).lineTo(43.2,2.5).lineTo(42.6,5.9).curveTo(27.5,4.9,1.7,4.7).closePath();
-	this.shape_51.setTransform(90.5871,35.1625);
-
-	this.shape_52 = new cjs.Shape();
-	this.shape_52.graphics.beginFill("#FBC85B").beginStroke().moveTo(-25.5,-0.4).curveTo(-25.5,-1.6,-25.2,-1.7).curveTo(-13.7,-4.7,0,-5.4).curveTo(5.6,-5.6,8.4,-5.6).lineTo(25.4,-5.4).lineTo(25.5,4.2).lineTo(8.5,4.1).lineTo(0,4.3).curveTo(-6,4.5,-24.5,5.6).curveTo(-24.9,2,-25.5,-0.4).closePath();
-	this.shape_52.setTransform(25.5,35.195);
-
-	this.shape_53 = new cjs.Shape();
-	this.shape_53.graphics.beginFill("#EE3D29").beginStroke().moveTo(-40.8,6.5).lineTo(-40.9,-6.6).curveTo(-27.2,-6.6,-0.2,-7.1).curveTo(23.4,-6.9,40.9,-3.7).lineTo(40.3,0.2).lineTo(40,3).lineTo(40,3.1).lineTo(39.3,4.8).curveTo(21.7,6.9,-0.8,7).lineTo(-4.1,7.1).curveTo(-15.9,7.1,-40.8,6.5).closePath();
-	this.shape_53.setTransform(92.275,44.9567);
-
-	this.shape_54 = new cjs.Shape();
-	this.shape_54.graphics.beginFill("#EE3D29").beginStroke().moveTo(16.5,6.6).lineTo(7.8,6.2).curveTo(-9.5,5.6,-23.2,5.8).lineTo(-23.7,4).curveTo(-23.9,3.4,-24.4,2.8).lineTo(-24.4,2.4).lineTo(-25.2,-3.9).curveTo(-14.6,-6.7,-1.1,-6.9).curveTo(2.7,-6.9,7.6,-6.8).lineTo(16.3,-6.5).curveTo(21.6,-6.3,25,-6.4).lineTo(25.2,6.9).curveTo(20.8,6.8,16.5,6.6).closePath();
-	this.shape_54.setTransform(26.125,44.3188);
-
-	this.shape_55 = new cjs.Shape();
-	this.shape_55.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.7).lineTo(-0.5,-3.5).curveTo(0.7,-1.4,2.6,0.3).lineTo(2.6,3.7).closePath();
-	this.shape_55.setTransform(130.2,24.075);
-
-	this.shape_56 = new cjs.Shape();
-	this.shape_56.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.8).lineTo(2.6,-3.2).lineTo(2.6,3.8).closePath();
-	this.shape_56.setTransform(121.95,23.3);
-
-	this.shape_57 = new cjs.Shape();
-	this.shape_57.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.7).lineTo(2.6,-3.2).lineTo(2.6,3.7).closePath();
-	this.shape_57.setTransform(113.725,22.475);
-
-	this.shape_58 = new cjs.Shape();
-	this.shape_58.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.4).lineTo(-2.6,-3.6).lineTo(2.6,-3.4).lineTo(2.6,3.6).closePath();
-	this.shape_58.setTransform(97.225,21.225);
-
-	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.2).lineTo(-2.6,-3.6).lineTo(2.6,-3.3).lineTo(2.6,3.7).closePath();
-	this.shape_59.setTransform(105.475,21.7);
-
-	this.shape_60 = new cjs.Shape();
-	this.shape_60.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.5).lineTo(2.7,-3.4).lineTo(2.7,3.5).closePath();
-	this.shape_60.setTransform(87.5,21.05);
-
-	this.shape_61 = new cjs.Shape();
-	this.shape_61.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.5).lineTo(2.7,-3.4).lineTo(2.7,3.5).closePath();
-	this.shape_61.setTransform(71.55,20.95);
-
-	this.shape_62 = new cjs.Shape();
-	this.shape_62.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.4).lineTo(-2.7,-3.5).lineTo(2.7,-3.4).lineTo(2.7,3.5).closePath();
-	this.shape_62.setTransform(79.05,20.95);
-
-	this.shape_63 = new cjs.Shape();
-	this.shape_63.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,3.5).lineTo(-2.7,-3.5).lineTo(2.7,-3.5).lineTo(2.7,3.5).closePath();
-	this.shape_63.setTransform(63.15,20.85);
-
-	this.shape_64 = new cjs.Shape();
-	this.shape_64.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,3.5).lineTo(-2.7,-3.5).lineTo(2.7,-3.5).lineTo(2.7,3.5).closePath();
-	this.shape_64.setTransform(53.45,20.85);
-
-	this.shape_65 = new cjs.Shape();
-	this.shape_65.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.6).lineTo(2.7,3.5).lineTo(-2.7,3.6).closePath();
-	this.shape_65.setTransform(43.875,20.9);
-
-	this.shape_66 = new cjs.Shape();
-	this.shape_66.graphics.beginFill("#006E91").beginStroke().moveTo(-2.7,-3.5).lineTo(2.6,-3.6).lineTo(2.6,3.5).lineTo(-2.6,3.6).closePath();
-	this.shape_66.setTransform(35.5,20.975);
-
-	this.shape_67 = new cjs.Shape();
-	this.shape_67.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-3.4).lineTo(2.6,-3.7).lineTo(2.6,3.4).lineTo(-2.6,3.7).closePath();
-	this.shape_67.setTransform(27.225,21.35);
-
-	this.shape_68 = new cjs.Shape();
-	this.shape_68.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-1.4).curveTo(-1.2,-2.4,0.9,-3.5).lineTo(2.6,-3.8).lineTo(2.6,3.2).lineTo(-2.6,3.8).closePath();
-	this.shape_68.setTransform(3.1,23.65);
-
-	this.shape_69 = new cjs.Shape();
-	this.shape_69.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-3.2).lineTo(2.6,-3.8).lineTo(2.6,3.2).lineTo(-2.6,3.8).closePath();
-	this.shape_69.setTransform(10.8,22.875);
-
-	this.shape_70 = new cjs.Shape();
-	this.shape_70.graphics.beginFill("#006E91").beginStroke().moveTo(-2.6,-3.2).lineTo(2.6,-3.8).lineTo(2.6,3.3).lineTo(-2.6,3.8).closePath();
-	this.shape_70.setTransform(19,22.025);
-
-	this.shape_71 = new cjs.Shape();
-	this.shape_71.graphics.beginFill("#EE3D29").beginStroke().moveTo(-1.6,-4.4).lineTo(1.6,-4.4).curveTo(-0.6,0.8,-1.6,4.4).closePath();
-	this.shape_71.setTransform(130.175,53.75);
-
-	this.shape_72 = new cjs.Shape();
-	this.shape_72.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.1).lineTo(2.7,-5.1).lineTo(2.6,4.7).lineTo(-2.7,5.1).closePath();
-	this.shape_72.setTransform(122.95,54.45);
-
-	this.shape_73 = new cjs.Shape();
-	this.shape_73.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.3).lineTo(2.6,-5.4).lineTo(2.6,5).lineTo(-2.7,5.4).closePath();
-	this.shape_73.setTransform(114.7,54.825);
-
-	this.shape_74 = new cjs.Shape();
-	this.shape_74.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.7).lineTo(2.7,-5.8).lineTo(2.6,5.5).lineTo(-2.7,5.8).closePath();
-	this.shape_74.setTransform(98.125,55.575);
-
-	this.shape_75 = new cjs.Shape();
-	this.shape_75.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.5).lineTo(2.6,-5.7).lineTo(2.6,5.3).lineTo(-2.7,5.7).closePath();
-	this.shape_75.setTransform(106.4,55.225);
-
-	this.shape_76 = new cjs.Shape();
-	this.shape_76.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-5.8).lineTo(2.7,-5.9).lineTo(2.6,5.7).lineTo(-2.7,5.9).closePath();
-	this.shape_76.setTransform(88.425,55.85);
-
-	this.shape_77 = new cjs.Shape();
-	this.shape_77.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,-6).lineTo(2.7,-6.1).lineTo(2.6,5.8).lineTo(-2.7,6.1).closePath();
-	this.shape_77.setTransform(80.075,56.1);
-
-	this.shape_78 = new cjs.Shape();
-	this.shape_78.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.7,-6.2).lineTo(2.7,-6.2).lineTo(2.6,6).lineTo(-2.7,6.2).closePath();
-	this.shape_78.setTransform(71.725,56.375);
-
-	this.shape_79 = new cjs.Shape();
-	this.shape_79.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,5.9).lineTo(-2.7,-6.2).lineTo(2.6,-6.1).lineTo(2.8,6.2).closePath();
-	this.shape_79.setTransform(54.9,56.225);
-
-	this.shape_80 = new cjs.Shape();
-	this.shape_80.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,6.1).lineTo(-2.7,-6.2).lineTo(2.6,-6.2).lineTo(2.7,6.2).closePath();
-	this.shape_80.setTransform(63.3,56.4);
-
-	this.shape_81 = new cjs.Shape();
-	this.shape_81.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,5.7).lineTo(-2.8,-6).lineTo(2.5,-5.9).lineTo(2.7,6).closePath();
-	this.shape_81.setTransform(45.4,55.8);
-
-	this.shape_82 = new cjs.Shape();
-	this.shape_82.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.5,5.6).lineTo(-2.8,-5.9).lineTo(2.5,-5.7).lineTo(2.8,5.9).closePath();
-	this.shape_82.setTransform(37.05,55.4);
-
-	this.shape_83 = new cjs.Shape();
-	this.shape_83.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,5.4).lineTo(-2.7,-5.8).lineTo(2.5,-5.6).lineTo(2.7,5.8).closePath();
-	this.shape_83.setTransform(28.725,55);
-
-	this.shape_84 = new cjs.Shape();
-	this.shape_84.graphics.beginFill("#EE3D29").beginStroke().moveTo(0.2,4.8).lineTo(0.2,4.7).lineTo(-1.2,0.4).curveTo(-1.4,-2.1,-2.2,-4.7).lineTo(2,-4.9).lineTo(2.1,4.8).closePath();
-	this.shape_84.setTransform(4.85,54);
-
-	this.shape_85 = new cjs.Shape();
-	this.shape_85.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.6,4.8).lineTo(-2.7,-5.2).lineTo(2.6,-5.2).lineTo(2.7,5.2).closePath();
-	this.shape_85.setTransform(12.125,54.2);
-
-	this.shape_86 = new cjs.Shape();
-	this.shape_86.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.5,5.1).lineTo(-2.7,-5.5).lineTo(2.5,-5.4).lineTo(2.7,5.5).closePath();
-	this.shape_86.setTransform(20.4,54.575);
-
-	this.shape_87 = new cjs.Shape();
-	this.shape_87.graphics.beginFill("#FCC85B").beginStroke().moveTo(-0.5,0.2).lineTo(-0.5,-0.2).lineTo(0.5,0.2).closePath();
-	this.shape_87.setTransform(101.55,6.575);
-
-	this.shape_88 = new cjs.Shape();
-	this.shape_88.graphics.beginFill("#EE3D29").beginStroke().moveTo(-2.9,3.3).lineTo(-3,-3.7).lineTo(-2.5,-3.6).lineTo(-0.8,-2.9).lineTo(-0.5,-2.9).lineTo(0,-2.5).curveTo(1.1,-1.7,3,-0.9).lineTo(3,3.6).closePath();
-	this.shape_88.setTransform(104.25,10.3);
-
-	this.shape_89 = new cjs.Shape();
-	this.shape_89.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,1.8).lineTo(-4.4,-1.8).curveTo(-2,-0.9,0.7,-0.3).curveTo(1.9,-0,3.1,-0).lineTo(4.3,0.4).lineTo(4.3,1.8).closePath();
-	this.shape_89.setTransform(91.75,4.7);
-
-	this.shape_90 = new cjs.Shape();
-	this.shape_90.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,3.4).lineTo(-4.1,-3.5).lineTo(4.1,-3.4).lineTo(4.1,3.4).closePath();
-	this.shape_90.setTransform(91.85,9.85);
-
-	this.shape_91 = new cjs.Shape();
-	this.shape_91.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3.1,3.3).lineTo(-2.7,1.6).lineTo(3,-3.4).lineTo(3.1,3.4).closePath();
-	this.shape_91.setTransform(77.925,9.7);
-
-	this.shape_92 = new cjs.Shape();
-	this.shape_92.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,2.5).lineTo(-3.2,-2.1).lineTo(0,-2.6).curveTo(1,-1.6,3.3,-0.7).lineTo(3.3,2.6).closePath();
-	this.shape_92.setTransform(51.6,3.7);
-
-	this.shape_93 = new cjs.Shape();
-	this.shape_93.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3.1,3.4).lineTo(-3,-3.4).lineTo(3.1,-3.4).lineTo(3.1,3.4).closePath();
-	this.shape_93.setTransform(51.6,9.525);
-
-	this.shape_94 = new cjs.Shape();
-	this.shape_94.graphics.beginFill("#FCC85B").beginStroke().moveTo(-2.5,1.6).lineTo(2.5,-1.6).lineTo(2.5,1.6).closePath();
-	this.shape_94.setTransform(40.825,4.55);
-
-	this.shape_95 = new cjs.Shape();
-	this.shape_95.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-1.6).lineTo(-0.6,-3.5).lineTo(4.1,-3.5).lineTo(4,3.4).lineTo(-4.1,3.5).closePath();
-	this.shape_95.setTransform(39.025,9.525);
-
-	this.shape_96 = new cjs.Shape();
-	this.shape_96.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,1).lineTo(3,-1.9).lineTo(3,1.5).lineTo(-3,1.9).closePath();
-	this.shape_96.setTransform(25.25,11.775);
-
-	this.shape_97 = new cjs.Shape();
-	this.shape_97.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,-4.6).lineTo(4.3,-5.5).lineTo(4.3,4.9).lineTo(-4.3,5.5).closePath();
-	this.shape_97.setTransform(116.775,106.425);
-
-	this.shape_98 = new cjs.Shape();
-	this.shape_98.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,-5.4).lineTo(3.2,-6.1).lineTo(3.2,5.2).lineTo(-3.2,6.2).closePath();
-	this.shape_98.setTransform(117.075,71.55);
-
-	this.shape_99 = new cjs.Shape();
-	this.shape_99.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,-5).lineTo(3.2,-5.9).lineTo(3.2,4.9).lineTo(-3.2,5.8).closePath();
-	this.shape_99.setTransform(121.075,81.9);
-
-	this.shape_100 = new cjs.Shape();
-	this.shape_100.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.1,-4.9).lineTo(3.2,-5.9).lineTo(3.2,4.9).lineTo(-3.2,5.8).closePath();
-	this.shape_100.setTransform(112.55,83.15);
-
-	this.shape_101 = new cjs.Shape();
-	this.shape_101.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-3.1).lineTo(4.1,-3.7).lineTo(4.1,3.2).lineTo(-4.1,3.7).closePath();
-	this.shape_101.setTransform(116.825,114.975);
-
-	this.shape_102 = new cjs.Shape();
-	this.shape_102.graphics.beginFill("#1D438A").beginStroke().moveTo(-4,-2.8).lineTo(4.1,-3.9).lineTo(4.1,3).lineTo(-4.1,3.9).closePath();
-	this.shape_102.setTransform(116.85,97.975);
-
-	this.shape_103 = new cjs.Shape();
-	this.shape_103.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.4,-3.2).lineTo(2.4,-3.8).curveTo(2.3,-0.7,2.4,3.3).lineTo(-2.4,3.8).closePath();
-	this.shape_103.setTransform(122.675,90.3);
-
-	this.shape_104 = new cjs.Shape();
-	this.shape_104.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3).lineTo(3.2,-3.9).lineTo(3.2,3.1).lineTo(-3.2,3.9).closePath();
-	this.shape_104.setTransform(110.25,91.975);
-
-	this.shape_105 = new cjs.Shape();
-	this.shape_105.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,-4.7).lineTo(3.2,-5.2).lineTo(3.1,4.8).lineTo(-3.2,5.2).closePath();
-	this.shape_105.setTransform(103.95,107.6);
-
-	this.shape_106 = new cjs.Shape();
-	this.shape_106.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,-3.2).lineTo(3,-3.6).lineTo(3,3.2).lineTo(-3,3.6).closePath();
-	this.shape_106.setTransform(103.95,115.9);
-
-	this.shape_107 = new cjs.Shape();
-	this.shape_107.graphics.beginFill("#006E91").beginStroke().moveTo(-3,-3.8).lineTo(3,-4.4).lineTo(3,3.7).lineTo(-3,4.4).closePath();
-	this.shape_107.setTransform(104.05,71.325);
-
-	this.shape_108 = new cjs.Shape();
-	this.shape_108.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,-2.9).lineTo(3,-3.6).lineTo(3,3.1).lineTo(-3,3.6).closePath();
-	this.shape_108.setTransform(104,99.425);
-
-	this.shape_109 = new cjs.Shape();
-	this.shape_109.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,-4.5).lineTo(4.3,-5).lineTo(4.3,4.8).lineTo(-4.3,5).closePath();
-	this.shape_109.setTransform(91.475,108.25);
-
-	this.shape_110 = new cjs.Shape();
-	this.shape_110.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,-6).lineTo(3.2,-6.3).lineTo(3.2,5.7).lineTo(-3.2,6.3).closePath();
-	this.shape_110.setTransform(91.8,74.225);
-
-	this.shape_111 = new cjs.Shape();
-	this.shape_111.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,-5).lineTo(3.2,-5.6).lineTo(3.2,5.1).lineTo(-3.2,5.6).closePath();
-	this.shape_111.setTransform(95.775,85.125);
-
-	this.shape_112 = new cjs.Shape();
-	this.shape_112.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.1,-5.1).lineTo(3.2,-5.6).lineTo(3.2,5.1).lineTo(-3.2,5.6).closePath();
-	this.shape_112.setTransform(87.25,85.9);
-
-	this.shape_113 = new cjs.Shape();
-	this.shape_113.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-3.3).lineTo(4.1,-3.5).lineTo(4.1,3.3).lineTo(-4.1,3.5).closePath();
-	this.shape_113.setTransform(91.5,116.45);
-
-	this.shape_114 = new cjs.Shape();
-	this.shape_114.graphics.beginFill("#1D438A").beginStroke().moveTo(-4,-2.8).lineTo(4.1,-3.4).lineTo(4.1,3).lineTo(-4.1,3.5).closePath();
-	this.shape_114.setTransform(91.55,100.35);
-
-	this.shape_115 = new cjs.Shape();
-	this.shape_115.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3).lineTo(3.2,-3.7).lineTo(3.2,3.2).lineTo(-3.2,3.6).closePath();
-	this.shape_115.setTransform(98.15,93.3);
-
-	this.shape_116 = new cjs.Shape();
-	this.shape_116.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3).lineTo(3.2,-3.5).lineTo(3.2,3.1).lineTo(-3.2,3.5).closePath();
-	this.shape_116.setTransform(84.95,94.425);
-
-	this.shape_117 = new cjs.Shape();
-	this.shape_117.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.1,-4.5).lineTo(3.2,-4.7).lineTo(3.2,4.6).lineTo(-3.2,4.7).closePath();
-	this.shape_117.setTransform(77.7,108.825);
-
-	this.shape_118 = new cjs.Shape();
-	this.shape_118.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,-3.2).lineTo(3,-3.3).lineTo(3,3.2).lineTo(-3,3.3).closePath();
-	this.shape_118.setTransform(77.725,116.7);
-
-	this.shape_119 = new cjs.Shape();
-	this.shape_119.graphics.beginFill("#006E91").beginStroke().moveTo(-3,-4.2).lineTo(3,-4.5).lineTo(3,4.2).lineTo(-3,4.5).closePath();
-	this.shape_119.setTransform(77.825,73.225);
-
-	this.shape_120 = new cjs.Shape();
-	this.shape_120.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,-2.9).lineTo(3,-3.2).lineTo(3,3).lineTo(-3,3.2).closePath();
-	this.shape_120.setTransform(77.775,101.225);
-
-	this.shape_121 = new cjs.Shape();
-	this.shape_121.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,-4.6).lineTo(4.3,-4.7).lineTo(4.3,4.5).lineTo(-4.3,4.7).closePath();
-	this.shape_121.setTransform(65.225,109.175);
-
-	this.shape_122 = new cjs.Shape();
-	this.shape_122.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,-6.2).lineTo(3.2,-6.2).lineTo(3.2,6.1).lineTo(-3.1,6.2).closePath();
-	this.shape_122.setTransform(65.55,75.475);
-
-	this.shape_123 = new cjs.Shape();
-	this.shape_123.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,-5.3).lineTo(3.2,-5.4).lineTo(3.2,5.3).lineTo(-3.2,5.4).closePath();
-	this.shape_123.setTransform(69.55,86.825);
-
-	this.shape_124 = new cjs.Shape();
-	this.shape_124.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5.4).lineTo(-3.2,-5.4).lineTo(3.2,-5.3).lineTo(3.2,5.5).closePath();
-	this.shape_124.setTransform(61,86.85);
-
-	this.shape_125 = new cjs.Shape();
-	this.shape_125.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,-3.2).lineTo(4.1,-3.4).lineTo(4.1,3.2).lineTo(-4.1,3.4).closePath();
-	this.shape_125.setTransform(65.225,116.975);
-
-	this.shape_126 = new cjs.Shape();
-	this.shape_126.graphics.beginFill("#1D438A").beginStroke().moveTo(-4,-3).lineTo(4.1,-3.1).lineTo(4.1,3).lineTo(-4.1,3.1).closePath();
-	this.shape_126.setTransform(65.3,101.575);
-
-	this.shape_127 = new cjs.Shape();
-	this.shape_127.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,-3.2).lineTo(3.2,-3.4).lineTo(3.1,3.2).lineTo(-3.2,3.4).closePath();
-	this.shape_127.setTransform(71.9,95.125);
-
-	this.shape_128 = new cjs.Shape();
-	this.shape_128.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.2).lineTo(-3.1,-3.3).lineTo(3.2,-3.2).lineTo(3.2,3.3).closePath();
-	this.shape_128.setTransform(58.7,95.2);
-
-	this.shape_129 = new cjs.Shape();
-	this.shape_129.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,5).lineTo(-3.2,-5.1).lineTo(3.2,-4.9).lineTo(3.1,5).closePath();
-	this.shape_129.setTransform(52,109.25);
-
-	this.shape_130 = new cjs.Shape();
-	this.shape_130.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,-3.4).lineTo(3,-3.5).lineTo(3,3.3).lineTo(-3,3.5).closePath();
-	this.shape_130.setTransform(52,117.325);
-
-	this.shape_131 = new cjs.Shape();
-	this.shape_131.graphics.beginFill("#006E91").beginStroke().moveTo(-3,4.1).lineTo(-3.1,-4.5).lineTo(3,-4.1).lineTo(3,4.5).closePath();
-	this.shape_131.setTransform(52.1,73.125);
-
-	this.shape_132 = new cjs.Shape();
-	this.shape_132.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,3.1).lineTo(-3,-3.2).lineTo(3,-3).lineTo(3,3.2).closePath();
-	this.shape_132.setTransform(52.075,101.4);
-
-	this.shape_133 = new cjs.Shape();
-	this.shape_133.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.3,5).lineTo(-4.3,-5.5).lineTo(4.3,-5.1).lineTo(4.3,5.5).closePath();
-	this.shape_133.setTransform(39.525,109.15);
-
-	this.shape_134 = new cjs.Shape();
-	this.shape_134.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,5.8).lineTo(-3.2,-6.4).lineTo(3.2,-6).lineTo(3.2,6.4).closePath();
-	this.shape_134.setTransform(39.775,74.125);
-
-	this.shape_135 = new cjs.Shape();
-	this.shape_135.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5.3).lineTo(-3.2,-5.8).lineTo(3.2,-5.2).lineTo(3.2,5.7).closePath();
-	this.shape_135.setTransform(43.825,85.95);
-
-	this.shape_136 = new cjs.Shape();
-	this.shape_136.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5.2).lineTo(-3.2,-5.8).lineTo(3.2,-5.2).lineTo(3.2,5.8).closePath();
-	this.shape_136.setTransform(35.25,85.175);
-
-	this.shape_137 = new cjs.Shape();
-	this.shape_137.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,3.4).lineTo(-4.1,-3.6).lineTo(4.1,-3.3).lineTo(4.1,3.5).closePath();
-	this.shape_137.setTransform(39.55,117.3);
-
-	this.shape_138 = new cjs.Shape();
-	this.shape_138.graphics.beginFill("#1D438A").beginStroke().moveTo(-4.1,3.1).lineTo(-4.1,-3.5).lineTo(4.1,-2.9).lineTo(4.1,3.5).closePath();
-	this.shape_138.setTransform(39.6,100.825);
-
-	this.shape_139 = new cjs.Shape();
-	this.shape_139.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.2).lineTo(-3.2,-3.6).lineTo(3.2,-3.1).lineTo(3.2,3.5).closePath();
-	this.shape_139.setTransform(46.2,94.65);
-
-	this.shape_140 = new cjs.Shape();
-	this.shape_140.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.2).lineTo(-3.2,-3.8).lineTo(3.2,-3.1).lineTo(3.2,3.8).closePath();
-	this.shape_140.setTransform(32.95,93.6);
-
-	this.shape_141 = new cjs.Shape();
-	this.shape_141.graphics.beginFill("#FCC85B").beginStroke().moveTo(-3.2,4.7).lineTo(-3.1,-5.7).lineTo(3.2,-4.8).lineTo(3.2,5.7).closePath();
-	this.shape_141.setTransform(25.7,108.375);
-
-	this.shape_142 = new cjs.Shape();
-	this.shape_142.graphics.beginFill("#EE3D29").beginStroke().moveTo(-3,3.2).lineTo(-3,-3.8).lineTo(3,-3.1).lineTo(3,3.8).closePath();
-	this.shape_142.setTransform(25.725,116.375);
-
-	this.shape_143 = new cjs.Shape();
-	this.shape_143.graphics.beginFill("#006E91").beginStroke().moveTo(-3,3.7).lineTo(-3,-4.5).lineTo(3,-3.8).lineTo(3,4.5).closePath();
-	this.shape_143.setTransform(25.75,70.825);
-
-	this.shape_144 = new cjs.Shape();
-	this.shape_144.graphics.beginFill("#1D438A").beginStroke().moveTo(-3,3).lineTo(-3,-3.7).lineTo(3,-2.9).lineTo(3,3.7).closePath();
-	this.shape_144.setTransform(25.775,99.575);
-
-	this.shape_145 = new cjs.Shape();
-	this.shape_145.graphics.beginFill("#FCC85B").beginStroke().moveTo(-4.4,4.9).lineTo(-4.3,2.6).curveTo(-3.7,1.6,-3.7,0.7).curveTo(-3.7,-2.8,-3.8,-5.7).lineTo(4.4,-4.6).lineTo(4.3,5.8).closePath();
-	this.shape_145.setTransform(13.05,106.25);
-
-	this.shape_146 = new cjs.Shape();
-	this.shape_146.graphics.beginFill("#006E91").beginStroke().moveTo(-3.2,5.2).lineTo(-3.2,-6.2).lineTo(3.2,-5.4).lineTo(3.2,6.2).closePath();
-	this.shape_146.setTransform(13.45,71);
-
-	this.shape_147 = new cjs.Shape();
-	this.shape_147.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.2,5).lineTo(-3.2,-6).lineTo(3.2,-5).lineTo(3.2,6).closePath();
-	this.shape_147.setTransform(17.5,82.725);
-
-	this.shape_148 = new cjs.Shape();
-	this.shape_148.graphics.beginFill("#1D438A").beginStroke().moveTo(-1.3,5.2).lineTo(-1.1,-0.2).curveTo(-0.9,-3.6,-1,-5.7).lineTo(1.4,-5.3).lineTo(1.4,5.7).closePath();
-	this.shape_148.setTransform(10.75,81.7);
-
-	this.shape_149 = new cjs.Shape();
-	this.shape_149.graphics.beginFill("#EE3D29").beginStroke().moveTo(-4.1,3.2).lineTo(-4.1,-3.9).lineTo(4.1,-3.1).lineTo(4.1,3.9).closePath();
-	this.shape_149.setTransform(13.25,115.15);
-
-	this.shape_150 = new cjs.Shape();
-	this.shape_150.graphics.beginFill("#1D438A").beginStroke().moveTo(-3.9,3).lineTo(-4.1,-2).lineTo(-4,-3.7).lineTo(-3.9,-4).lineTo(4.1,-2.8).lineTo(4.1,4).closePath();
-	this.shape_150.setTransform(13.275,97.875);
-
-	this.shape_151 = new cjs.Shape();
-	this.shape_151.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.2,3.1).lineTo(-3.2,-4).lineTo(3.2,-3).lineTo(3.2,4.1).closePath();
-	this.shape_151.setTransform(19.85,91.85);
-
-	this.shape_152 = new cjs.Shape();
-	this.shape_152.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.2,3.6).lineTo(-0.2,-3.2).lineTo(-0.2,-3.6).lineTo(0.2,-3.6).lineTo(0.2,3.6).closePath();
-	this.shape_152.setTransform(9.575,90.275);
-
-	this.shape_153 = new cjs.Shape();
-	this.shape_153.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-42.2,64.3).curveTo(-42.4,53.6,-40.4,-58.8).curveTo(-37.2,-60,-31.3,-63.3).curveTo(-24.6,-66.9,-22.3,-68).curveTo(-20.8,-68.6,-19.1,-70.5).lineTo(-7.6,-84.3).curveTo(5.3,-80.4,21.6,-73.2).curveTo(37.1,-66.3,39.6,-63.8).curveTo(42.4,-61.1,42.2,-53.6).curveTo(42.1,-50.6,40.4,-36.6).curveTo(40.1,-34.1,36.5,-22.9).curveTo(33.5,-13.4,33.7,-6.1).curveTo(34,2.6,34,19.3).curveTo(34.5,33.7,37.5,44.2).lineTo(39.7,52.2).curveTo(40.7,56.7,40.5,60.3).curveTo(40.1,65.7,36.8,70.7).curveTo(33.7,75.5,28.8,78.6).curveTo(19.9,84,7.2,84).lineTo(-38.3,84.3).curveTo(-42.1,70.1,-42.2,64.3).closePath();
-	this.shape_153.setTransform(91.8179,84.5);
-
-	this.shape_154 = new cjs.Shape();
-	this.shape_154.graphics.beginFill("#EFF1EC").beginStroke().moveTo(0.1,84.2).curveTo(-12.8,84.1,-21.5,78.7).curveTo(-26.4,75.6,-29.5,70.9).curveTo(-32.9,65.9,-33.2,60.4).curveTo(-33.4,56.9,-32.4,52.3).lineTo(-30.2,44.3).curveTo(-27.1,33.7,-26.3,19.5).lineTo(-25.6,-5.9).curveTo(-25.4,-13.4,-28.3,-22.8).curveTo(-32.1,-35.1,-32.4,-36.4).curveTo(-36.2,-58.1,-31.3,-62.9).curveTo(-28.6,-65.5,-13.3,-72.6).curveTo(3.2,-80.4,15.7,-84.2).curveTo(15.4,-83.9,22.9,-77).curveTo(30.6,-70.1,34,-67.7).lineTo(31.3,83.2).curveTo(26.7,84.1,15.8,84.2).lineTo(0.1,84.2).closePath();
-	this.shape_154.setTransform(34.2201,84.2);
-
-	this.shape_155 = new cjs.Shape();
-	this.shape_155.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.7,-9.4).curveTo(-6.8,-7.6,0.4,-6.1).curveTo(4,-0.8,11,9.9);
-	this.shape_155.setTransform(61.4452,10.1963);
-
-	this.shape_156 = new cjs.Shape();
-	this.shape_156.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.6,-5).curveTo(5.4,-4,3.3,-3.5).curveTo(-0.3,-2.6,-3.3,-2.1).curveTo(-8.9,5.5,-8.6,4.9);
-	this.shape_156.setTransform(75.7117,5.7127);
-
-	this.shape_157 = new cjs.Shape();
-	this.shape_157.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-3,10).curveTo(-4.3,10,-5.3,8.1).lineTo(-6.7,5.5).lineTo(-9,0.8).curveTo(-9.9,-0.4,-11.5,-3.2).curveTo(-12.8,-5.4,-14.1,-8.9).curveTo(-14.2,-9.3,-13.9,-9.5).curveTo(-13.6,-9.7,-13.3,-9.5).curveTo(-13.1,-9.9,-12.8,-10).curveTo(-12.5,-10,-12.2,-9.7).lineTo(-11.4,-8.8).lineTo(-11.3,-8.8).curveTo(-9.6,-9,-6.5,-7.3).curveTo(-5.7,-7.2,-5.1,-6.4).curveTo(-4.3,-5.4,-3.3,-3).curveTo(-2.2,-0.7,-1.4,0.3).lineTo(-0.5,1.3).lineTo(1,-1.1).curveTo(2.2,-3.5,3.6,-5.8).curveTo(4.8,-8.9,10.9,-10).curveTo(11.5,-10.1,12,-9.7).lineTo(12.5,-9.9).curveTo(13.3,-10.3,13.7,-9.5).curveTo(13.7,-9.6,13.8,-9.6).curveTo(13.8,-9.6,13.9,-9.6).curveTo(13.9,-9.6,14,-9.6).curveTo(14,-9.5,14.1,-9.5).curveTo(14.1,-9.4,14.1,-9.4).curveTo(14.2,-9.4,14.2,-9.3).curveTo(14.2,-9.3,14.1,-9.2).curveTo(14.1,-9.2,14.1,-9.1).lineTo(13.9,-8.8).curveTo(13.8,-8.3,13.6,-8.1).lineTo(12.6,-7.1).lineTo(9.9,-3.3).curveTo(10.6,-2.4,10.1,-1.5).curveTo(6.6,3.3,3.9,6.3).curveTo(4.2,7.2,3.7,7.9).curveTo(3.2,8.6,2.3,8.6).curveTo(1.1,8.6,-0.3,9.1).lineTo(-1.6,9.8).curveTo(-2.2,10,-2.8,10).lineTo(-3,10).closePath();
-	this.shape_157.setTransform(67.5375,12.3229);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger_boy();
-	this.instance.setTransform(67.95,-17.7,1,1,0,0,0,82.8,57.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.shirt_05_btn, new cjs.Rectangle(-12.3,-76.1,160.60000000000002,258.4), null);
-
-
-(lib.shirt_04_btn = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape.setTransform(57.7,137.3);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.8,-4.6,-4.7).curveTo(-2.7,-6.5,-0,-6.6).curveTo(2.7,-6.5,4.6,-4.7).curveTo(6.6,-2.8,6.6,0).curveTo(6.6,2.7,4.6,4.6).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_1.setTransform(56.375,139.75);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_2.setTransform(55.525,142.525);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_3.setTransform(87.2,137.3);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.8,-4.6,-4.7).curveTo(-2.7,-6.5,-0,-6.6).curveTo(2.7,-6.5,4.6,-4.7).curveTo(6.6,-2.8,6.6,0).curveTo(6.6,2.7,4.6,4.6).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_4.setTransform(85.825,139.75);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_5.setTransform(84.975,142.525);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_6.setTransform(57.7,94.45);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.3,-4.1,6.5).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.8,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.5).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.8,4.6,4.6).curveTo(2.7,6.6,-0,6.5).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_7.setTransform(56.375,96.9);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.7).curveTo(-2.7,-6.5,0,-6.6).curveTo(2.7,-6.5,4.7,-4.7).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_8.setTransform(55.525,99.7);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_9.setTransform(87.2,94.45);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.3,-4.1,6.5).beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.8,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.5).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.8,4.6,4.6).curveTo(2.7,6.6,-0,6.5).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_10.setTransform(85.825,96.9);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.7).curveTo(-2.7,-6.5,0,-6.6).curveTo(2.7,-6.5,4.7,-4.7).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_11.setTransform(84.975,99.7);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_12.setTransform(57.7,51.15);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.7).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.6).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.6,4.7).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.7).closePath();
-	this.shape_13.setTransform(56.375,53.575);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_14.setTransform(55.525,56.375);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_15.setTransform(87.2,51.15);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginLinearGradientFill(["#407F74","#F7E3B5","#FDD888"],[0,0.588,1],2.2,-3.4,-4.1,6.4).beginStroke().moveTo(-4.6,4.7).curveTo(-6.6,2.7,-6.6,0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,-0,-6.6).curveTo(2.7,-6.6,4.6,-4.6).curveTo(6.6,-2.7,6.6,0).curveTo(6.6,2.7,4.6,4.7).curveTo(2.7,6.6,-0,6.6).curveTo(-2.7,6.6,-4.6,4.7).closePath();
-	this.shape_16.setTransform(85.825,53.575);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#377C8B").beginStroke().moveTo(-4.6,4.6).curveTo(-6.6,2.7,-6.6,-0).curveTo(-6.6,-2.7,-4.6,-4.6).curveTo(-2.7,-6.6,0,-6.6).curveTo(2.7,-6.6,4.7,-4.6).curveTo(6.6,-2.7,6.6,-0).curveTo(6.6,2.7,4.7,4.6).curveTo(2.7,6.6,0,6.6).curveTo(-2.7,6.6,-4.6,4.6).closePath();
-	this.shape_17.setTransform(84.975,56.375);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill().beginStroke("#407F74").setStrokeStyle(2.6).moveTo(8.2,83.7).curveTo(1.1,83.7,-5.6,82.7).curveTo(-14.3,81.3,-18.5,78.7).curveTo(-23.5,75.6,-26.6,70.8).curveTo(-29.9,65.9,-30.3,60.4).curveTo(-30.5,56.9,-29.5,52.3).curveTo(-29.3,51.3,-27.3,44.3).curveTo(-24.2,33.6,-23.4,19.5).curveTo(-22.9,2.7,-22.7,-6).curveTo(-22.5,-13.4,-25.7,-22.8).curveTo(-29.9,-34.7,-30.2,-36.4).curveTo(-34.1,-59,-29.4,-63.7).curveTo(-27.1,-66,-11.9,-72.6).curveTo(3.7,-79.4,16.7,-83.6).curveTo(17.5,-83.9,18.2,-83.5).curveTo(18.9,-83.1,19,-82.3).curveTo(20.8,-75,23.4,-69.7).curveTo(27.6,-61.1,33.1,-60.3);
-	this.shape_18.setTransform(32.896,84.2019);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill().beginStroke("#407F74").setStrokeStyle(2.6).moveTo(13.1,83.4).curveTo(25.9,83.4,34.6,77.9).curveTo(39.6,74.8,42.7,70.1).curveTo(46,65.1,46.4,59.7).curveTo(46.6,56.1,45.5,51.5).curveTo(45.3,50.7,43.3,43.5).curveTo(40.4,33.1,39.9,18.7).curveTo(39.9,2,39.6,-6.7).curveTo(39.4,-14,42.4,-23.5).curveTo(46,-34.7,46.3,-37.2).curveTo(48,-51.2,48.1,-54.2).curveTo(48.3,-61.7,45.5,-64.4).curveTo(43.1,-66.8,28.3,-73.5).curveTo(12.7,-80.4,-0.1,-84.5).curveTo(-0.8,-84.7,-1.4,-84.4).curveTo(-2,-84.1,-2.3,-83.4).curveTo(-4.1,-79.2,-6.8,-75).curveTo(-11.1,-68.6,-16.7,-64).curveTo(-22.3,-59.4,-33.5,-50.7).curveTo(-43.1,-43.3,-44.6,-41.9).lineTo(-47.4,17.2).curveTo(-49.4,77.3,-45.6,82.9).curveTo(-44.2,85,-18.2,84.4).curveTo(-4.8,84.1,13.1,83.4).closePath();
-	this.shape_19.setTransform(86.712,84.9529);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-5.5,0,145.4).beginStroke().moveTo(-2.4,9.9).curveTo(-6.3,8.8,-8.5,4.2).curveTo(-9.8,1.5,-9.5,-1.2).curveTo(-9.3,-4.3,-7.1,-5.8).lineTo(-6.8,-6).lineTo(4.4,-10.1).curveTo(5.5,-10.5,6.1,-9.6).curveTo(8.5,-6.6,9.2,-3.2).curveTo(10,0.3,9,3.3).curveTo(8.1,6.4,5.4,8.3).curveTo(2.8,10.3,-0.1,10.3).curveTo(-1.4,10.3,-2.4,9.9).closePath();
-	this.shape_20.setTransform(28.5696,15.9385);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-59.1,0,90.7).beginStroke().moveTo(-27.3,67.3).curveTo(-28.4,67,-28.5,66).curveTo(-28.9,61.8,-30.9,58.3).curveTo(-31.4,57.3,-32.7,55.3).curveTo(-34.3,52.9,-34.9,51.6).curveTo(-36,49.5,-36.3,47.5).curveTo(-37.1,42.9,-34.2,37.2).curveTo(-31.9,32.6,-29.5,31.5).curveTo(-30.8,29.1,-32.8,26.9).lineTo(-45.3,27).curveTo(-45.9,27,-46.4,26.6).curveTo(-46.8,26.2,-46.8,25.5).curveTo(-46.9,24.9,-46.4,24.4).curveTo(-46,24,-45.3,24).lineTo(-33.3,23.9).curveTo(-31.3,20.1,-30.4,16.2).lineTo(-30.9,15.9).curveTo(-31.5,15.3,-31.9,14.3).lineTo(-32.6,12.2).lineTo(-33.1,10.4).curveTo(-33.9,7.6,-34.3,6.1).curveTo(-34.8,3.6,-34.6,1.4).curveTo(-33.8,-5.5,-25.8,-11.2).curveTo(-23.8,-12.6,-21.4,-14).curveTo(-16.2,-17.2,-14.1,-19.1).lineTo(-14.1,-19.2).curveTo(-13.6,-19.6,-13,-19.6).curveTo(-12.4,-19.6,-11.9,-19.1).curveTo(-11.5,-18.7,-11.5,-18).curveTo(-11.5,-17.4,-12,-17).lineTo(-12,-16.9).curveTo(-14.9,-14.2,-12.8,-6.8).lineTo(-12.8,-6.6).curveTo(-11.5,-2.3,-11.3,-0.1).curveTo(-11,3.8,-12.6,6.4).curveTo(-13.6,8,-16.1,10).lineTo(-17.7,11.4).curveTo(-20.5,13.8,-22,14.8).curveTo(-24.6,16.5,-26.5,16.8).lineTo(-27.4,16.9).curveTo(-28.3,20.6,-29.8,23.8).curveTo(-12.4,23.6,-7.2,22.3).curveTo(-1.9,21,2.4,18.7).curveTo(5.6,9.7,4.6,0.6).curveTo(1.2,0.2,-1.4,-4.2).curveTo(-3.4,-7.6,-4.4,-12.2).curveTo(-5.3,-16.4,-5.2,-21.8).curveTo(-5.2,-24.9,-4.8,-31.5).curveTo(-4.7,-32.2,-4.2,-32.6).curveTo(-3.6,-33,-2.9,-32.9).curveTo(3.6,-31.5,8.6,-26.9).curveTo(11.3,-24.4,12.8,-21.3).curveTo(14.9,-16.8,14.1,-10.5).curveTo(13.3,-3.6,9.2,-0.8).curveTo(8.3,-0.2,7.7,0.1).curveTo(8.5,8.4,6.4,16.3).curveTo(9.6,14,11.9,11).curveTo(16.6,5.1,19.2,-6.4).curveTo(22.7,-21.6,19.5,-31.6).curveTo(17.7,-37.2,13.7,-41.5).curveTo(9.2,-46.5,3.6,-47.6).lineTo(3.2,-47.4).lineTo(2.8,-47.4).curveTo(2,-47.4,1.5,-48.2).curveTo(0.8,-48.7,1,-49.5).lineTo(1,-49.8).curveTo(0.3,-52.9,0.1,-54.7).curveTo(-0.2,-57.5,0.3,-59.8).curveTo(1,-62.5,3.8,-64.6).curveTo(6.3,-66.5,9.6,-67.2).lineTo(10.4,-67.3).lineTo(16.6,-64.7).lineTo(17.3,-64.5).curveTo(17.6,-64.4,17.6,-64).curveTo(18,-61,17.2,-58.8).curveTo(16.4,-56.7,14.1,-53.9).curveTo(11.7,-50.9,8.2,-49.3).curveTo(11.9,-47.6,15.2,-44.5).curveTo(20.3,-39.5,22.4,-32.6).lineTo(22.8,-31.4).curveTo(23.8,-33,25.1,-34).lineTo(24.9,-34.3).curveTo(23.5,-36.9,25,-39.8).curveTo(26.5,-42.7,30.5,-45.2).curveTo(34.6,-47.8,42.4,-49.2).curveTo(42.9,-49.4,43.5,-49).curveTo(44,-48.7,44.2,-48).curveTo(45.3,-41.5,42.3,-35.8).curveTo(40.7,-32.5,38.2,-31.3).curveTo(36.7,-30.4,33.9,-30.4).curveTo(31.8,-30.4,29.5,-31).curveTo(28.3,-31.4,27.4,-31.9).curveTo(25,-30.2,23.8,-26.3).curveTo(24.7,-18.9,23,-9.7).curveTo(24.1,-12.6,27.5,-16).curveTo(31,-19.4,33.9,-19.8).curveTo(35.5,-20.1,38.5,-19.4).lineTo(40.3,-19.2).curveTo(43.3,-18.8,44.5,-18.2).curveTo(47.2,-16.9,46.8,-14).curveTo(46.6,-12.3,44.3,-10.3).curveTo(42.5,-8.8,38.5,-6.4).lineTo(38.1,-6.2).curveTo(34,-3.7,30.7,-3.5).lineTo(29.8,-3.4).curveTo(26.2,-3.4,23.6,-5.6).curveTo(23.3,-5.4,22.8,-5.4).lineTo(22.2,-5.5).curveTo(20.9,-0.1,19.5,3.7).curveTo(17.4,9.1,14.3,12.9).lineTo(13.5,14).lineTo(14.9,14.8).curveTo(17.6,11.2,23.5,12.7).curveTo(25.9,13.3,31,21.5).curveTo(33.4,25.3,35.5,29.2).curveTo(35.9,29.9,35.5,30.6).curveTo(35.1,31.4,34.3,31.4).curveTo(33.7,31.6,28.4,31.6).lineTo(26.2,31.6).curveTo(20.8,31.5,18.2,30.5).curveTo(16.3,29.8,15.7,28.6).curveTo(14.3,26.1,13.8,23.2).curveTo(13.1,20.1,13.7,17.6).lineTo(11.2,16.3).curveTo(8.6,18.7,4.9,20.9).curveTo(4.5,21.8,3.5,21.8).lineTo(3.3,21.7).curveTo(1,22.9,-1.7,23.9).curveTo(-0.4,24.6,0.5,25.8).curveTo(3.3,25.3,5.2,26.7).curveTo(8.6,29.4,8,37.9).curveTo(7.7,41.8,6.9,45.3).curveTo(6.7,46.1,6,46.4).lineTo(5.4,46.5).curveTo(5,46.5,4.6,46.3).curveTo(1,44.1,-1.8,41.5).curveTo(-7.3,36.5,-7.2,32.6).curveTo(-7.1,29.3,-3.4,27.3).lineTo(-2.7,26.9).curveTo(-3.6,26.2,-6.3,25.4).lineTo(-6.6,25.3).curveTo(-12.1,26.7,-28.9,26.9).curveTo(-27.4,28.9,-26,31.5).curveTo(-23.7,32.4,-21.6,36.1).curveTo(-18,42.2,-18,47.8).curveTo(-17.9,52.4,-20.2,57.4).curveTo(-21.8,60.9,-25.7,66.7).curveTo(-26.2,67.3,-27,67.3).closePath();
-	this.shape_21.setTransform(84.9233,70.475);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-43.3,0,107.6).beginStroke().moveTo(-7,18.5).curveTo(-7.6,18.5,-8,18).curveTo(-8.4,17.5,-8.3,16.9).lineTo(-6.8,-10.8).curveTo(-6.7,-11.5,-6.1,-11.9).lineTo(3.5,-18.3).curveTo(4,-18.8,4.8,-18.5).curveTo(5.5,-18.3,5.7,-17.6).curveTo(8.3,-11.1,8.3,-5.9).curveTo(8.3,1.2,4.3,5.8).curveTo(3.3,6.9,1.6,8.4).lineTo(-0.2,9.9).curveTo(-4.4,14.1,-5.3,17.4).curveTo(-5.7,18.6,-6.8,18.6).closePath();
-	this.shape_22.setTransform(47.5722,53.7554);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-24.4,0,126.5).beginStroke().moveTo(6.3,15.2).curveTo(5.4,15.1,5,14.3).curveTo(4.1,12.3,2,10.4).curveTo(0.8,9.2,-2.2,7).curveTo(-5.6,4.5,-7.1,3.1).curveTo(-9.6,0.7,-10.6,-2.1).curveTo(-11,-3.1,-10.2,-3.7).lineTo(2,-14.7).curveTo(2.5,-15.2,3.1,-15.1).curveTo(3.7,-15.1,4.2,-14.6).curveTo(9.5,-8.9,10.5,-0.7).curveTo(11.5,7.5,7.7,14.4).curveTo(7.3,15.2,6.4,15.2).closePath();
-	this.shape_23.setTransform(67.3759,34.8475);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-135.1,0,15.8).beginStroke().moveTo(-4.9,21).curveTo(-6,20.9,-6.1,19.7).lineTo(-8.4,-5.3).curveTo(-8.5,-5.7,-8.3,-6.1).lineTo(-0.9,-20.3).curveTo(-0.3,-21.1,0.5,-21.1).curveTo(1.4,-21.1,1.8,-20.3).curveTo(4.7,-15.6,6.6,-10.5).curveTo(8.6,-5,8.5,-0.8).curveTo(8.3,3.4,6.3,7.1).curveTo(5.1,9.3,1.8,13.4).curveTo(-1.7,17.6,-3.2,20.3).curveTo(-3.6,21.1,-4.5,21.1).closePath();
-	this.shape_24.setTransform(46.0881,145.575);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-125.3,0,25.6).beginStroke().moveTo(-34,27.7).curveTo(-35.2,27.6,-35.4,26.5).curveTo(-35.7,25.3,-34.6,24.8).curveTo(-22.7,19.1,-15,7).curveTo(-13.3,4.3,-11,0.1).curveTo(-7.7,-5.8,-5.5,-8.7).curveTo(-1.9,-13.6,3.2,-17.8).curveTo(9.4,-22.8,16.1,-24.9).curveTo(20.2,-26.2,28.7,-27.2).lineTo(32.7,-27.7).curveTo(33.4,-27.8,33.9,-27.4).curveTo(34.4,-27,34.5,-26.3).lineTo(35.5,-14.5).curveTo(35.6,-13.8,35.1,-13.2).curveTo(34.6,-12.8,33.8,-12.8).curveTo(30.5,-13.1,27.8,-10.1).curveTo(25.2,-7.4,24.9,-3.7).curveTo(24.5,-0.2,25.9,3.9).curveTo(27,6.9,29.3,10.9).curveTo(29.8,11.8,29.2,12.5).curveTo(28.7,13.4,27.7,13.2).curveTo(23.4,12.6,20.9,12).curveTo(17,11,14.2,9.5).curveTo(9.3,6.8,7.2,2.4).curveTo(2.1,13,-7.7,19.8).curveTo(-13.2,23.6,-19.7,25.7).curveTo(-26.1,27.7,-32.7,27.7).closePath();
-	this.shape_25.setTransform(93.0352,135.79);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-43.3,0,107.6).beginStroke().moveTo(5.1,40.8).curveTo(4,40.6,3.9,39.3).curveTo(3.7,26.2,-4.1,14.1).curveTo(-5.9,11.3,-9.2,7.1).curveTo(-13.6,1.3,-15.7,-3.3).curveTo(-18.5,-9.2,-18.5,-15.1).lineTo(-19.6,-15.1).lineTo(-18.3,-30.1).curveTo(-18.3,-31.1,-18.1,-31.3).lineTo(-17.1,-31.8).lineTo(-16.7,-32.6).lineTo(-16.3,-33.4).lineTo(-3.8,-40.6).curveTo(-2.7,-41.2,-2,-40.3).curveTo(-1.2,-39.4,-1.8,-38.5).curveTo(-3.4,-35.6,-1.9,-31.9).curveTo(-0.4,-28.4,2.7,-26.6).curveTo(5.8,-24.8,10.1,-24.4).curveTo(13.3,-24.1,17.9,-24.5).curveTo(18.8,-24.6,19.3,-23.7).curveTo(19.8,-22.9,19.3,-22.1).curveTo(16.9,-18.4,15.4,-16.4).curveTo(12.9,-13.3,10.3,-11.3).curveTo(5.9,-8,1,-8).curveTo(8.5,1.1,10.5,12.8).curveTo(11.8,19.8,10.8,26.8).curveTo(9.8,33.8,6.8,40).curveTo(6.4,40.8,5.4,40.8).closePath();
-	this.shape_26.setTransform(19.569,53.717);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginLinearGradientFill(["#70AEA3","#FDD888","#CED6CB"],[0,0.494,1],0,-118.1,0,29.7).beginStroke().moveTo(10.4,37.6).curveTo(9.6,37.1,9.4,37.1).lineTo(9.1,37.3).curveTo(9.1,37.4,9.1,37.4).curveTo(9,37.4,9,37.5).curveTo(9,37.5,8.9,37.5).curveTo(8.9,37.5,8.9,37.5).lineTo(-0,36).curveTo(-1,35.6,-1,34.5).curveTo(-0.9,31.4,-2.6,28.5).curveTo(-4.2,25.6,-7,24.1).curveTo(-7.8,23.6,-10.3,22.6).curveTo(-13.8,21.3,-15.4,20.2).curveTo(-16,19.7,-16,18.9).lineTo(-15.6,3.9).curveTo(-15.6,3.3,-15.2,2.9).curveTo(-14.8,2.5,-14.2,2.4).curveTo(-9.5,2.2,-4.9,-0.2).curveTo(-3.6,-0.8,-3.4,-1.5).curveTo(-3.2,-2.1,-4.2,-3.3).curveTo(-7.2,-7.3,-10.6,-9).curveTo(-11.5,-9.5,-11.4,-10.5).lineTo(-8.9,-36.6).curveTo(-8.8,-37.3,-8.4,-37.7).curveTo(-7.9,-38.1,-7.2,-38).curveTo(-0.3,-37.3,4.2,-30.3).curveTo(5.4,-28.5,5.6,-26.4).curveTo(5.8,-24.3,4.9,-22.4).curveTo(3.4,-18.9,-0.5,-18.4).lineTo(-1.1,-18.3).lineTo(-1.8,-18.2).curveTo(-2.2,-18.1,-2.3,-17.6).curveTo(-2.5,-16.5,-1.9,-15.7).curveTo(-1,-14.7,2.1,-13.7).lineTo(2.4,-13.6).curveTo(12.5,-10.4,15.3,-3.9).curveTo(16.3,-1.6,15.9,1.2).curveTo(15.6,3.9,14,6).curveTo(11.5,9.6,7.5,9.4).curveTo(6.4,9.3,4.4,8.7).curveTo(2.2,8,1.3,8.2).curveTo(0.3,8.3,-0.3,9.4).curveTo(-0.9,10.3,-0.7,11.3).curveTo(-0.4,12.4,0.8,13.3).curveTo(1.4,13.7,3.3,14.8).lineTo(4.6,15.5).curveTo(8.4,17.6,10.7,20.6).curveTo(13.1,23.6,13.7,27.1).curveTo(14.3,30.2,13.8,32.6).curveTo(13.3,35.2,11.2,37.9).lineTo(11.1,38).curveTo(10.8,38,10.4,37.6).closePath();
-	this.shape_27.setTransform(18.3204,130.2686);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginLinearGradientFill(["#70AEA3","#CED6CB"],[0,1],2.4,83.6,-1.3,-40.8).beginStroke().moveTo(-45.6,82.9).curveTo(-49.4,77.3,-47.4,17.2).lineTo(-44.6,-41.9).curveTo(-43.1,-43.3,-33.5,-50.7).curveTo(-22.3,-59.4,-16.7,-64).curveTo(-11.1,-68.6,-6.8,-75).curveTo(-4.1,-79.2,-2.3,-83.4).curveTo(-2,-84.1,-1.4,-84.4).curveTo(-0.8,-84.7,-0.1,-84.5).curveTo(12.7,-80.4,28.3,-73.5).curveTo(43.1,-66.8,45.5,-64.4).curveTo(48.3,-61.7,48.1,-54.2).curveTo(48,-51.2,46.3,-37.2).curveTo(46,-34.7,42.4,-23.5).curveTo(39.4,-14,39.6,-6.7).curveTo(39.9,2,39.9,18.7).curveTo(40.4,33.1,43.3,43.5).lineTo(45.5,51.5).curveTo(46.6,56.1,46.4,59.7).curveTo(46,65.1,42.7,70.1).curveTo(39.6,74.8,34.6,77.9).curveTo(25.9,83.4,13.1,83.4).curveTo(-4.8,84.1,-18.2,84.4).lineTo(-28.7,84.5).curveTo(-44.5,84.5,-45.6,82.9).closePath();
-	this.shape_28.setTransform(86.712,84.9529);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginLinearGradientFill(["#70AEA3","#CED6CB"],[0,1],2.9,85.7,-0.8,-38.7).beginStroke().moveTo(1.9,83.7).curveTo(-6,83.7,-9.3,83.2).curveTo(-15.4,82.1,-19.6,78.5).curveTo(-24.8,74,-27.4,70.3).curveTo(-31,65.3,-31.4,60.2).curveTo(-31.6,56.7,-30.6,52.1).lineTo(-28.4,44.1).curveTo(-25.3,33.4,-24.5,19.3).lineTo(-23.8,-6.2).curveTo(-23.6,-13.6,-26.8,-23).curveTo(-31,-34.9,-31.3,-36.6).curveTo(-35.2,-59.2,-30.5,-63.9).curveTo(-28.2,-66.2,-12.9,-72.8).curveTo(2.7,-79.6,15.8,-83.8).curveTo(16.6,-84,17.3,-83.7).curveTo(17.9,-83.3,18.1,-82.5).curveTo(19.7,-75.3,22.3,-69.9).curveTo(26.5,-61.3,32,-60.5).lineTo(33.1,83).curveTo(28.5,83.9,17.6,83.9).lineTo(1.9,83.7).closePath();
-	this.shape_29.setTransform(33.9981,84.4136);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.7,-9.4).curveTo(-6.8,-7.6,0.4,-6.1).curveTo(4,-0.8,11,9.9);
-	this.shape_30.setTransform(61.9452,9.4963);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.6,-5).curveTo(5.4,-4,3.3,-3.5).curveTo(-0.3,-2.6,-3.3,-2.1).curveTo(-8.9,5.5,-8.6,4.9);
-	this.shape_31.setTransform(76.2117,5.0127);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-3,11.9).curveTo(-4.1,11.9,-5.2,11.5).curveTo(-6.6,11.1,-7,10.5).lineTo(-9,6.9).curveTo(-9.4,6.2,-10.8,5.5).curveTo(-12.1,4.8,-12.5,4).curveTo(-13,3.3,-13.6,1.1).curveTo(-14.3,-1.3,-14.6,-1.8).curveTo(-15.2,-2.9,-15.8,-6.1).curveTo(-16.6,-9.8,-16.9,-10.6).curveTo(-17,-10.9,-15.6,-10.7).curveTo(-14.3,-10.6,-13.9,-10.4).curveTo(-13.7,-10.7,-13.4,-10.8).curveTo(-13,-10.9,-12.7,-10.6).lineTo(-11.9,-9.6).lineTo(-11.9,-9.6).curveTo(-10.2,-9.8,-7.1,-8.1).curveTo(-6.2,-8.1,-5.6,-7.2).curveTo(-4.9,-6.2,-3.8,-3.9).curveTo(-2.8,-1.6,-1.9,-0.5).lineTo(-1,0.4).lineTo(0.5,-1.9).curveTo(1.7,-4.4,3.1,-6.7).curveTo(4.2,-9.7,10.3,-10.9).curveTo(10.9,-10.9,11.4,-10.5).lineTo(12,-10.8).curveTo(13.3,-11.4,13.5,-11).lineTo(14.8,-11.6).curveTo(15.9,-12,15.7,-11.8).curveTo(16.4,-10.9,16.3,-10.8).lineTo(15.8,-9.3).curveTo(15.4,-7.9,15.6,-7.9).curveTo(17.5,-7.6,16.7,-7.4).lineTo(15.2,-7.2).curveTo(14.8,-6.6,14.6,-6).curveTo(14.4,-5.3,14,-4.8).lineTo(13.8,-1.9).curveTo(14.1,-1.6,12.6,-0.9).curveTo(11,-0,10.9,0.2).curveTo(9.8,1.7,7.9,3.4).curveTo(5.6,5.6,4.7,6.5).curveTo(5,7.3,3.9,8.1).curveTo(3,8.8,2,8.8).curveTo(1.5,8.8,1.3,9.5).curveTo(1,10.2,0.7,10.4).lineTo(-1.1,11.3).curveTo(-2.3,11.9,-2.9,11.9).lineTo(-3,11.9).closePath();
-	this.shape_32.setTransform(68.5865,12.4935);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger_boy();
-	this.instance.setTransform(68.85,-22.65,1,1,0,0,0,82.8,57.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.shirt_04_btn, new cjs.Rectangle(-11.4,-81.1,160.6,251.9), null);
-
-
-(lib.shirt_03_btn = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape.setTransform(67.65,148.625);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape_1.setTransform(67.65,94.875);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
-	this.shape_2.setTransform(67.65,43.225);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.3,-0,2.2).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_3.setTransform(68.9,146.65);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_4.setTransform(68.9,92.625);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_5.setTransform(68.9,40.975);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
-	this.shape_6.setTransform(67.65,148.625);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.3).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.3).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
-	this.shape_7.setTransform(67.65,94.875);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.4,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.2).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.2).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
-	this.shape_8.setTransform(67.65,43.225);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-11.9,-83.9).curveTo(-23.1,-78.9,-25,-77).curveTo(-26.1,-75.9,-26.7,-73.8).curveTo(-27.7,-70.5,-27.5,-64.4).curveTo(-27.4,-61.7,-27,-58.2).curveTo(-26.5,-54.3,-25.7,-49.7).lineTo(-25.6,-49).curveTo(-25.1,-46.7,-23.8,-43.1).curveTo(-23.1,-41.1,-21.5,-36.8).curveTo(-19.6,-31.4,-18.8,-27).curveTo(-18.5,-25.4,-18.5,-24.5).lineTo(-18.2,-21.9).lineTo(-18.4,-12.6).curveTo(-18.4,-5.9,-18.7,0.4).curveTo(-18.8,5.6,-19.2,9.8).curveTo(-19.9,17.5,-21,23.4).curveTo(-21.8,27.1,-22.2,28.7).curveTo(-22.4,29.9,-22.8,31).lineTo(-22.8,31.1).lineTo(-24.6,38.3).curveTo(-25.3,41.5,-26.2,46.5).curveTo(-26.9,50,-27.6,54).curveTo(-28.3,58.6,-28.5,60.5).lineTo(-25.6,66.2).curveTo(-21.8,72.5,-17.4,75.3).curveTo(-11.8,78.7,-4.7,81.7).curveTo(2,84.6,0.8,83.5).lineTo(29,58.6);
-	this.shape_9.setTransform(28.5388,97.5099);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(37.3,40.5).lineTo(36.1,35.8).curveTo(35.5,33.3,35,30.8).curveTo(33.9,24.5,33.5,16.5).curveTo(33.2,11.2,33.2,6.9).lineTo(33.1,-11.7).curveTo(33,-13.7,33.2,-15.9).lineTo(33.9,-21.1).curveTo(34.6,-24.5,36,-28.9).curveTo(37.6,-33.6,38.3,-35.8).curveTo(39.4,-39.5,39.7,-42.1).lineTo(40.9,-51.8).curveTo(41.3,-55.4,41.5,-58.4).curveTo(41.8,-65.4,39.8,-68.3).curveTo(39.5,-68.9,39,-69.4).curveTo(36.8,-71.5,24,-77.4).curveTo(6.4,-85.4,-8.2,-89.9).lineTo(-17.8,-86.2).curveTo(-19.1,-85.7,-19.9,-84.5).curveTo(-20.6,-83.2,-20.5,-81.8).lineTo(-19.8,-73.8).lineTo(-19.8,-73.2).curveTo(-19.8,-71.9,-20.4,-70.8).curveTo(-21.1,-69.7,-22.3,-69.2).curveTo(-25.2,-67.9,-29.7,-66.9).curveTo(-33.2,-66.2,-35,-65.8).curveTo(-38,-65.1,-40.2,-64.3).lineTo(-41.8,51.7).lineTo(-41.6,60.8).lineTo(-12.8,90).lineTo(-2.1,88.5).curveTo(10.3,86.4,18.8,83.2).curveTo(28.5,79.5,36.1,73.2).lineTo(41.8,67.7).curveTo(41.6,65.3,41.1,61.5).curveTo(40.5,57.4,39.8,53.2).curveTo(39.2,49.7,38.5,46.1).curveTo(38.1,44.2,37.3,40.5).closePath();
-	this.shape_10.setTransform(93.3976,89.9498);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(23.4,-0.3).curveTo(0.5,-2,-22.3,0.9).lineTo(-23.4,1);
-	this.shape_11.setTransform(38.913,12.7449);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-21.9,-0.3).curveTo(-0.1,-1.9,21.9,0.9);
-	this.shape_12.setTransform(95.4827,11.714);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(26,1.9).lineTo(25.7,1.9).lineTo(-25.7,-1.9).lineTo(-26,-1.9);
-	this.shape_13.setTransform(27.45,25.625);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.4,2.3).lineTo(40.4,-2.3);
-	this.shape_14.setTransform(93.975,23.775);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.8,1.7).curveTo(-40.4,1.6,-39.8,1.6).lineTo(42,-1.6);
-	this.shape_15.setTransform(92.7878,33.1941);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-25.5,-1.4).lineTo(25.5,1.4);
-	this.shape_16.setTransform(26.15,34.45);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-26,-2).lineTo(26,2);
-	this.shape_17.setTransform(26.8,41.325);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.7,1.6).lineTo(-40.2,1.6).curveTo(0.5,3.1,40.7,-2);
-	this.shape_18.setTransform(93.0974,40.0755);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(25.2,1.9).curveTo(0.2,2.5,-24.5,-1.9).lineTo(-25,-2);
-	this.shape_19.setTransform(27.4153,50.423);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-40.6,1.3).lineTo(-39.9,1.4).curveTo(0.6,5.5,40.5,-2.8);
-	this.shape_20.setTransform(92.6829,49.68);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-37.5,2.4).curveTo(-20.4,4.1,0.1,2.2).curveTo(15.8,0.8,37.4,-3.2);
-	this.shape_21.setTransform(89.8793,72.0873);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-37.5,2.4).curveTo(-20.5,4.1,-0.3,2.3).curveTo(15.3,0.8,36.7,-3.1).lineTo(37.4,-3.3);
-	this.shape_22.setTransform(89.8868,77.1002);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-37.6,2.5).lineTo(-37.1,2.5).curveTo(-20,4.1,0.2,2.2).curveTo(16,0.8,37.4,-3.2);
-	this.shape_23.setTransform(89.4421,74.5319);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-20.3,-3.2).curveTo(-11.1,0.5,0.3,2).curveTo(9.5,3.2,21.6,3.1);
-	this.shape_24.setTransform(30.6928,78.7242);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-20.3,-3.2).curveTo(-11.2,0.5,0.3,2).curveTo(9.5,3.2,21.6,3.1);
-	this.shape_25.setTransform(30.7178,73.5742);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-20.3,-3.2).curveTo(-11.2,0.5,0.3,2).curveTo(9.5,3.2,21.6,3);
-	this.shape_26.setTransform(30.7204,76.1048);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-60.9,-3).curveTo(-38.8,1.4,-15.4,2.6).curveTo(23.3,4.5,61,-2.8);
-	this.shape_27.setTransform(67.9464,63.7826);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-58.5,-2.1).lineTo(-57.9,-2).curveTo(-37.2,2.6,-15.9,3.6).curveTo(22.1,5.4,58.5,-3.9);
-	this.shape_28.setTransform(68.0393,86.9157);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(2.6).moveTo(-21.1,-4.5).curveTo(-7.7,-0.3,-0.7,1.4).curveTo(10.9,4.2,20.3,4.5);
-	this.shape_29.setTransform(31.3475,102.529);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(2.6).moveTo(-37.5,3.9).curveTo(-18.7,6.2,0.3,4).curveTo(19.3,1.7,37,-5.1).lineTo(37.2,-5.2);
-	this.shape_30.setTransform(89.6327,101.9209);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-22.5,-7.5).curveTo(-16.9,-2.5,-2.4,1.9).curveTo(10.8,6,23.1,7.2).lineTo(23.7,7.2);
-	this.shape_31.setTransform(28.5404,138.6388);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-22.9,-7.6).lineTo(-22.7,-7.3).curveTo(-16.8,-2.4,-2.5,2).curveTo(10.5,6,22.7,7.1).lineTo(23.2,7.2);
-	this.shape_32.setTransform(28.95,133.5595);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-22.5,-7.5).curveTo(-16.9,-2.5,-2.5,1.9).curveTo(10.8,6,23.1,7.1).lineTo(23.7,7.2);
-	this.shape_33.setTransform(28.5404,136.2138);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-39.5,6.7).curveTo(-15.7,7.5,2.5,4.3).curveTo(20.5,1.1,39,-7);
-	this.shape_34.setTransform(91.1087,137.4333);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-39.5,6.7).curveTo(-15.9,7.5,2.2,4.3).curveTo(20,1.2,38.3,-6.7).lineTo(39,-7);
-	this.shape_35.setTransform(91.1059,132.4237);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill().beginStroke("#729BAF").setStrokeStyle(2.6).moveTo(-39.4,6.7).curveTo(-15.7,7.5,2.6,4.3).curveTo(20.5,1.1,39,-6.9);
-	this.shape_36.setTransform(91.0342,134.8991);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(21.5,4.7).lineTo(21.2,4.7).curveTo(-0.6,2.5,-21.1,-4.8);
-	this.shape_37.setTransform(30.5098,112.1124);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-37.3,3.6).curveTo(-18.6,5.7,0.3,3.6).curveTo(19.3,1.5,37,-4.8);
-	this.shape_38.setTransform(89.2406,111.205);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(22.4,5.5).lineTo(22.1,5.5).curveTo(-0.8,3.6,-21.9,-5.7);
-	this.shape_39.setTransform(29.5924,126.6544);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-38.4,4.1).curveTo(0.8,6.7,38.1,-4.7);
-	this.shape_40.setTransform(90.3194,125.4193);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(25.2,8).curveTo(12,8,-0.6,3.8).curveTo(-13.4,-0.5,-23.9,-8.3);
-	this.shape_41.setTransform(27.9899,144.1019);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-39.6,8.1).lineTo(-38.8,8.2).curveTo(-18.7,10.3,1.4,5.8).curveTo(21.5,1.4,38.9,-8.9).lineTo(39.2,-9);
-	this.shape_42.setTransform(92.956,144.9156);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-31.3,10.2).lineTo(-30.8,10.2).curveTo(-13.3,10.6,2.4,5.4).curveTo(19,-0,30,-10.5);
-	this.shape_43.setTransform(103.8125,162.0897);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-18.4,-10.8).curveTo(-11.5,-2.2,-1.9,3.1).curveTo(7.6,8.5,19,10.3).lineTo(19.5,10.3);
-	this.shape_44.setTransform(19.7079,162.435);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(23.5,11.9).lineTo(22.5,-3.1).curveTo(22.4,-4.3,21.7,-5.3).curveTo(21,-6.3,19.9,-6.8).lineTo(11.5,-10.7).curveTo(3.9,-8.3,-6.2,-4.4).curveTo(-15.3,-0.8,-23.5,2.9);
-	this.shape_45.setTransform(40.0736,10.661);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(4.6).moveTo(-21,-11.1).curveTo(-13.6,-2.4,-1.4,3.1).curveTo(8.4,7.5,22.9,10.3);
-	this.shape_46.setTransform(23.6225,155.1795);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill().beginStroke("#F3775F").setStrokeStyle(4.6).moveTo(-34.6,10.6).curveTo(-10.7,9,1.9,5.7).curveTo(21.2,0.6,32.4,-11.3);
-	this.shape_47.setTransform(100.4732,154.4118);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#5F1806").beginStroke().moveTo(4.5,12.8).curveTo(-2.6,9.8,-8.2,6.4).curveTo(-12.7,3.6,-16.5,-2.7).lineTo(-19.4,-8.4).lineTo(-18.4,-14.9).lineTo(-18,-14.8).curveTo(-11.2,-6.2,-1.6,-0.9).curveTo(8,4.5,19.4,6.3).lineTo(9.9,14.6).curveTo(10,14.6,10.1,14.7).curveTo(10.1,14.8,10.1,14.8).curveTo(10.1,14.8,10.1,14.9).curveTo(10.1,14.9,10,14.9).curveTo(9.3,14.9,4.5,12.8).closePath();
-	this.shape_48.setTransform(19.375,166.4282);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill("#3F7745").beginStroke().moveTo(-6,7.2).curveTo(-15.6,1.8,-22.4,-6.7).lineTo(-22.9,-6.8).lineTo(-21.5,-14.4).lineTo(-21.2,-14.3).curveTo(-13.8,-5.6,-1.5,-0.1).curveTo(8.3,4.3,22.7,7.2).lineTo(22.8,7.3).lineTo(14.9,14.4).curveTo(3.6,12.6,-6,7.2).closePath();
-	this.shape_49.setTransform(23.8,158.35);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#5F1806").beginStroke().moveTo(-21.9,1.2).lineTo(-22.1,1.2).curveTo(-21,-4.7,-20.3,-12.5).lineTo(-20.2,-12.5).curveTo(0.3,-5.1,22.1,-2.9).lineTo(22,12.5).curveTo(-0.9,10.5,-21.9,1.2).closePath();
-	this.shape_50.setTransform(29.625,119.75);
-
-	this.shape_51 = new cjs.Shape();
-	this.shape_51.graphics.beginFill("#3F7745").beginStroke().moveTo(-21.2,-0.1).lineTo(-21.3,-0.1).curveTo(-20.9,-4.3,-20.8,-9.5).lineTo(-20.4,-9.4).curveTo(-7,-5.2,0,-3.5).curveTo(11.6,-0.7,21,-0.4).lineTo(21.3,-0.4).lineTo(21.1,9.4).curveTo(-0.7,7.3,-21.2,-0.1).closePath();
-	this.shape_51.setTransform(30.625,107.4);
-
-	this.shape_52 = new cjs.Shape();
-	this.shape_52.graphics.beginFill("#5F1806").beginStroke().moveTo(-20.8,3.3).lineTo(-23.1,-3.1).curveTo(-24.4,-6.6,-24.9,-8.9).curveTo(-0.2,-4.5,24.8,-5.1).lineTo(24.9,-5.1).lineTo(24.7,9).curveTo(1.3,7.7,-20.8,3.3).closePath();
-	this.shape_52.setTransform(27.825,57.45);
-
-	this.shape_53 = new cjs.Shape();
-	this.shape_53.graphics.beginFill("#3F7745").beginStroke().moveTo(-24.3,2.6).lineTo(-24.4,1.9).curveTo(-25.2,-2.6,-25.6,-6.5).lineTo(25.6,-2.5).lineTo(25.7,-2.5).lineTo(25.5,6.5).lineTo(25.4,6.5).lineTo(19.5,6.5).curveTo(-2.5,6.5,-24.3,2.6).closePath();
-	this.shape_53.setTransform(27.2,45.8856);
-
-	this.shape_54 = new cjs.Shape();
-	this.shape_54.graphics.beginFill("#F3775F").beginStroke().moveTo(25.8,5.1).lineTo(-25.4,1.1).curveTo(-25.8,-2.4,-26,-5.1).lineTo(24.6,-2.4).lineTo(25,-3.4).lineTo(26,-3.4).lineTo(25.9,5.1).closePath();
-	this.shape_54.setTransform(27,38.225);
-
-	this.shape_55 = new cjs.Shape();
-	this.shape_55.graphics.beginFill("#5F1806").beginStroke().moveTo(16.7,14.8).curveTo(2.3,11.9,-7.5,7.5).curveTo(-19.8,2,-27.2,-6.7).lineTo(-27.5,-6.8).lineTo(-25.8,-14.9).lineTo(-25.7,-14.9).curveTo(-15.2,-7.1,-2.4,-2.9).curveTo(10.2,1.3,23.3,1.4).lineTo(27.5,5.6).lineTo(16.8,14.9).closePath();
-	this.shape_55.setTransform(29.8,150.75);
-
-	this.shape_56 = new cjs.Shape();
-	this.shape_56.graphics.beginFill("#5F1806").beginStroke().moveTo(-38.1,11.3).lineTo(-38.4,11.3).lineTo(-38.2,-3.4).lineTo(-38.1,-3.4).curveTo(-19.4,-1.3,-0.5,-3.4).curveTo(18.5,-5.5,36.2,-11.8).lineTo(36.8,-11.8).curveTo(37.2,-3.8,38.4,2.5).curveTo(8,11.8,-23.6,11.8).curveTo(-30.8,11.8,-38.1,11.3).closePath();
-	this.shape_56.setTransform(90.025,118.2414);
-
-	this.shape_57 = new cjs.Shape();
-	this.shape_57.graphics.beginFill("#5F1806").beginStroke().moveTo(-27.8,14.5).lineTo(-39.5,2.6).curveTo(-19.4,4.7,0.7,0.2).curveTo(20.8,-4.2,38.2,-14.5).curveTo(39,-10.9,39.5,-7.4).lineTo(39.2,-7.4).curveTo(28,4.5,8.7,9.6).curveTo(-3.8,12.9,-27.7,14.5).closePath();
-	this.shape_57.setTransform(93.65,150.525);
-
-	this.shape_58 = new cjs.Shape();
-	this.shape_58.graphics.beginFill("#5F1806").beginStroke().moveTo(-40.3,9.6).lineTo(-40.1,-5.8).curveTo(0.4,-1.6,40.4,-9.9).lineTo(40.3,-9).curveTo(39.9,-6.4,38.8,-2.7).lineTo(36.5,4.2).lineTo(36.1,4.1).curveTo(6.1,9.9,-24.5,9.9).curveTo(-32.4,9.9,-40.3,9.6).closePath();
-	this.shape_58.setTransform(92.85,56.8451);
-
-	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.beginFill("#3F7745").beginStroke().moveTo(-40.7,5.8).lineTo(-40.6,-3.6).curveTo(0.1,-2.1,40.3,-7.2).lineTo(40.7,-7.1).lineTo(39.7,1.6).curveTo(13.1,7.2,-13.8,7.2).curveTo(-27.2,7.2,-40.7,5.8).closePath();
-	this.shape_59.setTransform(93.5,45.2667);
-
-	this.shape_60 = new cjs.Shape();
-	this.shape_60.graphics.beginFill("#3F7745").beginStroke().moveTo(-27.1,14.6).lineTo(-34.3,7.3).lineTo(-34.2,7.3).curveTo(-10.3,5.7,2.2,2.4).curveTo(21.5,-2.7,32.7,-14.6).lineTo(33,-14.6).curveTo(33.8,-10.3,34.3,-6.2).lineTo(33.7,-6.1).curveTo(22.6,4.4,6.1,9.8).curveTo(-8.5,14.6,-24.7,14.6).lineTo(-27.1,14.6).closePath();
-	this.shape_60.setTransform(100.15,157.6893);
-
-	this.shape_61 = new cjs.Shape();
-	this.shape_61.graphics.beginFill("#5F1806").beginStroke().moveTo(-31.1,6.6).curveTo(-13.6,7,2.2,1.8).curveTo(18.7,-3.6,29.8,-14.1).lineTo(30.4,-14.2).lineTo(31.1,-8.1).lineTo(25.4,-2.5).curveTo(17.8,3.8,8.1,7.5).curveTo(-0.4,10.7,-12.8,12.8).lineTo(-23.5,14.2).closePath();
-	this.shape_61.setTransform(104.075,165.675);
-
-	this.shape_62 = new cjs.Shape();
-	this.shape_62.graphics.beginFill("#F3775F").beginStroke().moveTo(-41,4.9).lineTo(-40.9,-2).lineTo(41,-5.2).curveTo(40.8,-2.2,40.4,1.4).lineTo(39.9,1.3).curveTo(8.8,5.2,-22.5,5.2).curveTo(-31.7,5.2,-41,4.9).closePath();
-	this.shape_62.setTransform(93.875,36.7955);
-
-	this.shape_63 = new cjs.Shape();
-	this.shape_63.graphics.beginFill("#5F1806").beginStroke().moveTo(-26.1,3.3).curveTo(-26.2,-2.8,-25.3,-6).lineTo(26.1,-2.3).lineTo(25.9,5).lineTo(24.9,5.1).lineTo(24.5,6).closePath();
-	this.shape_63.setTransform(27.0648,29.775);
-
-	this.shape_64 = new cjs.Shape();
-	this.shape_64.graphics.beginFill("#5F1806").beginStroke().moveTo(-40.8,-2.2).lineTo(39.2,-6.6).curveTo(41.2,-3.7,40.9,3.4).lineTo(-41,6.6).closePath();
-	this.shape_64.setTransform(93.9511,28.2);
-
-	this.shape_65 = new cjs.Shape();
-	this.shape_65.graphics.beginFill("#F3775F").beginStroke().moveTo(-30.9,4.1).curveTo(-30.3,2,-29.2,0.9).curveTo(-27.3,-1,-16.1,-6).curveTo(6.7,-8.9,29.6,-7.2).lineTo(30.1,-7.3).lineTo(30.8,3).lineTo(30.9,3.4).lineTo(25.7,4.5).curveTo(22.7,5.2,20.5,6).lineTo(20.4,7.9).closePath();
-	this.shape_65.setTransform(32.725,19.6475);
-
-	this.shape_66 = new cjs.Shape();
-	this.shape_66.graphics.beginFill("#F3775F").beginStroke().moveTo(-40,7.2).curveTo(-37.8,6.4,-34.8,5.7).lineTo(-29.5,4.6).curveTo(-25,3.6,-22.2,2.3).curveTo(-20.9,1.8,-20.3,0.7).curveTo(-19.6,-0.4,-19.6,-1.7).lineTo(-19.6,-2.3).lineTo(-20,-7).lineTo(-19.6,-7).curveTo(2.2,-8.6,24.2,-5.8).lineTo(24.2,-5.9).curveTo(37,-0,39.1,2.1).lineTo(40,3.2).lineTo(-40,7.6).closePath();
-	this.shape_66.setTransform(93.2,18.4441);
-
-	this.shape_67 = new cjs.Shape();
-	this.shape_67.graphics.beginFill("#5F1806").beginStroke().moveTo(-21.6,5.1).lineTo(-21.9,5.1).lineTo(-22.2,1.8).curveTo(-22.3,0.4,-21.6,-0.8).curveTo(-20.9,-2,-19.6,-2.6).lineTo(-10,-6.3).curveTo(4.6,-1.7,22.2,6.2).lineTo(22.2,6.3).curveTo(0.3,3.5,-21.6,5.1).closePath();
-	this.shape_67.setTransform(95.1188,6.3);
-
-	this.shape_68 = new cjs.Shape();
-	this.shape_68.graphics.beginFill("#5F1806").beginStroke().moveTo(-5.8,-0.5).curveTo(4.2,-4.4,11.9,-6.8).lineTo(20.3,-2.9).curveTo(21.4,-2.4,22.1,-1.5).curveTo(22.8,-0.5,22.8,0.8).lineTo(23.1,5.5).lineTo(22.6,5.6).curveTo(-0.3,4,-23.1,6.8).curveTo(-14.9,3.1,-5.8,-0.5).closePath();
-	this.shape_68.setTransform(39.725,6.8);
-
-	this.shape_69 = new cjs.Shape();
-	this.shape_69.graphics.beginFill("#5F1806").beginStroke().moveTo(-37.1,10.8).lineTo(-37.4,10.8).lineTo(-37.1,-4.5).curveTo(0.9,-2.7,37.3,-12).lineTo(37.3,1.8).curveTo(19.7,8.6,0.7,10.9).curveTo(-8.6,12,-17.9,12).curveTo(-27.5,12,-37.1,10.8).closePath();
-	this.shape_69.setTransform(89.25,95.0003);
-
-	this.shape_70 = new cjs.Shape();
-	this.shape_70.graphics.beginFill("#5F1806").beginStroke().moveTo(20.6,11).curveTo(11.3,10.7,-0.3,7.9).curveTo(-7.3,6.2,-20.8,2).lineTo(-21.1,2).curveTo(-20.9,-4.4,-20.8,-11).curveTo(-0.2,-6.5,21.1,-5.5).lineTo(20.9,11).closePath();
-	this.shape_70.setTransform(30.975,95.975);
-
-	this.shape_71 = new cjs.Shape();
-	this.shape_71.graphics.beginFill("#3F7745").beginStroke().moveTo(-37.4,8.5).lineTo(-37.5,8.5).lineTo(-37.4,-0.6).lineTo(-37.2,-0.6).curveTo(-18.4,1.8,0.6,-0.5).curveTo(19.6,-2.8,37.3,-9.5).curveTo(37.3,-5.3,37.5,0.1).lineTo(36.9,0.1).curveTo(19.2,6.3,0.2,8.4).curveTo(-9.3,9.5,-18.8,9.5).curveTo(-28.1,9.5,-37.4,8.5).closePath();
-	this.shape_71.setTransform(89.325,106.3688);
-
-	this.shape_72 = new cjs.Shape();
-	this.shape_72.graphics.beginFill("#F3775F").beginStroke().moveTo(-38.5,6.4).lineTo(-38.4,-1.7).curveTo(0.3,0.2,38,-7.2).lineTo(38.5,-7.1).curveTo(37.1,-2.7,36.4,0.7).curveTo(14.8,4.8,-0.9,6.2).curveTo(-11.7,7.2,-21.6,7.2).curveTo(-30.4,7.2,-38.5,6.4).closePath();
-	this.shape_72.setTransform(90.875,68.1264);
-
-	this.shape_73 = new cjs.Shape();
-	this.shape_73.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.2,3.7).lineTo(-37.3,3.7).lineTo(-37.3,1.2).curveTo(-20.2,2.8,0.1,0.9).curveTo(15.8,-0.5,37.2,-4.5).lineTo(37.3,-4.5).lineTo(37,-1.8).curveTo(15.6,2.1,-0,3.6).curveTo(-10.4,4.5,-19.9,4.5).curveTo(-28.9,4.5,-37.2,3.7).closePath();
-	this.shape_73.setTransform(89.575,75.8129);
-
-	this.shape_74 = new cjs.Shape();
-	this.shape_74.graphics.beginFill("#F3775F").beginStroke().moveTo(-21.1,1.9).lineTo(-20.9,-7.4).lineTo(-20.8,-7.5).curveTo(-11.6,-3.8,-0.2,-2.3).curveTo(8.9,-1.1,21,-1.2).lineTo(20.9,7.5).curveTo(-0.4,6.5,-21.1,1.9).closePath();
-	this.shape_74.setTransform(31.2,83.025);
-
-	this.shape_75 = new cjs.Shape();
-	this.shape_75.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.2,8.1).lineTo(-37,-2.9).lineTo(-37,-2.9).curveTo(-19.9,-1.2,0.2,-3).curveTo(15.9,-4.4,37.2,-8.4).curveTo(37.1,-6.1,37.1,-4.1).lineTo(37.2,0.6).curveTo(6.7,8.4,-24.9,8.4).curveTo(-31.1,8.4,-37.2,8.1).closePath();
-	this.shape_75.setTransform(89.325,82.3959);
-
-	this.shape_76 = new cjs.Shape();
-	this.shape_76.graphics.beginFill("#F3775F").beginStroke().moveTo(-0.2,3.3).curveTo(-11.6,1.8,-20.8,-1.8).lineTo(-20.9,-1.8).lineTo(-21.1,-4.4).lineTo(-20.8,-4.4).curveTo(-11.6,-0.7,-0.2,0.7).curveTo(9,1.9,21.1,1.8).lineTo(21.1,4.4).lineTo(19.2,4.4).curveTo(8.3,4.4,-0.2,3.3).closePath();
-	this.shape_76.setTransform(31.175,77.3788);
-
-	this.shape_77 = new cjs.Shape();
-	this.shape_77.graphics.beginFill("#F3775F").beginStroke().moveTo(-0,3.3).curveTo(-11.4,1.9,-20.6,-1.8).lineTo(-21,-1.8).lineTo(-21.3,-4.2).lineTo(-20.6,-4.4).curveTo(-11.4,-0.7,-0,0.8).curveTo(9.2,2,21.3,1.9).lineTo(21.3,4.4).lineTo(18.6,4.4).curveTo(8.2,4.4,-0,3.3).closePath();
-	this.shape_77.setTransform(31,74.7833);
-
-	this.shape_78 = new cjs.Shape();
-	this.shape_78.graphics.beginFill("#F3775F").beginStroke().moveTo(1.2,6.8).curveTo(-10.2,5.3,-19.4,1.7).lineTo(-20.1,1.8).curveTo(-20.8,-2.6,-22.8,-8).curveTo(-0.6,-3.5,22.8,-2.3).lineTo(22.6,7.9).lineTo(20.7,8).curveTo(9.7,8,1.2,6.8).closePath();
-	this.shape_78.setTransform(29.75,68.7038);
-
-	this.shape_79 = new cjs.Shape();
-	this.shape_79.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.5,3.7).lineTo(-37.5,1.2).curveTo(-20.3,2.9,0.1,1).curveTo(15.9,-0.4,37.5,-4.4).lineTo(37,-2).lineTo(37,-2).curveTo(15.6,2,-0.1,3.5).curveTo(-11,4.4,-21,4.4).curveTo(-29.6,4.4,-37.5,3.7).closePath();
-	this.shape_79.setTransform(89.8,73.296);
-
-	this.shape_80 = new cjs.Shape();
-	this.shape_80.graphics.beginFill("#F3775F").beginStroke().moveTo(-38.9,9.1).lineTo(-38.9,-0.5).lineTo(-38.6,-0.5).curveTo(0.6,2.1,37.9,-9.3).lineTo(38.9,-4.3).curveTo(20.6,3.6,2.8,6.7).curveTo(-11.8,9.3,-30,9.3).lineTo(-38.9,9.1).closePath();
-	this.shape_80.setTransform(90.525,130.0221);
-
-	this.shape_81 = new cjs.Shape();
-	this.shape_81.graphics.beginFill("#F3775F").beginStroke().moveTo(-39.5,8).lineTo(-39.5,5.5).curveTo(-15.8,6.2,2.5,3).curveTo(20.4,-0.1,38.9,-8.2).lineTo(39.5,-5.7).lineTo(39,-5.7).curveTo(20.5,2.4,2.5,5.6).curveTo(-12.1,8.2,-30.2,8.2).curveTo(-34.8,8.2,-39.5,8).closePath();
-	this.shape_81.setTransform(91.125,136.13);
-
-	this.shape_82 = new cjs.Shape();
-	this.shape_82.graphics.beginFill("#F3775F").beginStroke().moveTo(-39.2,7.9).lineTo(-39.2,5.4).curveTo(-15.6,6.2,2.5,3).curveTo(20.4,-0.1,38.6,-8).lineTo(39.2,-5.8).curveTo(20.7,2.3,2.8,5.4).curveTo(-12,8,-30.4,8).lineTo(-39.2,7.9).closePath();
-	this.shape_82.setTransform(90.8,133.7462);
-
-	this.shape_83 = new cjs.Shape();
-	this.shape_83.graphics.beginFill("#F3775F").beginStroke().moveTo(-2.6,4.7).curveTo(-16.9,0.4,-22.7,-4.6).lineTo(-21.5,-9.9).lineTo(-21.3,-9.8).curveTo(-0.2,-0.5,22.7,1.4).lineTo(22.6,9.9).curveTo(10.5,8.7,-2.6,4.7).closePath();
-	this.shape_83.setTransform(28.975,130.825);
-
-	this.shape_84 = new cjs.Shape();
-	this.shape_84.graphics.beginFill("#F3775F").beginStroke().moveTo(-2.6,3.3).curveTo(-17.1,-1,-22.6,-6.1).lineTo(-23,-6.2).lineTo(-23,-6.3).curveTo(-22.5,-7.4,-22.3,-8.5).curveTo(-16.6,-3.6,-2.3,0.7).curveTo(10.9,4.7,23,5.9).lineTo(23,8.6).curveTo(10.7,7.4,-2.6,3.3).closePath();
-	this.shape_84.setTransform(28.65,134.8);
-
-	this.shape_85 = new cjs.Shape();
-	this.shape_85.graphics.beginFill("#F3775F").beginStroke().moveTo(-37.6,11.1).lineTo(-40,8.7).lineTo(-40.1,2.1).curveTo(-16.3,2.9,1.9,-0.3).curveTo(19.9,-3.5,38.4,-11.6).lineTo(38.9,-11.7).lineTo(40.1,-6).curveTo(22.7,4.3,2.6,8.7).curveTo(-11.1,11.7,-24.9,11.7).curveTo(-31.2,11.7,-37.6,11.1).closePath();
-	this.shape_85.setTransform(91.725,142.0983);
-
-	this.shape_86 = new cjs.Shape();
-	this.shape_86.graphics.beginFill("#F3775F").beginStroke().moveTo(-1.2,6.4).curveTo(-14,2.2,-24.5,-5.7).lineTo(-24.6,-5.7).lineTo(-23.5,-10.6).lineTo(-22.5,-10.4).curveTo(-17,-5.4,-2.4,-0.9).curveTo(10.8,3.2,23.1,4.3).lineTo(23.2,9.2).lineTo(24.6,10.7).curveTo(11.4,10.6,-1.2,6.4).closePath();
-	this.shape_86.setTransform(28.55,141.5);
-
-	this.shape_87 = new cjs.Shape();
-	this.shape_87.graphics.beginFill("#F3775F").beginStroke().moveTo(-2.2,3.4).curveTo(-16.8,-1.1,-22.3,-6.1).lineTo(-23.3,-6.3).lineTo(-22.7,-8.6).lineTo(-22.3,-8.5).curveTo(-16.8,-3.4,-2.3,0.9).curveTo(11,5,23.3,6.2).lineTo(23.3,8.6).curveTo(11,7.5,-2.2,3.4).closePath();
-	this.shape_87.setTransform(28.35,137.2);
-
-	this.shape_88 = new cjs.Shape();
-	this.shape_88.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-5,0.1).lineTo(5,-0.1);
-	this.shape_88.setTransform(67.2,11.025);
-
-	this.shape_89 = new cjs.Shape();
-	this.shape_89.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-4.6,5.7).lineTo(-5.4,-5.8).lineTo(4,-6).lineTo(4.9,-6.1).lineTo(5.4,-0.8).lineTo(5.4,-0.2).curveTo(5.4,1.1,4.7,2.2).curveTo(4.1,3.3,2.8,3.8).curveTo(-0,5.1,-4.5,6.1).closePath();
-	this.shape_89.setTransform(68.2,16.925);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger_boy();
-	this.instance.setTransform(67.7,-20.45,1,1,0,0,0,82.8,57.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.shirt_03_btn, new cjs.Rectangle(-12.6,-78.9,160.7,264.3), null);
-
-
-(lib.shirt_02_btn = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-5,0.1).lineTo(5,-0.1);
-	this.shape.setTransform(66.2,4.525);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2,-72.4).curveTo(-2.3,-51.8,-3.3,-10.8).curveTo(-4,25.5,-3.5,50.8).curveTo(-3.3,57,-1.7,61.9).curveTo(0.3,67.9,4.2,71.1);
-	this.shape_1.setTransform(60.5209,89.9032);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(5.7,77.6).lineTo(5.3,77.1).curveTo(2.1,71.9,0.4,64.6).curveTo(-1,58.3,-1.1,51.2).curveTo(-1.1,46.7,1.2,33).curveTo(3.5,19.3,3.5,14.9).curveTo(3.4,0.5,-1.2,-27.6).curveTo(-5.5,-54.6,-5.3,-78.5).lineTo(-5.3,-78.8);
-	this.shape_2.setTransform(26.4852,83.8875);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(5.6,75.4).lineTo(5.2,74.8).curveTo(-1,64.9,-1.1,50.7).curveTo(-1.2,46.2,1.1,32.5).curveTo(3.5,18.7,3.5,14.4).curveTo(3.4,3.6,1.9,-7.5).curveTo(1.3,-12.1,-1.1,-26.9).curveTo(-5.5,-52.7,-5.3,-76.6);
-	this.shape_3.setTransform(18.939,85.1051);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape_4.setTransform(66.65,142.125);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape_5.setTransform(66.65,88.375);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
-	this.shape_6.setTransform(66.65,36.725);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.4,-71.2).lineTo(-5.9,-69.3).lineTo(-7.7,56.6).curveTo(-7.2,61.3,-5.5,64.2).curveTo(-3,68.7,-0.6,70.9).curveTo(-0.1,71.4,0.9,71).lineTo(8.9,70.5);
-	this.shape_7.setTransform(49.8226,90.3468);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-27.5,83.4).curveTo(-1.2,84.2,6.7,84.2).lineTo(9.4,84.1).curveTo(13.4,84,17,83.2).curveTo(23.4,81.8,28.2,78.8).curveTo(33.2,75.7,36.3,70.9).curveTo(39.6,66,40,60.5).curveTo(40.2,57,39.1,52.4).curveTo(38.9,51.5,36.9,44.4).curveTo(34,34,33.5,19.6).curveTo(33.5,2.8,33.2,-5.9).curveTo(33,-13.2,36,-22.7).curveTo(39.6,-33.9,39.9,-36.3).curveTo(41.6,-50.4,41.7,-53.4).curveTo(41.9,-60.9,39.1,-63.6).curveTo(37.9,-64.8,31.6,-68).curveTo(23.7,-72,12.9,-76.4).curveTo(1,-81.3,-8.1,-84.1).lineTo(-17.7,-80.4).curveTo(-19,-79.9,-19.7,-78.7).curveTo(-20.4,-77.4,-20.3,-76).lineTo(-19.6,-68).lineTo(-19.6,-67.4).curveTo(-19.6,-66.1,-20.3,-65).curveTo(-21,-63.9,-22.2,-63.4).curveTo(-25,-62.1,-29.6,-61.1).lineTo(-33.7,-60.3).curveTo(-37.9,-59.3,-40,-58.5).curveTo(-42.2,60.1,-41.5,66.6).curveTo(-40.8,72.6,-38.1,77.7).curveTo(-36.5,80.8,-34.5,82.8).lineTo(-34.2,83.1).closePath();
-	this.shape_8.setTransform(92.2364,77.6384);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(26.1,83.1).curveTo(23.1,83.7,18.6,84).curveTo(15.6,84.2,11.2,84.2).curveTo(6.2,84.2,3.7,84.2).lineTo(0.9,84.1).curveTo(-2.7,84,-6.8,83.2).curveTo(-13.2,81.7,-17.8,78.8).curveTo(-22.8,75.7,-25.9,70.9).curveTo(-29.2,66,-29.6,60.5).curveTo(-29.8,57,-28.8,52.4).curveTo(-28.6,51.4,-26.6,44.4).curveTo(-23.5,33.7,-22.7,19.6).curveTo(-22.2,2.8,-22,-5.9).curveTo(-21.8,-13.3,-25,-22.7).curveTo(-29.2,-34.6,-29.5,-36.3).curveTo(-33.4,-58.9,-28.7,-63.6).curveTo(-27.5,-64.8,-21.3,-67.9).curveTo(-13.3,-71.8,-2.1,-76.4).curveTo(10.1,-81.3,19.3,-84.1).lineTo(27.7,-80.2).curveTo(28.8,-79.7,29.5,-78.8).curveTo(30.2,-77.8,30.3,-76.6).lineTo(31.3,-61.5);
-	this.shape_9.setTransform(31.2717,77.6312);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill().beginStroke("#EC6C3B").setStrokeStyle(3.1).moveTo(8.3,78.8).lineTo(12,78.9).curveTo(5.5,68.9,5.3,52.9).curveTo(5.2,48.4,7.5,34.7).curveTo(9.9,21,9.8,16.6).curveTo(9.7,2.2,5.2,-26.5).curveTo(0.8,-54.2,1,-78.2).lineTo(-13.4,-72.2).curveTo(-13.6,-48.2,-9.2,-23.1).curveTo(-6.8,-8.8,-6.2,-4.3).curveTo(-4.7,6.5,-4.6,17.3).curveTo(-4.6,21.7,-6.9,35.5).curveTo(-9.3,49.2,-9.2,53.6).curveTo(-9.1,60.6,-7.6,66).curveTo(-6,72,-2.4,77.3).closePath();
-	this.shape_10.setTransform(23.483,82.1954);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(-5.6,77.6).lineTo(-5.3,77.1).curveTo(-2.1,71.9,-0.4,64.6).curveTo(1,58.3,1.1,51.2).curveTo(1.2,46.7,-1.1,33).curveTo(-3.5,19.2,-3.5,14.9).curveTo(-3.4,0.4,1.2,-27.6).curveTo(5.6,-54.6,5.4,-78.5).lineTo(5.4,-78.8);
-	this.shape_11.setTransform(107.2808,83.8875);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(3.6).moveTo(-5.6,75.4).lineTo(-5.2,74.8).curveTo(0.9,65.1,1.2,50.7).curveTo(1.2,46.2,-1.1,32.5).curveTo(-3.4,18.8,-3.4,14.4).curveTo(-3.3,-0.1,1.2,-26.9).curveTo(5.5,-52.7,5.3,-76.6);
-	this.shape_12.setTransform(114.8372,85.1051);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill().beginStroke("#EC6C3B").setStrokeStyle(3.1).moveTo(-8.4,78.8).lineTo(-12,78.9).curveTo(-5.5,69,-5.3,52.9).curveTo(-5.2,48.4,-7.6,34.7).curveTo(-9.9,21,-9.9,16.6).curveTo(-9.8,2.2,-5.2,-26.5).curveTo(-0.8,-54.2,-1,-78.2).lineTo(13.4,-72.2).curveTo(13.6,-48.2,9.2,-23.1).curveTo(4.7,2.8,4.6,17.3).curveTo(4.6,21.7,6.9,35.5).curveTo(9.3,49.2,9.2,53.6).curveTo(9.1,60.5,7.6,66).curveTo(6,71.9,2.4,77.3).closePath();
-	this.shape_13.setTransform(110.3145,82.1964);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#EC6C3B").beginStroke().moveTo(3.9,75.3).curveTo(0.4,69.9,-1.3,64).curveTo(-2.8,58.5,-2.9,51.6).curveTo(-2.9,47.1,-0.6,33.4).curveTo(1.8,19.7,1.7,15.3).curveTo(1.6,4.5,0.2,-6.4).curveTo(-0.4,-10.8,-2.9,-25.2).curveTo(-7.2,-50.3,-7,-74.2).lineTo(-3.5,-75.7).curveTo(-3.7,-51.8,0.7,-26).curveTo(3.1,-11.2,3.7,-6.6).curveTo(5.2,4.5,5.3,15.3).curveTo(5.3,19.6,2.9,33.4).curveTo(0.6,47.1,0.7,51.6).curveTo(0.8,65.8,7,75.7).closePath();
-	this.shape_14.setTransform(17.1206,84.225);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill("#3F7745").beginStroke().moveTo(1.2,71.1).curveTo(-3.8,68,-6.9,63.3).curveTo(-10.2,58.3,-10.6,52.9).curveTo(-10.8,49.3,-9.8,44.7).lineTo(-7.6,36.7).curveTo(-4.5,26.1,-3.7,11.9).lineTo(-3,-13.5).curveTo(-2.8,-21,-6,-30.4).curveTo(-10.2,-42.3,-10.5,-44).curveTo(-14.4,-66.6,-9.7,-71.2).curveTo(-8.5,-72.4,-2.3,-75.5).lineTo(-2.2,-75.3).curveTo(-2.4,-51.3,2,-26.2).curveTo(4.4,-11.9,5,-7.4).curveTo(6.5,3.4,6.6,14.2).curveTo(6.6,18.6,4.3,32.4).curveTo(1.9,46.1,2,50.5).curveTo(2.1,57.5,3.6,62.9).curveTo(5.2,68.9,8.8,74.2).lineTo(11.9,74.6).lineTo(12.3,75.3).lineTo(12.2,75.5).curveTo(5.8,74.1,1.2,71.1).closePath();
-	this.shape_15.setTransform(12.2731,85.275);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill("#EC6C3B").beginStroke().moveTo(1.5,76.7).curveTo(-4.7,66.9,-4.9,52.6).curveTo(-4.9,48.1,-2.6,34.5).curveTo(-0.2,20.7,-0.3,16.3).curveTo(-0.4,5.5,-1.8,-5.5).curveTo(-2.4,-10.1,-4.9,-24.9).curveTo(-9.3,-50.8,-9.1,-74.6).lineTo(-1.5,-77.8).curveTo(-1.7,-53.9,2.6,-26.9).curveTo(7.2,1.2,7.3,15.6).curveTo(7.3,20,5,33.7).curveTo(2.7,47.4,2.7,51.9).curveTo(2.8,59,4.2,65.3).curveTo(5.9,72.6,9.1,77.8).closePath();
-	this.shape_16.setTransform(22.6957,83.175);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#EC6C3B").beginStroke().moveTo(3.5,78.3).curveTo(0.2,73.1,-1.4,65.8).curveTo(-2.8,59.5,-2.9,52.4).curveTo(-3,47.9,-0.7,34.2).curveTo(1.7,20.5,1.6,16).curveTo(1.5,1.7,-3,-26.4).curveTo(-7.4,-53.4,-7.2,-77.3).lineTo(-3.8,-78.8).curveTo(-4,-54.8,0.3,-27).curveTo(4.9,1.7,5,16).curveTo(5,20.5,2.7,34.2).curveTo(0.4,47.9,0.4,52.4).curveTo(0.5,59.7,2,66.1).curveTo(3.8,73.5,7.2,78.7).closePath();
-	this.shape_17.setTransform(28.3206,82.7);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.3,-0,2.2).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_18.setTransform(67.9,140.15);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,0.9,-2.3,-0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_19.setTransform(67.9,86.125);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-1.6,1.6).curveTo(-2.2,1,-2.3,0).curveTo(-2.2,-0.9,-1.6,-1.6).curveTo(-0.9,-2.2,-0,-2.2).curveTo(1,-2.2,1.6,-1.6).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,1,1.6,1.6).curveTo(1,2.2,-0,2.2).curveTo(-0.9,2.2,-1.6,1.6).closePath();
-	this.shape_20.setTransform(67.9,34.475);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.6).curveTo(-1,-2.9,-1,-2).curveTo(-1,-1,-0.4,-0.4).curveTo(0.3,0.3,1.2,0.3).curveTo(2.2,0.3,2.9,-0.4).curveTo(3.5,-1,3.5,-2).curveTo(3.5,-2.9,2.9,-3.6).curveTo(2.2,-4.2,1.2,-4.2).curveTo(0.3,-4.2,-0.4,-3.6).closePath();
-	this.shape_21.setTransform(66.65,142.125);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.3).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.3).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
-	this.shape_22.setTransform(66.65,88.375);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill("#EEBA33").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,-0,6).curveTo(-2.4,6,-4.3,4.2).closePath().moveTo(-0.4,-3.8).curveTo(-1,-3.2,-1,-2.2).curveTo(-1,-1.3,-0.4,-0.7).curveTo(0.3,-0,1.2,-0).curveTo(2.2,-0,2.9,-0.7).curveTo(3.5,-1.3,3.5,-2.2).curveTo(3.5,-3.2,2.9,-3.8).curveTo(2.2,-4.5,1.2,-4.5).curveTo(0.3,-4.5,-0.4,-3.8).closePath();
-	this.shape_23.setTransform(66.65,36.725);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-0.4,52.4).curveTo(-0.4,47.9,-2.7,34.2).curveTo(-5,20.5,-5,16).curveTo(-4.9,1.7,-0.4,-27).curveTo(4,-54.8,3.8,-78.8).lineTo(7.2,-77.3).curveTo(7.4,-53.4,3,-26.4).curveTo(-1.6,1.6,-1.7,16).curveTo(-1.7,20.4,0.7,34.2).curveTo(3,47.9,2.9,52.4).curveTo(2.8,59.5,1.4,65.8).curveTo(-0.3,73.1,-3.5,78.3).lineTo(-7.2,78.7).curveTo(-0.7,68.9,-0.4,52.4).closePath();
-	this.shape_24.setTransform(105.4793,82.7);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-4.2,65.3).curveTo(-2.8,59,-2.7,51.9).curveTo(-2.6,47.4,-4.9,33.7).curveTo(-7.3,19.9,-7.3,15.6).curveTo(-7.2,1.1,-2.6,-26.9).curveTo(1.8,-53.9,1.6,-77.8).lineTo(9.1,-74.6).curveTo(9.3,-50.7,4.9,-24.9).curveTo(0.4,1.9,0.3,16.3).curveTo(0.3,20.7,2.6,34.5).curveTo(5,48.2,4.9,52.6).curveTo(4.7,67,-1.4,76.7).lineTo(-9.1,77.8).curveTo(-5.9,72.6,-4.2,65.3).closePath();
-	this.shape_25.setTransform(111.0544,83.175);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill("#EC6C3B").beginStroke().moveTo(-0.7,51.6).curveTo(-0.6,47.1,-3,33.4).curveTo(-5.3,19.7,-5.3,15.3).curveTo(-5.2,0.8,-0.7,-26).curveTo(3.7,-51.8,3.5,-75.7).lineTo(7,-74.2).curveTo(7.2,-50.3,2.9,-25.2).curveTo(-1.6,0.8,-1.7,15.3).curveTo(-1.8,19.7,0.6,33.4).curveTo(2.9,47.1,2.8,51.6).curveTo(2.7,58.4,1.2,64).curveTo(-0.4,69.9,-3.9,75.3).lineTo(-7,75.7).curveTo(-0.9,66,-0.7,51.6).closePath();
-	this.shape_26.setTransform(116.6794,84.225);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill("#F3DFC6").beginStroke().moveTo(0.4,71.6).lineTo(0.1,71.3).curveTo(-1.9,69.2,-3.5,66.1).curveTo(-6.2,61.1,-6.9,55.1).curveTo(-7.6,48.5,-5.4,-70).curveTo(-3.3,-70.9,0.9,-71.8).lineTo(0.9,-71.6).curveTo(0.6,-51,-0.4,-10).curveTo(-1.1,26.3,-0.6,51.5).curveTo(-0.4,57.7,1.2,62.7).curveTo(3.2,68.6,7.1,71.8).closePath();
-	this.shape_27.setTransform(57.6297,89.175);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill("#3F7745").beginStroke().moveTo(-12.4,75.3).lineTo(-11.9,74.7).lineTo(-8.8,74.3).curveTo(-5.3,68.9,-3.7,63).curveTo(-2.2,57.4,-2.1,50.6).curveTo(-2,46.1,-4.3,32.4).curveTo(-6.7,18.7,-6.6,14.3).curveTo(-6.5,-0.2,-2,-26.2).curveTo(2.3,-51.3,2.1,-75.2).lineTo(2.3,-75.6).curveTo(8.6,-72.4,9.8,-71.2).curveTo(12.5,-68.5,12.3,-61).curveTo(12.2,-58,10.5,-43.9).curveTo(10.2,-41.5,6.7,-30.3).curveTo(3.7,-20.8,3.9,-13.5).curveTo(4.1,-4.8,4.2,12).curveTo(4.6,26.4,7.6,36.8).lineTo(9.8,44.8).curveTo(10.9,49.4,10.6,52.9).curveTo(10.3,58.4,6.9,63.3).curveTo(3.8,68.1,-1.1,71.2).curveTo(-5.9,74.2,-12.3,75.6).closePath();
-	this.shape_28.setTransform(121.5568,85.225);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill("#5F1806").beginStroke().moveTo(-5.6,64.1).curveTo(-7.3,61.2,-7.8,56.5).lineTo(-6,-69.4).lineTo(2.3,-71.3).curveTo(0.1,47.3,0.9,53.8).curveTo(1.5,59.8,4.2,64.9).curveTo(5.9,68,7.8,70.1).lineTo(7.4,70.3).curveTo(4.5,70.9,-0,71.2).curveTo(-3.5,67.9,-5.6,64.1).closePath();
-	this.shape_29.setTransform(49.9,90.4);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill("#3F7745").beginStroke().moveTo(-25.6,83.3).curveTo(-29.5,80.1,-31.5,74.2).curveTo(-33.1,69.2,-33.3,63).curveTo(-33.8,37.8,-33.1,1.5).curveTo(-32.1,-39.5,-31.8,-60.1).lineTo(-31.8,-60.3).lineTo(-27.7,-61.2).curveTo(-23.1,-62.2,-20.3,-63.4).curveTo(-19.1,-63.9,-18.4,-65).curveTo(-17.7,-66.1,-17.7,-67.4).lineTo(-17.7,-68).lineTo(-18.4,-76.1).curveTo(-18.5,-77.5,-17.8,-78.7).curveTo(-17.1,-79.9,-15.8,-80.5).lineTo(-6.2,-84.2).curveTo(2.9,-81.4,14.8,-76.5).curveTo(25.6,-72,33.5,-68).lineTo(33.4,-67.7).lineTo(19,-73.7).curveTo(19.2,-49.7,14.8,-22).curveTo(10.2,6.7,10.1,21.1).curveTo(10.1,25.5,12.4,39.2).curveTo(14.8,52.9,14.7,57.4).curveTo(14.4,73.9,8,83.8).lineTo(11.6,83.3).lineTo(11.3,83.8).lineTo(11.3,84.1).lineTo(8.6,84.2).curveTo(0.7,84.1,-25.6,83.3).closePath().moveTo(-27.9,60.2).curveTo(-29.7,62,-29.7,64.5).curveTo(-29.7,66.9,-27.9,68.7).curveTo(-26.2,70.4,-23.7,70.4).curveTo(-21.2,70.4,-19.4,68.7).curveTo(-17.7,67,-17.7,64.5).curveTo(-17.7,62,-19.4,60.2).curveTo(-21.2,58.5,-23.7,58.5).curveTo(-26.1,58.5,-27.9,60.2).closePath().moveTo(-27.9,6.5).curveTo(-29.7,8.3,-29.7,10.7).curveTo(-29.7,13.2,-27.9,14.9).curveTo(-26.2,16.7,-23.7,16.7).curveTo(-21.2,16.7,-19.4,14.9).curveTo(-17.7,13.2,-17.7,10.7).curveTo(-17.7,8.2,-19.4,6.5).curveTo(-21.2,4.7,-23.7,4.7).curveTo(-26.1,4.7,-27.9,6.5).closePath().moveTo(-27.9,-45.2).curveTo(-29.7,-43.4,-29.7,-41).curveTo(-29.7,-38.5,-27.9,-36.7).curveTo(-26.1,-35,-23.7,-35).curveTo(-21.2,-35,-19.4,-36.7).curveTo(-17.7,-38.5,-17.7,-41).curveTo(-17.7,-43.5,-19.4,-45.2).curveTo(-21.2,-46.9,-23.7,-46.9).curveTo(-26.2,-46.9,-27.9,-45.2).closePath();
-	this.shape_30.setTransform(90.329,77.675);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.3,84.2).lineTo(-4.2,84.1).lineTo(-4.2,83.8).lineTo(-4.5,83.3).lineTo(-0.8,83.8).curveTo(-4.2,78.6,-5.9,71.1).curveTo(-7.5,64.7,-7.6,57.4).curveTo(-7.6,52.9,-5.3,39.2).curveTo(-2.9,25.5,-3,21.1).curveTo(-3.1,6.7,-7.7,-22).curveTo(-12,-49.7,-11.8,-73.7).lineTo(-26.2,-67.7).lineTo(-26.4,-67.9).curveTo(-18.3,-71.9,-7.1,-76.4).curveTo(5,-81.3,14.3,-84.2).lineTo(22.7,-80.3).curveTo(23.8,-79.8,24.5,-78.8).curveTo(25.2,-77.8,25.3,-76.6).lineTo(26.3,-61.6).lineTo(26.4,-61.2).lineTo(22.2,-60.3).curveTo(18,-59.4,15.9,-58.5).lineTo(7.6,-56.7).lineTo(5.8,69.2).curveTo(6.3,73.9,8,76.9).curveTo(10.1,80.6,13.6,84).curveTo(10.6,84.2,6.1,84.2).lineTo(-1.3,84.2).closePath();
-	this.shape_31.setTransform(36.3,77.675);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-4.6,5.7).lineTo(-5.4,-5.8).lineTo(4,-6).lineTo(4.9,-6.1).lineTo(5.4,-0.8).lineTo(5.4,-0.2).curveTo(5.4,1.1,4.7,2.2).curveTo(4.1,3.3,2.8,3.8).curveTo(-0,5.1,-4.5,6.1).closePath();
-	this.shape_32.setTransform(67.2,10.425);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger_boy();
-	this.instance.setTransform(65.7,-23.45,1,1,0,0,0,78.2,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.shirt_02_btn, new cjs.Rectangle(-10,-86.3,160.7,252.5), null);
-
-
-(lib.shirt_01_btn = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,0).closePath();
-	this.shape.setTransform(62,136.175);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#729BAF").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.4,-4.3,-4.2).curveTo(-2.4,-6,0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.3,4.2).closePath();
-	this.shape_1.setTransform(62,136.175);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).closePath();
-	this.shape_2.setTransform(61.85,87.075);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#729BAF").beginStroke().moveTo(-4.2,4.2).curveTo(-6,2.5,-6,0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.4,6,0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.2,4.2).closePath();
-	this.shape_3.setTransform(61.85,87.075);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(6,-0).curveTo(6,2.5,4.2,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.2,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.2,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.2,-4.2).curveTo(6,-2.5,6,-0).closePath();
-	this.shape_4.setTransform(61.45,43.225);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#729BAF").beginStroke().moveTo(-4.3,4.2).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.2).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.3,-4.2).curveTo(6,-2.5,6,-0).curveTo(6,2.5,4.3,4.2).curveTo(2.5,6,0,6).curveTo(-2.4,6,-4.3,4.2).closePath();
-	this.shape_5.setTransform(61.45,43.225);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(7.2,84).curveTo(20,84,28.7,78.6).curveTo(33.7,75.5,36.8,70.7).curveTo(40.1,65.8,40.5,60.3).curveTo(40.7,56.8,39.6,52.2).curveTo(39.4,51.3,37.4,44.2).curveTo(34.5,33.8,34,19.4).curveTo(34,2.6,33.7,-6.1).curveTo(33.5,-13.4,36.5,-22.9).curveTo(40.1,-34.1,40.4,-36.5).curveTo(42.1,-50.6,42.2,-53.6).curveTo(42.4,-61.1,39.6,-63.8).curveTo(37.1,-66.3,21.5,-73.2).curveTo(5.2,-80.4,-7.6,-84.3).lineTo(-17.2,-80.6).curveTo(-18.5,-80.1,-19.2,-78.9).curveTo(-19.9,-77.6,-19.8,-76.2).lineTo(-19.1,-68.2).lineTo(-19.1,-67.6).curveTo(-19.1,-66.3,-19.8,-65.2).curveTo(-20.5,-64.1,-21.7,-63.6).curveTo(-24.6,-62.3,-30.9,-61).curveTo(-37.7,-59.7,-40.4,-58.7).curveTo(-42.4,53.6,-42.2,64.4).curveTo(-42.1,68,-40.2,76.5).curveTo(-39.3,80.8,-38.3,84.4).closePath();
-	this.shape_6.setTransform(91.7179,84.317);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#EFF1EC").beginStroke().moveTo(-40.2,76.5).curveTo(-42.1,68,-42.2,64.3).curveTo(-42.4,53.5,-40.4,-58.7).curveTo(-37.7,-59.8,-30.9,-61).curveTo(-24.6,-62.3,-21.7,-63.6).curveTo(-20.5,-64.1,-19.8,-65.2).curveTo(-19.1,-66.3,-19.1,-67.6).lineTo(-19.1,-68.2).lineTo(-19.8,-76.3).curveTo(-19.9,-77.7,-19.2,-78.9).curveTo(-18.5,-80.1,-17.2,-80.7).lineTo(-7.6,-84.3).curveTo(5.2,-80.4,21.5,-73.2).curveTo(37.1,-66.3,39.6,-63.8).curveTo(42.4,-61.1,42.2,-53.6).curveTo(42.1,-50.6,40.4,-36.6).curveTo(40.1,-34.1,36.5,-22.9).curveTo(33.5,-13.4,33.7,-6.1).curveTo(34,2.6,34,19.3).curveTo(34.5,33.8,37.4,44.2).lineTo(39.6,52.2).curveTo(40.7,56.8,40.5,60.3).curveTo(40.1,65.7,36.8,70.7).curveTo(33.7,75.4,28.7,78.5).curveTo(20,84,7.2,84).lineTo(-38.3,84.3).curveTo(-39.3,80.8,-40.2,76.5).closePath();
-	this.shape_7.setTransform(91.7179,84.35);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(33.1,83.2).curveTo(28.5,84.1,17.6,84.2).curveTo(5.7,84.2,1.9,84.2).curveTo(-10.9,84.2,-19.6,78.7).curveTo(-24.6,75.6,-27.7,70.9).curveTo(-31,65.9,-31.4,60.5).curveTo(-31.6,56.9,-30.6,52.3).curveTo(-30.4,51.4,-28.4,44.3).curveTo(-25.3,33.7,-24.5,19.5).curveTo(-24,2.8,-23.8,-5.9).curveTo(-23.6,-13.4,-26.8,-22.8).curveTo(-31,-34.7,-31.3,-36.4).curveTo(-35.2,-59,-30.5,-63.6).curveTo(-28.1,-66.1,-12,-73).curveTo(4.6,-80.2,17.5,-84.2).lineTo(25.9,-80.3).curveTo(27,-79.8,27.7,-78.8).curveTo(28.4,-77.8,28.5,-76.6).lineTo(29.5,-61.6);
-	this.shape_8.setTransform(33.0981,84.1561);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill("#EFF1EC").beginStroke().moveTo(1.9,84.2).curveTo(-10.9,84.2,-19.6,78.7).curveTo(-24.6,75.6,-27.7,70.9).curveTo(-31,65.9,-31.4,60.4).curveTo(-31.6,56.9,-30.6,52.3).lineTo(-28.4,44.3).curveTo(-25.3,33.7,-24.5,19.5).lineTo(-23.8,-6).curveTo(-23.6,-13.4,-26.8,-22.8).curveTo(-31,-34.7,-31.3,-36.4).curveTo(-35.2,-59,-30.5,-63.7).curveTo(-28.1,-66.1,-12,-73).curveTo(4.6,-80.2,17.5,-84.2).lineTo(25.9,-80.3).curveTo(27,-79.8,27.7,-78.9).curveTo(28.4,-77.9,28.5,-76.6).lineTo(29.5,-61.6).lineTo(33.1,83.2).curveTo(28.5,84.1,17.6,84.2).lineTo(1.9,84.2).closePath();
-	this.shape_9.setTransform(33.0981,84.2);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger_boy();
-	this.instance.setTransform(67.65,-19.75,1,1,0,0,0,82.8,57.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.shirt_01_btn, new cjs.Rectangle(-12.6,-78.2,160.6,251.8), null);
-
-
 (lib.shirt = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -19752,1036 +21256,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.collar, new cjs.Rectangle(-40.2,-8.9,80.5,37.2), null);
 
 
-(lib.btn_shirt_12 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// shirt
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,-2.9).lineTo(0.8,-4.1).curveTo(2.2,0,3.2,2.4).lineTo(-0.7,4).curveTo(-2.2,0.8,-3.2,-2.9).closePath();
-	this.shape.setTransform(107.8733,126);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#384663").beginStroke().moveTo(-3.6,-2.2).lineTo(0.2,-4.1).curveTo(1.3,-1.9,3.6,2).lineTo(-0.1,4.1).curveTo(-2.5,-0,-3.6,-2.2).closePath();
-	this.shape_1.setTransform(113.1733,137.5);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#384663").beginStroke().moveTo(-3.8,-1.8).lineTo(-0.2,-4.1).lineTo(3.8,1.7).lineTo(0.3,4.1).closePath();
-	this.shape_2.setTransform(119.7982,148.325);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#384663").beginStroke().moveTo(-2.9,3.1).lineTo(-1.2,-3.9).lineTo(2.9,-2.8).lineTo(1.3,3.9).closePath();
-	this.shape_3.setTransform(106.5484,88.05);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#384663").beginStroke().moveTo(-2.4,3.6).curveTo(-2.3,-0.1,-1.8,-3.7).lineTo(2.4,-3.2).curveTo(1.9,0.5,1.8,3.7).closePath();
-	this.shape_4.setTransform(104.5484,100.575);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#384663").beginStroke().moveTo(-2.6,-3.6).lineTo(1.7,-3.8).lineTo(2.6,3).lineTo(-1.6,3.8).closePath();
-	this.shape_5.setTransform(104.7984,113.575);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.5).lineTo(-0.9,-4).lineTo(3.2,-2.7).lineTo(0.8,4).closePath();
-	this.shape_6.setTransform(118.7732,52.075);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.6).lineTo(-0.7,-4).lineTo(3.2,-2.6).lineTo(0.8,4.1).closePath();
-	this.shape_7.setTransform(114.3732,63.85);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.8).lineTo(-0.9,-4).lineTo(3.1,-2.6).lineTo(0.9,4).closePath();
-	this.shape_8.setTransform(110.0983,75.775);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill("#384663").beginStroke().moveTo(-1.9,3.6).lineTo(-2.4,-3.1).lineTo(1.9,-3.6).lineTo(2.2,-0).lineTo(2.3,3.6).closePath();
-	this.shape_9.setTransform(125.4981,14.975);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill("#384663").beginStroke().moveTo(-2.6,3).lineTo(-2,-0.4).lineTo(-1.7,-3.7).lineTo(2.6,-3.4).lineTo(2.1,0.2).lineTo(1.6,3.7).closePath();
-	this.shape_10.setTransform(125.0481,27.65);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill("#384663").beginStroke().moveTo(-2.9,2.8).curveTo(-1.8,-1.1,-1.2,-4).lineTo(2.9,-3).curveTo(2,0.9,1.1,4).closePath();
-	this.shape_11.setTransform(122.5481,39.95);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,2.4).curveTo(-2.1,-0.2,-0.8,-4).lineTo(3.2,-2.8).curveTo(2.1,1,0.8,4).closePath();
-	this.shape_12.setTransform(26.8496,125.575);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill("#384663").beginStroke().moveTo(-3.6,2).curveTo(-1.7,-1.2,-0.2,-4.1).lineTo(3.6,-2.2).curveTo(1.9,1.1,0.1,4.1).closePath();
-	this.shape_13.setTransform(21.6497,136.9);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#384663").beginStroke().moveTo(-3.7,1.7).curveTo(-1.9,-0.9,0.2,-4.1).lineTo(3.7,-1.8).curveTo(2.5,0.2,-0.2,4.1).closePath();
-	this.shape_14.setTransform(15.0248,147.625);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill("#384663").beginStroke().moveTo(-2.9,-2.8).lineTo(1.2,-3.9).lineTo(2.9,3.1).lineTo(-1.3,3.9).closePath();
-	this.shape_15.setTransform(28.1246,88.35);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill("#384663").beginStroke().moveTo(-2.4,-3.1).lineTo(1.8,-3.6).curveTo(2.4,-0,2.4,3.6).lineTo(-1.8,3.6).curveTo(-1.9,0.5,-2.4,-3.1).closePath();
-	this.shape_16.setTransform(30.0995,100.65);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#384663").beginStroke().moveTo(-2.6,2.9).lineTo(-1.7,-3.8).lineTo(2.6,-3.4).lineTo(1.6,3.8).closePath();
-	this.shape_17.setTransform(29.8495,113.4);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,-2.7).lineTo(0.8,-4).lineTo(3.2,2.6).lineTo(-0.8,4.1).closePath();
-	this.shape_18.setTransform(15.9747,52.45);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill("#384663").beginStroke().moveTo(-3.2,-2.6).lineTo(0.8,-4).lineTo(3.2,2.6).lineTo(-0.7,4.1).closePath();
-	this.shape_19.setTransform(20.3247,64.3);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill("#384663").beginStroke().moveTo(-3.1,-2.6).lineTo(0.9,-4).lineTo(3.1,2.7).lineTo(-0.9,4).closePath();
-	this.shape_20.setTransform(24.6246,76.175);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill("#384663").beginStroke().moveTo(-2.4,3.7).lineTo(-2.2,0).lineTo(-1.9,-3.7).lineTo(2.4,-3.1).lineTo(1.9,3.7).closePath();
-	this.shape_21.setTransform(9.1498,14.9);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill("#384663").beginStroke().moveTo(-2.2,0.2).lineTo(-2.6,-3.4).lineTo(1.7,-3.8).lineTo(2,-0.4).lineTo(2.6,3.1).lineTo(-1.6,3.8).lineTo(-2.2,0.2).closePath();
-	this.shape_22.setTransform(9.6248,27.825);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill("#384663").beginStroke().moveTo(-3,-3).lineTo(1.2,-4).lineTo(3,2.8).lineTo(-1.1,4).curveTo(-2.3,0,-3,-3).closePath();
-	this.shape_23.setTransform(12.1248,40.275);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(35.8,-80.6).curveTo(37.4,-80.1,38.9,-79.7).curveTo(52.2,-75.6,61.3,-70.4).curveTo(64.3,-68.7,65.4,-67.1).curveTo(66.4,-65.5,66.6,-61.9).curveTo(67.2,-48.6,63.8,-35.9).curveTo(62.3,-30.5,59.1,-22).curveTo(55,-11.2,54,-8.3).curveTo(47.3,12.2,48.6,30.8).curveTo(49.4,41,52.6,50.3).curveTo(56,60,61.7,67.8).curveTo(58.8,70.6,51.8,73.6).curveTo(37.9,79.6,17.9,80.6).curveTo(14.1,80.8,9.1,80.9).moveTo(-7.7,80.9).curveTo(-14,80.8,-17.9,80.6).curveTo(-37.9,79.6,-51.8,73.6).curveTo(-56.1,71.7,-59.3,69.6).lineTo(-61.7,67.8).curveTo(-55.9,60,-52.6,50.3).curveTo(-49.3,41,-48.6,30.8).curveTo(-47.2,12.1,-54,-8.3).curveTo(-55,-11.4,-59.1,-22).curveTo(-62.3,-30.5,-63.7,-35.9).curveTo(-67.2,-48.6,-66.6,-61.9).curveTo(-66.5,-65.3,-65.4,-67.1).curveTo(-64.4,-68.6,-61.3,-70.4).curveTo(-52.1,-75.6,-38.9,-79.7).curveTo(-36.7,-80.3,-34.6,-80.9);
-	this.shape_24.setTransform(66.8428,80.7125);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(-10.1,1.6).lineTo(-4.8,-0.4).curveTo(-1.8,-1.4,-0.2,-1.5).curveTo(1.1,-1.5,2.7,-1.3).curveTo(7,-0.7,9,0.1);
-	this.shape_25.setTransform(78.1172,115.0886);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(11.6,-1.6).curveTo(6.2,-3.3,-0.8,-1.7).curveTo(-3.5,-1,-6.8,0.2).curveTo(-8.4,0.8,-12.7,2.6);
-	this.shape_26.setTransform(57.2632,117.9745);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(-1.7,4.7).curveTo(0.2,6.6,2,7.3).curveTo(4.4,8.1,6.3,7).curveTo(6.9,6.7,7.1,6.2).curveTo(7.4,5.7,7.3,5).curveTo(7,2.2,5.9,0.5).curveTo(4.7,-1.2,1.9,-2.8).curveTo(-1.9,-4.9,-6.6,-6.6).curveTo(-5.3,-1.8,-4.9,-0.6).curveTo(-3.7,2.5,-1.7,4.7).closePath();
-	this.shape_27.setTransform(74.4586,122.7866);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(-4,0.7).curveTo(-5.4,2.4,-5.7,3.6).curveTo(-5.9,4.5,-5.7,5.3).curveTo(-5.5,6.2,-4.9,6.7).curveTo(-3.8,7.6,-2.2,7.2).curveTo(-1.1,6.9,0.2,5.8).curveTo(2.6,3.7,4.3,0.6).curveTo(6.1,-2.8,5.8,-5.7).curveTo(5.6,-7.9,4,-7).curveTo(3.7,-6.9,1.3,-4.9).curveTo(-1.8,-2.1,-4,0.7).closePath();
-	this.shape_28.setTransform(62.576,123.9809);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-6.2,5.2).curveTo(-4.5,3.8,0,0).curveTo(4.4,-3.6,6.2,-5.2);
-	this.shape_29.setTransform(73.1989,111.55);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(12.9,-13.4).curveTo(9.8,-10.2,0.1,0.1).curveTo(-8.2,8.8,-12.9,13.4);
-	this.shape_30.setTransform(67.799,93.95);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-6.7,-5.2).lineTo(6.7,5.2);
-	this.shape_31.setTransform(61.749,111.05);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill().beginStroke("#CA2C2B").setStrokeStyle(3.4).moveTo(13.1,-13.7).curveTo(-0.2,-0.2,-13.7,13.1);
-	this.shape_32.setTransform(66.5524,69.9035);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-12.6,-13.2).curveTo(0.2,-0.2,13.2,12.6);
-	this.shape_33.setTransform(66.5453,94.7036);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill().beginStroke("#A3250C").setStrokeStyle(3.4).moveTo(-12.1,-12.7).curveTo(0.2,-0.2,12.7,12.1);
-	this.shape_34.setTransform(67.0451,68.9038);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-0.9).lineTo(0.4,-1.4).lineTo(1,1).lineTo(-0.4,1.3).closePath();
-	this.shape_35.setTransform(85.4487,151.85);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.9).lineTo(-0.4,1.3).closePath();
-	this.shape_36.setTransform(86.7237,155.9);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.9).lineTo(-0.3,1.4).closePath();
-	this.shape_37.setTransform(88.0486,159.925);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-1).lineTo(0.5,-1.3).lineTo(1,1).lineTo(-0.5,1.3).closePath();
-	this.shape_38.setTransform(82.2737,139.525);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-1).lineTo(0.4,-1.3).lineTo(1,1).lineTo(-0.4,1.3).closePath();
-	this.shape_39.setTransform(83.2237,143.625);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,-1).lineTo(0.4,-1.3).lineTo(1,0.9).lineTo(-0.4,1.4).closePath();
-	this.shape_40.setTransform(84.2737,147.75);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1.1).lineTo(0.6,-1.3).lineTo(0.9,1).lineTo(-0.6,1.3).closePath();
-	this.shape_41.setTransform(79.9738,126.975);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1).lineTo(0.5,-1.3).lineTo(0.9,1).lineTo(-0.5,1.3).closePath();
-	this.shape_42.setTransform(80.6238,131.15);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1).lineTo(0.5,-1.3).lineTo(1,1).lineTo(-0.5,1.3).closePath();
-	this.shape_43.setTransform(81.3987,135.325);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.1).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
-	this.shape_44.setTransform(78.5738,114.275);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1.2).lineTo(0.6,-1.2).lineTo(0.9,1.1).lineTo(-0.6,1.3).closePath();
-	this.shape_45.setTransform(78.9238,118.5);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,-1.1).lineTo(0.6,-1.3).lineTo(0.9,1.1).lineTo(-0.6,1.3).closePath();
-	this.shape_46.setTransform(79.3988,122.725);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_47.setTransform(78.0988,101.525);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_48.setTransform(78.1738,105.75);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.1).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.6,1.2).lineTo(-0.8,-1.1).closePath();
-	this.shape_49.setTransform(78.2988,110);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_50.setTransform(78.2738,88.75);
-
-	this.shape_51 = new cjs.Shape();
-	this.shape_51.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_51.setTransform(78.1988,93);
-
-	this.shape_52 = new cjs.Shape();
-	this.shape_52.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_52.setTransform(78.1488,97.225);
-
-	this.shape_53 = new cjs.Shape();
-	this.shape_53.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.1).lineTo(0.7,1.2).closePath();
-	this.shape_53.setTransform(78.4738,76);
-
-	this.shape_54 = new cjs.Shape();
-	this.shape_54.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_54.setTransform(78.4238,80.25);
-
-	this.shape_55 = new cjs.Shape();
-	this.shape_55.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_55.setTransform(78.3238,84.5);
-
-	this.shape_56 = new cjs.Shape();
-	this.shape_56.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_56.setTransform(78.7238,63.25);
-
-	this.shape_57 = new cjs.Shape();
-	this.shape_57.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_57.setTransform(78.6238,67.5);
-
-	this.shape_58 = new cjs.Shape();
-	this.shape_58.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_58.setTransform(78.5738,71.75);
-
-	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_59.setTransform(78.9238,50.5);
-
-	this.shape_60 = new cjs.Shape();
-	this.shape_60.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_60.setTransform(78.8738,54.75);
-
-	this.shape_61 = new cjs.Shape();
-	this.shape_61.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_61.setTransform(78.7738,59);
-
-	this.shape_62 = new cjs.Shape();
-	this.shape_62.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_62.setTransform(85.3237,56.075);
-
-	this.shape_63 = new cjs.Shape();
-	this.shape_63.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_63.setTransform(85.2737,51.775);
-
-	this.shape_64 = new cjs.Shape();
-	this.shape_64.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,-0.9).lineTo(0.6,-1.3).curveTo(0.9,-0.2,0.9,1.3).lineTo(-0.6,1.3).curveTo(-0.6,-0,-0.9,-0.9).closePath();
-	this.shape_64.setTransform(85.0737,47.325);
-
-	this.shape_65 = new cjs.Shape();
-	this.shape_65.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_65.setTransform(85.5237,69.05);
-
-	this.shape_66 = new cjs.Shape();
-	this.shape_66.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_66.setTransform(85.4737,64.75);
-
-	this.shape_67 = new cjs.Shape();
-	this.shape_67.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).lineTo(-0.8,1.2).closePath();
-	this.shape_67.setTransform(85.3987,60.425);
-
-	this.shape_68 = new cjs.Shape();
-	this.shape_68.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_68.setTransform(85.7237,82.025);
-
-	this.shape_69 = new cjs.Shape();
-	this.shape_69.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).lineTo(-0.8,1.2).closePath();
-	this.shape_69.setTransform(85.6487,77.725);
-
-	this.shape_70 = new cjs.Shape();
-	this.shape_70.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_70.setTransform(85.5987,73.4);
-
-	this.shape_71 = new cjs.Shape();
-	this.shape_71.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_71.setTransform(85.9237,95.025);
-
-	this.shape_72 = new cjs.Shape();
-	this.shape_72.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).lineTo(-0.8,1.2).closePath();
-	this.shape_72.setTransform(85.8487,90.725);
-
-	this.shape_73 = new cjs.Shape();
-	this.shape_73.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_73.setTransform(85.7737,86.375);
-
-	this.shape_74 = new cjs.Shape();
-	this.shape_74.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_74.setTransform(86.0987,108);
-
-	this.shape_75 = new cjs.Shape();
-	this.shape_75.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_75.setTransform(86.0237,103.7);
-
-	this.shape_76 = new cjs.Shape();
-	this.shape_76.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_76.setTransform(85.9737,99.375);
-
-	this.shape_77 = new cjs.Shape();
-	this.shape_77.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_77.setTransform(86.3237,120.975);
-
-	this.shape_78 = new cjs.Shape();
-	this.shape_78.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_78.setTransform(86.2237,116.675);
-
-	this.shape_79 = new cjs.Shape();
-	this.shape_79.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_79.setTransform(86.1737,112.35);
-
-	this.shape_80 = new cjs.Shape();
-	this.shape_80.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,-1).lineTo(0.5,-1.3).lineTo(1,1).lineTo(-0.5,1.3).closePath();
-	this.shape_80.setTransform(87.7736,133.825);
-
-	this.shape_81 = new cjs.Shape();
-	this.shape_81.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,-1.1).lineTo(0.6,-1.3).lineTo(0.9,1.1).lineTo(-0.6,1.3).closePath();
-	this.shape_81.setTransform(87.0487,129.6);
-
-	this.shape_82 = new cjs.Shape();
-	this.shape_82.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,-1.2).lineTo(0.6,-1.3).lineTo(0.8,1.1).lineTo(-0.6,1.3).closePath();
-	this.shape_82.setTransform(86.5737,125.325);
-
-	this.shape_83 = new cjs.Shape();
-	this.shape_83.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.4,-1.4).lineTo(1.1,0.9).lineTo(-0.3,1.4).closePath();
-	this.shape_83.setTransform(91.1486,146.325);
-
-	this.shape_84 = new cjs.Shape();
-	this.shape_84.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-1).lineTo(0.4,-1.4).lineTo(1.1,0.9).lineTo(-0.4,1.4).closePath();
-	this.shape_84.setTransform(89.8736,142.225);
-
-	this.shape_85 = new cjs.Shape();
-	this.shape_85.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,-1).lineTo(0.5,-1.4).lineTo(1,1).lineTo(-0.4,1.3).closePath();
-	this.shape_85.setTransform(88.7236,138.05);
-
-	this.shape_86 = new cjs.Shape();
-	this.shape_86.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.8).lineTo(-0.3,1.4).closePath();
-	this.shape_86.setTransform(95.5235,158.55);
-
-	this.shape_87 = new cjs.Shape();
-	this.shape_87.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.8).lineTo(-0.3,1.4).closePath();
-	this.shape_87.setTransform(94.0236,154.5);
-
-	this.shape_88 = new cjs.Shape();
-	this.shape_88.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,-0.9).lineTo(0.3,-1.4).lineTo(1.1,0.9).lineTo(-0.3,1.4).closePath();
-	this.shape_88.setTransform(92.5486,150.45);
-
-	this.shape_89 = new cjs.Shape();
-	this.shape_89.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,0.9).lineTo(-0.4,-1.4).lineTo(1.1,-0.9).lineTo(0.4,1.3).closePath();
-	this.shape_89.setTransform(47.9993,151.75);
-
-	this.shape_90 = new cjs.Shape();
-	this.shape_90.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,0.9).lineTo(-0.4,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
-	this.shape_90.setTransform(46.7493,155.775);
-
-	this.shape_91 = new cjs.Shape();
-	this.shape_91.graphics.beginFill("#B8912A").beginStroke().moveTo(-1.1,0.8).lineTo(-0.3,-1.3).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
-	this.shape_91.setTransform(45.3993,159.8);
-
-	this.shape_92 = new cjs.Shape();
-	this.shape_92.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,1).lineTo(-0.5,-1.3).lineTo(1,-1).lineTo(0.5,1.3).closePath();
-	this.shape_92.setTransform(51.1742,139.425);
-
-	this.shape_93 = new cjs.Shape();
-	this.shape_93.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,1).lineTo(-0.4,-1.3).lineTo(1,-1).lineTo(0.4,1.3).closePath();
-	this.shape_93.setTransform(50.2242,143.525);
-
-	this.shape_94 = new cjs.Shape();
-	this.shape_94.graphics.beginFill("#B8912A").beginStroke().moveTo(-1,0.9).lineTo(-0.4,-1.3).lineTo(1,-0.9).lineTo(0.4,1.3).closePath();
-	this.shape_94.setTransform(49.1742,147.625);
-
-	this.shape_95 = new cjs.Shape();
-	this.shape_95.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.3).lineTo(0.9,-1.1).lineTo(0.6,1.3).closePath();
-	this.shape_95.setTransform(53.4742,126.875);
-
-	this.shape_96 = new cjs.Shape();
-	this.shape_96.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.5,-1.3).lineTo(0.9,-1).lineTo(0.5,1.3).closePath();
-	this.shape_96.setTransform(52.8242,131.05);
-
-	this.shape_97 = new cjs.Shape();
-	this.shape_97.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1).lineTo(-0.5,-1.3).lineTo(1,-1.1).lineTo(0.5,1.3).closePath();
-	this.shape_97.setTransform(52.0492,135.25);
-
-	this.shape_98 = new cjs.Shape();
-	this.shape_98.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.1).lineTo(0.7,1.2).closePath();
-	this.shape_98.setTransform(54.8742,114.225);
-
-	this.shape_99 = new cjs.Shape();
-	this.shape_99.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.3).lineTo(0.9,-1.1).lineTo(0.6,1.2).closePath();
-	this.shape_99.setTransform(54.5242,118.45);
-
-	this.shape_100 = new cjs.Shape();
-	this.shape_100.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.2).lineTo(0.9,-1.1).lineTo(0.6,1.3).closePath();
-	this.shape_100.setTransform(54.0492,122.65);
-
-	this.shape_101 = new cjs.Shape();
-	this.shape_101.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_101.setTransform(55.3491,101.525);
-
-	this.shape_102 = new cjs.Shape();
-	this.shape_102.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_102.setTransform(55.2741,105.75);
-
-	this.shape_103 = new cjs.Shape();
-	this.shape_103.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_103.setTransform(55.1241,109.975);
-
-	this.shape_104 = new cjs.Shape();
-	this.shape_104.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_104.setTransform(55.1741,88.75);
-
-	this.shape_105 = new cjs.Shape();
-	this.shape_105.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.1).lineTo(-0.8,1.2).closePath();
-	this.shape_105.setTransform(55.2491,93);
-
-	this.shape_106 = new cjs.Shape();
-	this.shape_106.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_106.setTransform(55.2991,97.225);
-
-	this.shape_107 = new cjs.Shape();
-	this.shape_107.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.1).lineTo(0.8,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_107.setTransform(54.9491,76);
-
-	this.shape_108 = new cjs.Shape();
-	this.shape_108.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_108.setTransform(55.0241,80.25);
-
-	this.shape_109 = new cjs.Shape();
-	this.shape_109.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_109.setTransform(55.0991,84.5);
-
-	this.shape_110 = new cjs.Shape();
-	this.shape_110.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_110.setTransform(54.7242,63.25);
-
-	this.shape_111 = new cjs.Shape();
-	this.shape_111.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).lineTo(-0.7,1.2).closePath();
-	this.shape_111.setTransform(54.8242,67.5);
-
-	this.shape_112 = new cjs.Shape();
-	this.shape_112.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
-	this.shape_112.setTransform(54.8742,71.75);
-
-	this.shape_113 = new cjs.Shape();
-	this.shape_113.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.7,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.2).closePath();
-	this.shape_113.setTransform(54.5242,50.5);
-
-	this.shape_114 = new cjs.Shape();
-	this.shape_114.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.1).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
-	this.shape_114.setTransform(54.5742,54.75);
-
-	this.shape_115 = new cjs.Shape();
-	this.shape_115.graphics.beginFill("#B8912A").beginStroke().moveTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.8,1.1).lineTo(-0.7,1.2).closePath();
-	this.shape_115.setTransform(54.6742,59);
-
-	this.shape_116 = new cjs.Shape();
-	this.shape_116.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_116.setTransform(48.9742,56.075);
-
-	this.shape_117 = new cjs.Shape();
-	this.shape_117.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_117.setTransform(49.0492,51.775);
-
-	this.shape_118 = new cjs.Shape();
-	this.shape_118.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,1.2).curveTo(-0.8,-0.5,-0.6,-1.3).lineTo(0.9,-0.9).curveTo(0.6,0.2,0.6,1.3).closePath();
-	this.shape_118.setTransform(49.2242,47.425);
-
-	this.shape_119 = new cjs.Shape();
-	this.shape_119.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_119.setTransform(48.7742,69.075);
-
-	this.shape_120 = new cjs.Shape();
-	this.shape_120.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.8,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_120.setTransform(48.8492,64.75);
-
-	this.shape_121 = new cjs.Shape();
-	this.shape_121.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_121.setTransform(48.9242,60.425);
-
-	this.shape_122 = new cjs.Shape();
-	this.shape_122.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_122.setTransform(48.5992,82.05);
-
-	this.shape_123 = new cjs.Shape();
-	this.shape_123.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_123.setTransform(48.6742,77.725);
-
-	this.shape_124 = new cjs.Shape();
-	this.shape_124.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_124.setTransform(48.7242,73.425);
-
-	this.shape_125 = new cjs.Shape();
-	this.shape_125.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_125.setTransform(48.4242,95.025);
-
-	this.shape_126 = new cjs.Shape();
-	this.shape_126.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_126.setTransform(48.4742,90.725);
-
-	this.shape_127 = new cjs.Shape();
-	this.shape_127.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_127.setTransform(48.5242,86.4);
-
-	this.shape_128 = new cjs.Shape();
-	this.shape_128.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_128.setTransform(48.2243,108);
-
-	this.shape_129 = new cjs.Shape();
-	this.shape_129.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_129.setTransform(48.2743,103.7);
-
-	this.shape_130 = new cjs.Shape();
-	this.shape_130.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.7,1.2).lineTo(-0.7,-1.2).lineTo(0.7,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_130.setTransform(48.3493,99.375);
-
-	this.shape_131 = new cjs.Shape();
-	this.shape_131.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_131.setTransform(47.9993,121);
-
-	this.shape_132 = new cjs.Shape();
-	this.shape_132.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_132.setTransform(48.0743,116.675);
-
-	this.shape_133 = new cjs.Shape();
-	this.shape_133.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.2).lineTo(-0.7,-1.2).lineTo(0.8,-1.2).lineTo(0.7,1.2).closePath();
-	this.shape_133.setTransform(48.1743,112.375);
-
-	this.shape_134 = new cjs.Shape();
-	this.shape_134.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,1).lineTo(-0.5,-1.3).lineTo(1,-1.1).lineTo(0.5,1.3).closePath();
-	this.shape_134.setTransform(46.5243,133.925);
-
-	this.shape_135 = new cjs.Shape();
-	this.shape_135.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.9,1.1).lineTo(-0.6,-1.3).lineTo(0.9,-1.1).lineTo(0.6,1.3).closePath();
-	this.shape_135.setTransform(47.2743,129.65);
-
-	this.shape_136 = new cjs.Shape();
-	this.shape_136.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.8,1.1).lineTo(-0.7,-1.3).lineTo(0.9,-1.2).lineTo(0.7,1.3).closePath();
-	this.shape_136.setTransform(47.7493,125.375);
-
-	this.shape_137 = new cjs.Shape();
-	this.shape_137.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.4,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
-	this.shape_137.setTransform(43.1493,146.475);
-
-	this.shape_138 = new cjs.Shape();
-	this.shape_138.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.4,-1.3).lineTo(1.1,-1).lineTo(0.4,1.4).closePath();
-	this.shape_138.setTransform(44.4243,142.35);
-
-	this.shape_139 = new cjs.Shape();
-	this.shape_139.graphics.beginFill("#3F7745").beginStroke().moveTo(-1,1).lineTo(-0.4,-1.4).lineTo(1,-1).lineTo(0.4,1.4).closePath();
-	this.shape_139.setTransform(45.5743,138.175);
-
-	this.shape_140 = new cjs.Shape();
-	this.shape_140.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.3,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
-	this.shape_140.setTransform(38.7744,158.7);
-
-	this.shape_141 = new cjs.Shape();
-	this.shape_141.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.3,-1.4).lineTo(1.1,-0.8).lineTo(0.3,1.4).closePath();
-	this.shape_141.setTransform(40.2744,154.65);
-
-	this.shape_142 = new cjs.Shape();
-	this.shape_142.graphics.beginFill("#3F7745").beginStroke().moveTo(-1.1,0.9).lineTo(-0.3,-1.4).lineTo(1.1,-0.9).lineTo(0.3,1.4).closePath();
-	this.shape_142.setTransform(41.7494,150.6);
-
-	this.shape_143 = new cjs.Shape();
-	this.shape_143.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.2,3.5).lineTo(-0.8,-4.6).lineTo(3.2,-3.5).lineTo(0.8,4.6).closePath();
-	this.shape_143.setTransform(102.0234,55.65);
-
-	this.shape_144 = new cjs.Shape();
-	this.shape_144.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.3,3.3).lineTo(-0.7,-4.7).lineTo(3.3,-3.4).lineTo(0.7,4.7).closePath();
-	this.shape_144.setTransform(97.5485,70.125);
-
-	this.shape_145 = new cjs.Shape();
-	this.shape_145.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.5,3.6).curveTo(-2.7,0.8,-0.5,-4.7).lineTo(3.5,-3.1).curveTo(1.1,2.8,0.6,4.7).closePath();
-	this.shape_145.setTransform(92.3736,84.275);
-
-	this.shape_146 = new cjs.Shape();
-	this.shape_146.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.2,4.1).curveTo(-2,0.2,-2.1,-4.1).lineTo(2.1,-4.3).curveTo(2.3,0.3,2.1,4.3).closePath();
-	this.shape_146.setTransform(110.7304,11.2);
-
-	this.shape_147 = new cjs.Shape();
-	this.shape_147.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.8,3.6).curveTo(-1.9,-0.7,-1.5,-4.5).lineTo(2.8,-4).curveTo(2.3,-0.4,1.4,4.5).closePath();
-	this.shape_147.setTransform(109.4733,26.25);
-
-	this.shape_148 = new cjs.Shape();
-	this.shape_148.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.1,3.5).lineTo(-1,-4.6).lineTo(3.1,-3.6).curveTo(2.3,-0.2,0.9,4.6).closePath();
-	this.shape_148.setTransform(106.2234,40.975);
-
-	this.shape_149 = new cjs.Shape();
-	this.shape_149.graphics.beginFill("#CB645F").beginStroke().moveTo(-4.1,-2.1).lineTo(-0.6,-4.5).lineTo(4.1,2).lineTo(0.7,4.5).lineTo(-4.1,-2.1).closePath();
-	this.shape_149.setTransform(110.2483,150.225);
-
-	this.shape_150 = new cjs.Shape();
-	this.shape_150.graphics.beginFill("#CB645F").beginStroke().moveTo(-4,-2.4).lineTo(-0.3,-4.6).lineTo(4,2.2).lineTo(0.4,4.6).closePath();
-	this.shape_150.setTransform(102.1234,138.275);
-
-	this.shape_151 = new cjs.Shape();
-	this.shape_151.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.5,-3.4).lineTo(0.6,-4.4).curveTo(1.2,-1.7,3.5,2.3).lineTo(-0.2,4.4).curveTo(-2.7,-0.1,-3.5,-3.4).closePath();
-	this.shape_151.setTransform(95.0735,125.9);
-
-	this.shape_152 = new cjs.Shape();
-	this.shape_152.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.3,-3.5).lineTo(0.8,-4.7).lineTo(3.3,3.5).lineTo(-0.8,4.7).closePath();
-	this.shape_152.setTransform(29.8745,56.725);
-
-	this.shape_153 = new cjs.Shape();
-	this.shape_153.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.4,-3.5).lineTo(0.7,-4.8).lineTo(3.4,3.3).lineTo(-0.6,4.8).lineTo(-3.4,-3.5).closePath();
-	this.shape_153.setTransform(34.4745,71.425);
-
-	this.shape_154 = new cjs.Shape();
-	this.shape_154.graphics.beginFill("#CB645F").beginStroke().moveTo(-1.9,0.9).lineTo(-3.6,-3).lineTo(0.3,-4.7).lineTo(2,-0.8).curveTo(3,1.6,3.6,3.3).lineTo(-0.4,4.7).curveTo(-0.9,3.2,-1.9,0.9).closePath();
-	this.shape_154.setTransform(39.9744,85.725);
-
-	this.shape_155 = new cjs.Shape();
-	this.shape_155.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.1,-4.4).lineTo(2.1,-4.2).curveTo(2,0.2,2.2,4.2).lineTo(-2.1,4.4).curveTo(-2.3,0.3,-2.1,-4.4).closePath();
-	this.shape_155.setTransform(20.9175,11.325);
-
-	this.shape_156 = new cjs.Shape();
-	this.shape_156.graphics.beginFill("#CB645F").beginStroke().moveTo(-2.8,-4.1).lineTo(1.4,-4.6).curveTo(1.9,-1,2.8,3.8).lineTo(-1.4,4.6).curveTo(-2.3,0.1,-2.8,-4.1).closePath();
-	this.shape_156.setTransform(22.2496,26.75);
-
-	this.shape_157 = new cjs.Shape();
-	this.shape_157.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.2,-3.7).lineTo(1,-4.7).lineTo(3.2,3.5).lineTo(-0.9,4.7).lineTo(-3.2,-3.7).closePath();
-	this.shape_157.setTransform(25.5746,41.8);
-
-	this.shape_158 = new cjs.Shape();
-	this.shape_158.graphics.beginFill("#CB645F").beginStroke().moveTo(-4.1,2).curveTo(-2,-0.7,0.6,-4.5).lineTo(4.1,-2.1).lineTo(-0.7,4.5).closePath();
-	this.shape_158.setTransform(24.6246,150.975);
-
-	this.shape_159 = new cjs.Shape();
-	this.shape_159.graphics.beginFill("#CB645F").beginStroke().moveTo(-4,2.3).curveTo(-1.9,-0.8,0.4,-4.6).lineTo(4,-2.4).curveTo(1.6,1.6,-0.4,4.6).closePath();
-	this.shape_159.setTransform(32.7745,138.925);
-
-	this.shape_160 = new cjs.Shape();
-	this.shape_160.graphics.beginFill("#CB645F").beginStroke().moveTo(-3.6,2.5).curveTo(-1.2,-1.6,-0.6,-4.6).lineTo(3.6,-3.6).curveTo(2.7,-0.2,0.1,4.6).closePath();
-	this.shape_160.setTransform(39.9744,126.375);
-
-	this.shape_161 = new cjs.Shape();
-	this.shape_161.graphics.beginFill().beginStroke("#384663").setStrokeStyle(2.6).moveTo(3.1,-54.7).lineTo(4.2,-1.3).curveTo(4.5,15.8,4.5,24.4).curveTo(4.5,32.4,3.5,37).curveTo(2.8,40.1,-0.1,45.7).curveTo(-1.7,48.8,-4.7,54.1);
-	this.shape_161.setTransform(62.9045,107.8469);
-
-	this.shape_162 = new cjs.Shape();
-	this.shape_162.graphics.beginFill().beginStroke("#384663").setStrokeStyle(2.6).moveTo(-36.1,-25.9).curveTo(-35.2,-16.1,-32,-1.8).curveTo(-28.9,11.6,-28.2,10.9).curveTo(-15.5,20.4,-0.8,25.8).lineTo(26.5,12.5).curveTo(33.5,-5.6,36.2,-25);
-	this.shape_162.setTransform(67.449,27.6041);
-
-	this.shape_163 = new cjs.Shape();
-	this.shape_163.graphics.beginFill().beginStroke("#384663").setStrokeStyle(4.3).moveTo(-2.1,-59.9).curveTo(-5.4,-47,-6,-31.4).curveTo(-6.4,-22,-5.8,-2.5).curveTo(-5.5,7.3,-5.3,11.5).curveTo(-4.8,19.3,-3.9,25.4).curveTo(-2.7,33.6,-0.6,41.1).curveTo(2.3,51.2,6.4,59.9);
-	this.shape_163.setTransform(97.0421,99.25);
-
-	this.shape_164 = new cjs.Shape();
-	this.shape_164.graphics.beginFill().beginStroke("#384663").setStrokeStyle(4.3).moveTo(2.1,-59.9).curveTo(5.4,-47,6,-31.4).curveTo(6.4,-22.2,5.8,-2.5).curveTo(5.6,6.5,5.3,11.5).curveTo(4.8,19.2,3.9,25.4).curveTo(2.8,33.1,0.6,41.1).curveTo(-2.1,50.7,-6.4,59.9);
-	this.shape_164.setTransform(36.8284,99.25);
-
-	this.shape_165 = new cjs.Shape();
-	this.shape_165.graphics.beginFill().beginStroke("#10264F").setStrokeStyle(2.6).moveTo(-5.6,-8).curveTo(-0.2,0,5.8,7.4);
-	this.shape_165.setTransform(71.9549,154.6596);
-
-	this.shape_166 = new cjs.Shape();
-	this.shape_166.graphics.beginFill("#CB645F").beginStroke().moveTo(5.6,70.6).curveTo(0.2,69.4,-3.9,63.1).curveTo(-5.5,60.6,-9.4,51.8).curveTo(-12.3,45.5,-13.5,41.1).curveTo(-15.4,34.4,-14.4,29.5).curveTo(-15.8,22.5,-14.1,13.4).curveTo(-14,9.3,-13.5,6.8).curveTo(-12.8,3.1,-10.9,1).curveTo(-7.5,-10.6,-4.4,-19.7).curveTo(-3,-24.5,-2.1,-27).curveTo(-0.7,-31.3,1.5,-33.6).curveTo(3.2,-43.2,5.9,-52.9).lineTo(5.9,-53).curveTo(6.7,-61.2,5.9,-68.6).curveTo(5.7,-70.1,7.2,-70.6).curveTo(8.7,-71.1,9.7,-70.1).curveTo(15.9,-64.4,14.9,-51.9).curveTo(14.3,-45.1,10.6,-32.2).curveTo(9.3,-27.8,6.9,-21.5).lineTo(2.8,-10.9).curveTo(0.8,-5.4,-2.9,5.8).curveTo(-5.6,28,-0.7,49.1).lineTo(-0.7,49.9).curveTo(2.6,57.1,8.4,66.9).curveTo(9.3,68.4,8.2,69.7).curveTo(7.4,70.7,6.3,70.7).lineTo(5.6,70.6).closePath();
-	this.shape_166.setTransform(118.827,81.2095);
-
-	this.shape_167 = new cjs.Shape();
-	this.shape_167.graphics.beginFill("#CB645F").beginStroke().moveTo(-5.2,70.9).lineTo(-5.5,71).curveTo(-7.4,71.2,-8.3,69.6).curveTo(-9.2,68.1,-8.8,66.3).curveTo(-8.5,64.6,-7.3,62.1).lineTo(-5.5,58.1).curveTo(-4,54.3,-2.3,49.3).curveTo(0.8,40,2.2,33).curveTo(2.6,24.2,2.3,15.3).lineTo(1.5,10).curveTo(1.1,6.5,0.7,4.8).curveTo(-0.6,-1.6,-2.7,-9.7).curveTo(-4,-11.6,-5.2,-14.3).lineTo(-7.3,-19.4).curveTo(-10.8,-29.1,-12.8,-39).curveTo(-15,-50,-15,-58.1).curveTo(-15.1,-62.5,-14.6,-64.4).curveTo(-13.8,-67.8,-11.2,-69.4).curveTo(-10.7,-69.7,-10.1,-69.6).lineTo(-9.5,-70.5).curveTo(-8.9,-71.3,-8,-71.1).curveTo(-7,-70.8,-7,-69.8).curveTo(-7,-58.5,-4.6,-46).curveTo(-2.6,-35.7,1.3,-22.7).lineTo(2,-20.6).curveTo(2.5,-20.6,2.7,-20).lineTo(5.4,-13.5).curveTo(6.9,-9.6,7.3,-6.6).curveTo(9.1,-2.5,10.2,2.3).curveTo(11.7,6.1,12.2,8.7).curveTo(13.9,15.3,14.6,20.5).curveTo(15,24,15,25).curveTo(15,27.6,13.8,29.2).curveTo(13.6,29.5,13.2,29.4).curveTo(12.9,33.8,11.7,39.3).curveTo(11.2,41.6,10.5,43.9).curveTo(9.1,46.2,7.1,50.3).lineTo(3.9,56.6).curveTo(2.7,58.9,-0,63.6).curveTo(-2.3,67.9,-3.3,71).lineTo(-4,71.1).curveTo(-4.6,71.1,-5.2,70.9).closePath();
-	this.shape_167.setTransform(16.7222,81.6697);
-
-	this.shape_168 = new cjs.Shape();
-	this.shape_168.graphics.beginFill("#122313").beginStroke().moveTo(-17.6,60.7).lineTo(-17.6,60.7).curveTo(-18,60.8,-18.5,60.7).curveTo(-20.3,60.3,-21.5,59.7).curveTo(-22.2,59.9,-22.8,59.8).curveTo(-28.7,60.5,-34.2,59).curveTo(-35.5,58.7,-35.6,57.4).curveTo(-35.6,56.1,-34.6,55.5).lineTo(-34.3,54.6).lineTo(-33.8,53.8).curveTo(-31.3,46.2,-29.7,39.8).curveTo(-29.7,39.1,-29.2,38.7).curveTo(-28,33.4,-26.5,28.3).lineTo(-26.3,26.8).curveTo(-26.2,22.2,-24.8,18.3).lineTo(-24.7,17.8).curveTo(-24.5,13.6,-23.9,9.9).curveTo(-23.8,4.9,-23.3,-2).curveTo(-23.4,-2.4,-23.4,-2.9).lineTo(-23.1,-15.4).curveTo(-23.5,-15.9,-23.5,-16.7).lineTo(-22.9,-27.8).curveTo(-22.9,-31.3,-23,-35.5).lineTo(-24.3,-48).curveTo(-24.3,-48.4,-24.1,-48.8).curveTo(-24.8,-52.8,-25.6,-56).curveTo(-25.8,-56.7,-25.1,-56.8).lineTo(-25.2,-57.2).lineTo(-25.3,-57.3).curveTo(-26,-57.8,-25.6,-58.7).lineTo(-26,-60.2).curveTo(-26.2,-60.6,-25.7,-60.8).curveTo(-25.2,-61,-25,-60.6).lineTo(-24.3,-58.9).curveTo(-15.9,-55.8,-6.9,-51.3).lineTo(-3,-49.4).curveTo(-0.6,-48.3,0.7,-47.2).lineTo(2.1,-48.2).curveTo(3.2,-49.4,5.1,-50.7).lineTo(8.4,-52.8).lineTo(14.1,-56.6).curveTo(17.8,-58.8,20.5,-58.4).lineTo(20.7,-58.3).lineTo(21.8,-59.1).curveTo(22,-60.2,23.2,-60.1).lineTo(23.4,-60.2).curveTo(23.8,-60.5,24.2,-60.3).curveTo(25.2,-60.8,26.1,-60.1).curveTo(27.1,-59.5,26.7,-58.3).curveTo(25.6,-54,24.1,-45.7).lineTo(23.7,-40.5).lineTo(23.1,-34.3).curveTo(23.4,-27,24,-18).curveTo(24.2,-14.4,24.7,-9.2).lineTo(25.6,-0.5).curveTo(26.1,5.3,26.1,6.8).curveTo(26.2,11,25.3,14.1).curveTo(25.3,14.2,25.2,14.2).curveTo(25.2,14.3,25.2,14.3).curveTo(25.1,14.3,25.1,14.3).curveTo(25,14.4,25,14.4).curveTo(24.9,14.4,24.8,14.4).curveTo(24.8,14.3,24.8,14.3).curveTo(24.7,14.3,24.7,14.3).curveTo(24.6,14.2,24.6,14.2).lineTo(24.1,13.3).lineTo(24.5,17.3).curveTo(24.9,19.8,26.5,27.5).curveTo(27.9,33.9,28.2,37.7).lineTo(30.4,43.1).curveTo(31.6,46.3,32,48.6).curveTo(32.1,49.1,31.9,49.5).curveTo(33.5,52.8,35.2,55.4).curveTo(36,56.6,35.2,57.8).curveTo(34.4,59,33,59.1).lineTo(26.4,60.1).curveTo(21.9,60.7,19.3,60.2).curveTo(18.5,60.7,17.5,60.7).curveTo(13.3,60.2,10.9,59.1).curveTo(7.7,57.5,6.1,54.4).curveTo(5.6,53.4,6,52.5).lineTo(5.1,51.4).curveTo(4.4,51.2,4,50.8).curveTo(0.9,47.7,-0.7,44.6).lineTo(-0.9,44).lineTo(-1,44).lineTo(-2.8,47.5).curveTo(-5.6,53.3,-7.7,56.3).lineTo(-7.5,56.3).curveTo(-7.1,56.5,-7.2,56.9).lineTo(-7.3,57).curveTo(-7.1,57.4,-7.3,57.9).curveTo(-7.4,58.3,-7.7,58.6).curveTo(-10.4,60.9,-14.9,60.9).curveTo(-16.2,60.9,-17.6,60.7).closePath();
-	this.shape_168.setTransform(66.8853,101.4282);
-
-	this.shape_169 = new cjs.Shape();
-	this.shape_169.graphics.beginFill("#10264F").beginStroke().moveTo(-8.1,78.3).curveTo(-9.2,77.9,-9.6,77).lineTo(-11.7,72.1).curveTo(-12.1,71.3,-12,70.4).curveTo(-13.4,66.7,-14.3,63.6).curveTo(-14.5,63.1,-14.4,62.5).curveTo(-15.9,58.4,-16.9,54.6).curveTo(-20,45.7,-20.7,36.1).curveTo(-20.9,34.2,-19,33.6).curveTo(-19.8,29.3,-20.2,24.2).lineTo(-20.2,24).curveTo(-20.9,18.2,-20.5,12.6).lineTo(-20.5,8.5).curveTo(-21.6,7.4,-21.5,5.6).curveTo(-21.4,0.7,-20.8,-4.8).curveTo(-21,-11.9,-20.7,-17.2).lineTo(-20.6,-17.9).curveTo(-20.6,-26.3,-19.1,-34.1).curveTo(-19.6,-34.9,-19.3,-36.1).curveTo(-14.8,-49.2,-12.6,-57.7).curveTo(-12.3,-58.9,-11.1,-59.4).lineTo(-10,-62.6).curveTo(-8.5,-70.4,-9.2,-75).curveTo(-9.4,-76.5,-8.4,-77.6).curveTo(-7.4,-78.8,-5.9,-78.3).curveTo(-3,-77.4,-1.4,-74.6).curveTo(-0.8,-75.5,0.5,-75.8).curveTo(1.9,-76.1,2.8,-75.5).curveTo(8,-71.6,12.2,-70.1).lineTo(14.8,-69.5).curveTo(16.8,-69.1,17.9,-67.1).curveTo(21.9,-65.1,21.5,-55.7).curveTo(21.5,-54.5,19.9,-43.2).curveTo(17,-23.9,8,-7.9).curveTo(5.9,-1,4.7,5.5).curveTo(2.6,17.4,2.7,26.2).curveTo(2.7,28.3,3.4,33.7).curveTo(3.9,38.6,3.9,41.3).lineTo(3.9,41.3).curveTo(5.3,47.6,8.6,55.1).curveTo(9.8,57.9,14.8,68.3).curveTo(15.3,69.4,14.7,70.2).curveTo(14.2,71,13.3,71.1).curveTo(12.9,71.5,12.4,71.7).lineTo(10.4,72.6).curveTo(9.3,73.3,8.7,73.4).curveTo(7.9,74.9,6.3,75.5).curveTo(1.7,77.1,-6.3,78.4).lineTo(-7.1,78.4).curveTo(-7.6,78.4,-8.1,78.3).closePath();
-	this.shape_169.setTransform(112.2403,80.1915);
-
-	this.shape_170 = new cjs.Shape();
-	this.shape_170.graphics.beginFill("#10264F").beginStroke().moveTo(3.4,78.8).curveTo(0.9,78.3,-1.8,76.7).curveTo(-3.4,76.1,-4.5,74.8).lineTo(-4.7,74.5).lineTo(-5.7,74.4).curveTo(-6.2,74.4,-6.8,73.8).curveTo(-9.7,72.9,-12.6,70.4).lineTo(-12.7,70.3).lineTo(-13.9,70.6).curveTo(-15.1,70.8,-15.7,69.8).curveTo(-16.3,68.8,-15.5,67.8).lineTo(-13.6,65.5).curveTo(-13.5,63.9,-12.4,61.4).lineTo(-10.6,57.5).curveTo(-9.3,54.5,-8.6,53.8).lineTo(-6.6,46.3).curveTo(-5.5,41.9,-4.4,36.1).curveTo(-4.5,32.9,-3.9,27.5).lineTo(-3.2,21.7).curveTo(-3.2,17.1,-4.7,10.1).lineTo(-7.1,-1.4).lineTo(-8.2,-4.5).lineTo(-12.6,-14.5).curveTo(-15.3,-20.6,-16.3,-24.7).lineTo(-19.2,-35.5).curveTo(-20.9,-42,-21.5,-46.4).curveTo(-22.2,-52.5,-22.2,-56).curveTo(-22.2,-62.2,-20.2,-65.2).curveTo(-19.5,-66.2,-18.6,-66.5).curveTo(-16.3,-70.4,-8.2,-74.1).curveTo(-5.7,-75.3,2.7,-78.4).curveTo(5.8,-79.5,7.5,-78.7).curveTo(9.4,-77.8,9.2,-74.6).lineTo(8.9,-70.6).curveTo(10.5,-70.1,10.7,-68.7).curveTo(11.9,-60,13.4,-51.1).lineTo(13.4,-50.9).curveTo(14.3,-49.2,15,-46.5).curveTo(15.6,-46.1,16,-45.6).curveTo(17.7,-43.2,18.3,-38.8).curveTo(18.7,-36.3,19.2,-31.4).curveTo(20.1,-24.6,20.7,-17.8).curveTo(21.3,-16.7,21.3,-15.4).curveTo(21.7,-10.2,21.9,2.8).lineTo(22.2,11.3).curveTo(22.1,16.3,20.4,19.5).lineTo(20,20.1).lineTo(20,20.4).curveTo(20.1,20.8,20.1,21.3).curveTo(19.1,43.4,13.2,64.4).lineTo(12.7,65.2).lineTo(11.8,68.8).lineTo(10.6,73.8).curveTo(9.6,77.1,8.1,78.2).curveTo(6.9,79,5.2,79).curveTo(4.4,79,3.4,78.8).closePath();
-	this.shape_170.setTransform(22.3981,80.3109);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// hanger
-	this.instance = new lib.hanger();
-	this.instance.setTransform(63.95,-13.2,1,1,0,0,0,78.1,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_shirt_12, new cjs.Rectangle(-21.1,-76,170.29999999999998,241.4), null);
-
-
-(lib.btn_shirt_11 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.9).curveTo(-1.2,0.5,-1.2,0).curveTo(-1.2,-0.5,-0.8,-0.9).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.9,-0.9).curveTo(1.2,-0.5,1.2,0).curveTo(1.2,0.5,0.9,0.9).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.9).closePath();
-	this.shape.setTransform(67.4,124.8);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.8).curveTo(-1.2,0.5,-1.2,-0).curveTo(-1.2,-0.5,-0.8,-0.8).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.9,-0.8).curveTo(1.2,-0.5,1.2,-0).curveTo(1.2,0.5,0.9,0.8).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.8).closePath();
-	this.shape_1.setTransform(82.5,100.45);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.8).curveTo(-1.2,0.5,-1.2,0).curveTo(-1.2,-0.5,-0.8,-0.9).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.9,-0.9).curveTo(1.2,-0.5,1.2,0).curveTo(1.2,0.5,0.9,0.8).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.8).closePath();
-	this.shape_2.setTransform(55.05,103.2);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.9,0.8).curveTo(-1.2,0.5,-1.2,0).curveTo(-1.2,-0.5,-0.9,-0.9).curveTo(-0.5,-1.2,0,-1.2).curveTo(0.5,-1.2,0.8,-0.9).curveTo(1.2,-0.5,1.2,0).curveTo(1.2,0.5,0.8,0.8).curveTo(0.5,1.2,0,1.2).curveTo(-0.5,1.2,-0.9,0.8).closePath();
-	this.shape_3.setTransform(90.2,79.9);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#F1DFC7").beginStroke().moveTo(-0.8,0.9).curveTo(-1.2,0.5,-1.2,-0).curveTo(-1.2,-0.5,-0.8,-0.8).curveTo(-0.5,-1.2,-0,-1.2).curveTo(0.5,-1.2,0.8,-0.8).curveTo(1.2,-0.5,1.2,-0).curveTo(1.2,0.5,0.8,0.9).curveTo(0.5,1.2,-0,1.2).curveTo(-0.5,1.2,-0.8,0.9).closePath();
-	this.shape_4.setTransform(42.35,80.6);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#006E91").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,-0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,-0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,-0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_5.setTransform(66.85,125.875);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#006E91").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,1,-2.3,0).curveTo(-2.3,-0.9,-1.6,-1.6).curveTo(-1,-2.3,-0,-2.3).curveTo(0.9,-2.3,1.6,-1.6).curveTo(2.3,-0.9,2.3,0).curveTo(2.3,1,1.6,1.6).curveTo(0.9,2.3,-0,2.3).curveTo(-1,2.3,-1.6,1.6).closePath();
-	this.shape_6.setTransform(89.575,80.925);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#006E91").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,-0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,-0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_7.setTransform(81.8,101.5);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill("#006E91").beginStroke().moveTo(-1.4,1.3).curveTo(-1.9,0.8,-1.9,-0).curveTo(-1.9,-0.8,-1.4,-1.4).curveTo(-0.8,-1.9,-0,-1.9).curveTo(0.8,-1.9,1.4,-1.4).curveTo(1.9,-0.8,2,-0).curveTo(1.9,0.8,1.4,1.3).curveTo(0.8,2,-0,1.9).curveTo(-0.8,2,-1.4,1.3).closePath();
-	this.shape_8.setTransform(54.7,103.9);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill("#006E91").beginStroke().moveTo(-1.5,1.5).curveTo(-2.2,0.9,-2.2,-0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.2,0,-2.2).curveTo(0.9,-2.2,1.5,-1.5).curveTo(2.2,-0.9,2.2,-0).curveTo(2.2,0.9,1.5,1.5).curveTo(0.9,2.2,0,2.2).curveTo(-0.9,2.2,-1.5,1.5).closePath();
-	this.shape_9.setTransform(41.675,81.275);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,-0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6,-0,-6).curveTo(2.5,-6,4.3,-4.3).curveTo(6.1,-2.5,6.1,-0).curveTo(6.1,2.5,4.3,4.3).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.3).closePath();
-	this.shape_10.setTransform(52.65,106.4);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6,2.5,-6,-0).curveTo(-6,-2.5,-4.3,-4.3).curveTo(-2.5,-6.1,0,-6.1).curveTo(2.5,-6.1,4.3,-4.3).curveTo(6,-2.5,6.1,-0).curveTo(6,2.5,4.3,4.3).curveTo(2.5,6.1,0,6.1).curveTo(-2.5,6.1,-4.3,4.3).closePath();
-	this.shape_11.setTransform(65.55,128.675);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,-0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6,0,-6).curveTo(2.5,-6,4.3,-4.3).curveTo(6.1,-2.5,6.1,-0).curveTo(6.1,2.5,4.3,4.3).curveTo(2.5,6,0,6).curveTo(-2.5,6,-4.3,4.3).closePath();
-	this.shape_12.setTransform(80.075,103.8);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,-0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6.1,-0,-6.1).curveTo(2.5,-6.1,4.3,-4.3).curveTo(6,-2.5,6.1,-0).curveTo(6,2.5,4.3,4.3).curveTo(2.5,6,-0,6).curveTo(-2.5,6,-4.3,4.3).closePath();
-	this.shape_13.setTransform(40.85,84);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#2E2014").beginStroke().moveTo(-4.3,4.3).curveTo(-6.1,2.5,-6.1,0).curveTo(-6.1,-2.5,-4.3,-4.3).curveTo(-2.5,-6.1,0,-6.1).curveTo(2.5,-6.1,4.3,-4.3).curveTo(6.1,-2.5,6.1,0).curveTo(6.1,2.5,4.3,4.3).curveTo(2.5,6.1,0,6.1).curveTo(-2.5,6.1,-4.3,4.3).closePath();
-	this.shape_14.setTransform(88.075,83.325);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.2).lineTo(1.5,-3.8).curveTo(1.8,-1.1,2.7,2.8).lineTo(-1.4,3.8).curveTo(-2.2,0.3,-2.7,-3.2).closePath();
-	this.shape_15.setTransform(110.325,129.1);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.2,-2.7).lineTo(0.9,-4).curveTo(2.3,0.2,3.2,2.3).lineTo(-0.8,4).curveTo(-2.2,0.5,-3.2,-2.7).closePath();
-	this.shape_16.setTransform(113.575,140.95);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.6,-2.1).lineTo(0.3,-4).curveTo(1,-2.5,3.5,1.7).lineTo(0,4.1).curveTo(-2.5,0,-3.6,-2.1).closePath();
-	this.shape_17.setTransform(118.75,152.1);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,3.1).curveTo(-2.1,-0.6,-1.5,-3.7).lineTo(2.6,-3).curveTo(2,0.6,1.6,3.7).closePath();
-	this.shape_18.setTransform(110.275,92.175);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.4,3.4).lineTo(-1.9,-3.5).lineTo(2.4,-3.2).lineTo(1.9,3.6).closePath();
-	this.shape_19.setTransform(108.9,104.35);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.3,-3.5).lineTo(1.9,-3.6).curveTo(2,0.4,2.3,3.2).lineTo(-1.9,3.5).curveTo(-2.3,-0.4,-2.3,-3.5).closePath();
-	this.shape_20.setTransform(108.825,116.8);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,2.7).lineTo(-1.1,-3.9).lineTo(3,-2.7).lineTo(1,3.9).closePath();
-	this.shape_21.setTransform(119.35,56.525);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,2.7).lineTo(-1.1,-3.9).lineTo(3,-2.7).lineTo(1.1,3.9).closePath();
-	this.shape_22.setTransform(115.85,68.225);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,2.9).curveTo(-2.2,-0.2,-1.2,-3.8).lineTo(2.8,-2.8).lineTo(1.3,3.8).closePath();
-	this.shape_23.setTransform(112.7,80.075);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill("#2E2014").beginStroke().moveTo(-2,3.4).curveTo(-2,0.4,-2.3,-3.1).lineTo(2,-3.5).curveTo(2.3,0.2,2.2,3.5).closePath();
-	this.shape_24.setTransform(125.4536,20.575);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,2.9).lineTo(-1.7,-3.6).lineTo(2.5,-3.3).lineTo(1.7,3.7).closePath();
-	this.shape_25.setTransform(124.85,32.8);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.9,2.7).lineTo(-1.3,-3.8).lineTo(2.9,-2.9).lineTo(1.2,3.8).closePath();
-	this.shape_26.setTransform(122.575,44.7);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,3.2).lineTo(-2.1,-3.3).lineTo(2.1,-3.2).lineTo(2.1,3.2).closePath();
-	this.shape_27.setTransform(95.975,121.8);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.2).lineTo(-2,-3.3).lineTo(2.2,-3.1).lineTo(2,3.3).closePath();
-	this.shape_28.setTransform(96.2,110.25);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.2).lineTo(-2.1,-3.3).lineTo(2.2,-3.1).lineTo(2.1,3.3).closePath();
-	this.shape_29.setTransform(96.45,98.625);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,-2.7).lineTo(1.2,-3.7).curveTo(1.9,-0.9,3,2.3).lineTo(-1.1,3.7).curveTo(-2,0.8,-3,-2.7).closePath();
-	this.shape_30.setTransform(99.75,156.275);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,-3).lineTo(1.6,-3.5).curveTo(2,-0.5,2.5,2.7).lineTo(-1.6,3.5).curveTo(-2.3,-0.4,-2.5,-3).closePath();
-	this.shape_31.setTransform(97.35,145.05);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.3,-3.2).lineTo(2,-3.3).lineTo(2.3,3).lineTo(-2,3.3).lineTo(-2.3,-3.2).closePath();
-	this.shape_32.setTransform(96.25,133.525);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,4.1).lineTo(-1.7,-4.5).lineTo(2.5,-4.1).lineTo(1.7,4.5).closePath();
-	this.shape_33.setTransform(98.625,69.75);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,4).lineTo(-1.6,-4.5).lineTo(2.7,-4).lineTo(1.6,4.6).closePath();
-	this.shape_34.setTransform(100.35,54.4);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,3.9).lineTo(-1.4,-4.6).lineTo(2.8,-3.9).lineTo(1.4,4.6).closePath();
-	this.shape_35.setTransform(102.575,39.1);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.4,4).lineTo(-1.9,-4.3).lineTo(2.3,-4.1).lineTo(1.9,4.3).closePath();
-	this.shape_36.setTransform(78,120);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,3.8).curveTo(-2,0.2,-1.6,-4.4).lineTo(2.6,-4).curveTo(2,1.8,1.6,4.4).closePath();
-	this.shape_37.setTransform(76.75,134.975);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,3.4).curveTo(-1.8,-1.2,-1.2,-4.6).lineTo(3,-3.7).curveTo(2.2,0.6,1.1,4.6).closePath();
-	this.shape_38.setTransform(74.225,149.775);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.9).lineTo(1.5,-4.5).lineTo(2.7,3.9).lineTo(-1.5,4.4).closePath();
-	this.shape_39.setTransform(75.4,75.05);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.8).lineTo(1.5,-4.4).lineTo(2.7,3.9).lineTo(-1.5,4.4).closePath();
-	this.shape_40.setTransform(77.55,89.925);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,4.1).curveTo(-2,-0.9,-2.1,-4.1).lineTo(2.2,-4.2).curveTo(2.3,-0.8,2,4.2).closePath();
-	this.shape_41.setTransform(78.6143,104.85);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,3.3).lineTo(-2.1,-0.3).lineTo(-1.7,-3.8).lineTo(2.5,-3.5).lineTo(1.8,3.8).closePath();
-	this.shape_42.setTransform(50.4,133.575);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,3.1).curveTo(-2.5,2,-2.1,-0.4).lineTo(-1.4,-4).lineTo(2.8,-3.3).lineTo(2.1,0.3).lineTo(1.4,4).closePath();
-	this.shape_43.setTransform(48.575,146.425);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.1,2.7).lineTo(-2,-0.7).lineTo(-1,-4.1).lineTo(3.1,-3).lineTo(1,4.1).closePath();
-	this.shape_44.setTransform(45.5,159.075);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,3.6).lineTo(-2.1,0.1).lineTo(-2.2,-3.5).lineTo(2,-3.7).curveTo(2.3,-0,2.2,3.7).closePath();
-	this.shape_45.setTransform(51.8143,94.3);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.6).lineTo(-2.1,-3.7).lineTo(2.2,-3.6).lineTo(2.1,3.7).closePath();
-	this.shape_46.setTransform(51.775,107.375);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.3,3.5).lineTo(-2,-3.7).lineTo(2.3,-3.6).lineTo(1.9,3.8).closePath();
-	this.shape_47.setTransform(51.375,120.45);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,-2.9).lineTo(1.1,-4.1).curveTo(2.4,0.4,3,3.1).lineTo(-1.2,4).curveTo(-2,0.7,-3,-2.9).closePath();
-	this.shape_48.setTransform(46.175,55.65);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.7,-3.2).lineTo(1.4,-4).curveTo(2,-1.3,2.7,3.3).lineTo(-1.5,3.9).lineTo(-2.7,-3.2).closePath();
-	this.shape_49.setTransform(48.875,68.35);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,-3.3).lineTo(1.6,-3.8).lineTo(2.5,3.4).lineTo(-1.7,3.8).closePath();
-	this.shape_50.setTransform(50.8,81.25);
-
-	this.shape_51 = new cjs.Shape();
-	this.shape_51.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,3.1).curveTo(-2.2,0.9,-1.7,-3.8).lineTo(2.6,-3.4).lineTo(1.6,3.8).closePath();
-	this.shape_51.setTransform(31.175,130.475);
-
-	this.shape_52 = new cjs.Shape();
-	this.shape_52.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.9,2.9).lineTo(-1.3,-3.9).lineTo(2.9,-3.1).lineTo(2.1,0.5).lineTo(1.2,4).closePath();
-	this.shape_52.setTransform(28.875,143);
-
-	this.shape_53 = new cjs.Shape();
-	this.shape_53.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.2,2.6).lineTo(-0.9,-4.1).lineTo(3.2,-2.8).lineTo(0.8,4.1).closePath();
-	this.shape_53.setTransform(25.275,155.275);
-
-	this.shape_54 = new cjs.Shape();
-	this.shape_54.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.6,-3.1).lineTo(1.6,-3.8).lineTo(2.6,3.3).lineTo(-1.6,3.8).lineTo(-2.6,-3.1).closePath();
-	this.shape_54.setTransform(30.85,91.975);
-
-	this.shape_55 = new cjs.Shape();
-	this.shape_55.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,0.2).lineTo(-2.3,-3.3).lineTo(2,-3.7).lineTo(2.1,-0.1).curveTo(2.3,1.7,2.3,3.6).lineTo(-2,3.7).curveTo(-2,1.9,-2.1,0.2).closePath();
-	this.shape_55.setTransform(32.1,104.675);
-
-	this.shape_56 = new cjs.Shape();
-	this.shape_56.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.2,3.4).lineTo(-2,-3.7).lineTo(2.3,-3.6).lineTo(2.2,0).lineTo(1.9,3.6).closePath();
-	this.shape_56.setTransform(32.25,117.6);
-
-	this.shape_57 = new cjs.Shape();
-	this.shape_57.graphics.beginFill("#2E2014").beginStroke().moveTo(-3,-3).lineTo(1.1,-4.1).curveTo(1.9,-0.7,3,2.8).lineTo(-1,4).curveTo(-2.5,-0.9,-3,-3).closePath();
-	this.shape_57.setTransform(21.275,54.75);
-
-	this.shape_58 = new cjs.Shape();
-	this.shape_58.graphics.beginFill("#2E2014").beginStroke().moveTo(-3.1,-2.6).lineTo(0.9,-4.1).lineTo(3.1,2.9).lineTo(-1,4).lineTo(-3.1,-2.6).closePath();
-	this.shape_58.setTransform(25.15,66.9);
-
-	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.9,-2.9).lineTo(1.3,-4).lineTo(2.9,3.1).lineTo(-1.3,4).lineTo(-2.9,-2.9).closePath();
-	this.shape_59.setTransform(28.525,79.275);
-
-	this.shape_60 = new cjs.Shape();
-	this.shape_60.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.1,-3.7).lineTo(2.2,-3.5).lineTo(2.1,3.6).lineTo(-2.2,3.6).closePath();
-	this.shape_60.setTransform(15.825,16.35);
-
-	this.shape_61 = new cjs.Shape();
-	this.shape_61.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.5,-3.5).lineTo(1.7,-3.8).curveTo(2,-0.6,2.5,3.3).lineTo(-1.8,3.8).curveTo(-2.4,-2,-2.5,-3.5).closePath();
-	this.shape_61.setTransform(16.4,29.3);
-
-	this.shape_62 = new cjs.Shape();
-	this.shape_62.graphics.beginFill("#2E2014").beginStroke().moveTo(-2.8,-3.2).lineTo(1.4,-3.9).lineTo(2.8,3).lineTo(-1.4,4).closePath();
-	this.shape_62.setTransform(18.225,42.1);
-
-	this.shape_63 = new cjs.Shape();
-	this.shape_63.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-23.3,25.9).lineTo(13.1,2.6).curveTo(15.2,1.2,15.9,0.3).curveTo(16.7,-0.7,17.5,-3.2).curveTo(21.2,-14.8,22.7,-26.8);
-	this.shape_63.setTransform(85.7188,34.5828);
-
-	this.shape_64 = new cjs.Shape();
-	this.shape_64.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-10.1,78.6).curveTo(3,76.5,8.6,72.3).curveTo(10.7,70.7,13.9,65.3).curveTo(21.3,53.1,29.1,25.2).curveTo(35.6,2,37.2,-11.1).curveTo(22.7,-14.1,5.8,-23.9).curveTo(-4.5,-29.9,-22.7,-43).curveTo(-24.5,-44.4,-27.7,-47.1).lineTo(-30.5,-49.6).curveTo(-37.1,-64,-37.4,-79.8);
-	this.shape_64.setTransform(61.5163,87.8274);
-
-	this.shape_65 = new cjs.Shape();
-	this.shape_65.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(41.2,-79.9).curveTo(53,-76.1,61.3,-71.3).curveTo(64.3,-69.7,65.4,-68.1).curveTo(66.4,-66.4,66.6,-62.8).curveTo(67.2,-49.6,63.8,-36.9).curveTo(62.3,-31.5,59.1,-23).curveTo(55.1,-12.5,54,-9.3).curveTo(47.2,11.4,48.6,29.9).curveTo(49.4,40,52.6,49.3).curveTo(55.9,59,61.7,66.8).curveTo(58.8,69.6,51.8,72.7).curveTo(45.8,75.3,38.7,76.9).moveTo(-10.9,79.9).curveTo(-15.1,79.8,-17.9,79.7).curveTo(-37.9,78.7,-51.8,72.7).curveTo(-56.1,70.8,-59.3,68.6).lineTo(-61.7,66.8).curveTo(-55.9,59,-52.6,49.3).curveTo(-49.4,40,-48.6,29.9).curveTo(-47.2,11.2,-54,-9.3).curveTo(-55,-12.3,-59.1,-23).curveTo(-62.3,-31.5,-63.7,-36.9).curveTo(-67.2,-49.6,-66.6,-62.8).curveTo(-66.5,-66.3,-65.4,-68.1).curveTo(-64.3,-69.7,-61.3,-71.3).curveTo(-53,-76,-41.4,-79.8);
-	this.shape_65.setTransform(66.6938,86.725);
-
-	this.shape_66 = new cjs.Shape();
-	this.shape_66.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(6.5,-74.5).curveTo(7.8,-69.7,7.4,-63.5).curveTo(7.2,-59.3,5.9,-52.5).curveTo(5.2,-48.6,-0.9,-20.6).curveTo(-5.1,-1.2,-6.5,11.5).curveTo(-10.8,49.7,2.3,75.2);
-	this.shape_66.setTransform(109.85,84.4779);
-
-	this.shape_67 = new cjs.Shape();
-	this.shape_67.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(2.4,13.6).curveTo(1.9,13.6,1.7,12.8).curveTo(0.2,7,-0.8,-0.3).curveTo(-1.6,-7.2,-1.7,-13.6);
-	this.shape_67.setTransform(86.25,145.8);
-
-	this.shape_68 = new cjs.Shape();
-	this.shape_68.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(0.2,-11.4).curveTo(-0.5,-7.8,-0.2,-0.3).lineTo(0.3,12.6);
-	this.shape_68.setTransform(82.5794,58.2147);
-
-	this.shape_69 = new cjs.Shape();
-	this.shape_69.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-5.1,-53.4).curveTo(-2.6,-48,-0.8,-40.9).curveTo(0.2,-36.7,1.7,-27.9).curveTo(3.3,-18.7,4,-13.6).curveTo(5,-5.7,5,0.8).curveTo(4.9,8,3.5,17.7).curveTo(0.9,36.2,-4.5,54.3);
-	this.shape_69.setTransform(61.234,110.5213);
-
-	this.shape_70 = new cjs.Shape();
-	this.shape_70.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-7.2,-64.9).curveTo(-5.1,-60,-3.5,-53.6).curveTo(-2.3,-49.3,-0.8,-41.9).curveTo(2.7,-25.4,4.3,-15).curveTo(6.6,-0.2,7,12.2).curveTo(8.1,43,-2.2,65.7);
-	this.shape_70.setTransform(35.6787,97.8759);
-
-	this.shape_71 = new cjs.Shape();
-	this.shape_71.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-8.5,-71.7).curveTo(-10.7,-54.3,-5.3,-37.6).curveTo(-4.8,-36.1,-1.2,-26.5).curveTo(8.8,-0.1,9.1,22.5).curveTo(9.3,35.5,6.3,47.5).curveTo(3.2,60.2,-3.3,70.6);
-	this.shape_71.setTransform(14.7128,86.0825);
-
-	this.shape_72 = new cjs.Shape();
-	this.shape_72.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-17.7,-4.4).curveTo(-9.6,0.7,-0.1,2.8).curveTo(9.4,4.9,18.9,3.8);
-	this.shape_72.setTransform(93.3358,158.2356);
-
-	this.shape_73 = new cjs.Shape();
-	this.shape_73.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-21.6,79.3).lineTo(-28.9,78.7).curveTo(-34.5,77.9,-36.4,76.2).lineTo(-37,76.2).lineTo(-37.1,76.1).lineTo(-37.2,76.1).curveTo(-39.2,76,-41.3,75.4).curveTo(-47.3,74.1,-53.7,71.5).curveTo(-54.2,71.6,-54.5,71.4).curveTo(-57.2,70.3,-58.8,69.1).curveTo(-59.7,68.5,-59.9,67.5).curveTo(-60.2,66.5,-59.7,65.6).curveTo(-55,57.4,-51.1,44.9).curveTo(-50.6,43.5,-50,40.7).lineTo(-49,36.1).curveTo(-48.5,28.8,-47.5,22.7).lineTo(-47.6,17.6).lineTo(-48.4,12.3).lineTo(-50.2,1.2).lineTo(-50.6,-0.3).curveTo(-51.9,-4.1,-52.5,-7.9).lineTo(-56.1,-16.4).curveTo(-58,-21.2,-58.9,-25).curveTo(-62.2,-32.8,-63.9,-40.6).curveTo(-64.1,-41.3,-63.9,-41.9).curveTo(-64.5,-44.7,-64.7,-46.3).curveTo(-65.3,-46.9,-65.3,-47.9).lineTo(-65.6,-58.9).lineTo(-65.9,-63.1).curveTo(-66,-65.8,-65.6,-67.3).curveTo(-64.7,-70.3,-60.7,-72.3).curveTo(-59.1,-73.1,-53.9,-74.9).curveTo(-53.1,-75.2,-52.3,-74.8).curveTo(-50.4,-76.5,-47.5,-76.3).curveTo(-47,-77.4,-46.4,-78.2).curveTo(-45.4,-79.8,-43.4,-79.3).curveTo(-41.3,-78.9,-41.6,-76.9).lineTo(-42.1,-70.6).curveTo(-41.2,-67.3,-40.2,-60.7).lineTo(-38.4,-54.9).lineTo(-37.1,-50.9).curveTo(-36.4,-48.4,-36,-46.7).lineTo(-31.7,-43).lineTo(-22.1,-36.9).lineTo(-15.6,-32.8).curveTo(-11.7,-30.2,-9.5,-27.9).lineTo(-4.1,-24.9).curveTo(3.4,-31.4,15.6,-39).curveTo(22.6,-43.3,36.5,-51.6).curveTo(39.5,-62.9,41.8,-77.1).curveTo(41.9,-77.9,42.7,-78).curveTo(43.4,-78.1,43.9,-77.5).curveTo(46.3,-77.8,49.3,-76.5).lineTo(54.4,-74.1).lineTo(59.2,-72.4).curveTo(62,-71.2,63.2,-69.5).curveTo(65.9,-66.5,65.9,-58.9).curveTo(65.9,-55.1,64.9,-48.4).curveTo(64.2,-42.9,62.3,-36).lineTo(58.7,-23.8).curveTo(57.9,-20.4,57,-17.7).curveTo(56.8,-16.5,55.7,-16.1).lineTo(52.8,-6.2).curveTo(51.9,-3.2,50.9,4).curveTo(50,10.6,48.8,14).lineTo(48.3,14.7).lineTo(48,21.7).curveTo(47.8,25.2,47.8,32.4).lineTo(47.9,32.7).curveTo(49.2,34.4,49.2,36.7).lineTo(49.3,36.7).curveTo(49.5,38.9,49.3,41.4).lineTo(49.3,41.7).lineTo(50,45).lineTo(50.8,48.4).curveTo(55.3,51.9,58.2,60.8).curveTo(60.9,69.7,57.3,69.2).lineTo(57.2,69.4).curveTo(55.5,72,51,73.7).curveTo(46.8,75.3,43.2,75).lineTo(40.6,75.7).curveTo(36.6,76.5,34.1,76.5).curveTo(29.7,76.5,27.9,74.6).curveTo(19,73.8,10.6,67.8).curveTo(10.1,67.5,9.8,66.9).lineTo(9,66.3).curveTo(5.3,72.6,0.8,73.7).curveTo(-3.4,77.6,-9.7,78.8).curveTo(-12.8,79.4,-16.9,79.4).curveTo(-19.1,79.4,-21.6,79.3).closePath();
-	this.shape_73.setTransform(66.8063,86.497);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger();
-	this.instance.setTransform(64,-20.4,1,1,0,0,0,78.2,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_shirt_11, new cjs.Rectangle(-21.2,-83.2,170.39999999999998,251.10000000000002), null);
-
-
 (lib.btn_shirt_10 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -21728,657 +22202,9 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.instance_2},{t:this.instance_1},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.instance},{t:this.shape}]}).wait(1));
 
-	// Layer_2
-	this.instance_3 = new lib.hanger();
-	this.instance_3.setTransform(63.25,-22.8,1,1,0,0,0,78.2,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
-
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.btn_shirt_10, new cjs.Rectangle(-21.9,-85.6,170.3,253.7), null);
-
-
-(lib.btn_shirt_09 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-2.4,-6.2).curveTo(-0.7,0.3,2.4,6.2);
-	this.shape.setTransform(71.125,147.825);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(1,-8.2).curveTo(1.6,0.1,-1.1,8.2);
-	this.shape_1.setTransform(66.7545,149.5);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(1,4.9).curveTo(2.4,6.8,3.7,6.1).curveTo(4.1,5.9,4.3,5.3).curveTo(5,4.1,4.9,2.6).curveTo(4.8,1.1,4.1,-0.2).curveTo(2.9,-2.2,0.1,-4.6).curveTo(-3.4,-7.4,-4.7,-5.4).curveTo(-5.9,-3.4,1,4.9).closePath();
-	this.shape_2.setTransform(72.6858,141.3819);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-4.2,5).curveTo(-4.5,7.8,-3,8.3).curveTo(-1.7,8.7,-0.2,7).curveTo(2.2,4,3.6,-0.4).curveTo(5.3,-5.8,2.9,-8).curveTo(0.1,-6.2,-1.9,-2.3).curveTo(-3.7,1.2,-4.2,5).closePath();
-	this.shape_3.setTransform(63.3496,142.5058);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-10.4,0).lineTo(10.5,0);
-	this.shape_4.setTransform(68.3,133.4);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill().beginStroke("#FBC85B").setStrokeStyle(3.4,1).moveTo(9.5,-38).lineTo(-7.8,-19.5).lineTo(7.3,1.5).lineTo(-9,21).lineTo(9.7,38.1);
-	this.shape_5.setTransform(68.1498,94.3);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-8.4,-38.6).lineTo(8.2,-20.1).lineTo(-6.9,1.6).lineTo(9.1,20.4).lineTo(-9.7,38.6);
-	this.shape_6.setTransform(66.7391,94.825);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(3.4,1).moveTo(-7.8,0).lineTo(7.8,0);
-	this.shape_7.setTransform(67.325,56.6);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2.5,2.2).curveTo(-3.1,-2.5,-1.7,-6.2).curveTo(-0.9,-8.1,0.4,-8.2).curveTo(1.4,-8.2,2.1,-7.1).curveTo(2.5,-6.3,2.6,-4.9).curveTo(3,0.8,1.2,5.9).curveTo(-0.2,9.6,-1.3,7.3).curveTo(-2,5.7,-2.5,2.2).closePath();
-	this.shape_8.setTransform(109.435,119.9766);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.1,7.3).curveTo(-2.7,1.8,-5.3,-5).curveTo(-6.5,-8,-5.1,-9.3).curveTo(-4.5,-9.9,-3.7,-9.9).curveTo(-2.9,-10,-2.1,-9.6).curveTo(-0.9,-9,0.2,-7.3).curveTo(3.8,-2.4,5,3.4).curveTo(5.1,4.1,5.6,6.4).curveTo(6,8.6,5.6,9.3).curveTo(4.9,10.5,3.9,9.5).curveTo(2.7,7.9,2.1,7.3).closePath();
-	this.shape_9.setTransform(92.6105,85.4869);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(5.9,-3.3).curveTo(7.2,-5.6,6.1,-6.6).curveTo(5.6,-7.1,4.6,-7.1).curveTo(2.2,-7.2,-0.1,-5.3).curveTo(-1.7,-4.1,-3.5,-1.4).curveTo(-5.4,1.4,-6.3,4.6).curveTo(-7.5,8.6,-3.6,6.2).curveTo(2.6,2.2,5.9,-3.3).closePath();
-	this.shape_10.setTransform(104.9359,102.6611);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-0.7,4).curveTo(-3.6,3.5,-4.9,2.7).curveTo(-7.2,1.4,-7.4,-0.8).curveTo(-7.5,-2,-6.9,-3).curveTo(-6.2,-4,-5.1,-4.2).curveTo(-4.5,-4.3,-3.6,-4.2).curveTo(-0.7,-3.8,2.1,-2.6).curveTo(5.6,-1.1,6.9,0.8).curveTo(8.5,3.3,4.9,4).curveTo(2.2,4.5,-0.7,4).closePath();
-	this.shape_11.setTransform(95.7002,121.28);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(4.7,7.7).curveTo(6.3,4.3,6.7,0.5).curveTo(7,-3.3,6,-6.9).curveTo(5.9,-7.4,5.7,-7.6).curveTo(5.4,-7.8,4.9,-7.7).curveTo(-0.5,-6.9,-3.6,-3.8).curveTo(-5.4,-2,-6.2,0.2).curveTo(-7,2.6,-6.6,4.9);
-	this.shape_12.setTransform(106.9425,60.4833);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.6,-2.4).curveTo(2,-4.3,1.2,-5.2).curveTo(-0.2,-6.7,-1.7,-6.3).curveTo(-2.5,-6,-3.1,-5.4).curveTo(-4,-4.4,-4.2,-2.9).curveTo(-4.4,-1.5,-3.9,-0.2).curveTo(-3.2,1.7,-1.2,4).curveTo(1.2,6.6,2.8,6.3).curveTo(4.7,5.8,4.1,2.3).curveTo(3.9,1.4,2.6,-2.4).closePath();
-	this.shape_13.setTransform(97.8543,68.7022);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(1.9,-3.3).curveTo(3,-4.1,3.8,-4).curveTo(5.2,-4,5.8,-2.4).curveTo(6.2,-1.5,6.1,0.3).curveTo(6,1.8,5.6,2.4).curveTo(4.5,4.2,0.5,4).curveTo(-1.6,3.9,-2.7,3.9).curveTo(-4.6,3.8,-5.6,3.2).curveTo(-4.5,1.4,-2.3,-0.5).curveTo(-0.1,-2.3,1.9,-3.3).closePath();
-	this.shape_14.setTransform(107.4392,72.5587);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(9.4,33.2).lineTo(-3.6,13.5).curveTo(-5.8,10.2,-6.7,8.5).curveTo(-8.2,5.6,-8.8,3.1).curveTo(-9.6,-0.5,-8.8,-7.4).lineTo(-5.8,-33.8);
-	this.shape_15.setTransform(107.1444,109.5295);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.5,2.2).curveTo(3.1,-2.5,1.7,-6.2).curveTo(0.9,-8.1,-0.4,-8.2).curveTo(-1.4,-8.2,-2.1,-7.1).curveTo(-2.5,-6.3,-2.6,-4.9).curveTo(-3,0.8,-1.2,5.9).curveTo(0.2,9.6,1.3,7.3).curveTo(2.1,5.7,2.5,2.2).closePath();
-	this.shape_16.setTransform(25.565,119.9766);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2.1,7.3).curveTo(2.8,1.8,5.3,-5).curveTo(6.5,-8.1,5.1,-9.3).curveTo(4.6,-9.9,3.7,-9.9).curveTo(2.9,-10,2.1,-9.6).curveTo(0.9,-9,-0.2,-7.3).curveTo(-3.7,-2.6,-5,3.4).curveTo(-5.1,4.1,-5.6,6.4).curveTo(-6,8.6,-5.6,9.3).curveTo(-4.9,10.5,-3.8,9.5).curveTo(-2.6,7.9,-2.1,7.3).closePath();
-	this.shape_17.setTransform(42.3895,85.4869);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-5.9,-3.3).curveTo(-7.2,-5.6,-6.1,-6.6).curveTo(-5.6,-7.1,-4.6,-7.1).curveTo(-2.2,-7.2,0.1,-5.3).curveTo(1.7,-4.1,3.5,-1.4).curveTo(5.4,1.4,6.3,4.6).curveTo(7.5,8.6,3.6,6.2).curveTo(-2.6,2.2,-5.9,-3.3).closePath();
-	this.shape_18.setTransform(30.0641,102.6611);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(0.7,4).curveTo(3.5,3.5,4.9,2.7).curveTo(7.2,1.4,7.4,-0.8).curveTo(7.5,-2,6.8,-3).curveTo(6.1,-4,5.1,-4.2).curveTo(4.5,-4.3,3.5,-4.2).curveTo(0.6,-3.8,-2.2,-2.6).curveTo(-5.7,-1.1,-6.9,0.8).curveTo(-8.5,3.3,-4.9,4).curveTo(-2.3,4.5,0.7,4).closePath();
-	this.shape_19.setTransform(39.3105,121.28);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-4.7,7.7).curveTo(-6.3,4.3,-6.7,0.5).curveTo(-7,-3.3,-6,-6.9).curveTo(-5.9,-7.4,-5.7,-7.6).curveTo(-5.4,-7.8,-4.9,-7.7).curveTo(0.5,-6.9,3.6,-3.8).curveTo(5.4,-2.1,6.2,0.2).curveTo(7,2.6,6.6,4.9);
-	this.shape_20.setTransform(28.0575,60.4833);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2.6,-2.4).curveTo(-2,-4.3,-1.1,-5.2).curveTo(0.1,-6.7,1.7,-6.3).curveTo(2.5,-6,3.1,-5.4).curveTo(4,-4.4,4.2,-2.9).curveTo(4.4,-1.5,3.9,-0.2).curveTo(3.2,1.7,1.2,4).curveTo(-1.2,6.6,-2.8,6.3).curveTo(-4.7,5.8,-4.1,2.3).curveTo(-3.9,1.4,-2.6,-2.4).closePath();
-	this.shape_21.setTransform(37.1457,68.7022);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-1.9,-3.3).curveTo(-3,-4.1,-3.8,-4).curveTo(-4.4,-4,-5,-3.5).curveTo(-5.5,-3.1,-5.8,-2.4).curveTo(-6.2,-1.5,-6.1,0.3).curveTo(-6,1.7,-5.6,2.4).curveTo(-4.5,4.2,-0.5,4).curveTo(0.4,3.9,2.7,3.9).curveTo(4.7,3.8,5.6,3.2).curveTo(4.5,1.4,2.3,-0.5).curveTo(0.1,-2.3,-1.9,-3.3).closePath();
-	this.shape_22.setTransform(27.5539,72.5587);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-9.4,33.2).lineTo(3.6,13.5).curveTo(5.8,10.2,6.7,8.5).curveTo(8.2,5.6,8.8,3.1).curveTo(9.6,-0.5,8.8,-7.4).lineTo(5.8,-33.8);
-	this.shape_23.setTransform(27.8556,109.5295);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(-2,77.4).lineTo(-19.4,43.8).curveTo(-21.1,40.7,-21.5,38.9).curveTo(-21.8,37.2,-21.8,34.7).lineTo(-21.8,-17.3).curveTo(-21.8,-22.3,-21.3,-25).curveTo(-20.7,-29.3,-18.7,-32.1).curveTo(-16.6,-35,-12.4,-37.1).curveTo(-9.8,-38.4,-4.7,-40.1).curveTo(1.4,-42,4.5,-43.4).curveTo(9.4,-45.7,12.6,-48.6).curveTo(18.3,-54,20.4,-61.9).curveTo(22.2,-68.7,21.6,-77.8);
-	this.shape_24.setTransform(97.0612,88.3984);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(2.1,77.6).curveTo(5.2,71.6,10.7,60.8).curveTo(16.4,49.5,19.3,44).curveTo(20.9,40.9,21.3,39.1).curveTo(21.6,37.7,21.6,34.9).lineTo(21.6,-17.1).curveTo(21.6,-22.1,21.2,-24.8).curveTo(20.5,-29.1,18.6,-31.9).curveTo(16.4,-34.8,12.3,-36.9).curveTo(9.7,-38.2,4.5,-39.9).curveTo(-1.5,-41.8,-4.7,-43.2).curveTo(-9.6,-45.5,-12.7,-48.4).curveTo(-23,-58.1,-21.4,-78.8);
-	this.shape_25.setTransform(38.3674,88.1633);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill("#3F7745").beginStroke().moveTo(-0.6,7.6).curveTo(-1.4,7.5,-1.4,6.6).lineTo(-1.6,3.9).curveTo(-2.2,3.7,-2.4,3.2).curveTo(-3.7,-0.5,-1.5,-3.4).curveTo(-1.5,-5,-1.3,-5.7).curveTo(-1.1,-7,-0.1,-7.4).curveTo(2.6,-8.5,2.8,-3.5).curveTo(2.9,-2,2.4,2.9).curveTo(2.3,4.1,1.5,4.5).lineTo(0.7,4.8).lineTo(0.7,6.2).curveTo(0.7,6.7,0.4,6.8).lineTo(0.4,6.9).curveTo(0.2,7.6,-0.4,7.6).lineTo(-0.6,7.6).closePath();
-	this.shape_26.setTransform(109.4069,119.5239);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill("#3F7745").beginStroke().moveTo(4.9,3.7).curveTo(4,3.5,0.1,3.5).curveTo(-2.8,3.4,-4.5,2.8).curveTo(-6.2,2.1,-7,0.5).curveTo(-7.9,-1.2,-6.6,-2.7).curveTo(-4.8,-4.8,1.3,-2.7).curveTo(4.3,-1.7,5.8,-0.1).lineTo(5.9,-0.1).curveTo(7.8,0.2,7.3,2.1).curveTo(6.8,3.7,5.4,3.7).lineTo(4.9,3.7).closePath();
-	this.shape_27.setTransform(95.4897,121.1016);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.6,6.6).curveTo(-4.2,6.5,-4.6,5.9).curveTo(-5.2,6.2,-5.6,5.9).curveTo(-6.1,5.5,-5.9,4.9).curveTo(-5.5,3.1,-4,0.9).curveTo(-3.2,-0.3,-1.2,-2.7).lineTo(1.2,-5.4).curveTo(2.9,-7,4.4,-6.5).curveTo(6,-5.9,5.9,-4.4).curveTo(5.9,-3.2,4.8,-1.9).curveTo(0.8,2.9,-2.4,6.1).curveTo(-2.9,6.6,-3.5,6.6).lineTo(-3.6,6.6).closePath();
-	this.shape_28.setTransform(105.1091,102.3661);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill("#3F7745").beginStroke().moveTo(2.4,8.8).curveTo(-0.8,4.3,-3.4,-0.3).lineTo(-5.4,-4.1).curveTo(-6.3,-6.3,-5.9,-8.2).curveTo(-5.7,-9.3,-4.5,-9.6).curveTo(-3.3,-9.9,-2.5,-9.1).curveTo(-1.4,-8.1,-1.1,-6.7).curveTo(-0.4,-6.5,-0.2,-6).curveTo(1.3,-3.5,3,0.2).lineTo(5.8,6.7).curveTo(6.6,8.5,5,9.4).curveTo(4.4,9.7,3.9,9.7).curveTo(3.1,9.7,2.4,8.8).closePath();
-	this.shape_29.setTransform(93.338,85.5494);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.9,3.8).curveTo(-4.7,4.1,-5.5,3.8).lineTo(-6.3,3.3).curveTo(-7,3.1,-7.1,2.5).curveTo(-7.3,2,-7,1.4).curveTo(-6.9,0.2,-5.8,-0.6).curveTo(-1.7,-3.6,2.4,-4.1).curveTo(4.4,-4.4,5.7,-3.7).curveTo(7.3,-3,7.1,-1).curveTo(7,0.7,5.4,2).curveTo(4.1,3.1,2.2,3.7).curveTo(0.9,4.2,-0.8,4.2).curveTo(-2.2,4.2,-3.9,3.8).closePath();
-	this.shape_30.setTransform(39.5564,121.2036);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill("#3F7745").beginStroke().moveTo(0.2,7.4).curveTo(-1,6.7,-1.5,4.9).lineTo(-2.1,1.9).curveTo(-2.8,-2,-2.3,-6.5).curveTo(-2.2,-7.5,-1.1,-7.6).curveTo(-0.1,-7.6,-0.1,-6.5).lineTo(-0.1,-6.3).curveTo(0.4,-6.3,0.7,-6).curveTo(1.6,-5.1,1.9,-3.4).lineTo(2.2,-0.4).curveTo(2.7,2.6,2.4,6.1).curveTo(2.3,6.9,1.6,7.4).curveTo(1.3,7.6,0.9,7.6).curveTo(0.5,7.6,0.2,7.4).closePath();
-	this.shape_31.setTransform(25.783,119.8875);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#3F7745").beginStroke().moveTo(3.2,6.8).curveTo(-0.5,2.8,-1.8,1.2).curveTo(-4.5,-2.1,-6.1,-4.9).curveTo(-6.6,-5.8,-6,-6.7).curveTo(-5.3,-7.6,-4.3,-7.3).curveTo(-3.4,-7,-2.9,-6.6).curveTo(-2.6,-6.3,-2.1,-5.6).curveTo(-1,-6,-0.3,-5.1).curveTo(2.6,-2.2,3.9,-0.3).curveTo(6.1,2.8,6.3,5.5).curveTo(6.4,6.7,5.2,7.2).curveTo(4.7,7.4,4.4,7.4).curveTo(3.7,7.4,3.2,6.8).closePath();
-	this.shape_32.setTransform(30.52,103.0801);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill("#3F7745").beginStroke().moveTo(-4.9,9.1).curveTo(-6,8.4,-5.5,7.3).lineTo(-4.8,5.8).curveTo(-5,5.1,-4.8,4.6).curveTo(-2.8,-2.8,1.8,-8.6).curveTo(2.3,-9.3,3,-9.3).curveTo(3.6,-9.3,4.2,-8.7).curveTo(5.4,-8.6,5.6,-7.2).curveTo(5.7,-5.4,5,-3.5).curveTo(4.5,-2.3,3.3,-0.1).lineTo(1.6,3.3).curveTo(0.4,5.3,-1,5.7).curveTo(-1.4,6.5,-2.1,6.8).lineTo(-3.1,8.6).curveTo(-3.5,9.3,-4.1,9.3).curveTo(-4.5,9.3,-4.9,9.1).closePath();
-	this.shape_33.setTransform(42.1094,85.4174);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill("#C6EAE6").beginStroke().moveTo(-2.2,5.5).curveTo(-2.6,5.5,-2.8,5.1).curveTo(-2.9,5.1,-2.9,5.1).curveTo(-3,5.1,-3,5.1).curveTo(-3,5.1,-3.1,5).curveTo(-3.1,5,-3.2,5).curveTo(-3.2,4.9,-3.2,4.9).curveTo(-3.2,4.8,-3.2,4.8).curveTo(-3.3,4.7,-3.2,4.7).curveTo(-3.2,4.6,-3.2,4.6).lineTo(-2.8,3.1).curveTo(-2.6,0.5,-1.7,-1.4).lineTo(-1.8,-2.1).curveTo(-1.8,-3.1,-1.3,-3.9).curveTo(-0.8,-4.5,-0,-4.8).curveTo(0.5,-5.3,1.3,-5.5).curveTo(2.2,-5.7,2.5,-5).curveTo(3,-4.1,3.1,-3.2).curveTo(3.3,-2.9,3.2,-2.6).lineTo(3.2,-2.4).lineTo(3.2,-2.3).curveTo(3.3,-2,3.2,-1.7).lineTo(2.7,0).curveTo(1.9,2.7,0.4,4.7).curveTo(-0.4,5.8,-1.5,5.3).curveTo(-1.7,5.5,-2.1,5.5).lineTo(-2.2,5.5).closePath();
-	this.shape_34.setTransform(37.2612,68.6319);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill("#C6EAE6").beginStroke().moveTo(2.8,3.5).curveTo(1.5,3.2,0.2,2.5).curveTo(-0.3,2.8,-0.9,2.9).curveTo(-1.8,3,-2.5,2.6).curveTo(-3.3,2.2,-3.7,1.5).curveTo(-4.8,0.7,-4.8,-0.7).curveTo(-4.7,-2.1,-3.6,-2.8).curveTo(-3.2,-3.2,-2.7,-3.2).curveTo(-2.2,-3.7,-1.5,-3.5).curveTo(-0.8,-3.4,-0.4,-2.8).curveTo(2.6,-2.3,3.1,-0.7).curveTo(3.2,-0.4,3.1,-0.1).curveTo(3.5,-0,3.8,0.3).lineTo(4,0.6).curveTo(5.1,1.4,4.6,2.6).curveTo(4.3,3.6,3.3,3.6).lineTo(2.8,3.5).closePath();
-	this.shape_35.setTransform(26.7175,72.9863);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill("#C6EAE6").beginStroke().moveTo(-3.5,3.7).curveTo(-4.3,3.2,-4.5,2.3).curveTo(-5.2,2.3,-5.4,1.5).curveTo(-5.7,0.7,-5,0.3).curveTo(-4,-0.2,-2.3,-1.8).curveTo(-0.8,-3.4,0.3,-3.8).curveTo(1.6,-4.4,2.9,-4).curveTo(4.2,-3.7,5,-2.6).curveTo(5.7,-1.6,5.5,-0.3).curveTo(5.2,0.9,4.2,1.7).curveTo(3.2,2.5,1.7,2.7).lineTo(1.1,2.8).curveTo(-0.2,3.8,-1.7,4.1).lineTo(-2.2,4.2).curveTo(-2.9,4.2,-3.5,3.7).closePath();
-	this.shape_36.setTransform(108.1984,72.7819);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill("#C6EAE6").beginStroke().moveTo(1.1,5.4).curveTo(-1.3,3.8,-2.6,1.3).curveTo(-3.9,-1.2,-3.7,-4).curveTo(-3.6,-4.9,-2.8,-5.3).curveTo(-2,-5.8,-1.3,-5.4).curveTo(0.1,-6.2,0.9,-4.9).curveTo(1.3,-4.2,1.6,-3).lineTo(2.2,-1.1).lineTo(3.6,3.4).curveTo(4,4.5,3,5.2).curveTo(2.4,5.7,1.9,5.7).curveTo(1.5,5.7,1.1,5.4).closePath();
-	this.shape_37.setTransform(98.2316,68.9585);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill("#006E91").beginStroke().moveTo(-3.4,9.9).curveTo(-4.4,9.6,-4.8,8.6).curveTo(-5.5,6.6,-5.7,5.1).curveTo(-6.2,4.5,-6.3,3.6).curveTo(-6.4,1.9,-5.8,0.3).lineTo(-5.8,0.1).curveTo(-6.2,-2.6,-4,-5).curveTo(-2.2,-7,0.9,-8.4).lineTo(2.9,-9.7).curveTo(4.2,-10.4,5.2,-9.4).curveTo(6.2,-9,6.2,-7.9).curveTo(6.5,-1.3,4.8,2.5).curveTo(4.1,3.8,2.7,4.9).curveTo(1.3,6.7,-1.7,9.5).curveTo(-2.3,10,-2.9,10).lineTo(-3.4,9.9).closePath();
-	this.shape_38.setTransform(106.6648,62.9759);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill("#006E91").beginStroke().moveTo(3,9.7).curveTo(1.7,9.7,1.2,8.4).lineTo(0.4,6.7).curveTo(-0.1,7.2,-0.9,7.2).curveTo(-1.6,7.1,-2.3,6.6).lineTo(-3.6,5.3).curveTo(-4.7,5.2,-4.8,4.2).lineTo(-4.9,3.3).lineTo(-5.3,-0.3).lineTo(-5.6,-3.9).lineTo(-5.5,-4.2).lineTo(-5.5,-4.6).curveTo(-6.3,-6.7,-5.3,-8.7).curveTo(-5,-9.3,-4.4,-9.5).curveTo(-3.7,-9.6,-3.2,-9.2).curveTo(-1.7,-10.3,-0.6,-8.9).curveTo(0.3,-7.8,1.3,-6.3).lineTo(3.7,-4.4).curveTo(4.9,-3,5.4,-1.2).curveTo(6.1,0.9,5.8,3.6).curveTo(5.6,5.5,4.7,8.4).curveTo(4.3,9.7,3.1,9.7).lineTo(3,9.7).closePath();
-	this.shape_39.setTransform(28.2672,62.9962);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill().beginStroke("#5F1806").setStrokeStyle(2.6).moveTo(51.2,-77.6).curveTo(56.7,-75.3,61.3,-72.7).curveTo(64.3,-71.1,65.4,-69.5).curveTo(66.4,-67.8,66.6,-64.2).curveTo(67.2,-51,63.8,-38.3).curveTo(62.3,-32.9,59.1,-24.4).curveTo(55.1,-13.9,54,-10.7).curveTo(47.2,10,48.6,28.5).curveTo(49.4,38.6,52.6,47.9).curveTo(55.9,57.6,61.7,65.4).curveTo(58.8,68.2,51.8,71.3).curveTo(37.9,77.3,17.9,78.3).curveTo(10.6,78.6,-1,78.6).curveTo(-12.1,78.6,-17.9,78.3).curveTo(-37.9,77.3,-51.8,71.3).curveTo(-56.1,69.4,-59.3,67.2).lineTo(-61.7,65.4).curveTo(-55.9,57.6,-52.6,47.9).curveTo(-49.4,38.6,-48.6,28.5).curveTo(-47.2,9.8,-54,-10.7).curveTo(-55,-13.7,-59.1,-24.4).curveTo(-62.3,-32.9,-63.7,-38.3).curveTo(-67.2,-51,-66.6,-64.2).curveTo(-66.5,-67.7,-65.4,-69.5).curveTo(-64.3,-71.1,-61.3,-72.7).curveTo(-55.8,-75.9,-48.7,-78.6);
-	this.shape_40.setTransform(66.7438,88.1375);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(18.7,-74.7).lineTo(22.9,-62.3).lineTo(18.7,-57.3).lineTo(19.3,-47).lineTo(10.4,-44.5).lineTo(8.4,-37.6).lineTo(1,-38.1).lineTo(-3.3,-30.8).lineTo(-11.1,-33).lineTo(-12.7,-25.3).lineTo(-19.8,-24.8).lineTo(-16.6,-18.7).lineTo(-22.2,-12.5).lineTo(-16.5,-2.7).lineTo(-22.2,4.4).lineTo(-14.2,13.6).lineTo(-22.5,21.6).lineTo(-14.3,29.1).lineTo(-21,36.9).lineTo(-14.8,43.6).lineTo(-15.8,51.7).lineTo(-9.1,55.9).lineTo(-9.4,63.5).lineTo(-2.7,64).lineTo(-4.5,72.1).lineTo(3.1,73.7).lineTo(5.6,65).lineTo(13.6,69.3).lineTo(16.5,61.1).lineTo(21.9,64.9).lineTo(20.2,57.4);
-	this.shape_41.setTransform(101.0894,86.5901);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(7.9,-30.7).lineTo(2.7,-24).lineTo(5.6,-14.4).lineTo(-0.2,-7.6).lineTo(2.1,1.2).lineTo(-3.6,6.6).lineTo(-1.7,14.5).lineTo(-7.6,19.5).lineTo(-6.1,31.4);
-	this.shape_42.setTransform(125.6777,48.7883);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-17.9,-75.7).lineTo(-23.1,-61.3).lineTo(-18.9,-56.3).lineTo(-19.5,-46).lineTo(-10.6,-43.5).lineTo(-8.6,-36.6).lineTo(-1.2,-37.1).lineTo(3.1,-29.8).lineTo(10.9,-32).lineTo(12.5,-24.3).lineTo(19.6,-23.8).lineTo(16.4,-17.7).lineTo(23,-11.5).lineTo(16.3,-1.7).lineTo(22,5.4).lineTo(14,14.6).lineTo(22.3,22.6).lineTo(14.1,30.1).lineTo(20.8,37.9).lineTo(14.6,44.6).lineTo(16.6,52.7).lineTo(8.9,56.9).lineTo(9.2,64.5).lineTo(2.5,65).lineTo(4.3,73.1).lineTo(-3.3,74.7).lineTo(-5.8,66).lineTo(-13.8,70.3).lineTo(-16.7,62.1).lineTo(-23.1,65.9).lineTo(-22.4,58.4);
-	this.shape_43.setTransform(34.1488,85.5784);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-7.4,-31.2).lineTo(-2.2,-24.5).lineTo(-5.1,-14.9).lineTo(0.7,-8.1).lineTo(-1.6,0.7).lineTo(4.1,6.1).lineTo(2.2,14).lineTo(7.1,20).lineTo(5.6,31.9);
-	this.shape_44.setTransform(8.8132,49.2883);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-9.3,18.8).curveTo(-9.9,18.3,-10.7,17).curveTo(-14.9,10.5,-20.4,-0.5).curveTo(-21,-1.2,-21.4,-2.1).lineTo(-21.7,-3.3).lineTo(-23.1,-6.1).curveTo(-23.9,-6.3,-23.7,-7).curveTo(-23.6,-7.8,-22.8,-7.8).curveTo(-14.9,-7.9,-6.2,-11.4).curveTo(-0.6,-13.7,9,-19.2).curveTo(10.2,-19.9,11.5,-19.2).curveTo(12.7,-18.5,12.7,-17).curveTo(12.9,-9.4,15.2,-3.8).curveTo(17.8,-1.9,18,0.9).lineTo(19.5,3.3).lineTo(19.5,3.3).lineTo(19.7,3.9).lineTo(20.6,5.2).curveTo(21.1,5.8,21.5,5.8).curveTo(22.9,5.9,23.5,7.2).curveTo(24.1,8.6,23,9.5).curveTo(18.8,13,14.8,13.7).lineTo(12.5,14).lineTo(10.1,14.3).curveTo(6.7,16.4,2.8,17.5).curveTo(-1.3,18.6,-4.5,18.2).lineTo(-5.3,18.6).curveTo(-6.6,19.4,-7.2,19.5).lineTo(-7.4,19.5).curveTo(-8.5,19.5,-9.3,18.8).closePath();
-	this.shape_45.setTransform(105.0082,144.8306);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill("#CA2C2B").beginStroke().moveTo(8.7,17.9).curveTo(7.2,17.6,5.1,16.6).lineTo(1.5,15).curveTo(-1.2,14.1,-6.1,13.1).lineTo(-11.9,12.4).curveTo(-15.6,11.8,-17.4,10.4).curveTo(-18.4,9.5,-18.9,8.6).curveTo(-21.1,8.9,-22.4,7.2).curveTo(-23.7,5.4,-22.6,3.4).lineTo(-19,-3.7).curveTo(-16.9,-8.1,-15.1,-10.7).lineTo(-15.1,-11.1).curveTo(-14.3,-13.7,-13.8,-14.7).lineTo(-13.6,-15.7).lineTo(-13.5,-15.9).lineTo(-13.6,-16).curveTo(-14.3,-16.8,-13.5,-17.6).curveTo(-12.8,-18.3,-12.1,-17.5).curveTo(-10.3,-15.6,-8.5,-14.5).lineTo(-6.5,-13.6).curveTo(-5.2,-13.1,-4.5,-12.7).curveTo(-4.5,-12.7,-4.4,-12.7).curveTo(-4.4,-12.6,-4.3,-12.6).curveTo(-4.3,-12.5,-4.3,-12.5).curveTo(-4.2,-12.4,-4.2,-12.4).curveTo(-1.2,-11,0.1,-10.5).curveTo(2.5,-9.6,4.8,-9.3).curveTo(8.2,-8.8,12.3,-9.2).lineTo(15.9,-9.3).curveTo(18.2,-9.3,19.5,-9.7).curveTo(21.2,-10.1,22.4,-8.6).curveTo(23.6,-7.2,22.6,-5.6).curveTo(21.3,-3.5,19.3,0.4).curveTo(17.1,4.8,16.1,6.4).curveTo(15.7,8.2,15.6,10.8).curveTo(14.6,11.5,13.5,13).lineTo(12,15.4).lineTo(10.6,17.9).lineTo(9.8,18).lineTo(8.7,17.9).closePath();
-	this.shape_46.setTransform(29.1252,147.8385);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-27.7,23.2).curveTo(-28.4,21.2,-27.1,19.9).curveTo(-22.5,15.3,-16.3,14.2).curveTo(-13.5,12,-7.6,9.8).curveTo(0.6,6.6,6,0.5).curveTo(12.5,-7,14,-14.2).lineTo(15.1,-18.9).curveTo(14.2,-20,13.9,-22.2).curveTo(13.8,-23.7,15,-24.5).curveTo(16.2,-25.2,17.5,-25).curveTo(20,-24.7,22.1,-22.6).curveTo(22.5,-22.2,22.8,-21.6).lineTo(23.9,-21.3).curveTo(25.8,-20.4,26.7,-18.2).curveTo(27.7,-16,27.9,-12.4).lineTo(27.9,-6.4).curveTo(27.6,7.2,23,17.3).curveTo(20.7,22.2,15.7,23.4).curveTo(14.1,23.8,5.7,23.9).lineTo(-9.7,24.1).curveTo(-18.7,24.3,-25,25).lineTo(-25.4,25).curveTo(-27,25,-27.7,23.2).closePath();
-	this.shape_47.setTransform(104.5211,37.7119);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#CA2C2B").beginStroke().moveTo(-16.9,27.7).curveTo(-19.1,26.9,-20.2,25).curveTo(-21.3,23.2,-21.1,20.9).curveTo(-21.1,20.3,-20.8,19.5).curveTo(-22,18.3,-22.4,15.8).lineTo(-22.9,15).curveTo(-23.3,14.6,-23.3,14.1).lineTo(-23.5,13.2).curveTo(-25.3,7.7,-26.2,2.6).curveTo(-29.6,-5.9,-28.3,-14).curveTo(-28.1,-15.8,-27.3,-17.6).lineTo(-27.5,-18.3).curveTo(-27.7,-19.5,-27.1,-20.6).curveTo(-26.6,-21.6,-25.5,-22).curveTo(-23.4,-26.3,-20.1,-25.4).lineTo(-16.2,-27.9).curveTo(-14.7,-28.7,-13.2,-27.6).curveTo(-11.7,-26.5,-12.2,-24.8).curveTo(-13.3,-21.5,-12,-17.2).curveTo(-11.7,-16.2,-9,-9.9).curveTo(-6.8,-4.6,-5.1,1.3).lineTo(-4.8,1.1).curveTo(-4.2,0.7,-3.2,0.7).curveTo(-2.4,0.7,-1.7,1.1).curveTo(2.7,3.5,5.5,6.6).curveTo(9.5,6.7,12.1,7.6).curveTo(13.4,8.1,14.7,9).lineTo(17,10.9).curveTo(23,11.8,28,16.7).curveTo(28.9,17.6,28.6,19).curveTo(28.2,20.4,27.1,20.8).curveTo(26.2,21.6,25,21.5).curveTo(11.6,20.9,-5.1,25.8).curveTo(-9,27.2,-10.9,27.8).curveTo(-12.6,28.2,-14.1,28.2).curveTo(-15.6,28.2,-16.9,27.7).closePath();
-	this.shape_48.setTransform(28.6791,40.5212);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill("#A3250C").beginStroke().moveTo(-7.2,76).curveTo(-8.4,75.8,-9,74.8).curveTo(-14.1,67.4,-16.7,58.8).lineTo(-18.7,55).curveTo(-19.5,54.2,-19.7,53.2).lineTo(-19.9,52.6).lineTo(-21.4,49.1).curveTo(-21.8,48.8,-22.1,48.4).curveTo(-23.4,46.4,-24.7,43.7).curveTo(-25.2,43.4,-25.5,42.8).lineTo(-25.8,42.2).lineTo(-25.8,42.1).lineTo(-27,39).curveTo(-27.3,38.6,-27.4,38).lineTo(-27.8,36.2).curveTo(-28.5,33.5,-28.7,31.5).lineTo(-28.8,31.4).lineTo(-28.9,30.7).curveTo(-29,29.5,-28.2,28.9).lineTo(-28.2,25.2).curveTo(-28.5,21.1,-28,17.2).curveTo(-28,16.4,-27.5,15.8).curveTo(-27.4,13.5,-27,10.2).curveTo(-27.9,6.1,-28,1.2).lineTo(-28.1,0.3).lineTo(-28.2,0.3).lineTo(-27.9,-3.8).lineTo(-27.8,-5.8).curveTo(-29.1,-9.7,-28.6,-15.8).curveTo(-28.5,-18.2,-27.3,-25.8).curveTo(-27.1,-26.7,-26.5,-27.2).curveTo(-25.5,-30.7,-23.6,-33).curveTo(-21.6,-35.5,-18.6,-37.2).curveTo(-16.2,-38.6,-12.5,-39.7).curveTo(-7.4,-41.4,-3.7,-43.3).curveTo(0,-46,3.2,-47.6).curveTo(3.8,-48,4.4,-48.2).lineTo(6.4,-50.2).curveTo(6.8,-50.7,7.3,-50.9).curveTo(10.4,-56.6,12.1,-60.2).curveTo(14.5,-65.4,15.7,-69.8).lineTo(15.1,-72.5).curveTo(14.7,-74.3,16.1,-75.4).curveTo(17.6,-76.6,19.2,-75.7).curveTo(20.7,-74.9,23.2,-73.9).curveTo(25.3,-73,26.5,-71.1).lineTo(26.7,-70.7).curveTo(27.8,-70.1,28,-68).lineTo(28.2,-66.8).curveTo(28.5,-65.3,28.7,-63.5).curveTo(29.2,-58.9,28.6,-54.1).curveTo(28.8,-52.3,28.6,-48.9).lineTo(28.4,-46.6).curveTo(28.3,-45.3,27.9,-44.4).curveTo(27.6,-40.4,26.2,-37.5).curveTo(25.1,-33.2,23.2,-29.5).curveTo(21.2,-20.9,17.8,-14.9).lineTo(15.7,-7.8).curveTo(14.5,-3.6,13.2,-0.8).curveTo(12.2,3.6,11.3,6.5).lineTo(10.9,10.8).curveTo(10.4,17.3,10.3,20.5).lineTo(10.8,27).curveTo(11.2,31.7,12.8,40.9).curveTo(13.2,41.4,13.4,42).curveTo(16,50,19.2,55.8).lineTo(20.4,57.9).curveTo(21.1,59.1,21.2,60.1).curveTo(22.4,61.8,22.5,63.1).lineTo(22.6,63.1).curveTo(23.2,62.9,23.5,63.3).curveTo(23.9,63.8,23.5,64.3).curveTo(21.5,66.8,17.5,68.9).curveTo(15.7,69.9,10.5,72).curveTo(7.1,73.6,5,74.4).curveTo(1,75.9,-0.9,75).lineTo(-1.2,75.1).curveTo(-2.5,75.4,-5.1,75.6).curveTo(-5.8,76.1,-6.7,76.1).lineTo(-7.2,76).closePath();
-	this.shape_49.setTransform(103.7328,88.726);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#A3250C").beginStroke().moveTo(5.4,76.6).curveTo(3.7,76.5,1.8,75.5).curveTo(-1.7,75.3,-5.2,74.1).curveTo(-5.8,74.5,-6.4,74.3).curveTo(-13.6,72,-20.5,68.8).curveTo(-22.4,69.2,-23.8,67.3).curveTo(-25.2,65.3,-24.1,63.6).curveTo(-21.1,59,-19.7,56.7).curveTo(-17.6,52.8,-16.3,49.2).curveTo(-16,48.1,-14.9,47.6).lineTo(-14.4,46.7).lineTo(-14.1,45).curveTo(-12,33.9,-12,20.8).curveTo(-12,20.4,-11.8,19.8).curveTo(-12.8,7,-13.6,0.7).lineTo(-15.1,-5.4).curveTo(-16.1,-8.3,-17.3,-12.2).curveTo(-18.9,-15.4,-19.6,-17.8).lineTo(-19.7,-18).curveTo(-22.2,-24.3,-23.9,-30.2).curveTo(-24.7,-30.6,-25,-31.6).curveTo(-29.1,-44.3,-29.3,-57.3).curveTo(-29.4,-57.6,-29.4,-58).lineTo(-29.9,-63).lineTo(-30,-63).curveTo(-30.3,-63.6,-30.3,-64.3).curveTo(-30.3,-65.1,-30,-65.6).lineTo(-29.8,-65.9).lineTo(-28.9,-66.7).lineTo(-28.8,-68.2).curveTo(-28.6,-70.1,-26.8,-70.5).curveTo(-26.2,-71.3,-25.2,-72.2).curveTo(-22.7,-74.3,-17.2,-76.5).curveTo(-16,-77,-14.9,-76).curveTo(-14,-75.2,-13.8,-73.9).curveTo(-13.1,-67.7,-13.5,-62).lineTo(-13.5,-61.7).lineTo(-13.5,-60.7).lineTo(-5.8,-49.3).curveTo(-4.9,-48.1,-3.6,-46.6).lineTo(-3.2,-46.4).curveTo(-1.2,-44.8,0.6,-43.6).curveTo(2.1,-43.1,4.1,-42).lineTo(7.3,-40.1).curveTo(9,-39.9,10.9,-39.4).curveTo(14.3,-39.6,18.3,-36.9).lineTo(18.7,-37).curveTo(22,-36.4,25.4,-31.2).curveTo(28.2,-26.8,29.3,-22.7).curveTo(29.9,-20.2,30,-16.9).lineTo(30.1,-11).lineTo(30.3,-4.7).curveTo(30.2,-1,28.9,1.3).lineTo(28.9,2.5).lineTo(29.1,8.1).curveTo(29.2,11.5,29,13.8).curveTo(29,19.9,28.6,24.4).curveTo(29.6,30.3,28.8,34.5).lineTo(28.7,36).curveTo(27.8,42.9,25,47).lineTo(16.4,65.7).curveTo(15.7,67.2,13.9,67).lineTo(10.9,75).curveTo(10.5,75.9,9.5,75.9).lineTo(9.2,76.1).curveTo(7.5,76.7,6,76.7).lineTo(5.4,76.6).closePath();
-	this.shape_50.setTransform(30.525,88.2279);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger();
-	this.instance.setTransform(64,-24.05,1,1,0,0,0,78.2,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_shirt_09, new cjs.Rectangle(-21.2,-86.9,170.39999999999998,255), null);
-
-
-(lib.btn_shirt_08 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.8,1.8).curveTo(-2.5,1,-2.5,0).curveTo(-2.5,-1,-1.8,-1.8).curveTo(-1,-2.5,-0,-2.5).curveTo(1.1,-2.5,1.8,-1.8).curveTo(2.5,-1,2.5,0).curveTo(2.5,1,1.8,1.8).curveTo(1.1,2.5,-0,2.5).curveTo(-1,2.5,-1.8,1.8).closePath();
-	this.shape.setTransform(65.8,96.55);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_1.setTransform(57.425,102.875);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,-0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,-0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_2.setTransform(55.95,91.55);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.3,1.3).curveTo(-2,0.8,-1.9,-0).curveTo(-2,-0.8,-1.3,-1.4).curveTo(-0.8,-1.9,0,-1.9).curveTo(0.8,-1.9,1.4,-1.4).curveTo(1.9,-0.8,1.9,-0).curveTo(1.9,0.8,1.4,1.3).curveTo(0.8,2,0,1.9).curveTo(-0.8,2,-1.3,1.3).closePath();
-	this.shape_3.setTransform(66.8,111.1);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.4,1.4).curveTo(-1.9,0.8,-2,0).curveTo(-1.9,-0.8,-1.4,-1.4).curveTo(-0.8,-1.9,0,-1.9).curveTo(0.8,-1.9,1.4,-1.4).curveTo(1.9,-0.8,1.9,0).curveTo(1.9,0.8,1.4,1.4).curveTo(0.8,1.9,0,1.9).curveTo(-0.8,1.9,-1.4,1.4).closePath();
-	this.shape_4.setTransform(77.35,101.85);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.3,1.4).curveTo(-1.9,0.8,-2,0).curveTo(-1.9,-0.8,-1.3,-1.3).curveTo(-0.8,-2,-0,-2).curveTo(0.8,-2,1.4,-1.3).curveTo(2,-0.8,2,0).curveTo(2,0.8,1.4,1.4).curveTo(0.8,1.9,-0,2).curveTo(-0.8,1.9,-1.3,1.4).closePath();
-	this.shape_5.setTransform(77.1,92.7);
-
-	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.5,1.5).curveTo(-2,0.8,-2,-0).curveTo(-2,-0.9,-1.5,-1.5).curveTo(-0.8,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.5).curveTo(2,-0.9,2,-0).curveTo(2,0.8,1.5,1.5).curveTo(0.8,2.1,0,2.1).curveTo(-0.8,2.1,-1.5,1.5).closePath();
-	this.shape_6.setTransform(66.8,83.675);
-
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.5).curveTo(-2.1,0.9,-2.1,0).curveTo(-2.1,-0.9,-1.4,-1.4).curveTo(-0.9,-2.1,0,-2.1).curveTo(0.9,-2.1,1.5,-1.4).curveTo(2,-0.9,2.1,0).curveTo(2,0.9,1.5,1.5).curveTo(0.9,2,0,2.1).curveTo(-0.9,2,-1.4,1.5).closePath();
-	this.shape_7.setTransform(56.75,71.55);
-
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.5).curveTo(-2,0.8,-2,-0).curveTo(-2,-0.9,-1.5,-1.5).curveTo(-0.8,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.5).curveTo(2,-0.9,2,-0).curveTo(2,0.8,1.5,1.5).curveTo(0.8,2.1,0,2.1).curveTo(-0.8,2.1,-1.5,1.5).closePath();
-	this.shape_8.setTransform(66.35,69.275);
-
-	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.1).curveTo(-1.6,0.7,-1.6,0).curveTo(-1.6,-0.7,-1.2,-1.1).curveTo(-0.6,-1.6,0,-1.6).curveTo(0.7,-1.6,1.2,-1.1).curveTo(1.6,-0.7,1.6,0).curveTo(1.6,0.7,1.2,1.1).curveTo(0.7,1.6,0,1.6).curveTo(-0.6,1.6,-1.2,1.1).closePath();
-	this.shape_9.setTransform(46.5,44.8);
-
-	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.5,1.5).curveTo(-2.1,0.8,-2.1,-0).curveTo(-2.1,-0.8,-1.5,-1.5).curveTo(-0.8,-2,0,-2).curveTo(0.9,-2,1.5,-1.5).curveTo(2.1,-0.8,2.1,-0).curveTo(2.1,0.8,1.5,1.5).curveTo(0.9,2,0,2).curveTo(-0.8,2,-1.5,1.5).closePath();
-	this.shape_10.setTransform(87.825,45.5);
-
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_11.setTransform(49.425,78.65);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,0.9,-2.3,0).curveTo(-2.3,-1,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-1,2.3,0).curveTo(2.3,0.9,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_12.setTransform(39.825,51.45);
-
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,1,-2.3,0).curveTo(-2.3,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-0.9,2.3,0).curveTo(2.3,1,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_13.setTransform(76.625,71.55);
-
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.6,1.6).curveTo(-2.3,1,-2.3,0).curveTo(-2.3,-0.9,-1.6,-1.6).curveTo(-0.9,-2.3,0,-2.3).curveTo(1,-2.3,1.6,-1.6).curveTo(2.3,-0.9,2.3,0).curveTo(2.3,1,1.6,1.6).curveTo(1,2.3,0,2.3).curveTo(-0.9,2.3,-1.6,1.6).closePath();
-	this.shape_14.setTransform(77.075,61.725);
-
-	this.shape_15 = new cjs.Shape();
-	this.shape_15.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.2,1.2).curveTo(-1.7,0.7,-1.7,0).curveTo(-1.7,-0.7,-1.2,-1.2).curveTo(-0.7,-1.7,0,-1.7).curveTo(0.7,-1.7,1.2,-1.2).curveTo(1.7,-0.7,1.7,0).curveTo(1.7,0.7,1.2,1.2).curveTo(0.7,1.7,0,1.7).curveTo(-0.7,1.7,-1.2,1.2).closePath();
-	this.shape_15.setTransform(66.675,56.125);
-
-	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.5).curveTo(-2.1,0.9,-2,0).curveTo(-2.1,-0.8,-1.4,-1.5).curveTo(-0.9,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.5).curveTo(2,-0.8,2,0).curveTo(2,0.9,1.5,1.5).curveTo(0.8,2.1,0,2.1).curveTo(-0.9,2.1,-1.4,1.5).closePath();
-	this.shape_16.setTransform(57.9,48.925);
-
-	this.shape_17 = new cjs.Shape();
-	this.shape_17.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.7,1.7).curveTo(-2.4,1,-2.4,-0).curveTo(-2.4,-0.9,-1.7,-1.7).curveTo(-0.9,-2.4,-0,-2.4).curveTo(1,-2.4,1.7,-1.7).curveTo(2.4,-1,2.4,-0).curveTo(2.4,1,1.7,1.7).curveTo(1,2.4,-0,2.4).curveTo(-1,2.4,-1.7,1.7).closePath();
-	this.shape_17.setTransform(42.9,26.85);
-
-	this.shape_18 = new cjs.Shape();
-	this.shape_18.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.3,1.3).curveTo(-1.8,0.7,-1.8,-0).curveTo(-1.8,-0.8,-1.3,-1.3).curveTo(-0.8,-1.8,-0,-1.8).curveTo(0.7,-1.8,1.3,-1.3).curveTo(1.8,-0.8,1.8,-0).curveTo(1.8,0.7,1.3,1.3).curveTo(0.7,1.8,-0,1.8).curveTo(-0.8,1.8,-1.3,1.3).closePath();
-	this.shape_18.setTransform(53.325,26.775);
-
-	this.shape_19 = new cjs.Shape();
-	this.shape_19.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.6).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.5,-1.5).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.5,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-0.9,2.2,-1.5,1.6).closePath();
-	this.shape_19.setTransform(91.375,27.325);
-
-	this.shape_20 = new cjs.Shape();
-	this.shape_20.graphics.beginFill("#70AEA3").beginStroke().moveTo(-1.4,1.4).curveTo(-2.1,0.9,-2.1,0).curveTo(-2.1,-0.9,-1.4,-1.4).curveTo(-0.9,-2.1,0,-2.1).curveTo(0.8,-2.1,1.5,-1.4).curveTo(2,-0.9,2.1,0).curveTo(2,0.9,1.5,1.4).curveTo(0.8,2,0,2.1).curveTo(-0.9,2,-1.4,1.4).closePath();
-	this.shape_20.setTransform(79.15,27.45);
-
-	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.5).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.1,-0,-2.2).curveTo(0.9,-2.1,1.5,-1.5).curveTo(2.2,-0.9,2.2,0).curveTo(2.2,0.9,1.5,1.5).curveTo(0.9,2.2,-0,2.2).curveTo(-0.9,2.2,-1.5,1.5).closePath();
-	this.shape_21.setTransform(66.925,27.1);
-
-	this.shape_22 = new cjs.Shape();
-	this.shape_22.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.4).curveTo(-2,0.9,-2,-0).curveTo(-2,-0.9,-1.4,-1.4).curveTo(-0.8,-2.1,0,-2.1).curveTo(0.8,-2.1,1.4,-1.4).curveTo(2,-0.9,2,-0).curveTo(2,0.9,1.4,1.4).curveTo(0.8,2.1,0,2.1).curveTo(-0.8,2.1,-1.4,1.4).closePath();
-	this.shape_22.setTransform(56.825,61.3);
-
-	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.4,1.4).curveTo(-2,0.9,-2,0).curveTo(-2,-0.8,-1.4,-1.4).curveTo(-0.9,-2,-0,-2).curveTo(0.8,-2,1.4,-1.4).curveTo(2,-0.8,2,0).curveTo(2,0.9,1.4,1.4).curveTo(0.8,2,-0,2).curveTo(-0.8,2,-1.4,1.4).closePath();
-	this.shape_23.setTransform(67.575,39.575);
-
-	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.beginFill("#FBDCB0").beginStroke().moveTo(-1.5,1.6).curveTo(-2.2,0.9,-2.2,0).curveTo(-2.2,-0.9,-1.5,-1.5).curveTo(-0.9,-2.2,-0,-2.2).curveTo(0.9,-2.2,1.6,-1.5).curveTo(2.1,-0.9,2.1,0).curveTo(2.1,0.9,1.6,1.6).curveTo(0.9,2.2,-0,2.2).curveTo(-0.9,2.2,-1.5,1.6).closePath();
-	this.shape_24.setTransform(75.6,49.025);
-
-	this.shape_25 = new cjs.Shape();
-	this.shape_25.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).closePath();
-	this.shape_25.setTransform(65.7,58.15);
-
-	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_26.setTransform(65.7,58.15);
-
-	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(16.1,-71.5).curveTo(14.9,-29.9,8.4,2.1).curveTo(0.4,41.1,-16.3,70.9);
-	this.shape_27.setTransform(82.4308,75.1921);
-
-	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(-18.9,-81.9).curveTo(-23.2,-46.3,-12,-3.8).curveTo(-7.5,13.3,0,33.7).curveTo(5.2,47.4,14.7,70.3).curveTo(16.2,73.8,17.2,75.7).curveTo(18.7,78.7,20.4,80.7);
-	this.shape_28.setTransform(54.3698,85.6101);
-
-	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(3.2,-4.7).curveTo(1.2,-4.9,-0.3,-3.7).curveTo(-1.8,-2.5,-2.1,-0.5).curveTo(-2.3,1.5,-1.1,3).curveTo(0.1,4.6,2.1,4.8);
-	this.shape_29.setTransform(90.6116,53.5857);
-
-	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.beginFill("#FDD888").beginStroke().moveTo(-1.6,3).curveTo(-2.8,1.5,-2.6,-0.5).curveTo(-2.4,-2.5,-0.9,-3.7).curveTo(0.7,-4.9,2.7,-4.7).lineTo(1.6,4.8).curveTo(-0.4,4.6,-1.6,3).closePath();
-	this.shape_30.setTransform(91.1857,53.5857);
-
-	this.shape_31 = new cjs.Shape();
-	this.shape_31.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(-3.2,-4.7).curveTo(-1.2,-4.9,0.3,-3.7).curveTo(1.9,-2.5,2.1,-0.5).curveTo(2.3,1.5,1.1,3).curveTo(-0.2,4.6,-2.1,4.8);
-	this.shape_31.setTransform(40.1449,53.5857);
-
-	this.shape_32 = new cjs.Shape();
-	this.shape_32.graphics.beginFill("#FDD888").beginStroke().moveTo(-2.7,-4.7).curveTo(-0.7,-4.9,0.9,-3.7).curveTo(2.4,-2.5,2.6,-0.5).curveTo(2.9,1.5,1.6,3).curveTo(0.4,4.6,-1.6,4.8).closePath();
-	this.shape_32.setTransform(39.5708,53.5857);
-
-	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_33.setTransform(90.15,29.85);
-
-	this.shape_34 = new cjs.Shape();
-	this.shape_34.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_34.setTransform(90.15,29.85);
-
-	this.shape_35 = new cjs.Shape();
-	this.shape_35.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_35.setTransform(77.95,29.85);
-
-	this.shape_36 = new cjs.Shape();
-	this.shape_36.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_36.setTransform(77.95,29.85);
-
-	this.shape_37 = new cjs.Shape();
-	this.shape_37.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_37.setTransform(41,29.85);
-
-	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_38.setTransform(41,29.85);
-
-	this.shape_39 = new cjs.Shape();
-	this.shape_39.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_39.setTransform(52.45,29.85);
-
-	this.shape_40 = new cjs.Shape();
-	this.shape_40.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_40.setTransform(52.45,29.85);
-
-	this.shape_41 = new cjs.Shape();
-	this.shape_41.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).closePath();
-	this.shape_41.setTransform(75.5,63.85);
-
-	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_42.setTransform(75.5,63.85);
-
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_43.setTransform(74.5,51.85);
-
-	this.shape_44 = new cjs.Shape();
-	this.shape_44.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_44.setTransform(74.5,51.85);
-
-	this.shape_45 = new cjs.Shape();
-	this.shape_45.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(3.4,-4.6).curveTo(1.5,-5,-0.2,-4).curveTo(-1.9,-2.9,-2.3,-1).curveTo(-2.7,0.9,-1.7,2.6).curveTo(-0.6,4.3,1.3,4.8);
-	this.shape_45.setTransform(93.3137,43.8948);
-
-	this.shape_46 = new cjs.Shape();
-	this.shape_46.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.2,2.6).curveTo(-3.2,0.9,-2.8,-1).curveTo(-2.4,-2.9,-0.7,-4).curveTo(1,-5,2.9,-4.6).lineTo(0.8,4.8).curveTo(-1.1,4.3,-2.2,2.6).closePath();
-	this.shape_46.setTransform(93.8198,43.8948);
-
-	this.shape_47 = new cjs.Shape();
-	this.shape_47.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(3.4,-4.6).curveTo(1.5,-5.1,-0.2,-4).curveTo(-1.9,-3,-2.3,-1).curveTo(-2.8,0.9,-1.7,2.6).curveTo(-0.7,4.3,1.3,4.7);
-	this.shape_47.setTransform(89.9133,65.6075);
-
-	this.shape_48 = new cjs.Shape();
-	this.shape_48.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.2,2.6).curveTo(-3.3,0.9,-2.8,-1).curveTo(-2.4,-3,-0.7,-4).curveTo(1,-5.1,2.9,-4.6).lineTo(0.8,4.7).curveTo(-1.2,4.3,-2.2,2.6).closePath();
-	this.shape_48.setTransform(90.4075,65.6075);
-
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-4.8,0).curveTo(-4.8,2,-3.4,3.4).curveTo(-2,4.8,0,4.8).curveTo(2,4.8,3.4,3.4).curveTo(4.8,2,4.8,0).curveTo(4.8,-2,3.4,-3.4).curveTo(2,-4.8,0,-4.8).curveTo(-2,-4.8,-3.4,-3.4).curveTo(-4.8,-2,-4.8,0).closePath();
-	this.shape_49.setTransform(86.7,57.35);
-
-	this.shape_50 = new cjs.Shape();
-	this.shape_50.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_50.setTransform(86.7,57.35);
-
-	this.shape_51 = new cjs.Shape();
-	this.shape_51.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-4.8,0).curveTo(-4.8,2,-3.4,3.4).curveTo(-2,4.8,0,4.8).curveTo(2,4.8,3.4,3.4).curveTo(4.8,2,4.8,0).curveTo(4.8,-2,3.4,-3.4).curveTo(2,-4.8,0,-4.8).curveTo(-2,-4.8,-3.4,-3.4).curveTo(-4.8,-2,-4.8,0).closePath();
-	this.shape_51.setTransform(86.95,48);
-
-	this.shape_52 = new cjs.Shape();
-	this.shape_52.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_52.setTransform(86.95,48);
-
-	this.shape_53 = new cjs.Shape();
-	this.shape_53.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-3.5,-4.6).curveTo(-1.5,-5,0.2,-4).curveTo(1.8,-2.9,2.3,-1).curveTo(2.7,0.9,1.7,2.6).curveTo(0.6,4.3,-1.3,4.8);
-	this.shape_53.setTransform(38.5019,43.8948);
-
-	this.shape_54 = new cjs.Shape();
-	this.shape_54.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.9,-4.6).curveTo(-1,-5,0.7,-4).curveTo(2.4,-2.9,2.8,-1).curveTo(3.3,0.9,2.2,2.6).curveTo(1.1,4.3,-0.8,4.8).closePath();
-	this.shape_54.setTransform(37.9925,43.8948);
-
-	this.shape_55 = new cjs.Shape();
-	this.shape_55.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(-3.4,-4.6).curveTo(-1.5,-5.1,0.2,-4).curveTo(1.9,-3,2.3,-1).curveTo(2.7,0.9,1.7,2.6).curveTo(0.6,4.3,-1.3,4.7);
-	this.shape_55.setTransform(41.9208,65.6075);
-
-	this.shape_56 = new cjs.Shape();
-	this.shape_56.graphics.beginFill("#3F7745").beginStroke().moveTo(-2.9,-4.6).curveTo(-1,-5.1,0.7,-4).curveTo(2.4,-3,2.8,-1).curveTo(3.2,0.9,2.2,2.6).curveTo(1.1,4.3,-0.8,4.7).closePath();
-	this.shape_56.setTransform(41.4302,65.6075);
-
-	this.shape_57 = new cjs.Shape();
-	this.shape_57.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_57.setTransform(45.1,57.35);
-
-	this.shape_58 = new cjs.Shape();
-	this.shape_58.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_58.setTransform(45.1,57.35);
-
-	this.shape_59 = new cjs.Shape();
-	this.shape_59.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_59.setTransform(44.9,48);
-
-	this.shape_60 = new cjs.Shape();
-	this.shape_60.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_60.setTransform(44.9,48);
-
-	this.shape_61 = new cjs.Shape();
-	this.shape_61.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_61.setTransform(56.45,51.85);
-
-	this.shape_62 = new cjs.Shape();
-	this.shape_62.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_62.setTransform(56.45,51.85);
-
-	this.shape_63 = new cjs.Shape();
-	this.shape_63.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_63.setTransform(83.9,81.6);
-
-	this.shape_64 = new cjs.Shape();
-	this.shape_64.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_64.setTransform(83.9,81.6);
-
-	this.shape_65 = new cjs.Shape();
-	this.shape_65.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_65.setTransform(47.9,81.6);
-
-	this.shape_66 = new cjs.Shape();
-	this.shape_66.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_66.setTransform(47.9,81.6);
-
-	this.shape_67 = new cjs.Shape();
-	this.shape_67.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_67.setTransform(65.3,98.65);
-
-	this.shape_68 = new cjs.Shape();
-	this.shape_68.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_68.setTransform(65.3,98.65);
-
-	this.shape_69 = new cjs.Shape();
-	this.shape_69.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_69.setTransform(75.6,73.5);
-
-	this.shape_70 = new cjs.Shape();
-	this.shape_70.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_70.setTransform(75.6,73.5);
-
-	this.shape_71 = new cjs.Shape();
-	this.shape_71.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_71.setTransform(55.55,73.5);
-
-	this.shape_72 = new cjs.Shape();
-	this.shape_72.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_72.setTransform(55.55,73.5);
-
-	this.shape_73 = new cjs.Shape();
-	this.shape_73.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_73.setTransform(55.45,64.2);
-
-	this.shape_74 = new cjs.Shape();
-	this.shape_74.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_74.setTransform(55.45,64.2);
-
-	this.shape_75 = new cjs.Shape();
-	this.shape_75.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_75.setTransform(56.15,105.65);
-
-	this.shape_76 = new cjs.Shape();
-	this.shape_76.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_76.setTransform(56.15,105.65);
-
-	this.shape_77 = new cjs.Shape();
-	this.shape_77.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_77.setTransform(76.05,104.5);
-
-	this.shape_78 = new cjs.Shape();
-	this.shape_78.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_78.setTransform(76.05,104.5);
-
-	this.shape_79 = new cjs.Shape();
-	this.shape_79.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_79.setTransform(75.65,94.65);
-
-	this.shape_80 = new cjs.Shape();
-	this.shape_80.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_80.setTransform(75.65,94.65);
-
-	this.shape_81 = new cjs.Shape();
-	this.shape_81.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_81.setTransform(55,94.65);
-
-	this.shape_82 = new cjs.Shape();
-	this.shape_82.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,-0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,-0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_82.setTransform(55,94.65);
-
-	this.shape_83 = new cjs.Shape();
-	this.shape_83.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_83.setTransform(65.55,85.65);
-
-	this.shape_84 = new cjs.Shape();
-	this.shape_84.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_84.setTransform(65.55,85.65);
-
-	this.shape_85 = new cjs.Shape();
-	this.shape_85.graphics.beginFill().beginStroke("#122313").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_85.setTransform(65.55,113.85);
-
-	this.shape_86 = new cjs.Shape();
-	this.shape_86.graphics.beginFill("#3F7745").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_86.setTransform(65.55,113.85);
-
-	this.shape_87 = new cjs.Shape();
-	this.shape_87.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_87.setTransform(65.55,72.2);
-
-	this.shape_88 = new cjs.Shape();
-	this.shape_88.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_88.setTransform(65.55,72.2);
-
-	this.shape_89 = new cjs.Shape();
-	this.shape_89.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_89.setTransform(65.55,42.35);
-
-	this.shape_90 = new cjs.Shape();
-	this.shape_90.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,-0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,-0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_90.setTransform(65.55,42.35);
-
-	this.shape_91 = new cjs.Shape();
-	this.shape_91.graphics.beginFill().beginStroke("#B8912A").setStrokeStyle(2.6).moveTo(4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).closePath();
-	this.shape_91.setTransform(65.55,29.85);
-
-	this.shape_92 = new cjs.Shape();
-	this.shape_92.graphics.beginFill("#FDD888").beginStroke().moveTo(-3.4,3.4).curveTo(-4.8,2,-4.8,0).curveTo(-4.8,-2,-3.4,-3.4).curveTo(-2,-4.8,0,-4.8).curveTo(2,-4.8,3.4,-3.4).curveTo(4.8,-2,4.8,0).curveTo(4.8,2,3.4,3.4).curveTo(2,4.8,0,4.8).curveTo(-2,4.8,-3.4,3.4).closePath();
-	this.shape_92.setTransform(65.55,29.85);
-
-	this.shape_93 = new cjs.Shape();
-	this.shape_93.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(-31.4,0).lineTo(31.4,0);
-	this.shape_93.setTransform(66.125,20.6);
-
-	this.shape_94 = new cjs.Shape();
-	this.shape_94.graphics.beginFill().beginStroke("#070F21").setStrokeStyle(2.6).moveTo(30.4,-81.5).curveTo(34.7,-80.5,38.9,-79.2).curveTo(52.2,-75,61.3,-69.8).curveTo(64.3,-68.2,65.4,-66.6).curveTo(66.4,-65,66.6,-61.4).curveTo(67.2,-48.1,63.8,-35.4).curveTo(62.3,-30,59.1,-21.5).curveTo(55.1,-11,54,-7.8).curveTo(47.2,12.8,48.6,31.3).curveTo(49.4,41.5,52.6,50.8).curveTo(55.9,60.5,61.7,68.3).curveTo(58.8,71.1,51.8,74.2).curveTo(37.9,80.2,17.9,81.2).curveTo(10.6,81.5,-1,81.5).curveTo(-12.1,81.4,-17.9,81.2).curveTo(-37.9,80.2,-51.8,74.2).curveTo(-56.1,72.2,-59.3,70.1).lineTo(-61.7,68.3).curveTo(-55.9,60.5,-52.6,50.8).curveTo(-49.4,41.5,-48.6,31.3).curveTo(-47.2,12.7,-54,-7.8).curveTo(-55,-10.8,-59.1,-21.5).curveTo(-62.3,-30,-63.7,-35.4).curveTo(-67.2,-48.1,-66.6,-61.4).curveTo(-66.5,-64.8,-65.4,-66.6).curveTo(-64.4,-68.1,-61.3,-69.8).curveTo(-52.1,-75,-38.9,-79.2).curveTo(-34.7,-80.4,-30.5,-81.5);
-	this.shape_94.setTransform(67.2438,85.25);
-
-	this.shape_95 = new cjs.Shape();
-	this.shape_95.graphics.beginFill("#10264F").beginStroke().moveTo(-19.5,79.6).curveTo(-26.3,79.9,-32.9,78.1).curveTo(-40.6,77.5,-47.4,75.3).curveTo(-48.1,75,-48.5,74.5).lineTo(-48.7,74.5).lineTo(-48.8,74.4).curveTo(-51.6,73.6,-55.2,72.3).curveTo(-56.1,72,-56.4,71.1).lineTo(-58.8,70).curveTo(-59.8,69.6,-59.8,68.6).curveTo(-60.3,68.1,-60.4,67.6).curveTo(-60.5,66.9,-60.1,66.4).lineTo(-60,66.3).curveTo(-59.9,65.5,-59.4,64.8).curveTo(-55.5,58.9,-52.7,52.1).curveTo(-49.9,45.3,-48.7,38.3).curveTo(-47.1,28.7,-47.9,17.9).lineTo(-48,17.4).curveTo(-48.9,11.5,-49.7,3.2).curveTo(-53.4,-8,-60.2,-27.3).curveTo(-60.4,-28.2,-60.3,-29).lineTo(-61.5,-31.9).curveTo(-62.7,-32.4,-63,-33.6).curveTo(-66.1,-44.7,-66.8,-48.9).curveTo(-68.2,-58.6,-65.1,-64.3).curveTo(-65.5,-65.4,-64.8,-66.8).curveTo(-64.3,-67.8,-63.1,-68.4).curveTo(-62.3,-68.7,-60.7,-69.1).curveTo(-58.9,-70.4,-56.2,-71.7).lineTo(-51.5,-73.8).curveTo(-48.7,-75.1,-43.5,-76.9).curveTo(-37.8,-78.8,-35.5,-79.8).lineTo(-35.3,-79.9).curveTo(-35.1,-80.8,-34.2,-80.8).curveTo(-33.3,-80.7,-33.2,-79.7).lineTo(-33.2,-78.7).lineTo(-33,-78).lineTo(-33.2,-73.7).curveTo(-33.2,-69.5,-33.4,-66.2).lineTo(-33.7,-54.2).lineTo(-33.7,-54.1).curveTo(-32.8,-50.5,-32.6,-44.6).lineTo(-32.2,-34.9).curveTo(-30.9,-31.1,-29.6,-25.4).lineTo(-27.5,-15.8).lineTo(-25.3,-7.1).curveTo(-24.1,-1.8,-24.5,1.8).lineTo(-24.2,2.6).curveTo(-20.9,10.6,-17.8,21.8).curveTo(-15.9,28.6,-14.8,32).lineTo(-12.7,37).curveTo(-11.8,38.8,-10.4,42.4).lineTo(-8.2,47.4).lineTo(-4.4,54.8).curveTo(-2.3,59.2,-1.9,62.5).lineTo(-1.6,61.9).lineTo(-1.2,61).curveTo(-0.7,59.2,1.2,59.3).lineTo(4.5,51.8).curveTo(6.1,46.7,9.1,40).lineTo(14.4,28.6).lineTo(14.5,28.2).lineTo(18.7,15.6).lineTo(22.1,4.3).lineTo(24.7,-9.9).lineTo(24.8,-10.2).curveTo(24,-16.6,25.8,-26.5).lineTo(28.8,-42.8).curveTo(30.1,-53.4,30.7,-60.5).curveTo(31.5,-70.3,31.4,-78.3).curveTo(31.4,-79.7,32.5,-80).curveTo(32.9,-80.9,34,-80.9).curveTo(37.1,-80.8,39.5,-79.5).curveTo(40.7,-79.3,42,-78.4).curveTo(42.6,-77.9,43.2,-77.2).curveTo(46.8,-77.1,51.2,-75.5).curveTo(52.7,-74.9,58.8,-72.1).curveTo(63,-70.2,64.3,-69.1).curveTo(66.7,-67.1,67,-63.8).curveTo(67.9,-54.4,63.8,-40.7).curveTo(63.3,-36.7,62.3,-33.1).curveTo(61.1,-28.5,59,-24.1).curveTo(60,-22.7,59.3,-21.2).curveTo(54.6,-10.4,51.8,-3.1).curveTo(49.7,4.7,48.8,16.2).lineTo(48.3,24.5).lineTo(48.5,31.5).curveTo(49.3,40.9,51.4,48.1).curveTo(54,56.8,58.8,63.4).curveTo(59.5,64.4,58.8,65.5).lineTo(60,67).curveTo(60.7,67.7,60.6,68.7).curveTo(60.5,69.7,59.6,70.2).curveTo(41.4,80.3,20.4,80.6).curveTo(19.5,80.6,18.8,80).lineTo(11.5,80.7).curveTo(10.2,80.7,9.7,79.7).curveTo(7.1,80,5,80.1).curveTo(4.3,80.7,3.3,80.8).curveTo(0.3,80.9,-2.7,80.9).curveTo(-11.1,80.9,-19.5,79.6).closePath();
-	this.shape_95.setTransform(67.2059,85.5862);
-
-	this.shape_96 = new cjs.Shape();
-	this.shape_96.graphics.beginFill("#070F21").beginStroke().moveTo(-1.4,61.2).lineTo(-5.6,50).curveTo(-5.8,49.8,-6.1,49.1).lineTo(-15.8,23).lineTo(-15.8,23).lineTo(-16,22.3).lineTo(-17.4,18.6).lineTo(-17.5,18.2).curveTo(-20.9,8.6,-23.5,-1.7).curveTo(-24.6,-2.6,-25,-4).curveTo(-26.4,-10.2,-26.9,-18).curveTo(-30.1,-29.1,-31.3,-38.4).curveTo(-32.8,-49.3,-31.7,-59.4).curveTo(-31.6,-60.6,-30.5,-61.1).curveTo(-29.5,-61.7,-28.6,-61.1).curveTo(-27.6,-61.8,-26.4,-61.7).lineTo(-22.8,-61).curveTo(-21.7,-62.5,-20,-62.4).lineTo(-13,-62.3).curveTo(-9,-62.2,-6,-61.8).curveTo(-4.3,-62,-3.4,-60.5).curveTo(-2.5,-61.7,-1.3,-61.7).curveTo(3.5,-62.3,9,-61.9).curveTo(13.2,-61.7,19.1,-60.8).curveTo(24.2,-61,28.7,-61.8).curveTo(30,-62,31.1,-61.3).curveTo(32.3,-60.5,32.2,-59.1).curveTo(31.2,-49.4,29.5,-39.7).curveTo(30.5,-36.7,29.8,-31.7).curveTo(29.4,-28.9,28.4,-23.8).curveTo(27.2,-16.8,24.4,-8).curveTo(24.2,-1.2,21.4,6.2).curveTo(21,10.3,20.2,14).curveTo(19.1,19.6,17.9,23.2).curveTo(16.2,28.6,13.7,31.9).lineTo(11.3,38).lineTo(11.1,38.4).lineTo(7.3,49.4).curveTo(4.8,55.7,2.1,59.7).lineTo(2,60.7).curveTo(1.9,62.2,0.5,62.4).lineTo(0.2,62.4).curveTo(-0.9,62.4,-1.4,61.2).closePath();
-	this.shape_96.setTransform(65.9961,82.3067);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_2
-	this.instance = new lib.hanger();
-	this.instance.setTransform(64.8,-17.25,1,1,0,0,0,78.2,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.btn_shirt_08, new cjs.Rectangle(-20.4,-80.1,170.4,248.2), null);
+}).prototype = getMCSymbolPrototype(lib.btn_shirt_10, new cjs.Rectangle(-6.3,6.8,146,161.29999999999998), null);
 
 
 (lib.btn_shirt_07 = function(mode,startPosition,loop,reversed) {
@@ -22409,15 +22235,9 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
-	// Layer_2
-	this.instance_1 = new lib.hanger();
-	this.instance_1.setTransform(65.6,-22.75,1,1,0,0,0,78.2,61.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
-
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.btn_shirt_07, new cjs.Rectangle(-19.6,-85.6,170.4,253.7), null);
+}).prototype = getMCSymbolPrototype(lib.btn_shirt_07, new cjs.Rectangle(-6.3,-17.5,146,185.6), null);
 
 
 (lib.btn_pants_tassels = function(mode,startPosition,loop,reversed) {
@@ -23976,113 +23796,113 @@ if (reversed == null) { reversed = false; }
 	// Layer_2
 	this.btn_girl = new lib.btn_girl();
 	this.btn_girl.name = "btn_girl";
-	this.btn_girl.setTransform(376.95,397.8,1,1,0,0,0,128.9,128.9);
+	this.btn_girl.setTransform(647.05,474.65,1,1,0,0,0,128.9,128.9);
 
 	this.btn_boy = new lib.btn_boy();
 	this.btn_boy.name = "btn_boy";
-	this.btn_boy.setTransform(707.15,407.65,1,1,0,0,0,128.9,128.9);
+	this.btn_boy.setTransform(1285.35,462.5,1,1,0,0,0,128.9,128.9);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_boy},{t:this.btn_girl}]}).to({state:[]},1).wait(2));
 
 	// btn_navigation
 	this.btn_back = new lib.btn_back();
 	this.btn_back.name = "btn_back";
-	this.btn_back.setTransform(112,44,1,1,0,0,0,112,36);
+	this.btn_back.setTransform(-52.05,-78.05,1,1,0,0,0,112,36);
 
 	this.btn_reset_boy = new lib.btn_reset();
 	this.btn_reset_boy.name = "btn_reset_boy";
-	this.btn_reset_boy.setTransform(915,704.3,1,1,0,0,0,94.5,31.5);
+	this.btn_reset_boy.setTransform(-310.35,-49.9,1,1,0,0,0,94.5,31.5);
 	new cjs.ButtonHelper(this.btn_reset_boy, 0, 1, 1);
 
 	this.btn_reset_girl = new lib.btn_reset();
 	this.btn_reset_girl.name = "btn_reset_girl";
-	this.btn_reset_girl.setTransform(749.35,704.3,1,1,0,0,0,94.5,31.5);
+	this.btn_reset_girl.setTransform(-476,-49.9,1,1,0,0,0,94.5,31.5);
 	new cjs.ButtonHelper(this.btn_reset_girl, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_reset_girl,p:{x:749.35,y:704.3}},{t:this.btn_reset_boy,p:{x:915,y:704.3}},{t:this.btn_back,p:{x:112,y:44}}]}).to({state:[{t:this.btn_reset_boy,p:{x:1831.65,y:1010.3}},{t:this.btn_back,p:{x:528.3,y:64.5}}]},1).to({state:[{t:this.btn_reset_girl,p:{x:1822.5,y:978.5}},{t:this.btn_back,p:{x:528.15,y:65.1}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_reset_girl,p:{x:-476,y:-49.9}},{t:this.btn_reset_boy,p:{x:-310.35,y:-49.9}},{t:this.btn_back,p:{x:-52.05,y:-78.05}}]}).to({state:[{t:this.btn_reset_boy,p:{x:1831.65,y:1010.3}},{t:this.btn_back,p:{x:528.3,y:64.5}}]},1).to({state:[{t:this.btn_reset_girl,p:{x:1822.5,y:978.5}},{t:this.btn_back,p:{x:528.15,y:65.1}}]},1).wait(1));
 
 	// btn
 	this.btn_wigs_boy_color = new lib.btn_wigs_boy_color();
 	this.btn_wigs_boy_color.name = "btn_wigs_boy_color";
-	this.btn_wigs_boy_color.setTransform(27.65,1450.55,1,1,0,0,0,184,120);
+	this.btn_wigs_boy_color.setTransform(253.8,1260.55,0.8152,0.8152,0,0,0,184.1,120);
 	new cjs.ButtonHelper(this.btn_wigs_boy_color, 0, 1, 1);
 
 	this.btn_pants_color = new lib.btn_pants_color();
 	this.btn_pants_color.name = "btn_pants_color";
-	this.btn_pants_color.setTransform(978.4,1402.15,1,1,0,0,0,184,120);
+	this.btn_pants_color.setTransform(1038.35,1277.9,0.8152,0.815,0,0,0,184,120);
 	new cjs.ButtonHelper(this.btn_pants_color, 0, 1, 1);
 
 	this.btn_wigs_girl_color = new lib.btn_wigs_color();
 	this.btn_wigs_girl_color.name = "btn_wigs_girl_color";
-	this.btn_wigs_girl_color.setTransform(131.05,1358.75,1,1,0,0,0,184,120);
+	this.btn_wigs_girl_color.setTransform(-92.95,1252.5,0.8152,0.8152,0,0,0,184,120);
 	new cjs.ButtonHelper(this.btn_wigs_girl_color, 0, 1, 1);
 
 	this.btn_skirts_color = new lib.btn_skirts_color();
 	this.btn_skirts_color.name = "btn_skirts_color";
-	this.btn_skirts_color.setTransform(868.05,1282.75,1,1,0,0,0,184,120);
+	this.btn_skirts_color.setTransform(656.05,1260.55,0.8152,0.8152,0,0,0,184.1,120);
 	new cjs.ButtonHelper(this.btn_skirts_color, 0, 1, 1);
 
 	this.btn_scarf_01 = new lib.scarf_01();
 	this.btn_scarf_01.name = "btn_scarf_01";
-	this.btn_scarf_01.setTransform(1510.7,925.8,1,1,0,0,0,66.2,60.3);
+	this.btn_scarf_01.setTransform(2273.9,484.3,1,1,0,0,0,66.2,60.3);
 
 	this.btn_necklace_01 = new lib.necklace_01();
 	this.btn_necklace_01.name = "btn_necklace_01";
-	this.btn_necklace_01.setTransform(1382.8,926.05,1,1,0,0,0,25.7,59.2);
+	this.btn_necklace_01.setTransform(2085.55,1160.5,1,1,0,0,0,25.7,59.2);
 
 	this.btn_shoe_boy_01 = new lib.shoe_01();
 	this.btn_shoe_boy_01.name = "btn_shoe_boy_01";
-	this.btn_shoe_boy_01.setTransform(1819.2,576.45,1,1,0,0,0,42.8,23.9);
+	this.btn_shoe_boy_01.setTransform(2183.9,615.45,1,1,0,0,0,42.8,23.9);
 	new cjs.ButtonHelper(this.btn_shoe_boy_01, 0, 1, 1);
 
 	this.btn_shoe_boy_02 = new lib.shoe_02();
 	this.btn_shoe_boy_02.name = "btn_shoe_boy_02";
-	this.btn_shoe_boy_02.setTransform(1805.2,704.05,1,1,0,0,0,40.4,48.5);
+	this.btn_shoe_boy_02.setTransform(2151.3,704.05,1,1,0,0,0,40.4,48.5);
 	new cjs.ButtonHelper(this.btn_shoe_boy_02, 0, 1, 1);
 
 	this.btn_shoe_boy_03 = new lib.shoe_03();
 	this.btn_shoe_boy_03.name = "btn_shoe_boy_03";
-	this.btn_shoe_boy_03.setTransform(1810.45,967.75,1,1,0,0,0,39.8,45.5);
+	this.btn_shoe_boy_03.setTransform(2004.5,1013.8,1,1,0,0,0,39.8,45.5);
 	new cjs.ButtonHelper(this.btn_shoe_boy_03, 0, 1, 1);
 
 	this.btn_shoe_boy_04 = new lib.shoe_04();
 	this.btn_shoe_boy_04.name = "btn_shoe_boy_04";
-	this.btn_shoe_boy_04.setTransform(1807.15,834.5,1,1,0,0,0,36.5,45.4);
+	this.btn_shoe_boy_04.setTransform(2155.5,834.5,1,1,0,0,0,36.5,45.4);
 	new cjs.ButtonHelper(this.btn_shoe_boy_04, 0, 1, 1);
 
 	this.btn_apron_same = new lib.apron_same();
 	this.btn_apron_same.name = "btn_apron_same";
-	this.btn_apron_same.setTransform(452.95,829.65,0.6469,0.6469,0,0,0,124.5,126.2);
+	this.btn_apron_same.setTransform(2031.35,128.05,0.6469,0.6469,0,0,0,124.5,126.2);
 	new cjs.ButtonHelper(this.btn_apron_same, 0, 1, 1);
 
 	this.btn_apron_06 = new lib.apron_06();
 	this.btn_apron_06.name = "btn_apron_06";
-	this.btn_apron_06.setTransform(626.7,768.15,0.6469,0.6469,0,0,0,103.7,102.5);
+	this.btn_apron_06.setTransform(2017.9,315.35,0.6469,0.6469,0,0,0,103.7,102.5);
 	new cjs.ButtonHelper(this.btn_apron_06, 0, 1, 1);
 
 	this.btn_apron_05 = new lib.apron_05();
 	this.btn_apron_05.name = "btn_apron_05";
-	this.btn_apron_05.setTransform(778.35,776.8,0.6469,0.6469,0,0,0,115.4,96);
+	this.btn_apron_05.setTransform(2010.15,464.15,0.6469,0.6469,0,0,0,115.4,96);
 	new cjs.ButtonHelper(this.btn_apron_05, 0, 1, 1);
 
 	this.btn_apron_04 = new lib.apron_4();
 	this.btn_apron_04.name = "btn_apron_04";
-	this.btn_apron_04.setTransform(940.85,791.65,0.6469,0.6469,0,0,0,95.9,103.5);
+	this.btn_apron_04.setTransform(2016.8,635.15,0.6469,0.6469,0,0,0,95.9,103.5);
 	new cjs.ButtonHelper(this.btn_apron_04, 0, 1, 1);
 
 	this.btn_apron_03 = new lib.apron_03();
 	this.btn_apron_03.name = "btn_apron_03";
-	this.btn_apron_03.setTransform(740.9,946.2,0.6469,0.6469,0,0,0,117.8,92.8);
+	this.btn_apron_03.setTransform(2219.25,129.75,0.6469,0.6469,0,0,0,117.8,92.8);
 	new cjs.ButtonHelper(this.btn_apron_03, 0, 1, 1);
 
 	this.btn_apron_02 = new lib.apron_02();
 	this.btn_apron_02.name = "btn_apron_02";
-	this.btn_apron_02.setTransform(1071.5,960.8,0.6469,0.6469,0,0,0,101.8,102.5);
+	this.btn_apron_02.setTransform(2206.95,300.85,0.6469,0.6469,0,0,0,101.8,102.5);
 	new cjs.ButtonHelper(this.btn_apron_02, 0, 1, 1);
 
 	this.btn_apron_01 = new lib.apron_01();
 	this.btn_apron_01.name = "btn_apron_01";
-	this.btn_apron_01.setTransform(903.35,965.55,0.6469,0.6469,0,0,0,103,101);
+	this.btn_apron_01.setTransform(2009.3,798.9,0.6469,0.6469,0,0,0,103,101);
 	new cjs.ButtonHelper(this.btn_apron_01, 0, 1, 1);
 
 	this.btn_hat_10 = new lib.hat_10();
@@ -24097,7 +23917,7 @@ if (reversed == null) { reversed = false; }
 
 	this.btn_hat_08 = new lib.hat_08();
 	this.btn_hat_08.name = "btn_hat_08";
-	this.btn_hat_08.setTransform(1736.1,603,0.6148,0.6151,0,0,0,111.2,250.3);
+	this.btn_hat_08.setTransform(-342.5,246.35,0.6148,0.6151,0,0,0,111.2,250.3);
 	new cjs.ButtonHelper(this.btn_hat_08, 0, 1, 1);
 
 	this.btn_hat_07 = new lib.hat_07();
@@ -24112,157 +23932,122 @@ if (reversed == null) { reversed = false; }
 
 	this.btn_shirt_same = new lib.shirt_same();
 	this.btn_shirt_same.name = "btn_shirt_same";
-	this.btn_shirt_same.setTransform(981.3,577.75,0.6934,0.6932,0,0,0,64.5,83.9);
+	this.btn_shirt_same.setTransform(1595,1344.65,0.6934,0.6932,0,0,0,64.5,83.9);
 	new cjs.ButtonHelper(this.btn_shirt_same, 0, 1, 1);
 
 	this.btn_shirt_07 = new lib.shirt_07();
 	this.btn_shirt_07.name = "btn_shirt_07";
-	this.btn_shirt_07.setTransform(1259.8,715.25,0.6978,0.6975,0,0,0,66.7,83.5);
+	this.btn_shirt_07.setTransform(1935.95,1196.3,0.6978,0.6975,0,0,0,66.7,83.5);
 	new cjs.ButtonHelper(this.btn_shirt_07, 0, 1, 1);
 
 	this.btn_shirt_08 = new lib.shirt_08();
 	this.btn_shirt_08.name = "btn_shirt_08";
-	this.btn_shirt_08.setTransform(1142.9,715.85,0.6923,0.692,0,0,0,69.8,83.5);
+	this.btn_shirt_08.setTransform(2205.2,1181.95,0.6923,0.692,0,0,0,69.8,83.5);
 	new cjs.ButtonHelper(this.btn_shirt_08, 0, 1, 1);
 
 	this.btn_shirt_09 = new lib.shirt_09();
 	this.btn_shirt_09.name = "btn_shirt_09";
-	this.btn_shirt_09.setTransform(1259.7,576.35,0.6965,0.6963,0,0,0,66.7,83.5);
+	this.btn_shirt_09.setTransform(1873.4,1343.25,0.6965,0.6963,0,0,0,66.7,83.5);
 	new cjs.ButtonHelper(this.btn_shirt_09, 0, 1, 1);
 
 	this.btn_shirt_10 = new lib.shirt_10();
 	this.btn_shirt_10.name = "btn_shirt_10";
-	this.btn_shirt_10.setTransform(1132.45,577.3,0.696,0.6958,0,0,0,66.8,83.5);
+	this.btn_shirt_10.setTransform(1746.15,1344.2,0.696,0.6958,0,0,0,66.8,83.5);
 	new cjs.ButtonHelper(this.btn_shirt_10, 0, 1, 1);
 
 	this.btn_shirt_11 = new lib.shirt_11();
 	this.btn_shirt_11.name = "btn_shirt_11";
-	this.btn_shirt_11.setTransform(1257.85,438.9,0.6975,0.6974,0,0,0,66.8,83.5);
+	this.btn_shirt_11.setTransform(1657.95,1211.05,0.6975,0.6974,0,0,0,66.8,83.5);
 	new cjs.ButtonHelper(this.btn_shirt_11, 0, 1, 1);
 
 	this.btn_shirt_12 = new lib.shirt_12();
 	this.btn_shirt_12.name = "btn_shirt_12";
-	this.btn_shirt_12.setTransform(1131,435.85,0.6962,0.696,0,0,0,69.5,84.2);
+	this.btn_shirt_12.setTransform(1531.1,1208,0.6962,0.696,0,0,0,69.5,84.2);
 	new cjs.ButtonHelper(this.btn_shirt_12, 0, 1, 1);
-
-	this.btn_hair_brown_braids_girl = new lib.btn_brown();
-	this.btn_hair_brown_braids_girl.name = "btn_hair_brown_braids_girl";
-	this.btn_hair_brown_braids_girl.setTransform(81.45,268.95,0.5986,0.5986,0,0,0,39.6,39.6);
-	new cjs.ButtonHelper(this.btn_hair_brown_braids_girl, 0, 1, 1);
-
-	this.btn_hair_blond__braids_girl = new lib.btn_yellow();
-	this.btn_hair_blond__braids_girl.name = "btn_hair_blond__braids_girl";
-	this.btn_hair_blond__braids_girl.setTransform(11.6,268.95,0.5986,0.5986,0,0,0,39.6,39.6);
-	new cjs.ButtonHelper(this.btn_hair_blond__braids_girl, 0, 1, 1);
-
-	this.btn_hair_brown_straight_girl = new lib.btn_brown();
-	this.btn_hair_brown_straight_girl.name = "btn_hair_brown_straight_girl";
-	this.btn_hair_brown_straight_girl.setTransform(128.85,171.6,0.5986,0.5986,0,0,0,39.6,39.6);
-	new cjs.ButtonHelper(this.btn_hair_brown_straight_girl, 0, 1, 1);
-
-	this.btn_hair_blond_straight_girl = new lib.btn_yellow();
-	this.btn_hair_blond_straight_girl.name = "btn_hair_blond_straight_girl";
-	this.btn_hair_blond_straight_girl.setTransform(11.6,193.95,0.5986,0.5986,0,0,0,39.6,39.6);
-	new cjs.ButtonHelper(this.btn_hair_blond_straight_girl, 0, 1, 1);
 
 	this.btn_pants_ribbons = new lib.btn_pants_ribbons();
 	this.btn_pants_ribbons.name = "btn_pants_ribbons";
-	this.btn_pants_ribbons.setTransform(615.05,674.15,1.2757,1.2757,0,0,0,23.6,26.2);
+	this.btn_pants_ribbons.setTransform(2028.3,1406.55,1.2757,1.2757,0,0,0,23.6,26.2);
 	new cjs.ButtonHelper(this.btn_pants_ribbons, 0, 1, 1);
 
 	this.btn_pants_tassels = new lib.btn_pants_tassels();
 	this.btn_pants_tassels.name = "btn_pants_tassels";
-	this.btn_pants_tassels.setTransform(818.7,590.75,1.2757,1.2757,0,0,0,58,72);
+	this.btn_pants_tassels.setTransform(2231.95,1323.15,1.2757,1.2757,0,0,0,58,72);
 	new cjs.ButtonHelper(this.btn_pants_tassels, 0, 1, 1);
 
 	this.btn_pants_buttons = new lib.btn_pants_buttons();
 	this.btn_pants_buttons.name = "btn_pants_buttons";
-	this.btn_pants_buttons.setTransform(620.05,573.2,1.2757,1.2757,0,0,0,14.6,20.5);
+	this.btn_pants_buttons.setTransform(2033.3,1305.6,1.2757,1.2757,0,0,0,14.6,20.5);
 	new cjs.ButtonHelper(this.btn_pants_buttons, 0, 1, 1);
 
 	this.btn_pants_neutral = new lib.pants_neutral();
 	this.btn_pants_neutral.name = "btn_pants_neutral";
-	this.btn_pants_neutral.setTransform(925.9,111.4,0.698,0.698,0,0,0,71.7,102);
+	this.btn_pants_neutral.setTransform(-476.45,940.3,0.698,0.698,0,0,0,71.7,102);
 	new cjs.ButtonHelper(this.btn_pants_neutral, 0, 1, 1);
 
 	this.btn_jacket_long = new lib.btn_jacket_long_yellow();
 	this.btn_jacket_long.name = "btn_jacket_long";
-	this.btn_jacket_long.setTransform(788.7,118.4,0.7976,0.7976,0,0,0,79,128.4);
+	this.btn_jacket_long.setTransform(-613.65,947.3,0.7976,0.7976,0,0,0,79,128.4);
 	new cjs.ButtonHelper(this.btn_jacket_long, 0, 1, 1);
 
 	this.btn_jacket_short = new lib.btn_jacket_short_yellow();
 	this.btn_jacket_short.name = "btn_jacket_short";
-	this.btn_jacket_short.setTransform(873.15,111.35,0.7976,0.7976,0,0,0,75.2,89.2);
+	this.btn_jacket_short.setTransform(-529.2,940.25,0.7976,0.7976,0,0,0,75.2,89.2);
 	new cjs.ButtonHelper(this.btn_jacket_short, 0, 1, 1);
 
 	this.btn_shirt_06 = new lib.shirt_06();
 	this.btn_shirt_06.name = "btn_shirt_06";
-	this.btn_shirt_06.setTransform(924.65,433.65,0.6922,0.6922,0,0,0,70.5,86.2);
+	this.btn_shirt_06.setTransform(1324.75,1205.8,0.6922,0.6922,0,0,0,70.5,86.2);
 	new cjs.ButtonHelper(this.btn_shirt_06, 0, 1, 1);
 
 	this.btn_shirt_05 = new lib.shirt_05();
 	this.btn_shirt_05.name = "btn_shirt_05";
-	this.btn_shirt_05.setTransform(781.8,575.35,0.6922,0.6922,0,0,0,70.5,91);
+	this.btn_shirt_05.setTransform(1395.5,1342.25,0.6922,0.6922,0,0,0,70.5,91);
 	new cjs.ButtonHelper(this.btn_shirt_05, 0, 1, 1);
 
 	this.btn_shirt_04 = new lib.shirt_04();
 	this.btn_shirt_04.name = "btn_shirt_04";
-	this.btn_shirt_04.setTransform(781.7,435.95,0.6922,0.6922,0,0,0,70.9,84.8);
+	this.btn_shirt_04.setTransform(1506.05,1344.8,0.6922,0.6922,0,0,0,70.9,84.8);
 	new cjs.ButtonHelper(this.btn_shirt_04, 0, 1, 1);
 
 	this.btn_shirt_03 = new lib.shirt_03();
 	this.btn_shirt_03.name = "btn_shirt_03";
-	this.btn_shirt_03.setTransform(922.5,294.25,0.6922,0.6922,0,0,0,67.4,92.2);
+	this.btn_shirt_03.setTransform(-474,1162.6,0.6922,0.6922,0,0,0,67.4,92.2);
 	new cjs.ButtonHelper(this.btn_shirt_03, 0, 1, 1);
 
 	this.btn_shirt_02 = new lib.shirt_02();
 	this.btn_shirt_02.name = "btn_shirt_02";
-	this.btn_shirt_02.setTransform(779.75,292.4,0.6922,0.6922,0,0,0,67.1,83.6);
+	this.btn_shirt_02.setTransform(-616.75,1160.75,0.6922,0.6922,0,0,0,67.1,83.6);
 	new cjs.ButtonHelper(this.btn_shirt_02, 0, 1, 1);
 
 	this.btn_shirt_01 = new lib.shirt_01();
 	this.btn_shirt_01.name = "btn_shirt_01";
-	this.btn_shirt_01.setTransform(924.3,572.55,0.6922,0.6922,0,0,0,70,86.2);
+	this.btn_shirt_01.setTransform(1800.05,1197.4,0.6922,0.6922,0,0,0,70,86.2);
 	new cjs.ButtonHelper(this.btn_shirt_01, 0, 1, 1);
-
-	this.btn_hair_brown = new lib.btn_brown();
-	this.btn_hair_brown.name = "btn_hair_brown";
-	this.btn_hair_brown.setTransform(93.55,268.95,0.5986,0.5986,0,0,0,39.6,39.6);
-	new cjs.ButtonHelper(this.btn_hair_brown, 0, 1, 1);
-
-	this.btn_hair_gray = new lib.btn_gray();
-	this.btn_hair_gray.name = "btn_hair_gray";
-	this.btn_hair_gray.setTransform(18.65,268.95,0.5986,0.5986,0,0,0,39.5,39.6);
-	new cjs.ButtonHelper(this.btn_hair_gray, 0, 1, 1);
-
-	this.btn_hair_blond = new lib.btn_yellow();
-	this.btn_hair_blond.name = "btn_hair_blond";
-	this.btn_hair_blond.setTransform(69.8,167.5,0.5986,0.5986,0,0,0,39.6,39.6);
-	new cjs.ButtonHelper(this.btn_hair_blond, 0, 1, 1);
 
 	this.btn_hat_01 = new lib.hat_01();
 	this.btn_hat_01.name = "btn_hat_01";
-	this.btn_hat_01.setTransform(610.2,280.9,0.6142,0.6142,0,0,0,72.5,75.5);
+	this.btn_hat_01.setTransform(-169.55,891.25,0.6142,0.6142,0,0,0,72.5,75.5);
 	new cjs.ButtonHelper(this.btn_hat_01, 0, 1, 1);
 
 	this.btn_hat_02 = new lib.hat_02();
 	this.btn_hat_02.name = "btn_hat_02";
-	this.btn_hat_02.setTransform(610.15,492.95,0.6142,0.6142,0,0,0,142.1,71.5);
+	this.btn_hat_02.setTransform(-339.85,602.7,0.6142,0.6142,0,0,0,142.1,71.5);
 	new cjs.ButtonHelper(this.btn_hat_02, 0, 1, 1);
 
 	this.btn_hat_03 = new lib.hat_03();
 	this.btn_hat_03.name = "btn_hat_03";
-	this.btn_hat_03.setTransform(607.6,164.75,0.6142,0.6142,0,0,0,81.9,91.6);
+	this.btn_hat_03.setTransform(-154.05,738.3,0.6142,0.6142,0,0,0,81.9,91.6);
 	new cjs.ButtonHelper(this.btn_hat_03, 0, 1, 1);
 
 	this.btn_hat_04 = new lib.hat_04();
 	this.btn_hat_04.name = "btn_hat_04";
-	this.btn_hat_04.setTransform(607.55,48.3,0.6142,0.6142,0,0,0,111.5,87);
+	this.btn_hat_04.setTransform(-158.6,601.85,0.6142,0.6142,0,0,0,111.5,87);
 	new cjs.ButtonHelper(this.btn_hat_04, 0, 1, 1);
 
 	this.btn_hat_05 = new lib.hat_05();
 	this.btn_hat_05.name = "btn_hat_05";
-	this.btn_hat_05.setTransform(1008.65,646,0.6142,0.6142,0,0,0,737.4,495.6);
+	this.btn_hat_05.setTransform(225.8,1241.25,0.6142,0.6142,0,0,0,737.4,495.6);
 	new cjs.ButtonHelper(this.btn_hat_05, 0, 1, 1);
 
 	this.btn_jacket_long_black = new lib.btn_jacket_long_black();
@@ -24332,17 +24117,17 @@ if (reversed == null) { reversed = false; }
 
 	this.shirt_06_btn = new lib.shirt_06_btn();
 	this.shirt_06_btn.name = "shirt_06_btn";
-	this.shirt_06_btn.setTransform(1215.2,599.35,0.8,0.8,0,0,0,70.5,86.3);
+	this.shirt_06_btn.setTransform(1215.2,595.35,0.8,0.8,0,0,0,70.5,86.3);
 	new cjs.ButtonHelper(this.shirt_06_btn, 0, 1, 1);
 
 	this.shirt_05_btn = new lib.shirt_05_btn();
 	this.shirt_05_btn.name = "shirt_05_btn";
-	this.shirt_05_btn.setTransform(1389.6,603.65,0.8,0.8,0,0,0,70.5,91);
+	this.shirt_05_btn.setTransform(1386.6,589.65,0.8,0.8,0,0,0,70.5,91);
 	new cjs.ButtonHelper(this.shirt_05_btn, 0, 1, 1);
 
 	this.shirt_04_btn = new lib.shirt_04_btn();
 	this.shirt_04_btn.name = "shirt_04_btn";
-	this.shirt_04_btn.setTransform(1554.25,395.5,0.8,0.8,0,0,0,70.9,84.8);
+	this.shirt_04_btn.setTransform(1554.25,388.5,0.8,0.8,0,0,0,70.9,84.8);
 	new cjs.ButtonHelper(this.shirt_04_btn, 0, 1, 1);
 
 	this.shirt_03_btn = new lib.shirt_03_btn();
@@ -24352,12 +24137,12 @@ if (reversed == null) { reversed = false; }
 
 	this.shirt_02_btn = new lib.shirt_02_btn();
 	this.shirt_02_btn.name = "shirt_02_btn";
-	this.shirt_02_btn.setTransform(1209.2,396.4,0.8,0.8,0,0,0,67.2,83.8);
+	this.shirt_02_btn.setTransform(1209.2,390.4,0.8,0.8,0,0,0,67.2,83.8);
 	new cjs.ButtonHelper(this.shirt_02_btn, 0, 1, 1);
 
 	this.shirt_01_btn = new lib.shirt_01_btn();
 	this.shirt_01_btn.name = "shirt_01_btn";
-	this.shirt_01_btn.setTransform(1554.15,599.85,0.8,0.8,0,0,0,70,86.3);
+	this.shirt_01_btn.setTransform(1550.15,593.85,0.8,0.8,0,0,0,70,86.3);
 	new cjs.ButtonHelper(this.shirt_01_btn, 0, 1, 1);
 
 	this.btn_shoe_girl_01 = new lib.btn_shoe_01();
@@ -24383,6 +24168,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_collar_01 = new lib.collar();
 	this.btn_collar_01.name = "btn_collar_01";
 	this.btn_collar_01.setTransform(1707.1,667.4,1,1,0,0,0,0,9.7);
+	new cjs.ButtonHelper(this.btn_collar_01, 0, 1, 1);
 
 	this.scarf_01_btn = new lib.scarf_01_btn();
 	this.scarf_01_btn.name = "scarf_01_btn";
@@ -24406,12 +24192,12 @@ if (reversed == null) { reversed = false; }
 
 	this.shirt_07_btn = new lib.btn_shirt_07();
 	this.shirt_07_btn.name = "shirt_07_btn";
-	this.shirt_07_btn.setTransform(1537,599.8,0.8,0.7997,0,0,0,66.8,83.4);
+	this.shirt_07_btn.setTransform(1549,599.8,0.8,0.7997,0,0,0,66.8,83.4);
 	new cjs.ButtonHelper(this.shirt_07_btn, 0, 1, 1);
 
 	this.shirt_08_btn = new lib.btn_shirt_08();
 	this.shirt_08_btn.name = "shirt_08_btn";
-	this.shirt_08_btn.setTransform(1388.15,596.75,0.8,0.7997,0,0,0,69.8,83.5);
+	this.shirt_08_btn.setTransform(1388.15,590.75,0.8,0.7997,0,0,0,69.8,83.5);
 	new cjs.ButtonHelper(this.shirt_08_btn, 0, 1, 1);
 
 	this.shirt_09_btn = new lib.btn_shirt_09();
@@ -24421,59 +24207,80 @@ if (reversed == null) { reversed = false; }
 
 	this.shirt_10_btn = new lib.btn_shirt_10();
 	this.shirt_10_btn.name = "shirt_10_btn";
-	this.shirt_10_btn.setTransform(1387,391.2,0.8,0.7998,0,0,0,66.8,83.5);
+	this.shirt_10_btn.setTransform(1391,391.2,0.8,0.7998,0,0,0,66.8,83.5);
 	new cjs.ButtonHelper(this.shirt_10_btn, 0, 1, 1);
 
 	this.shirt_11_btn = new lib.btn_shirt_11();
 	this.shirt_11_btn.name = "shirt_11_btn";
-	this.shirt_11_btn.setTransform(1226,596.8,0.8,0.7999,0,0,0,66.8,83.5);
+	this.shirt_11_btn.setTransform(1214,591.8,0.8,0.7999,0,0,0,66.8,83.5);
 	new cjs.ButtonHelper(this.shirt_11_btn, 0, 1, 1);
 
 	this.shirt_12_btn = new lib.btn_shirt_12();
 	this.shirt_12_btn.name = "shirt_12_btn";
-	this.shirt_12_btn.setTransform(1228.1,388.4,0.8,0.8,0,0,0,69.5,84.2);
+	this.shirt_12_btn.setTransform(1218.1,388.4,0.8,0.8,0,0,0,69.5,84.2);
 	new cjs.ButtonHelper(this.shirt_12_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_hat_05,p:{x:1008.65,y:646}},{t:this.btn_hat_04,p:{x:607.55,y:48.3}},{t:this.btn_hat_03,p:{x:607.6,y:164.75}},{t:this.btn_hat_02,p:{scaleX:0.6142,scaleY:0.6142,rotation:0,x:610.15,y:492.95}},{t:this.btn_hat_01,p:{rotation:0,x:610.2,y:280.9}},{t:this.btn_hair_blond},{t:this.btn_hair_gray},{t:this.btn_hair_brown},{t:this.btn_shirt_01},{t:this.btn_shirt_02},{t:this.btn_shirt_03},{t:this.btn_shirt_04},{t:this.btn_shirt_05},{t:this.btn_shirt_06},{t:this.btn_jacket_short},{t:this.btn_jacket_long},{t:this.btn_pants_neutral},{t:this.btn_pants_buttons,p:{x:620.05,y:573.2}},{t:this.btn_pants_tassels,p:{x:818.7,y:590.75}},{t:this.btn_pants_ribbons,p:{x:615.05,y:674.15}},{t:this.btn_hair_blond_straight_girl},{t:this.btn_hair_brown_straight_girl},{t:this.btn_hair_blond__braids_girl},{t:this.btn_hair_brown_braids_girl},{t:this.btn_shirt_12},{t:this.btn_shirt_11},{t:this.btn_shirt_10},{t:this.btn_shirt_09},{t:this.btn_shirt_08},{t:this.btn_shirt_07},{t:this.btn_shirt_same},{t:this.btn_hat_06,p:{regX:188.2,regY:75.3,scaleX:0.5544,scaleY:0.5546,rotation:0,x:-169.7,y:439.15}},{t:this.btn_hat_07,p:{regX:171.2,scaleX:0.6027,scaleY:0.6028,rotation:0,x:-157.9,y:333.7}},{t:this.btn_hat_08},{t:this.btn_hat_09,p:{regX:81.9,scaleX:0.6606,scaleY:0.6608,rotation:0,x:-178.6,y:212.1}},{t:this.btn_hat_10,p:{regY:111.8,scaleX:0.6585,scaleY:0.659,rotation:0,x:-173.05,y:100.5}},{t:this.btn_apron_01,p:{regX:103,scaleX:0.6469,scaleY:0.6469,x:903.35,y:965.55}},{t:this.btn_apron_02,p:{regX:101.8,regY:102.5,scaleX:0.6469,scaleY:0.6469,x:1071.5,y:960.8}},{t:this.btn_apron_03,p:{regX:117.8,regY:92.8,scaleX:0.6469,scaleY:0.6469,x:740.9,y:946.2}},{t:this.btn_apron_04,p:{regY:103.5,scaleX:0.6469,scaleY:0.6469,x:940.85,y:791.65}},{t:this.btn_apron_05,p:{regX:115.4,regY:96,scaleX:0.6469,scaleY:0.6469,x:778.35,y:776.8}},{t:this.btn_apron_06,p:{regX:103.7,scaleX:0.6469,scaleY:0.6469,x:626.7,y:768.15}},{t:this.btn_apron_same},{t:this.btn_shoe_boy_04},{t:this.btn_shoe_boy_03},{t:this.btn_shoe_boy_02},{t:this.btn_shoe_boy_01},{t:this.btn_necklace_01},{t:this.btn_scarf_01},{t:this.btn_skirts_color,p:{scaleX:1,scaleY:1,x:868.05,y:1282.75}},{t:this.btn_wigs_girl_color,p:{scaleX:1,scaleY:1,x:131.05,y:1358.75}},{t:this.btn_pants_color,p:{regX:184,scaleX:1,scaleY:1,x:978.4,y:1402.15}},{t:this.btn_wigs_boy_color,p:{regX:184,scaleX:1,scaleY:1,x:27.65,y:1450.55}}]}).to({state:[{t:this.btn_hat_05,p:{x:1903.75,y:432.9}},{t:this.btn_hat_04,p:{x:1631.55,y:175.7}},{t:this.btn_hat_03,p:{x:1312.45,y:183.7}},{t:this.btn_hat_02,p:{scaleX:0.6141,scaleY:0.6141,rotation:-150.0009,x:1180.5,y:179.7}},{t:this.btn_hat_01,p:{rotation:-90,x:1407.7,y:184.85}},{t:this.shirt_01_btn},{t:this.shirt_02_btn},{t:this.shirt_03_btn},{t:this.shirt_04_btn},{t:this.shirt_05_btn},{t:this.shirt_06_btn},{t:this.btn_jacket_short_yellow},{t:this.pants_neutral_btn},{t:this.btn_pants_buttons,p:{x:1662.85,y:685.85}},{t:this.btn_pants_tassels,p:{x:1960.05,y:654.85}},{t:this.btn_pants_ribbons,p:{x:1700.7,y:671.5}},{t:this.shoe_boy_04_btn},{t:this.shoe_boy_03_btn},{t:this.shoe_boy_02_btn},{t:this.shoe_boy_01_btn},{t:this.btn_pants_color,p:{regX:184.1,scaleX:0.8152,scaleY:0.8152,x:1354.6,y:868.4}},{t:this.btn_wigs_boy_color,p:{regX:184.1,scaleX:0.8152,scaleY:0.8152,x:573.45,y:924.8}},{t:this.btn_jacket_short_red},{t:this.btn_jacket_short_blue},{t:this.btn_jacket_short_black},{t:this.btn_jacket_long_blue},{t:this.btn_jacket_long_yellow},{t:this.btn_jacket_long_red},{t:this.btn_jacket_long_black}]},1).to({state:[{t:this.shirt_12_btn},{t:this.shirt_11_btn},{t:this.shirt_10_btn},{t:this.shirt_09_btn},{t:this.shirt_08_btn},{t:this.shirt_07_btn},{t:this.btn_hat_07,p:{regX:171.3,scaleX:0.4896,scaleY:0.4897,rotation:180,x:1389.6,y:184.25}},{t:this.hat_08_btn},{t:this.btn_hat_09,p:{regX:82.2,scaleX:0.5365,scaleY:0.5367,rotation:91.4515,x:1172.3,y:186.3}},{t:this.btn_hat_10,p:{regY:111.7,scaleX:0.5349,scaleY:0.5353,rotation:180,x:1503.5,y:168.55}},{t:this.btn_apron_01,p:{regX:103.2,scaleX:0.9259,scaleY:0.9259,x:248.2,y:814.1}},{t:this.btn_apron_02,p:{regX:102,regY:102.8,scaleX:0.9259,scaleY:0.9259,x:242.8,y:720.45}},{t:this.btn_apron_03,p:{regX:117.9,regY:93,scaleX:0.9259,scaleY:0.9259,x:234.1,y:614.95}},{t:this.btn_apron_04,p:{regY:103.7,scaleX:0.9259,scaleY:0.9259,x:238.5,y:529.4}},{t:this.btn_apron_05,p:{regX:115.5,regY:96.2,scaleX:0.9259,scaleY:0.9259,x:238.4,y:431.2}},{t:this.btn_apron_06,p:{regX:103.8,scaleX:0.9259,scaleY:0.9259,x:239.05,y:341.4}},{t:this.btn_dress_same},{t:this.necklace_01_btn},{t:this.scarf_01_btn},{t:this.btn_collar_01},{t:this.btn_shoe_girl_04},{t:this.btn_shoe_girl_03},{t:this.btn_shoe_girl_02},{t:this.btn_shoe_girl_01},{t:this.btn_hat_06,p:{regX:188.3,regY:75.4,scaleX:0.4504,scaleY:0.4505,rotation:180,x:1629,y:196.75}},{t:this.btn_skirts_color,p:{scaleX:0.8152,scaleY:0.8152,x:1311.2,y:870.75}},{t:this.btn_wigs_girl_color,p:{scaleX:0.8152,scaleY:0.8152,x:566.15,y:929.15}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_hat_05,p:{x:225.8,y:1241.25}},{t:this.btn_hat_04,p:{x:-158.6,y:601.85}},{t:this.btn_hat_03,p:{x:-154.05,y:738.3}},{t:this.btn_hat_02,p:{scaleX:0.6142,scaleY:0.6142,rotation:0,x:-339.85,y:602.7}},{t:this.btn_hat_01,p:{rotation:0,x:-169.55,y:891.25}},{t:this.btn_shirt_01},{t:this.btn_shirt_02},{t:this.btn_shirt_03},{t:this.btn_shirt_04},{t:this.btn_shirt_05},{t:this.btn_shirt_06},{t:this.btn_jacket_short},{t:this.btn_jacket_long},{t:this.btn_pants_neutral},{t:this.btn_pants_buttons,p:{x:2033.3,y:1305.6}},{t:this.btn_pants_tassels,p:{x:2231.95,y:1323.15}},{t:this.btn_pants_ribbons,p:{x:2028.3,y:1406.55}},{t:this.btn_shirt_12},{t:this.btn_shirt_11},{t:this.btn_shirt_10},{t:this.btn_shirt_09},{t:this.btn_shirt_08},{t:this.btn_shirt_07},{t:this.btn_shirt_same},{t:this.btn_hat_06,p:{regX:188.2,regY:75.3,scaleX:0.5544,scaleY:0.5546,rotation:0,x:-169.7,y:439.15}},{t:this.btn_hat_07,p:{regX:171.2,scaleX:0.6027,scaleY:0.6028,rotation:0,x:-157.9,y:333.7}},{t:this.btn_hat_08},{t:this.btn_hat_09,p:{regX:81.9,scaleX:0.6606,scaleY:0.6608,rotation:0,x:-178.6,y:212.1}},{t:this.btn_hat_10,p:{regY:111.8,scaleX:0.6585,scaleY:0.659,rotation:0,x:-173.05,y:100.5}},{t:this.btn_apron_01,p:{regX:103,scaleX:0.6469,scaleY:0.6469,x:2009.3,y:798.9}},{t:this.btn_apron_02,p:{regX:101.8,regY:102.5,scaleX:0.6469,scaleY:0.6469,x:2206.95,y:300.85}},{t:this.btn_apron_03,p:{regX:117.8,regY:92.8,scaleX:0.6469,scaleY:0.6469,x:2219.25,y:129.75}},{t:this.btn_apron_04,p:{regY:103.5,scaleX:0.6469,scaleY:0.6469,x:2016.8,y:635.15}},{t:this.btn_apron_05,p:{regX:115.4,regY:96,scaleX:0.6469,scaleY:0.6469,x:2010.15,y:464.15}},{t:this.btn_apron_06,p:{regX:103.7,scaleX:0.6469,scaleY:0.6469,x:2017.9,y:315.35}},{t:this.btn_apron_same},{t:this.btn_shoe_boy_04},{t:this.btn_shoe_boy_03},{t:this.btn_shoe_boy_02},{t:this.btn_shoe_boy_01},{t:this.btn_necklace_01},{t:this.btn_scarf_01},{t:this.btn_skirts_color,p:{regX:184.1,x:656.05,y:1260.55}},{t:this.btn_wigs_girl_color,p:{x:-92.95,y:1252.5}},{t:this.btn_pants_color,p:{regX:184,scaleY:0.815,x:1038.35,y:1277.9}},{t:this.btn_wigs_boy_color,p:{x:253.8,y:1260.55}}]}).to({state:[{t:this.btn_hat_05,p:{x:1903.75,y:432.9}},{t:this.btn_hat_04,p:{x:1631.55,y:175.7}},{t:this.btn_hat_03,p:{x:1312.45,y:183.7}},{t:this.btn_hat_02,p:{scaleX:0.6141,scaleY:0.6141,rotation:-150.0009,x:1180.5,y:179.7}},{t:this.btn_hat_01,p:{rotation:-90,x:1407.7,y:184.85}},{t:this.shirt_01_btn},{t:this.shirt_02_btn},{t:this.shirt_03_btn},{t:this.shirt_04_btn},{t:this.shirt_05_btn},{t:this.shirt_06_btn},{t:this.btn_jacket_short_yellow},{t:this.pants_neutral_btn},{t:this.btn_pants_buttons,p:{x:1662.85,y:685.85}},{t:this.btn_pants_tassels,p:{x:1960.05,y:654.85}},{t:this.btn_pants_ribbons,p:{x:1700.7,y:671.5}},{t:this.shoe_boy_04_btn},{t:this.shoe_boy_03_btn},{t:this.shoe_boy_02_btn},{t:this.shoe_boy_01_btn},{t:this.btn_pants_color,p:{regX:184.1,scaleY:0.8152,x:1354.6,y:868.4}},{t:this.btn_wigs_boy_color,p:{x:573.45,y:924.8}},{t:this.btn_jacket_short_red},{t:this.btn_jacket_short_blue},{t:this.btn_jacket_short_black},{t:this.btn_jacket_long_blue},{t:this.btn_jacket_long_yellow},{t:this.btn_jacket_long_red},{t:this.btn_jacket_long_black}]},1).to({state:[{t:this.shirt_12_btn},{t:this.shirt_11_btn},{t:this.shirt_10_btn},{t:this.shirt_09_btn},{t:this.shirt_08_btn},{t:this.shirt_07_btn},{t:this.btn_hat_07,p:{regX:171.3,scaleX:0.4896,scaleY:0.4897,rotation:180,x:1389.6,y:184.25}},{t:this.hat_08_btn},{t:this.btn_hat_09,p:{regX:82.2,scaleX:0.5365,scaleY:0.5367,rotation:91.4515,x:1172.3,y:186.3}},{t:this.btn_hat_10,p:{regY:111.7,scaleX:0.5349,scaleY:0.5353,rotation:180,x:1503.5,y:168.55}},{t:this.btn_apron_01,p:{regX:103.2,scaleX:0.9259,scaleY:0.9259,x:248.2,y:814.1}},{t:this.btn_apron_02,p:{regX:102,regY:102.8,scaleX:0.9259,scaleY:0.9259,x:242.8,y:720.45}},{t:this.btn_apron_03,p:{regX:117.9,regY:93,scaleX:0.9259,scaleY:0.9259,x:234.1,y:614.95}},{t:this.btn_apron_04,p:{regY:103.7,scaleX:0.9259,scaleY:0.9259,x:238.5,y:529.4}},{t:this.btn_apron_05,p:{regX:115.5,regY:96.2,scaleX:0.9259,scaleY:0.9259,x:238.4,y:431.2}},{t:this.btn_apron_06,p:{regX:103.8,scaleX:0.9259,scaleY:0.9259,x:239.05,y:341.4}},{t:this.btn_dress_same},{t:this.necklace_01_btn},{t:this.scarf_01_btn},{t:this.btn_collar_01},{t:this.btn_shoe_girl_04},{t:this.btn_shoe_girl_03},{t:this.btn_shoe_girl_02},{t:this.btn_shoe_girl_01},{t:this.btn_hat_06,p:{regX:188.3,regY:75.4,scaleX:0.4504,scaleY:0.4505,rotation:180,x:1629,y:196.75}},{t:this.btn_skirts_color,p:{regX:184,x:1311.2,y:870.75}},{t:this.btn_wigs_girl_color,p:{x:566.15,y:929.15}}]},1).wait(1));
 
 	// character
 	this.btn_shoe_girl_01_1 = new lib.shoe_01();
 	this.btn_shoe_girl_01_1.name = "btn_shoe_girl_01_1";
-	this.btn_shoe_girl_01_1.setTransform(1332,754,1,1,0,0,0,42.8,23.9);
+	this.btn_shoe_girl_01_1.setTransform(2227.9,1029.25,1,1,0,0,0,42.8,23.9);
 	new cjs.ButtonHelper(this.btn_shoe_girl_01_1, 0, 1, 1);
 
 	this.btn_shoe_girl_02_1 = new lib.shoe_02();
 	this.btn_shoe_girl_02_1.name = "btn_shoe_girl_02_1";
-	this.btn_shoe_girl_02_1.setTransform(1501.6,778.6,1,1,0,0,0,40.4,48.5);
+	this.btn_shoe_girl_02_1.setTransform(2101.45,1009.75,1,1,0,0,0,40.4,48.5);
 	new cjs.ButtonHelper(this.btn_shoe_girl_02_1, 0, 1, 1);
 
 	this.btn_shoe_girl_03_1 = new lib.shoe_03();
 	this.btn_shoe_girl_03_1.name = "btn_shoe_girl_03_1";
-	this.btn_shoe_girl_03_1.setTransform(1698.25,746.75,1,1,0,0,0,39.8,45.5);
+	this.btn_shoe_girl_03_1.setTransform(2260.05,876.8,1,1,0,0,0,39.8,45.5);
 	new cjs.ButtonHelper(this.btn_shoe_girl_03_1, 0, 1, 1);
 
 	this.btn_shoe_girl_04_1 = new lib.shoe_04();
 	this.btn_shoe_girl_04_1.name = "btn_shoe_girl_04_1";
-	this.btn_shoe_girl_04_1.setTransform(1558.6,621.7,1,1,0,0,0,36.5,45.4);
+	this.btn_shoe_girl_04_1.setTransform(2263.85,732.25,1,1,0,0,0,36.5,45.4);
 	new cjs.ButtonHelper(this.btn_shoe_girl_04_1, 0, 1, 1);
 
 	this.character = new lib.characterai();
 	this.character.name = "character";
-	this.character.setTransform(328.4,363.35,1,1,0,0,0,143.1,358.4);
+	this.character.setTransform(-1419.2,301.05,1,1,0,0,0,143.1,358.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.character,p:{x:328.4,y:363.35,regY:358.4}},{t:this.btn_shoe_girl_04_1},{t:this.btn_shoe_girl_03_1},{t:this.btn_shoe_girl_02_1},{t:this.btn_shoe_girl_01_1}]}).to({state:[{t:this.character,p:{x:143.1,y:358.4,regY:358.4}}]},1).to({state:[{t:this.character,p:{x:143.1,y:315.4,regY:315.4}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.character,p:{x:-1419.2,y:301.05,regY:358.4}},{t:this.btn_shoe_girl_04_1},{t:this.btn_shoe_girl_03_1},{t:this.btn_shoe_girl_02_1},{t:this.btn_shoe_girl_01_1}]}).to({state:[{t:this.character,p:{x:143.1,y:358.4,regY:358.4}}]},1).to({state:[{t:this.character,p:{x:143.1,y:315.4,regY:315.4}}]},1).wait(1));
 
-	// Layer_7
-	this.instance = new lib.bg_1();
-	this.instance.setTransform(951,535,1,1,0,0,0,951,535);
-	this.instance._off = true;
+	// hangers
+	this.instance = new lib.hanger_boy();
+	this.instance.setTransform(1385.25,504.7,0.7448,0.7448,0,0,0,82.9,57.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(2));
+	this.instance_1 = new lib.hanger_boy();
+	this.instance_1.setTransform(1210.4,302.9,0.7448,0.7448,0,0,0,82.9,57.2);
+
+	this.instance_2 = new lib.hanger_boy();
+	this.instance_2.setTransform(1553.35,301.9,0.7448,0.7448,0,0,0,82.9,57.2);
+
+	this.instance_3 = new lib.hanger_boy();
+	this.instance_3.setTransform(1548.6,509.7,0.7448,0.7448,0,0,0,82.9,57.2);
+
+	this.instance_4 = new lib.hanger_boy();
+	this.instance_4.setTransform(1390.25,304.9,0.7448,0.7448,0,0,0,82.9,57.2);
+
+	this.instance_5 = new lib.hanger_boy();
+	this.instance_5.setTransform(1215,511.7,0.7448,0.7448,0,0,0,82.9,57.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5,p:{y:511.7}},{t:this.instance_4},{t:this.instance_3,p:{y:509.7}},{t:this.instance_2,p:{x:1553.35,y:301.9}},{t:this.instance_1,p:{x:1210.4,y:302.9}},{t:this.instance,p:{y:504.7}}]},1).to({state:[{t:this.instance_5,p:{y:505.7}},{t:this.instance_4},{t:this.instance_3,p:{y:515.7}},{t:this.instance_2,p:{x:1536.35,y:303.9}},{t:this.instance_1,p:{x:1218.4,y:297.9}},{t:this.instance,p:{y:509.7}}]},1).wait(1));
+
+	// bg
+	this.instance_6 = new lib.bg_1();
+	this.instance_6.setTransform(951,535,1,1,0,0,0,951,535);
+	this.instance_6._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).wait(2));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-275.1,-7.7,2195.1,1578.3);
+p.nominalBounds = new cjs.Rectangle(-789.5,-114,3095.3,1567.9);
 
 
 // stage content:
@@ -24506,7 +24313,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(685,532.5,1178.3,1038.1);
+p.nominalBounds = new cjs.Rectangle(170.5,426,2135.3,1027.9);
 // library properties:
 lib.properties = {
 	id: '9A70AC701BA1E245BCC9BD39994BFEE7',
@@ -24516,14 +24323,14 @@ lib.properties = {
 	color: "#70AEA3",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1732729306265", id:"bg"},
-		{src:"images/btn_start.png?1732729306265", id:"btn_start"},
-		{src:"images/chair.png?1732729306265", id:"chair"},
-		{src:"images/pants.png?1732729306265", id:"pants"},
-		{src:"images/skirts.png?1732729306265", id:"skirts"},
-		{src:"images/valet_stand_girl.png?1732729306265", id:"valet_stand_girl"},
-		{src:"images/wigs_boy.png?1732729306265", id:"wigs_boy"},
-		{src:"images/wigs_girl.png?1732729306265", id:"wigs_girl"}
+		{src:"images/bg.jpg?1732735144889", id:"bg"},
+		{src:"images/btn_start.png?1732735144889", id:"btn_start"},
+		{src:"images/chair.png?1732735144890", id:"chair"},
+		{src:"images/pants.png?1732735144890", id:"pants"},
+		{src:"images/skirts.png?1732735144890", id:"skirts"},
+		{src:"images/valet_stand_girl.png?1732735144890", id:"valet_stand_girl"},
+		{src:"images/wigs_boy.png?1732735144890", id:"wigs_boy"},
+		{src:"images/wigs_girl.png?1732735144890", id:"wigs_girl"}
 	],
 	preloads: []
 };

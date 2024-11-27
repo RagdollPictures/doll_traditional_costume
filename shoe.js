@@ -2,28 +2,38 @@ import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
 
 export function initializeShoes() {
-    buttons.girlShoes.forEach((button, index) => {
-        if (button) {
-            button.addEventListener('click', () => {
-                showShoes(index);
-            });
-        }
-    });
+    const shoeButtons = [...buttons.girlShoes, ...buttons.boyShoes];
 
-    buttons.boyShoes.forEach((button, index) => {
+    shoeButtons.forEach((button, index) => {
         if (button) {
             button.addEventListener('click', () => {
-                showShoes(index);
+                showShoes(index, shoeButtons, buttons.girlShoes.length);
             });
         }
     });
 }
 
-function showShoes(index) {
+function showShoes(index, shoeButtons, girlShoesCount) {
     const shoes = movieClips.shoes;
+
+
+    const isGirlShoe = index < girlShoesCount;
+    const shoeIndex = isGirlShoe ? index + 1 : index - girlShoesCount + 1;
+
+    const leftShoeKey = `shoe_left_0${shoeIndex}`;
+    const rightShoeKey = `shoe_right_0${shoeIndex}`;
+
+
     hideAllShoes(shoes);
-    shoes[`shoe_left_0${index + 1}`].visible = true;
-    shoes[`shoe_right_0${index + 1}`].visible = true;
+
+    if (shoes[leftShoeKey]) {
+        shoes[leftShoeKey].visible = true;
+    }
+    if (shoes[rightShoeKey]) {
+        shoes[rightShoeKey].visible = true;
+    }
+
+    toggleShoeButtonVisibility(index, shoeButtons);
 }
 
 function hideAllShoes(shoes) {
@@ -31,3 +41,13 @@ function hideAllShoes(shoes) {
         shoe.visible = false;
     });
 }
+
+function toggleShoeButtonVisibility(activeIndex, shoeButtons) {
+    shoeButtons.forEach((button, index) => {
+        if (button) {
+            button.visible = index !== activeIndex;
+        }
+    });
+}
+
+

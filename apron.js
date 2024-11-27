@@ -9,21 +9,41 @@ export function initializeAprons() {
     const cuffs = movieClips.arms;
     const accessories = movieClips.accessories;
 
-    buttons.aprons.forEach(function (button, index) {
+
+    const apronButtons = [...buttons.aprons, buttons.dress.dress_same];
+
+    apronButtons.forEach(function (button, index) {
         if (button) {
             button.addEventListener('click', function () {
-                showApron(index, aprons, shirts, arms, cuffs, accessories);
+                showApron(index, aprons, shirts, arms, cuffs, accessories, apronButtons);
+                toggleApronButtonVisibility(index, apronButtons);
             });
         }
     });
 }
 
-function showApron(index, aprons, shirts, arms, cuffs, accessories) {
+function showApron(index, aprons, shirts, arms, cuffs, accessories, apronButtons) {
+
     Object.keys(aprons).forEach(function (key) {
         aprons[key].visible = false;
     });
 
-    const selectedApronKey = `apron_0${index + 1}`;
+    let selectedApronKey;
+
+    if (index === apronButtons.length - 1) {
+
+        selectedApronKey = 'apron_same';
+
+
+        buttons.shirts.forEach(function (button) {
+            if (button) {
+                button.visible = true;
+            }
+        });
+    } else {
+        selectedApronKey = `apron_0${index + 1}`;
+    }
+
     if (aprons[selectedApronKey]) {
         aprons[selectedApronKey].visible = true;
     }
@@ -45,6 +65,14 @@ function showApron(index, aprons, shirts, arms, cuffs, accessories) {
     resetArmColor(arms);
     showCuff01(cuffs);
     showCollar(accessories, true);
+}
+
+function toggleApronButtonVisibility(activeIndex, apronButtons) {
+    apronButtons.forEach(function (button, index) {
+        if (button) {
+            button.visible = index !== activeIndex;
+        }
+    });
 }
 
 function resetArmColor(arms) {

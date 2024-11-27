@@ -13,6 +13,7 @@ export function initializeShirts() {
         if (button) {
             button.addEventListener('click', function () {
                 showShirt(index, shirts, aprons, arms, cuffs, accessories);
+                toggleShirtButtonVisibility(index);
             });
         }
     });
@@ -35,10 +36,14 @@ function showShirt(index, shirts, aprons, arms, cuffs, accessories) {
     }
 
     if (aprons.apron_same) {
-        aprons.apron_same.visible = false;
+        aprons.apron_same.visible = false; // Ensure the apron_same movie clip is hidden
     }
 
-    
+    // Ensure the dress_same button becomes visible
+    if (buttons.dress.dress_same) {
+        buttons.dress.dress_same.visible = true; // Correctly reference the dress_same button
+    }
+
     if (index + 1 >= 7) {
         resetArmColor(arms);
     }
@@ -47,6 +52,13 @@ function showShirt(index, shirts, aprons, arms, cuffs, accessories) {
     showCollar(accessories, true);
 }
 
+function toggleShirtButtonVisibility(activeIndex) {
+    buttons.shirts.forEach(function (button, index) {
+        if (button) {
+            button.visible = index !== activeIndex; // Hide the clicked button, show the rest
+        }
+    });
+}
 
 function resetArmColor(arms) {
     const [r, g, b] = colors.white;
