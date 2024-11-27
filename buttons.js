@@ -53,7 +53,7 @@ export function initializeButtons() {
             exportRoot.scene.btn_shoe_girl_04,
         ],
         boyShoes: [
-            exportRoot.scene.btn_shoe_boy_01,
+            exportRoot.scene.shoe_boy_01_btn,
             exportRoot.scene.shoe_boy_02_btn,
             exportRoot.scene.shoe_boy_03_btn,
             exportRoot.scene.shoe_boy_04_btn,
@@ -63,33 +63,26 @@ export function initializeButtons() {
             ribbons: exportRoot.scene.btn_pants_ribbons,
             tassels: exportRoot.scene.btn_pants_tassels,
             buttons: exportRoot.scene.btn_pants_buttons,
-            colors: {
-                black: exportRoot.scene.btn_pants_black,
-                yellow: exportRoot.scene.btn_pants_yellow,
-                blue: exportRoot.scene.btn_pants_blue,
-                brown: exportRoot.scene.btn_pants_brown,
-                white: exportRoot.scene.btn_pants_white,
-            }
+            skirtColor: exportRoot.scene.btn_skirts_color,
+            pantsColor:  exportRoot.scene.btn_pants_color,
+            
         },
         jackets: {
-            short: exportRoot.scene.btn_jacket_short,
-            long: exportRoot.scene.btn_jacket_long,
-            colors: {
-                blue: exportRoot.scene.btn_jacket_blue,
-                green: exportRoot.scene.btn_jacket_green,
-                black: exportRoot.scene.btn_jacket_black,
-                brown: exportRoot.scene.btn_jacket_brown,
-
-            }
+            shortYellow: exportRoot.scene.btn_jacket_short_yellow,
+            longYellow: exportRoot.scene.btn_jacket_long_yellow,
+            shortRed: exportRoot.scene.btn_jacket_short_red,
+            longRed: exportRoot.scene.btn_jacket_long_red,
+            shortBlue: exportRoot.scene.btn_jacket_short_blue,
+            longBlue: exportRoot.scene.btn_jacket_long_blue,
+            shortBlack: exportRoot.scene.btn_jacket_short_black,
+            longBlack: exportRoot.scene.btn_jacket_long_black,
+            
         },
         hair: {
-            blond: exportRoot.scene.btn_hair_blond,
-            gray: exportRoot.scene.btn_hair_gray,
-            brown: exportRoot.scene.btn_hair_brown,
-            blondBraidsGirl: exportRoot.scene.btn_hair_blond_braids,
-            brownBraidsGirl: exportRoot.scene.btn_hair_brown_braids,
-            blondStraightGirl: exportRoot.scene.btn_hair_blond_straight,
-            brownStraightGirl: exportRoot.scene.btn_hair_brown_straight
+            girl: exportRoot.scene.btn_wigs_girl_color,
+            boy: exportRoot.scene.btn_wigs_boy_color,
+
+          
 
         },
         accessories: {

@@ -5,52 +5,65 @@ import { colors } from './colors.js';
 export function initializePants() {
     const pants = movieClips.pants;
 
+    
     if (buttons.pants.neutral) {
         buttons.pants.neutral.addEventListener('click', function () {
             showNeutralPants(pants);
         });
     }
-
+ 
     if (buttons.pants.ribbons) {
         buttons.pants.ribbons.addEventListener('click', function () {
             showDecoratedPants(pants, 'ribbons');
         });
     }
-
     if (buttons.pants.tassels) {
         buttons.pants.tassels.addEventListener('click', function () {
             showDecoratedPants(pants, 'tassels');
         });
     }
-
     if (buttons.pants.buttons) {
         buttons.pants.buttons.addEventListener('click', function () {
             showNeutralWithButtons(pants);
         });
     }
 
-    const colorButtons = [
-        { button: buttons.pants.colors.black, color: colors.black },
-        { button: buttons.pants.colors.yellow, color: colors.yellow },
-        { button: buttons.pants.colors.blue, color: colors.blue },
-        { button: buttons.pants.colors.brown, color: colors.brown },
-        { button: buttons.pants.colors.white, color: colors.white }
-    ];
+    
+    if (buttons.pants.pantsColor) {
+        const pantsColorSequence = [colors.yellow, colors.blue, colors.brown, colors.black];
+        let currentColorIndex = 0;
 
-    colorButtons.forEach(function (item) {
-        if (item.button) {
-            item.button.addEventListener('click', function () {
+        buttons.pants.pantsColor.addEventListener('click', function () {
+            const currentColor = pantsColorSequence[currentColorIndex];
+            console.log('Current pants color:', currentColor);
 
-                if (pants.boxers.visible && !pants.neutral.visible && !pants.decoration.visible) {
-                    pants.neutral.visible = true;
-                    pants.boxers.visible = false;
-                }
+            if (!isAnyPantsVisible(pants)) {
+                console.log('No pants visible. Showing neutral pants.');
+                showNeutralPants(pants);
+            }
 
+            changePantsColor(currentColor, pants);
+            currentColorIndex = (currentColorIndex + 1) % pantsColorSequence.length;
+        });
+    }
 
-                changePantsColor(item.color, pants.fills);
-            });
-        }
-    });
+    
+    if (buttons.pants.skirtColor) {
+        const skirtColorSequence = [colors.yellow, colors.blue, colors.brown, colors.white];
+        let currentSkirtColorIndex = 0;
+
+        buttons.pants.skirtColor.addEventListener('click', function () {
+            const currentColor = skirtColorSequence[currentSkirtColorIndex];
+            console.log('Current skirt color:', currentColor);
+
+            changeSkirtColor(currentColor, pants.fills);
+            currentSkirtColorIndex = (currentSkirtColorIndex + 1) % skirtColorSequence.length;
+        });
+    }
+}
+
+function isAnyPantsVisible(pants) {
+    return pants.neutral.visible || pants.decoration.visible || pants.boxers.visible;
 }
 
 function showNeutralPants(pants) {
@@ -61,16 +74,21 @@ function showNeutralPants(pants) {
     pants.decorations.ribbons.visible = false;
     pants.decorations.tassels.visible = false;
     pants.decorations.buttons.visible = false;
+
+    console.log('Showing neutral pants.');
 }
 
 function showDecoratedPants(pants, type) {
-    pants.neutral.visible = false;
-    pants.decoration.visible = true;
+   
+    pants.neutral.visible = false; 
+    pants.decoration.visible = true; 
     pants.boxers.visible = false;
 
-    pants.decorations.ribbons.visible = (type === 'ribbons');
-    pants.decorations.tassels.visible = (type === 'tassels');
+    pants.decorations.ribbons.visible = type === 'ribbons';
+    pants.decorations.tassels.visible = type === 'tassels';
     pants.decorations.buttons.visible = false;
+
+    console.log(`Showing decorated pants with ${type}.`);
 }
 
 function showNeutralWithButtons(pants) {
@@ -81,17 +99,49 @@ function showNeutralWithButtons(pants) {
     pants.decorations.ribbons.visible = false;
     pants.decorations.tassels.visible = false;
     pants.decorations.buttons.visible = true;
+
+    console.log('Showing neutral pants with buttons decoration.');
 }
 
-export function changePantsColor(rgbArray, fills) {
-    const r = rgbArray[0], g = rgbArray[1], b = rgbArray[2];
+export function changePantsColor(rgbArray, pants) {
+    if (!Array.isArray(rgbArray) || rgbArray.length !== 3) {
+        console.error('Invalid rgbArray:', rgbArray);
+        return;
+    }
 
-    fills.neutral.filters = [new createjs.ColorFilter(0, 0, 0, 1, r, g, b)];
-    fills.neutral.cache(0, 0, fills.neutral.nominalBounds.width, fills.neutral.nominalBounds.height);
+    if(pants.boxers?.visible){
+        pants.neutral.visible = true;
+        pants.boxers.visible = false;
+    }
 
-    fills.decoration.filters = [new createjs.ColorFilter(0, 0, 0, 1, r, g, b)];
-    fills.decoration.cache(0, 0, fills.decoration.nominalBounds.width, fills.decoration.nominalBounds.height);
+    const [r, g, b] = rgbArray;
 
-    fills.skirt.filters = [new createjs.ColorFilter(0, 0, 0, 1, r, g, b)];
-    fills.skirt.cache(0, 0, fills.skirt.nominalBounds.width, fills.decoration.nominalBounds.height);
+    if (pants.fills?.neutral) {
+        applyColorFilter(pants.fills.neutral, r, g, b);
+    }
+
+    if (pants.fills?.decoration) {
+        applyColorFilter(pants.fills.decoration, r, g, b);
+    }
+
+    console.log(`Changed pants color to RGB(${r}, ${g}, ${b}).`);
+}
+
+
+export function changeSkirtColor(rgbArray, fills) {
+    if (!Array.isArray(rgbArray) || rgbArray.length !== 3) {
+        console.error('Invalid rgbArray:', rgbArray);
+        return;
+    }
+    const [r, g, b] = rgbArray;
+
+    if (fills.skirt) {
+        applyColorFilter(fills.skirt, r, g, b);
+    }
+}
+
+function applyColorFilter(target, r, g, b) {
+    target.filters = [new createjs.ColorFilter(0, 0, 0, 1, r, g, b)];
+    target.cache(0, 0, target.nominalBounds.width, target.nominalBounds.height);
+    console.log(`Applied color filter RGB(${r}, ${g}, ${b}) to`, target);
 }

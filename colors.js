@@ -4,5 +4,6 @@ export const colors = {
     blue: [29, 67, 138],
     brown: [165, 42, 42],
     green: [63, 119, 69],
-    white: [239, 241, 236]
+    white: [239, 241, 236],
+    
 };

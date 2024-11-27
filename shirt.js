@@ -38,10 +38,15 @@ function showShirt(index, shirts, aprons, arms, cuffs, accessories) {
         aprons.apron_same.visible = false;
     }
 
-    resetArmColor(arms);
+    
+    if (index + 1 >= 7) {
+        resetArmColor(arms);
+    }
+
     showCuff01(cuffs);
     showCollar(accessories, true);
 }
+
 
 function resetArmColor(arms) {
     const [r, g, b] = colors.white;

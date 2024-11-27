@@ -121,76 +121,143 @@ export function initializeHair() {
         });
     }
 
-    if (buttons.hair.blondStraightGirl) {
-        buttons.hair.blondStraightGirl.addEventListener('click', function () {
+   
 
-            hideAllHairs();
-
-            showHairs.front.blondGirl.visible = true;
-            showHairs.middleLeft.blondGirl.visible = true;
-            showHairs.middleRight.blondGirl.visible = true;
-            showHairs.bottom.blondGirlStraight.visible = true;
-            showHairs.behind.blondGirl.visible = true;
-
-
-
+    if (buttons.hair.girl) {
+        const wigsSequence = [
+            {
+                front: showHairs.front.blondGirl,
+                middleLeft: showHairs.middleLeft.blondGirl,
+                middleRight: showHairs.middleRight.blondGirl,
+                bottom: showHairs.bottom.blondGirlStraight,
+                behind: showHairs.behind.blondGirl
+            },
+            {
+                front: showHairs.front.brownGirl,
+                middleLeft: showHairs.middleLeft.brownGirl,
+                middleRight: showHairs.middleRight.brownGirl,
+                bottom: showHairs.bottom.brownGirlStraight,
+                behind: showHairs.behind.brownGirl
+            },
+            {
+                front: showHairs.front.brownGirl,
+                middleLeft: showHairs.middleLeft.brownGirl,
+                middleRight: showHairs.middleRight.brownGirl,
+                bottom: showHairs.bottom.brownGirlBraids,
+                behind: showHairs.behind.brownGirl
+            },
+            {
+                front: showHairs.front.blondGirl,
+                middleLeft: showHairs.middleLeft.blondGirl,
+                middleRight: showHairs.middleRight.blondGirl,
+                bottom: showHairs.bottom.blondGirlBraids,
+                behind: showHairs.behind.blondGirl
+            }
+        ];
+    
+        let currentWigIndex = 0;
+    
+        function hideAllWigs() {
+            wigsSequence.forEach(wig => {
+                wig.front.visible = false;
+                wig.middleLeft.visible = false;
+                wig.middleRight.visible = false;
+                wig.bottom.visible = false;
+                wig.behind.visible = false;
+            });
+        }
+    
+        function showCurrentWig() {
+            const currentWig = wigsSequence[currentWigIndex];
+            hideAllWigs(); 
+            currentWig.front.visible = true;
+            currentWig.middleLeft.visible = true;
+            currentWig.middleRight.visible = true;
+            currentWig.bottom.visible = true;
+            currentWig.behind.visible = true;
+           
             if (isAnyHatVisible()) {
                 hideAllBehindHairs();
             }
+        }
+    
+        buttons.hair.girl.addEventListener('click', function () {
+            showCurrentWig();
+            currentWigIndex = (currentWigIndex + 1) % wigsSequence.length; 
         });
     }
 
-    if (buttons.hair.brownStraightGirl) {
-        buttons.hair.brownStraightGirl.addEventListener('click', function () {
-            hideAllHairs();
 
-            showHairs.front.brownGirl.visible = true;
-            showHairs.middleLeft.brownGirl.visible = true;
-            showHairs.middleRight.brownGirl.visible = true;
-            showHairs.bottom.brownGirlStraight.visible = true;
-            showHairs.behind.brownGirl.visible = true;
-
+    if (buttons.hair.boy) {
+        const wigsSequence = [
+            
+            {
+                front: showHairs.front.brown,
+                middleLeft: showHairs.middleLeft.brown,
+                middleRight: showHairs.middleRight.brown,
+                bottom: showHairs.bottom.brown,
+                behind: showHairs.behind.brown,
+                beard: false 
+            },
+            {
+                front: showHairs.front.gray,
+                middleLeft: showHairs.middleLeft.gray,
+                middleRight: showHairs.middleRight.gray,
+                bottom: showHairs.bottom.gray,
+                behind: showHairs.behind.gray,
+                beard: true 
+            },
+            {
+                front: showHairs.front.blond,
+                middleLeft: showHairs.middleLeft.blond,
+                middleRight: showHairs.middleRight.blond,
+                bottom: showHairs.bottom.blond,
+                behind: showHairs.behind.blond,
+                beard: false
+            },
+        ];
+    
+        let currentWigIndex = 0;
+    
+        function hideAllWigs() {
+            wigsSequence.forEach(wig => {
+                wig.front.visible = false;
+                wig.middleLeft.visible = false;
+                wig.middleRight.visible = false;
+                wig.bottom.visible = false;
+                wig.behind.visible = false;
+            });
+            beard.visible = false; 
+        }
+    
+        function showCurrentWig() {
+            const currentWig = wigsSequence[currentWigIndex];
+            hideAllWigs(); 
+            currentWig.front.visible = true;
+            currentWig.middleLeft.visible = true;
+            currentWig.middleRight.visible = true;
+            currentWig.bottom.visible = true;
+            currentWig.behind.visible = true;
+    
+            if (currentWig.beard) {
+                beard.visible = true; 
+            }
+    
             if (isAnyHatVisible()) {
                 hideAllBehindHairs();
             }
+    
+            console.log(`Showing boy wig: Index ${currentWigIndex}`);
+        }
+    
+        buttons.hair.boy.addEventListener('click', function () {
+            showCurrentWig();
+            currentWigIndex = (currentWigIndex + 1) % wigsSequence.length;
         });
     }
-
-    if (buttons.hair.brownBraidsGirl) {
-        buttons.hair.brownBraidsGirl.addEventListener('click', function () {
-
-            hideAllHairs();
-
-            showHairs.front.brownGirl.visible = true;
-            showHairs.middleLeft.brownGirl.visible = true;
-            showHairs.middleRight.brownGirl.visible = true;
-            showHairs.bottom.brownGirlBraids.visible = true;
-            showHairs.behind.brownGirl.visible = true;
-
-
-
-            if (isAnyHatVisible()) {
-                hideAllBehindHairs();
-            }
-        });
-    }
-
-    if (buttons.hair.blondBraidsGirl) {
-        buttons.hair.blondBraidsGirl.addEventListener('click', function () {
-            hideAllHairs();
-
-            showHairs.front.blondGirl.visible = true;
-            showHairs.middleLeft.blondGirl.visible = true;
-            showHairs.middleRight.blondGirl.visible = true;
-            showHairs.bottom.blondGirlBraids.visible = true;
-            showHairs.behind.blondGirl.visible = true;
-
-
-            if (isAnyHatVisible()) {
-                hideAllBehindHairs();
-            }
-        });
-    }
+    
+    
+    
 }
 
 
