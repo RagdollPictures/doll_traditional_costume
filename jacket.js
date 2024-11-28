@@ -19,20 +19,22 @@ export function initializeJackets() {
 
     jacketButtons.forEach(({ button, jacket, color }) => {
         if (button) {
-            button.addEventListener('click', () => {
-
+           
+            const eventHandler = () => {
                 jackets.short.visible = jacket === 'short';
                 jackets.long.visible = jacket === 'long';
 
                 tintJacketAndArmsColor(color, jackets, arms);
-
                 toggleJacketButtonVisibility(button, jacketButtons);
-            });
-        } else {
-            console.error(`Button for ${jacket} jacket not found.`);
+            };
+
+            
+            button.removeEventListener('click', eventHandler);
+            button.addEventListener('click', eventHandler);
         }
     });
 }
+
 
 function toggleJacketButtonVisibility(activeButton, jacketButtons) {
     jacketButtons.forEach(({ button }) => {
@@ -62,5 +64,4 @@ export function tintJacketAndArmsColor(rgbArray, jackets, arms) {
         }
     });
 
-    console.log(`Tinted jackets and arms with color RGB(${r}, ${g}, ${b}).`);
 }

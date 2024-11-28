@@ -12,63 +12,63 @@ export function initializePants() {
         { button: buttons.pants.buttons, action: () => showNeutralWithButtons(pants) },
     ];
 
-    // Add event listeners to pants buttons
     pantsButtons.forEach(({ button, action }) => {
         if (button) {
-            button.addEventListener('click', () => {
+            const pantsListener = function () {
                 action();
                 togglePantsButtonVisibility(button, pantsButtons);
-            });
-        } else {
-            console.error("Button not found.");
+            };
+
+            button.removeEventListener('click', pantsListener);
+            button.addEventListener('click', pantsListener);
         }
     });
 
-    // Add color-changing functionality for pants
     if (buttons.pants.pantsColor) {
         const pantsColorSequence = [colors.yellow, colors.blue, colors.brown, colors.black];
         let currentColorIndex = 0;
 
-        buttons.pants.pantsColor.addEventListener('click', function () {
+        const pantsColorListener = function () {
             const currentColor = pantsColorSequence[currentColorIndex];
-            console.log('Current pants color:', currentColor);
 
             if (!isAnyPantsVisible(pants)) {
-                console.log('No pants visible. Showing neutral pants.');
                 showNeutralPants(pants);
             }
 
             changePantsColor(currentColor, pants);
             currentColorIndex = (currentColorIndex + 1) % pantsColorSequence.length;
-        });
+        };
+
+        buttons.pants.pantsColor.removeEventListener('click', pantsColorListener);
+        buttons.pants.pantsColor.addEventListener('click', pantsColorListener);
     }
 
-    // Add color-changing functionality for skirts
     if (buttons.pants.skirtColor) {
         const skirtColorSequence = [colors.yellow, colors.blue, colors.brown, colors.white];
         let currentSkirtColorIndex = 0;
 
-        buttons.pants.skirtColor.addEventListener('click', function () {
+        const skirtColorListener = function () {
             const currentColor = skirtColorSequence[currentSkirtColorIndex];
-            console.log('Current skirt color:', currentColor);
 
             changeSkirtColor(currentColor, pants.fills);
             currentSkirtColorIndex = (currentSkirtColorIndex + 1) % skirtColorSequence.length;
-        });
+        };
+
+        buttons.pants.skirtColor.removeEventListener('click', skirtColorListener);
+        buttons.pants.skirtColor.addEventListener('click', skirtColorListener);
     }
 }
+
 
 function togglePantsButtonVisibility(activeButton, pantsButtons) {
     pantsButtons.forEach(({ button }) => {
         if (button) {
-            // Do not hide the pants.neutral button
             button.visible = button === buttons.pants.neutral || button !== activeButton;
         }
     });
 }
 
 
-// Rest of your helper functions remain unchanged
 function isAnyPantsVisible(pants) {
     return pants.neutral.visible || pants.decoration.visible || pants.boxers.visible;
 }
@@ -82,7 +82,6 @@ function showNeutralPants(pants) {
     pants.decorations.tassels.visible = false;
     pants.decorations.buttons.visible = false;
 
-    console.log('Showing neutral pants.');
 }
 
 function showDecoratedPants(pants, type) {
@@ -93,8 +92,6 @@ function showDecoratedPants(pants, type) {
     pants.decorations.ribbons.visible = type === 'ribbons';
     pants.decorations.tassels.visible = type === 'tassels';
     pants.decorations.buttons.visible = false;
-
-    console.log(`Showing decorated pants with ${type}.`);
 }
 
 function showNeutralWithButtons(pants) {
@@ -106,13 +103,10 @@ function showNeutralWithButtons(pants) {
     pants.decorations.tassels.visible = false;
     pants.decorations.buttons.visible = true;
 
-    console.log('Showing neutral pants with buttons decoration.');
 }
 
-// Existing color-changing helper functions remain unchanged
 export function changePantsColor(rgbArray, pants) {
     if (!Array.isArray(rgbArray) || rgbArray.length !== 3) {
-        console.error('Invalid rgbArray:', rgbArray);
         return;
     }
 
@@ -131,12 +125,10 @@ export function changePantsColor(rgbArray, pants) {
         applyColorFilter(pants.fills.decoration, r, g, b);
     }
 
-    console.log(`Changed pants color to RGB(${r}, ${g}, ${b}).`);
 }
 
 export function changeSkirtColor(rgbArray, fills) {
     if (!Array.isArray(rgbArray) || rgbArray.length !== 3) {
-        console.error('Invalid rgbArray:', rgbArray);
         return;
     }
     const [r, g, b] = rgbArray;
@@ -149,5 +141,4 @@ export function changeSkirtColor(rgbArray, fills) {
 function applyColorFilter(target, r, g, b) {
     target.filters = [new createjs.ColorFilter(0, 0, 0, 1, r, g, b)];
     target.cache(0, 0, target.nominalBounds.width, target.nominalBounds.height);
-    console.log(`Applied color filter RGB(${r}, ${g}, ${b}) to`, target);
 }

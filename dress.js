@@ -5,11 +5,17 @@ import { colors } from './colors.js';
 export function initializeDress() {
     const dressSameButton = buttons.dress.dress_same;
     if (dressSameButton) {
-        dressSameButton.addEventListener('click', () => {
+       
+        const eventHandler = () => {
             showDressSame();
-        });
+        };
+       
+        dressSameButton.removeEventListener('click', eventHandler);
+        dressSameButton.addEventListener('click', eventHandler);
     }
 }
+
+
 
 function showDressSame() {
     const aprons = movieClips.aprons;

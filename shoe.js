@@ -6,12 +6,16 @@ export function initializeShoes() {
 
     shoeButtons.forEach((button, index) => {
         if (button) {
-            button.addEventListener('click', () => {
+            const shoeListener = function () {
                 showShoes(index, shoeButtons, buttons.girlShoes.length);
-            });
+            };
+
+            button.removeEventListener('click', shoeListener);
+            button.addEventListener('click', shoeListener);
         }
     });
 }
+
 
 function showShoes(index, shoeButtons, girlShoesCount) {
     const shoes = movieClips.shoes;

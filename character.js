@@ -55,6 +55,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,368,240);
 p.nominalBounds = new cjs.Rectangle(0,0,368,240);
 
 
+(lib.start = function() {
+	this.initialize(img.start);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
+
+
 (lib.valet_stand_girl = function() {
 	this.initialize(img.valet_stand_girl);
 }).prototype = p = new cjs.Bitmap();
@@ -5976,14 +5982,14 @@ if (reversed == null) { reversed = false; }
 
 	// fill
 	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.beginFill("#EFF1EC").beginStroke().moveTo(162.6,157.7).curveTo(159.3,157.4,155.2,156.3).curveTo(152.7,155.6,148,154.1).curveTo(144.8,153.1,143.3,152.4).curveTo(140.7,151.3,138.9,149.8).curveTo(137.2,148.4,135.7,146).curveTo(134.7,144.5,133.2,141.6).curveTo(130.3,136.1,130.2,132.7).curveTo(130.2,130.4,131.3,126.5).lineTo(131.8,124.7).curveTo(131.6,119.9,131.9,114.5).curveTo(132.1,109.3,133.2,99.3).lineTo(134.2,90.3).curveTo(135.5,77.8,136.4,71.1).curveTo(137.8,60.7,140,53.9).lineTo(140.5,49.6).curveTo(142.1,36.7,146,12.5).curveTo(147.2,4,147.5,1.3).curveTo(147.7,-1,147.9,-4.6).lineTo(148.3,-10.6).curveTo(148.8,-17.3,150.3,-25.4).curveTo(151.3,-31,153.4,-40.1).lineTo(154.1,-42.7).lineTo(152.5,-43.1).curveTo(149.9,-43.4,148.6,-43.7).curveTo(145.9,-44.3,142.7,-45.7).lineTo(142.1,-46).lineTo(137.3,-27.2).curveTo(135.1,-18.8,134.4,-14.8).lineTo(133.4,-8.7).lineTo(132.9,-5.1).lineTo(132.7,-2.3).lineTo(132.7,-2).curveTo(132.7,-1.1,132.6,-0.1).lineTo(132.4,0.6).curveTo(131.6,9.8,130.5,16.9).curveTo(130.2,18.5,129.8,19.7).lineTo(128.8,25.2).lineTo(123.2,54.2).curveTo(122.8,56.3,122.5,57.2).lineTo(122.3,57.8).curveTo(120.5,74.2,119.8,78.2).lineTo(119.3,80.6).lineTo(118.4,87.4).curveTo(117.9,91.1,117.6,92.9).curveTo(117,95.9,116.1,98.2).curveTo(115.2,100.6,113.9,101.8).curveTo(113.3,102.4,112.6,102.8).lineTo(111.4,106.6).curveTo(110.6,109.1,109.6,110.4).curveTo(108.5,111.7,106.8,112.2).curveTo(103.5,120.5,100,127.7).curveTo(98.3,131,97,132.5).curveTo(94.9,134.7,92.4,135).curveTo(91.2,136.9,89.7,137.9).curveTo(88,139,85.4,139.3).curveTo(83.8,139.5,80.8,139.3).lineTo(68.5,138.7).curveTo(63.5,138.4,61.4,137.6).curveTo(57.8,136.1,54.6,131.8).curveTo(48.5,123.9,47.2,113.9).curveTo(46.9,111.1,46.8,105.6).curveTo(46.7,98.1,47,95.1).curveTo(47.5,90.1,49.5,82.8).lineTo(52.8,70.5).curveTo(55.4,59.9,56.2,42.9).curveTo(57.3,18.4,57.7,15).lineTo(58.5,7.6).curveTo(58.9,3.3,58.9,0.1).lineTo(58,-12.1).curveTo(57.5,-19.4,58.5,-24.1).curveTo(59.1,-26.9,60.2,-29.5).curveTo(58.4,-44.8,63.1,-63.1).curveTo(66,-74.4,70.6,-81.2).curveTo(72.7,-84.4,77.1,-89.2).curveTo(80.4,-92.7,83,-94.5).curveTo(86.2,-96.7,89.3,-97.1).lineTo(89.9,-97.6).curveTo(91.5,-98.7,93.9,-99.4).curveTo(95.4,-99.8,98.2,-100.2).lineTo(127.7,-104.6).curveTo(135.7,-105.7,139.4,-105.3).curveTo(141.5,-105,144.7,-104.2).lineTo(149.9,-102.8).curveTo(152.3,-102.3,158.6,-101.5).curveTo(164.2,-100.9,167.3,-100).curveTo(169.4,-99.4,173.4,-97.8).curveTo(177.5,-96.2,179.6,-95.6).curveTo(181.2,-95.2,184.7,-94.5).curveTo(188,-93.8,189.7,-93.3).curveTo(191.2,-92.8,192.9,-92.2).curveTo(194.2,-92.9,195.9,-93).curveTo(197.2,-93.1,198.8,-92.6).lineTo(201.7,-91.6).lineTo(212.6,-88.3).curveTo(219.1,-86.3,222.9,-83.8).lineTo(225.5,-81.8).curveTo(227.1,-80.6,228.2,-79.9).lineTo(231.1,-78.4).curveTo(232.8,-77.4,233.7,-76.6).curveTo(234.6,-75.8,236.1,-74.1).curveTo(236.9,-73.3,239.3,-71.9).curveTo(241.4,-70.6,242.3,-69.5).curveTo(243.6,-68,243.8,-65.9).curveTo(244,-63.9,243.1,-62.2).curveTo(242.5,-61.1,241.5,-60.3).lineTo(241,-59.7).curveTo(240.1,-59,239,-59).curveTo(237.8,-58.6,236.6,-58.8).curveTo(234.7,-59,232.4,-60.5).lineTo(228.5,-63).curveTo(227.2,-63.7,224.7,-64.4).curveTo(225,-60.9,224.9,-56.5).lineTo(224.9,-55.7).curveTo(225.3,-54.3,225.6,-52.6).curveTo(226,-49.2,226,-44.9).lineTo(225.7,-37.2).lineTo(225.7,-36.9).curveTo(226.8,-31,227,-25.6).curveTo(227.2,-21.8,226.9,-14.3).curveTo(226.6,-6.1,226.1,-2).curveTo(225.6,1.8,223.4,12.8).lineTo(219.9,29.9).curveTo(218.9,34.5,216.2,44.7).curveTo(213.7,54.3,212.6,59.5).curveTo(211.8,63.6,210.2,72.5).curveTo(208.1,84.6,206.5,91.3).curveTo(204.1,101.6,200.8,109.5).lineTo(199.2,113.1).curveTo(198.4,115.3,198,116.9).curveTo(197.6,118.3,197.2,121.3).curveTo(196.7,124.2,196.3,125.7).curveTo(195.6,128.1,194.2,129.8).lineTo(193.1,130.9).lineTo(192.4,134.3).curveTo(191.4,138.1,189.7,140.8).curveTo(188.1,143.4,185.1,146.2).lineTo(179.7,151).lineTo(176.8,153.7).curveTo(175.1,155.2,173.7,156.1).curveTo(170.3,158.1,167.3,157.6).curveTo(166.1,157.8,164.7,157.8).lineTo(162.6,157.7).closePath().moveTo(71,-20.5).curveTo(70.8,-20,70.9,-19.3).lineTo(70.9,-18).lineTo(71,-18).lineTo(71.1,-18.9).curveTo(71.3,-19.5,71.2,-19.8).lineTo(71.2,-20.4).lineTo(71.3,-20.7).curveTo(71.3,-20.8,71.3,-20.8).curveTo(71.3,-20.9,71.3,-20.9).curveTo(71.3,-21,71.3,-21).curveTo(71.3,-21,71.2,-21).lineTo(71,-20.5).closePath().moveTo(260.6,31.7).lineTo(259.6,30.6).curveTo(258.6,31.2,257.5,31.4).curveTo(256,31.7,253.7,31.2).curveTo(251.9,30.9,250.7,30.1).curveTo(250.1,29.7,249.3,28.8).lineTo(248.3,27.8).curveTo(247.4,27.4,246.7,26.7).lineTo(245.8,26).curveTo(244.3,24.8,243.8,22.8).curveTo(243.2,20.8,243.9,18.9).curveTo(244.2,18,245.4,15.9).lineTo(246.2,14.2).curveTo(245.3,12.9,245,11.3).curveTo(244.7,9.5,245.3,7.8).curveTo(245.9,6.1,247.1,4.9).curveTo(248.4,3.7,250.3,3.4).lineTo(251.3,3.2).lineTo(251.4,2.9).curveTo(251.7,0.1,253,-0.5).curveTo(253.7,-0.8,254.5,-0.5).curveTo(255.3,-0.3,255.6,0.4).curveTo(255.9,1.1,255.8,2.2).lineTo(255.7,5).curveTo(256.5,5.7,257,6.7).curveTo(257.8,8.3,257.8,10).curveTo(258.2,10.4,258.6,11.2).lineTo(263.9,20.8).curveTo(264.6,22.2,264.9,23.3).curveTo(265.4,24.9,265.3,25.8).curveTo(265.2,27.3,264.1,28).lineTo(263.5,28.2).curveTo(263.7,28.6,263.8,29.2).curveTo(264,30.2,263.6,30.9).curveTo(263.2,31.7,262.3,32).lineTo(261.7,32.1).curveTo(261.1,32.1,260.6,31.7).closePath().moveTo(-264.4,-153.9).curveTo(-265.1,-154.3,-265.3,-155.1).curveTo(-265.5,-155.8,-265.1,-156.6).curveTo(-264.8,-157.3,-264.1,-157.6).lineTo(-263.3,-157.8).curveTo(-262.5,-157.8,-261.9,-157.2).curveTo(-261.2,-156.6,-261.2,-155.9).curveTo(-261.1,-155.1,-261.6,-154.4).curveTo(-262.1,-153.8,-262.9,-153.6).lineTo(-263.3,-153.6).curveTo(-263.8,-153.6,-264.4,-153.9).closePath();
-	this.shape_10.setTransform(-63.6787,92.0257);
+	this.shape_10.graphics.beginFill("#EFF1EC").beginStroke().moveTo(6.5,131.5).curveTo(3.2,131.2,-0.8,130.1).curveTo(-3.4,129.4,-8,127.9).curveTo(-11.2,126.9,-12.8,126.2).curveTo(-15.4,125.1,-17.1,123.6).curveTo(-18.9,122.2,-20.4,119.8).curveTo(-21.3,118.3,-22.9,115.4).curveTo(-25.7,109.9,-25.8,106.5).curveTo(-25.9,104.2,-24.7,100.3).lineTo(-24.2,98.5).curveTo(-24.5,93.8,-24.2,88.3).curveTo(-23.9,83.1,-22.8,73.1).lineTo(-21.9,64.1).curveTo(-20.5,51.6,-19.6,44.9).curveTo(-18.3,34.5,-16.1,27.7).lineTo(-15.6,23.4).curveTo(-14,10.5,-10.1,-13.7).curveTo(-8.8,-22.2,-8.6,-24.9).curveTo(-8.3,-27.2,-8.1,-30.8).lineTo(-7.8,-36.8).curveTo(-7.2,-43.5,-5.7,-51.6).curveTo(-4.7,-57.2,-2.7,-66.3).lineTo(-1.9,-68.9).lineTo(-3.6,-69.3).curveTo(-6.1,-69.6,-7.4,-69.9).curveTo(-10.2,-70.5,-13.4,-71.9).lineTo(-14,-72.2).lineTo(-18.8,-53.4).curveTo(-20.9,-45,-21.7,-41).lineTo(-22.6,-34.9).lineTo(-23.2,-31.3).lineTo(-23.4,-28.5).lineTo(-23.4,-28.2).curveTo(-23.3,-27.3,-23.5,-26.3).lineTo(-23.6,-25.6).curveTo(-24.4,-16.4,-25.6,-9.3).curveTo(-25.8,-7.7,-26.2,-6.5).lineTo(-27.2,-1).lineTo(-32.8,28).curveTo(-33.2,30.1,-33.5,31).lineTo(-33.8,31.7).curveTo(-35.6,48,-36.3,52).lineTo(-36.8,54.4).lineTo(-37.6,61.2).curveTo(-38.1,64.9,-38.5,66.7).curveTo(-39.1,69.7,-40,72).curveTo(-40.9,74.4,-42.1,75.6).curveTo(-42.7,76.2,-43.4,76.6).lineTo(-44.6,80.4).curveTo(-45.5,82.9,-46.5,84.2).curveTo(-47.6,85.5,-49.3,86).curveTo(-52.5,94.4,-56.1,101.5).curveTo(-57.8,104.8,-59.1,106.3).curveTo(-61.1,108.6,-63.6,108.9).curveTo(-64.8,110.7,-66.3,111.7).curveTo(-68.1,112.8,-70.6,113.1).curveTo(-72.2,113.3,-75.3,113.1).lineTo(-87.5,112.5).curveTo(-92.6,112.2,-94.7,111.4).curveTo(-98.2,109.9,-101.5,105.6).curveTo(-107.5,97.7,-108.8,87.7).curveTo(-109.2,84.9,-109.3,79.4).curveTo(-109.4,71.9,-109.1,68.9).curveTo(-108.6,63.9,-106.6,56.6).lineTo(-103.2,44.3).curveTo(-100.7,33.7,-99.9,16.7).curveTo(-98.7,-7.8,-98.4,-11.2).lineTo(-97.6,-18.6).curveTo(-97.2,-22.9,-97.2,-26.1).lineTo(-98,-38.3).curveTo(-98.6,-45.6,-97.6,-50.3).curveTo(-97,-53.1,-95.8,-55.7).curveTo(-97.7,-71,-93,-89.3).curveTo(-90,-100.6,-85.5,-107.4).curveTo(-83.3,-110.6,-78.9,-115.4).curveTo(-75.7,-118.9,-73,-120.7).curveTo(-69.9,-122.9,-66.8,-123.3).lineTo(-66.2,-123.8).curveTo(-64.6,-124.9,-62.2,-125.6).curveTo(-60.6,-126,-57.8,-126.4).lineTo(-28.3,-130.8).curveTo(-20.3,-131.9,-16.6,-131.5).curveTo(-14.5,-131.2,-11.4,-130.4).lineTo(-6.2,-129).curveTo(-3.8,-128.5,2.6,-127.7).curveTo(8.1,-127.1,11.2,-126.2).curveTo(13.3,-125.6,17.4,-124).curveTo(21.4,-122.4,23.5,-121.8).curveTo(25.1,-121.4,28.6,-120.7).curveTo(32,-120,33.7,-119.5).curveTo(35.2,-119,36.8,-118.3).curveTo(38.1,-119.1,39.8,-119.2).curveTo(41.1,-119.3,42.8,-118.8).lineTo(45.7,-117.8).lineTo(56.6,-114.5).curveTo(63.1,-112.5,66.8,-110).lineTo(69.5,-108).curveTo(71.1,-106.8,72.2,-106.1).lineTo(75,-104.6).curveTo(76.7,-103.6,77.7,-102.8).curveTo(78.5,-102,80,-100.3).curveTo(80.9,-99.5,83.2,-98.1).curveTo(85.4,-96.8,86.3,-95.7).curveTo(87.5,-94.2,87.7,-92.1).curveTo(87.9,-90.1,87,-88.4).curveTo(86.4,-87.3,85.5,-86.5).lineTo(84.9,-85.9).curveTo(84.1,-85.2,82.9,-85.1).curveTo(81.7,-84.8,80.5,-85).curveTo(78.7,-85.2,76.4,-86.7).lineTo(72.5,-89.2).curveTo(71.2,-89.9,68.7,-90.6).curveTo(68.9,-87.1,68.8,-82.7).lineTo(68.8,-81.9).curveTo(69.3,-80.5,69.5,-78.8).curveTo(70,-75.4,70,-71.1).lineTo(69.6,-63.4).lineTo(69.6,-63).curveTo(70.8,-57.2,71,-51.8).curveTo(71.1,-48,70.8,-40.5).curveTo(70.5,-32.3,70,-28.2).curveTo(69.6,-24.4,67.3,-13.4).lineTo(63.9,3.7).curveTo(62.8,8.3,60.2,18.5).curveTo(57.7,28.1,56.6,33.3).curveTo(55.7,37.4,54.2,46.3).curveTo(52.1,58.4,50.5,65.1).curveTo(48,75.4,44.7,83.3).lineTo(43.2,86.9).curveTo(42.3,89.1,41.9,90.7).curveTo(41.6,92.1,41.1,95.1).curveTo(40.7,98,40.2,99.5).curveTo(39.5,101.9,38.2,103.6).lineTo(37.1,104.7).lineTo(36.3,108.1).curveTo(35.3,111.9,33.6,114.6).curveTo(32.1,117.2,29,120).lineTo(23.6,124.8).lineTo(20.8,127.5).curveTo(19.1,129,17.7,129.9).curveTo(14.3,131.9,11.2,131.4).curveTo(10,131.6,8.6,131.6).lineTo(6.5,131.5).closePath().moveTo(-85,-46.7).curveTo(-85.2,-46.2,-85.2,-45.5).lineTo(-85.2,-44.2).lineTo(-85.1,-44.2).lineTo(-84.9,-45.1).curveTo(-84.8,-45.7,-84.8,-46).lineTo(-84.8,-46.6).lineTo(-84.7,-46.9).curveTo(-84.7,-47,-84.7,-47).curveTo(-84.7,-47.1,-84.7,-47.1).curveTo(-84.8,-47.1,-84.8,-47.2).curveTo(-84.8,-47.2,-84.8,-47.2).lineTo(-85,-46.7).closePath().moveTo(104.6,5.5).lineTo(103.5,4.4).curveTo(102.6,5,101.5,5.2).curveTo(100,5.5,97.7,5).curveTo(95.9,4.7,94.6,3.9).curveTo(94.1,3.5,93.3,2.6).lineTo(92.2,1.6).curveTo(91.3,1.2,90.6,0.5).lineTo(89.8,-0.2).curveTo(88.3,-1.4,87.7,-3.4).curveTo(87.2,-5.4,87.8,-7.3).curveTo(88.1,-8.2,89.3,-10.3).lineTo(90.2,-12).curveTo(89.3,-13.3,88.9,-14.9).curveTo(88.7,-16.7,89.2,-18.4).curveTo(89.8,-20.1,91.1,-21.3).curveTo(92.4,-22.5,94.2,-22.8).lineTo(95.3,-22.9).lineTo(95.3,-23.3).curveTo(95.6,-26.1,97,-26.7).curveTo(97.6,-27,98.4,-26.7).curveTo(99.2,-26.5,99.6,-25.8).curveTo(99.9,-25.1,99.8,-24).lineTo(99.7,-21.2).curveTo(100.4,-20.5,101,-19.5).curveTo(101.8,-17.9,101.7,-16.2).curveTo(102.1,-15.8,102.6,-15).lineTo(107.8,-5.4).curveTo(108.5,-4,108.8,-2.9).curveTo(109.4,-1.3,109.3,-0.4).curveTo(109.2,1.1,108.1,1.8).lineTo(107.4,2).curveTo(107.7,2.5,107.8,3).curveTo(108,4,107.6,4.7).curveTo(107.2,5.5,106.2,5.8).lineTo(105.7,5.9).curveTo(105.1,5.9,104.6,5.5).closePath();
+	this.shape_10.setTransform(92.3702,118.2124);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_10).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pants_neutral_btn, new cjs.Rectangle(-329,-65.7,531.2,318.6), null);
+}).prototype = getMCSymbolPrototype(lib.pants_neutral_btn, new cjs.Rectangle(-19.1,-15,221.29999999999998,267.9), null);
 
 
 (lib.pants_decoration_tassels_01 = function(mode,startPosition,loop,reversed) {
@@ -14922,36 +14928,36 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#F9EFE5").beginStroke().moveTo(7.1,8.1).lineTo(7.1,-2).curveTo(7.1,-3.4,6.6,-4).curveTo(6,-4.6,4.7,-4.6).curveTo(2.8,-4.6,2.1,-2.8).lineTo(2.1,8.1).lineTo(-2.2,8.1).lineTo(-2.2,-2).curveTo(-2.2,-3.4,-2.7,-4).curveTo(-3.3,-4.6,-4.6,-4.6).curveTo(-6.3,-4.6,-7.2,-3.1).lineTo(-7.2,8.1).lineTo(-11.3,8.1).lineTo(-11.3,-7.8).lineTo(-7.4,-7.8).lineTo(-7.3,-6).curveTo(-5.6,-8.1,-2.7,-8.1).curveTo(0.3,-8.1,1.5,-5.7).curveTo(3.2,-8.1,6.2,-8.1).curveTo(8.8,-8.1,10.1,-6.6).curveTo(11.3,-5.1,11.3,-2).lineTo(11.3,8.1).closePath();
-	this.shape.setTransform(137.6,28.475);
+	this.shape.graphics.beginFill("#F9EFE5").beginStroke().moveTo(7.1,8.1).lineTo(7.1,-2).curveTo(7.1,-3.4,6.5,-4).curveTo(6.1,-4.6,4.7,-4.6).curveTo(2.8,-4.6,2,-2.8).lineTo(2.1,8.1).lineTo(-2.1,8.1).lineTo(-2.1,-2).curveTo(-2.1,-3.4,-2.7,-4).curveTo(-3.3,-4.6,-4.6,-4.6).curveTo(-6.3,-4.6,-7.2,-3.1).lineTo(-7.2,8.1).lineTo(-11.4,8.1).lineTo(-11.4,-7.8).lineTo(-7.4,-7.8).lineTo(-7.2,-6).curveTo(-5.6,-8.1,-2.7,-8.1).curveTo(0.3,-8.1,1.5,-5.7).curveTo(3.1,-8.1,6.2,-8.1).curveTo(8.9,-8.1,10.1,-6.6).curveTo(11.4,-5.1,11.4,-2).lineTo(11.4,8.1).closePath();
+	this.shape.setTransform(137.75,25.525);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6).curveTo(-7.5,3.8,-7.5,0).lineTo(-7.5,-0.1).curveTo(-7.5,-2.5,-6.6,-4.4).curveTo(-5.7,-6.2,-4,-7.2).curveTo(-2.3,-8.2,-0,-8.2).curveTo(3.2,-8.2,5.2,-6.3).curveTo(7.2,-4.3,7.5,-0.9).lineTo(7.5,0.2).curveTo(7.5,3.8,5.5,6).curveTo(3.4,8.2,0,8.2).curveTo(-3.4,8.2,-5.5,6).closePath().moveTo(-2.4,-3.6).curveTo(-3.3,-2.4,-3.3,0.2).curveTo(-3.3,2.4,-2.4,3.6).curveTo(-1.6,4.8,0,4.8).curveTo(1.5,4.8,2.4,3.6).curveTo(3.3,2.4,3.3,-0.2).curveTo(3.3,-2.4,2.4,-3.6).curveTo(1.5,-4.8,-0,-4.8).curveTo(-1.6,-4.8,-2.4,-3.6).closePath();
-	this.shape_1.setTransform(116.125,28.625);
+	this.shape_1.setTransform(116.275,25.675);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7.1,5.5,-7.1,3.5).curveTo(-7.1,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.1,-1.8).lineTo(2.1,-2.7).curveTo(2.2,-3.8,1.6,-4.4).curveTo(1.1,-5.1,-0.2,-5.1).curveTo(-1.3,-5.1,-1.8,-4.6).curveTo(-2.5,-4.1,-2.5,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.9,-5.7).curveTo(-5,-6.9,-3.5,-7.5).curveTo(-1.9,-8.2,0,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7.1,7.7).lineTo(7.1,7.9).lineTo(2.7,7.9).curveTo(2.5,7.4,2.4,6.5).curveTo(0.8,8.2,-1.7,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.3,4.5).curveTo(-1.7,5,-0.8,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.1,3.4).lineTo(2.1,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
-	this.shape_2.setTransform(92.2,28.625);
+	this.shape_2.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7.1,5.5,-7.1,3.5).curveTo(-7.1,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.1,-1.8).lineTo(2.1,-2.7).curveTo(2.2,-3.8,1.6,-4.4).curveTo(1.1,-5.1,-0.2,-5.1).curveTo(-1.2,-5.1,-1.9,-4.6).curveTo(-2.4,-4.1,-2.5,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.8,-5.7).curveTo(-5,-6.9,-3.5,-7.5).curveTo(-1.9,-8.2,0,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7.1,7.7).lineTo(7.1,7.9).lineTo(2.7,7.9).curveTo(2.5,7.4,2.4,6.5).curveTo(0.8,8.2,-1.7,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.2,4.5).curveTo(-1.7,5,-0.8,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.1,3.4).lineTo(2.1,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
+	this.shape_2.setTransform(92.3,25.675);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.8,-10).lineTo(1.8,-6.1).lineTo(4.5,-6.1).lineTo(4.5,-3).lineTo(1.8,-3).lineTo(1.8,4.9).curveTo(1.9,5.8,2.2,6.2).curveTo(2.5,6.5,3.4,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.5,10,2.2,10).curveTo(-2.3,10,-2.4,5.5).closePath();
-	this.shape_3.setTransform(78.9,26.825);
+	this.shape_3.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.9,-10).lineTo(1.9,-6.1).lineTo(4.6,-6.1).lineTo(4.6,-3).lineTo(1.9,-3).lineTo(1.9,4.9).curveTo(1.8,5.8,2.2,6.2).curveTo(2.5,6.5,3.5,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.5,10,2.1,10).curveTo(-2.3,10,-2.4,5.5).closePath();
+	this.shape_3.setTransform(78.95,23.875);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-4.5,8.1).lineTo(-4.5,-7.8).lineTo(-0.5,-7.8).lineTo(-0.4,-5.9).curveTo(0.9,-8.1,3.1,-8.1).curveTo(3.9,-8.1,4.5,-7.9).lineTo(4.4,-3.8).lineTo(2.9,-3.9).curveTo(0.5,-3.9,-0.3,-2.3).lineTo(-0.3,8.1).closePath();
-	this.shape_4.setTransform(69.275,28.475);
+	this.shape_4.setTransform(69.275,25.525);
 
 	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7,5.5,-7.1,3.5).curveTo(-7,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.2,-1.8).lineTo(2.2,-2.7).curveTo(2.2,-3.8,1.6,-4.4).curveTo(1,-5.1,-0.2,-5.1).curveTo(-1.2,-5.1,-1.9,-4.6).curveTo(-2.4,-4.1,-2.4,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.8,-5.7).curveTo(-5,-6.9,-3.5,-7.5).curveTo(-1.9,-8.2,0,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7,7.7).lineTo(7,7.9).lineTo(2.7,7.9).curveTo(2.4,7.4,2.4,6.5).curveTo(0.8,8.2,-1.7,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.2,4.5).curveTo(-1.7,5,-0.8,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.2,3.4).lineTo(2.2,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
-	this.shape_5.setTransform(55.15,28.625);
+	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-5.5,6.9).curveTo(-7,5.5,-7,3.5).curveTo(-7,1,-5.2,-0.4).curveTo(-3.3,-1.7,0.2,-1.8).lineTo(2.1,-1.8).lineTo(2.1,-2.7).curveTo(2.1,-3.8,1.6,-4.4).curveTo(1.1,-5.1,-0.2,-5.1).curveTo(-1.3,-5.1,-1.8,-4.6).curveTo(-2.5,-4.1,-2.5,-3.2).lineTo(-6.7,-3.2).curveTo(-6.7,-4.5,-5.9,-5.7).curveTo(-5,-6.9,-3.4,-7.5).curveTo(-1.9,-8.2,0.1,-8.2).curveTo(2.9,-8.2,4.7,-6.7).curveTo(6.4,-5.3,6.4,-2.6).lineTo(6.4,4.3).curveTo(6.4,6.5,7.1,7.7).lineTo(7.1,7.9).lineTo(2.8,7.9).curveTo(2.5,7.4,2.3,6.5).curveTo(0.8,8.2,-1.6,8.2).curveTo(-4,8.2,-5.5,6.9).closePath().moveTo(-2.8,2.9).lineTo(-2.8,3.2).curveTo(-2.8,4,-2.3,4.5).curveTo(-1.7,5,-0.7,5).curveTo(0.2,5,1,4.6).curveTo(1.8,4.1,2.1,3.4).lineTo(2.1,0.7).lineTo(0.6,0.7).curveTo(-2.6,0.7,-2.8,2.9).closePath();
+	this.shape_5.setTransform(55.1,25.675);
 
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.9,-10).lineTo(1.9,-6.1).lineTo(4.6,-6.1).lineTo(4.6,-3).lineTo(1.9,-3).lineTo(1.9,4.9).curveTo(1.9,5.8,2.2,6.2).curveTo(2.5,6.5,3.4,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.4,10,2.2,10).curveTo(-2.3,10,-2.4,5.5).closePath();
-	this.shape_6.setTransform(41.85,26.825);
+	this.shape_6.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.4,5.5).lineTo(-2.4,-3).lineTo(-4.7,-3).lineTo(-4.7,-6.1).lineTo(-2.4,-6.1).lineTo(-2.4,-10).lineTo(1.8,-10).lineTo(1.8,-6.1).lineTo(4.5,-6.1).lineTo(4.5,-3).lineTo(1.8,-3).lineTo(1.8,4.9).curveTo(1.8,5.8,2.2,6.2).curveTo(2.5,6.5,3.4,6.5).lineTo(4.7,6.4).lineTo(4.7,9.6).curveTo(3.5,10,2.2,10).curveTo(-2.3,10,-2.4,5.5).closePath();
+	this.shape_6.setTransform(41.75,23.875);
 
 	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-4,10).curveTo(-6,9.2,-7.1,7.6).curveTo(-8.2,6,-8.2,4).lineTo(-3.8,4).curveTo(-3.8,7.4,0.5,7.5).curveTo(2,7.4,2.9,6.9).curveTo(3.8,6.2,3.8,5.1).curveTo(3.8,3.8,2.9,3.2).curveTo(2,2.5,-0.3,1.7).curveTo(-2.5,1,-3.9,0.3).curveTo(-7.5,-1.7,-7.5,-5).curveTo(-7.5,-6.7,-6.5,-8.1).curveTo(-5.6,-9.4,-3.7,-10.2).curveTo(-1.9,-10.9,0.4,-11).curveTo(2.6,-11,4.4,-10.1).curveTo(6.2,-9.3,7.2,-7.8).curveTo(8.2,-6.3,8.2,-4.4).lineTo(3.8,-4.4).curveTo(3.8,-5.9,2.9,-6.6).curveTo(2,-7.5,0.3,-7.5).curveTo(-1.3,-7.4,-2.2,-6.8).curveTo(-3.1,-6.1,-3.1,-5).curveTo(-3.1,-4,-2.1,-3.2).curveTo(-1,-2.5,1,-2).curveTo(4.8,-0.8,6.5,0.8).curveTo(8.2,2.5,8.2,5.1).curveTo(8.2,7.8,6.1,9.4).curveTo(4,10.9,0.5,10.9).curveTo(-2,10.9,-4,10).closePath();
-	this.shape_7.setTransform(27.775,25.9);
+	this.shape_7.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-4,10.1).curveTo(-6,9.1,-7.1,7.6).curveTo(-8.2,6,-8.2,4).lineTo(-3.8,4).curveTo(-3.8,7.4,0.5,7.5).curveTo(2,7.5,2.9,6.8).curveTo(3.8,6.2,3.8,5).curveTo(3.8,3.8,2.9,3.2).curveTo(2,2.5,-0.3,1.7).curveTo(-2.5,1,-3.9,0.3).curveTo(-7.5,-1.7,-7.5,-5).curveTo(-7.5,-6.8,-6.5,-8.1).curveTo(-5.6,-9.5,-3.7,-10.2).curveTo(-1.9,-11,0.4,-11).curveTo(2.6,-10.9,4.4,-10.2).curveTo(6.2,-9.3,7.2,-7.8).curveTo(8.2,-6.3,8.2,-4.4).lineTo(3.8,-4.4).curveTo(3.8,-5.8,2.9,-6.7).curveTo(2,-7.4,0.3,-7.5).curveTo(-1.3,-7.4,-2.2,-6.8).curveTo(-3.1,-6.1,-3.1,-5).curveTo(-3.1,-4,-2.1,-3.2).curveTo(-1,-2.6,1,-2).curveTo(4.8,-0.8,6.5,0.8).curveTo(8.2,2.6,8.2,5).curveTo(8.2,7.8,6.1,9.4).curveTo(4,11,0.5,11).curveTo(-2,10.9,-4,10.1).closePath();
+	this.shape_7.setTransform(27.625,22.95);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
@@ -15866,36 +15872,20 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
+	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#000000").beginStroke().moveTo(-3.9,20.6).lineTo(-3.9,-20.6).lineTo(3.9,-20.6).lineTo(3.9,20.6).closePath();
-	this.shape.setTransform(145.325,124.175);
+	this.shape.graphics.beginFill().beginStroke("rgba(255,255,255,0)").setStrokeStyle(1,1,1).moveTo(-246.1,-360.1).lineTo(246.1,-360.1).lineTo(246.1,360.1).lineTo(-246.1,360.1).closePath();
+	this.shape.setTransform(246.075,360.1);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#000000").beginStroke().moveTo(-8.2,14.8).lineTo(-8.2,-14.3).lineTo(-0.9,-14.3).lineTo(-0.7,-10.8).curveTo(1.7,-14.8,5.8,-14.8).curveTo(7.1,-14.8,8.2,-14.4).lineTo(8.1,-7).lineTo(5.3,-7.2).curveTo(0.9,-7.2,-0.4,-4.2).lineTo(-0.4,14.8).closePath();
-	this.shape_1.setTransform(129.2,130);
+	this.shape_1.graphics.beginFill("rgba(255,255,255,0.008)").beginStroke().moveTo(-246.1,360.1).lineTo(-246.1,-360.1).lineTo(246.1,-360.1).lineTo(246.1,360.1).closePath();
+	this.shape_1.setTransform(246.075,360.1);
 
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#000000").beginStroke().moveTo(-3.9,20.3).lineTo(-3.9,-8.8).lineTo(3.8,-8.8).lineTo(3.8,20.3).closePath().moveTo(-3.1,-13.4).curveTo(-4.3,-14.5,-4.4,-16.3).curveTo(-4.4,-18,-3.2,-19.1).curveTo(-2.1,-20.3,0,-20.3).curveTo(2,-20.3,3.2,-19.1).curveTo(4.3,-18,4.4,-16.3).curveTo(4.3,-14.5,3.2,-13.4).curveTo(2,-12.3,0,-12.3).curveTo(-2,-12.3,-3.1,-13.4).closePath();
-	this.shape_2.setTransform(110.75,124.5);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#000000").beginStroke().moveTo(-7.9,17.9).curveTo(-11.7,15.6,-13.8,11.5).curveTo(-15.9,7.2,-16,1.6).lineTo(-16,-1.1).curveTo(-16,-7,-14,-11.2).curveTo(-12,-15.6,-8.3,-17.8).curveTo(-4.6,-20.1,0.4,-20.1).curveTo(7.4,-20.1,11.3,-16.7).curveTo(15.2,-13.5,16,-7.1).lineTo(8.1,-7.1).curveTo(7.6,-10.5,5.7,-12).curveTo(3.9,-13.6,0.7,-13.6).curveTo(-3.4,-13.6,-5.6,-10.5).curveTo(-7.7,-7.4,-7.8,-1.3).lineTo(-7.8,1.2).curveTo(-7.8,7.3,-5.4,10.5).curveTo(-3.1,13.6,1.4,13.6).curveTo(6,13.6,7.9,11.7).lineTo(7.9,5).lineTo(0.6,5).lineTo(0.6,-1).lineTo(16,-1).lineTo(16,14.6).curveTo(13.8,17.2,9.8,18.7).curveTo(5.8,20.1,1,20.1).curveTo(-4.1,20.1,-7.9,17.9).closePath();
-	this.shape_3.setTransform(84.475,125.25);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill().beginStroke("#F9EFE5").setStrokeStyle(1,1,1).moveTo(-129,-129).lineTo(129,-129).lineTo(129,129).lineTo(-129,129).closePath();
-	this.shape_4.setTransform(128.975,128.975);
-
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-129,129).lineTo(-129,-129).lineTo(129,-129).lineTo(129,129).closePath();
-	this.shape_5.setTransform(128.975,128.975);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.btn_girl, new cjs.Rectangle(-1,-1,260,260), null);
+}).prototype = getMCSymbolPrototype(lib.btn_girl, new cjs.Rectangle(-1,-1,494.2,722.2), null);
 
 
 (lib.btn_boy = function(mode,startPosition,loop,reversed) {
@@ -15909,32 +15899,20 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
+	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.beginFill("#000000").beginStroke().moveTo(-10.7,19.9).lineTo(-10.7,14).lineTo(-9.5,14).curveTo(-7.3,14,-6.2,13.3).curveTo(-5.1,12.7,-4.5,11.1).lineTo(-3.6,8.7).lineTo(-13.7,-20.4).lineTo(-5.4,-20.4).lineTo(0,-2.3).lineTo(5.4,-20.4).lineTo(13.7,-20.4).lineTo(2,13.2).lineTo(1.4,14.7).curveTo(-1.2,20.4,-7.2,20.4).curveTo(-8.9,20.4,-10.7,19.9).closePath();
-	this.shape.setTransform(179.975,136.15);
+	this.shape.graphics.beginFill().beginStroke("rgba(255,255,255,0)").setStrokeStyle(1,1,1).moveTo(-246.5,-359.1).lineTo(246.5,-359.1).lineTo(246.5,359.1).lineTo(-246.5,359.1).closePath();
+	this.shape.setTransform(248.6,359.1);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.beginFill("#000000").beginStroke().moveTo(-10,11).curveTo(-13.8,7,-13.8,0.1).lineTo(-13.8,-0.3).curveTo(-13.8,-4.6,-12.1,-8).curveTo(-10.4,-11.4,-7.3,-13.2).curveTo(-4.2,-15.1,-0,-15.1).curveTo(5.9,-15.1,9.6,-11.5).curveTo(13.3,-7.9,13.7,-1.7).lineTo(13.8,0.3).curveTo(13.8,7,10,11).curveTo(6.3,15.1,0,15.1).curveTo(-6.3,15.1,-10,11).closePath().moveTo(-4.4,-6.6).curveTo(-6,-4.4,-6,0.3).curveTo(-6,4.4,-4.4,6.6).curveTo(-2.9,8.8,0,8.8).curveTo(2.8,8.8,4.4,6.6).curveTo(6,4.5,6,-0.3).curveTo(6,-4.4,4.4,-6.6).curveTo(2.8,-8.8,-0,-8.8).curveTo(-2.9,-8.8,-4.4,-6.6).closePath();
-	this.shape_1.setTransform(150.625,130.275);
+	this.shape_1.graphics.beginFill("rgba(255,255,255,0.008)").beginStroke().moveTo(-246.5,359.1).lineTo(-246.5,-359.1).lineTo(246.6,-359.1).lineTo(246.6,359.1).closePath();
+	this.shape_1.setTransform(248.6,359.1);
 
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#000000").beginStroke().moveTo(-14.5,19.6).lineTo(-14.5,-19.6).lineTo(-0.8,-19.6).curveTo(6.3,-19.6,10,-16.8).curveTo(13.6,-14.1,13.6,-8.9).curveTo(13.6,-6,12.2,-3.8).curveTo(10.7,-1.6,8.1,-0.5).curveTo(11.1,0.2,12.8,2.5).curveTo(14.5,4.8,14.5,8).curveTo(14.5,13.7,10.9,16.6).curveTo(7.3,19.5,0.7,19.6).closePath().moveTo(-6.5,13.1).lineTo(0.4,13.1).curveTo(3.3,13.1,4.9,11.7).curveTo(6.5,10.3,6.5,8).curveTo(6.5,2.6,0.9,2.5).lineTo(-6.5,2.5).closePath().moveTo(-6.5,-3.1).lineTo(-0.5,-3.1).curveTo(5.6,-3.3,5.6,-8.1).curveTo(5.6,-10.7,4.1,-11.8).curveTo(2.5,-13,-0.8,-13).lineTo(-6.5,-13).closePath();
-	this.shape_2.setTransform(118.025,125.25);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill().beginStroke("#F9EFE5").setStrokeStyle(1,1,1).moveTo(-129,-129).lineTo(129,-129).lineTo(129,129).lineTo(-129,129).closePath();
-	this.shape_3.setTransform(128.975,128.975);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-129,129).lineTo(-129,-129).lineTo(129,-129).lineTo(129,129).closePath();
-	this.shape_4.setTransform(128.975,128.975);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.btn_boy, new cjs.Rectangle(-1,-1,260,260), null);
+}).prototype = getMCSymbolPrototype(lib.btn_boy, new cjs.Rectangle(1.1,-1,495.09999999999997,720.2), null);
 
 
 (lib.btn_back = function(mode,startPosition,loop,reversed) {
@@ -23796,11 +23774,13 @@ if (reversed == null) { reversed = false; }
 	// Layer_2
 	this.btn_girl = new lib.btn_girl();
 	this.btn_girl.name = "btn_girl";
-	this.btn_girl.setTransform(647.05,474.65,1,1,0,0,0,128.9,128.9);
+	this.btn_girl.setTransform(445,273,1,1,0,0,0,128.9,128.9);
+	new cjs.ButtonHelper(this.btn_girl, 0, 1, 1);
 
 	this.btn_boy = new lib.btn_boy();
 	this.btn_boy.name = "btn_boy";
-	this.btn_boy.setTransform(1285.35,462.5,1,1,0,0,0,128.9,128.9);
+	this.btn_boy.setTransform(1239.95,273,1,1,0,0,0,128.9,128.9);
+	new cjs.ButtonHelper(this.btn_boy, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_boy},{t:this.btn_girl}]}).to({state:[]},1).wait(2));
 
@@ -23819,7 +23799,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_reset_girl.setTransform(-476,-49.9,1,1,0,0,0,94.5,31.5);
 	new cjs.ButtonHelper(this.btn_reset_girl, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_reset_girl,p:{x:-476,y:-49.9}},{t:this.btn_reset_boy,p:{x:-310.35,y:-49.9}},{t:this.btn_back,p:{x:-52.05,y:-78.05}}]}).to({state:[{t:this.btn_reset_boy,p:{x:1831.65,y:1010.3}},{t:this.btn_back,p:{x:528.3,y:64.5}}]},1).to({state:[{t:this.btn_reset_girl,p:{x:1822.5,y:978.5}},{t:this.btn_back,p:{x:528.15,y:65.1}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_reset_girl,p:{x:-476,y:-49.9}},{t:this.btn_reset_boy,p:{x:-310.35,y:-49.9}},{t:this.btn_back,p:{x:-52.05,y:-78.05}}]}).to({state:[{t:this.btn_reset_boy,p:{x:1819.7,y:1127.35}},{t:this.btn_back,p:{x:528.3,y:64.5}}]},1).to({state:[{t:this.btn_reset_girl,p:{x:1808.3,y:1132.55}},{t:this.btn_back,p:{x:528.15,y:65.1}}]},1).wait(1));
 
 	// btn
 	this.btn_wigs_boy_color = new lib.btn_wigs_boy_color();
@@ -24050,34 +24030,34 @@ if (reversed == null) { reversed = false; }
 	this.btn_hat_05.setTransform(225.8,1241.25,0.6142,0.6142,0,0,0,737.4,495.6);
 	new cjs.ButtonHelper(this.btn_hat_05, 0, 1, 1);
 
+	this.btn_jacket_long_yellow = new lib.btn_jacket_long_yellow();
+	this.btn_jacket_long_yellow.name = "btn_jacket_long_yellow";
+	this.btn_jacket_long_yellow.setTransform(300.3,195.75,0.9997,0.9997,0,1.354,-178.646,49.2,13.9);
+	new cjs.ButtonHelper(this.btn_jacket_long_yellow, 0, 1, 1);
+
 	this.btn_jacket_long_black = new lib.btn_jacket_long_black();
 	this.btn_jacket_long_black.name = "btn_jacket_long_black";
-	this.btn_jacket_long_black.setTransform(278.3,353.9,0.9996,0.9996,0,7.5142,-172.4858,49.2,14);
+	this.btn_jacket_long_black.setTransform(278.3,712.1,0.9996,0.9996,0,7.5142,-172.4858,49.2,14);
 	new cjs.ButtonHelper(this.btn_jacket_long_black, 0, 1, 1);
 
 	this.btn_jacket_long_red = new lib.btn_jacket_long_red();
 	this.btn_jacket_long_red.name = "btn_jacket_long_red";
-	this.btn_jacket_long_red.setTransform(288.4,556.75,0.9996,0.9996,0,-1.9139,178.0861,49.2,14);
+	this.btn_jacket_long_red.setTransform(287.4,361.5,0.9996,0.9996,0,-1.9139,178.0861,49.2,14);
 	new cjs.ButtonHelper(this.btn_jacket_long_red, 0, 1, 1);
-
-	this.btn_jacket_long_yellow = new lib.btn_jacket_long_yellow();
-	this.btn_jacket_long_yellow.name = "btn_jacket_long_yellow";
-	this.btn_jacket_long_yellow.setTransform(287.15,718,0.9997,0.9997,0,5.5534,-174.4466,49.2,14);
-	new cjs.ButtonHelper(this.btn_jacket_long_yellow, 0, 1, 1);
 
 	this.btn_jacket_long_blue = new lib.btn_jacket_long_blue();
 	this.btn_jacket_long_blue.name = "btn_jacket_long_blue";
-	this.btn_jacket_long_blue.setTransform(287.7,199.5,0.9997,0.9997,0,-3.1431,176.8569,49.2,14.1);
+	this.btn_jacket_long_blue.setTransform(287.7,553.9,0.9997,0.9997,0,-3.1431,176.8569,49.2,14.1);
 	new cjs.ButtonHelper(this.btn_jacket_long_blue, 0, 1, 1);
 
 	this.btn_jacket_short_black = new lib.btn_jacket_short_black();
 	this.btn_jacket_short_black.name = "btn_jacket_short_black";
-	this.btn_jacket_short_black.setTransform(206.85,715.45,0.9997,0.9997,-4.8139,0,0,43.9,10.8);
+	this.btn_jacket_short_black.setTransform(205.55,714.4,0.9997,0.9997,-4.8139,0,0,43.9,10.8);
 	new cjs.ButtonHelper(this.btn_jacket_short_black, 0, 1, 1);
 
 	this.btn_jacket_short_blue = new lib.btn_jacket_short_blue();
 	this.btn_jacket_short_blue.name = "btn_jacket_short_blue";
-	this.btn_jacket_short_blue.setTransform(206.85,548.15,0.9997,0.9997,-4.8139,0,0,43.9,10.8);
+	this.btn_jacket_short_blue.setTransform(206.85,543.25,0.9997,0.9997,0.1513,0,0,43.9,10.9);
 	new cjs.ButtonHelper(this.btn_jacket_short_blue, 0, 1, 1);
 
 	this.btn_jacket_short_red = new lib.btn_jacket_short_red();
@@ -24220,7 +24200,7 @@ if (reversed == null) { reversed = false; }
 	this.shirt_12_btn.setTransform(1218.1,388.4,0.8,0.8,0,0,0,69.5,84.2);
 	new cjs.ButtonHelper(this.shirt_12_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_hat_05,p:{x:225.8,y:1241.25}},{t:this.btn_hat_04,p:{x:-158.6,y:601.85}},{t:this.btn_hat_03,p:{x:-154.05,y:738.3}},{t:this.btn_hat_02,p:{scaleX:0.6142,scaleY:0.6142,rotation:0,x:-339.85,y:602.7}},{t:this.btn_hat_01,p:{rotation:0,x:-169.55,y:891.25}},{t:this.btn_shirt_01},{t:this.btn_shirt_02},{t:this.btn_shirt_03},{t:this.btn_shirt_04},{t:this.btn_shirt_05},{t:this.btn_shirt_06},{t:this.btn_jacket_short},{t:this.btn_jacket_long},{t:this.btn_pants_neutral},{t:this.btn_pants_buttons,p:{x:2033.3,y:1305.6}},{t:this.btn_pants_tassels,p:{x:2231.95,y:1323.15}},{t:this.btn_pants_ribbons,p:{x:2028.3,y:1406.55}},{t:this.btn_shirt_12},{t:this.btn_shirt_11},{t:this.btn_shirt_10},{t:this.btn_shirt_09},{t:this.btn_shirt_08},{t:this.btn_shirt_07},{t:this.btn_shirt_same},{t:this.btn_hat_06,p:{regX:188.2,regY:75.3,scaleX:0.5544,scaleY:0.5546,rotation:0,x:-169.7,y:439.15}},{t:this.btn_hat_07,p:{regX:171.2,scaleX:0.6027,scaleY:0.6028,rotation:0,x:-157.9,y:333.7}},{t:this.btn_hat_08},{t:this.btn_hat_09,p:{regX:81.9,scaleX:0.6606,scaleY:0.6608,rotation:0,x:-178.6,y:212.1}},{t:this.btn_hat_10,p:{regY:111.8,scaleX:0.6585,scaleY:0.659,rotation:0,x:-173.05,y:100.5}},{t:this.btn_apron_01,p:{regX:103,scaleX:0.6469,scaleY:0.6469,x:2009.3,y:798.9}},{t:this.btn_apron_02,p:{regX:101.8,regY:102.5,scaleX:0.6469,scaleY:0.6469,x:2206.95,y:300.85}},{t:this.btn_apron_03,p:{regX:117.8,regY:92.8,scaleX:0.6469,scaleY:0.6469,x:2219.25,y:129.75}},{t:this.btn_apron_04,p:{regY:103.5,scaleX:0.6469,scaleY:0.6469,x:2016.8,y:635.15}},{t:this.btn_apron_05,p:{regX:115.4,regY:96,scaleX:0.6469,scaleY:0.6469,x:2010.15,y:464.15}},{t:this.btn_apron_06,p:{regX:103.7,scaleX:0.6469,scaleY:0.6469,x:2017.9,y:315.35}},{t:this.btn_apron_same},{t:this.btn_shoe_boy_04},{t:this.btn_shoe_boy_03},{t:this.btn_shoe_boy_02},{t:this.btn_shoe_boy_01},{t:this.btn_necklace_01},{t:this.btn_scarf_01},{t:this.btn_skirts_color,p:{regX:184.1,x:656.05,y:1260.55}},{t:this.btn_wigs_girl_color,p:{x:-92.95,y:1252.5}},{t:this.btn_pants_color,p:{regX:184,scaleY:0.815,x:1038.35,y:1277.9}},{t:this.btn_wigs_boy_color,p:{x:253.8,y:1260.55}}]}).to({state:[{t:this.btn_hat_05,p:{x:1903.75,y:432.9}},{t:this.btn_hat_04,p:{x:1631.55,y:175.7}},{t:this.btn_hat_03,p:{x:1312.45,y:183.7}},{t:this.btn_hat_02,p:{scaleX:0.6141,scaleY:0.6141,rotation:-150.0009,x:1180.5,y:179.7}},{t:this.btn_hat_01,p:{rotation:-90,x:1407.7,y:184.85}},{t:this.shirt_01_btn},{t:this.shirt_02_btn},{t:this.shirt_03_btn},{t:this.shirt_04_btn},{t:this.shirt_05_btn},{t:this.shirt_06_btn},{t:this.btn_jacket_short_yellow},{t:this.pants_neutral_btn},{t:this.btn_pants_buttons,p:{x:1662.85,y:685.85}},{t:this.btn_pants_tassels,p:{x:1960.05,y:654.85}},{t:this.btn_pants_ribbons,p:{x:1700.7,y:671.5}},{t:this.shoe_boy_04_btn},{t:this.shoe_boy_03_btn},{t:this.shoe_boy_02_btn},{t:this.shoe_boy_01_btn},{t:this.btn_pants_color,p:{regX:184.1,scaleY:0.8152,x:1354.6,y:868.4}},{t:this.btn_wigs_boy_color,p:{x:573.45,y:924.8}},{t:this.btn_jacket_short_red},{t:this.btn_jacket_short_blue},{t:this.btn_jacket_short_black},{t:this.btn_jacket_long_blue},{t:this.btn_jacket_long_yellow},{t:this.btn_jacket_long_red},{t:this.btn_jacket_long_black}]},1).to({state:[{t:this.shirt_12_btn},{t:this.shirt_11_btn},{t:this.shirt_10_btn},{t:this.shirt_09_btn},{t:this.shirt_08_btn},{t:this.shirt_07_btn},{t:this.btn_hat_07,p:{regX:171.3,scaleX:0.4896,scaleY:0.4897,rotation:180,x:1389.6,y:184.25}},{t:this.hat_08_btn},{t:this.btn_hat_09,p:{regX:82.2,scaleX:0.5365,scaleY:0.5367,rotation:91.4515,x:1172.3,y:186.3}},{t:this.btn_hat_10,p:{regY:111.7,scaleX:0.5349,scaleY:0.5353,rotation:180,x:1503.5,y:168.55}},{t:this.btn_apron_01,p:{regX:103.2,scaleX:0.9259,scaleY:0.9259,x:248.2,y:814.1}},{t:this.btn_apron_02,p:{regX:102,regY:102.8,scaleX:0.9259,scaleY:0.9259,x:242.8,y:720.45}},{t:this.btn_apron_03,p:{regX:117.9,regY:93,scaleX:0.9259,scaleY:0.9259,x:234.1,y:614.95}},{t:this.btn_apron_04,p:{regY:103.7,scaleX:0.9259,scaleY:0.9259,x:238.5,y:529.4}},{t:this.btn_apron_05,p:{regX:115.5,regY:96.2,scaleX:0.9259,scaleY:0.9259,x:238.4,y:431.2}},{t:this.btn_apron_06,p:{regX:103.8,scaleX:0.9259,scaleY:0.9259,x:239.05,y:341.4}},{t:this.btn_dress_same},{t:this.necklace_01_btn},{t:this.scarf_01_btn},{t:this.btn_collar_01},{t:this.btn_shoe_girl_04},{t:this.btn_shoe_girl_03},{t:this.btn_shoe_girl_02},{t:this.btn_shoe_girl_01},{t:this.btn_hat_06,p:{regX:188.3,regY:75.4,scaleX:0.4504,scaleY:0.4505,rotation:180,x:1629,y:196.75}},{t:this.btn_skirts_color,p:{regX:184,x:1311.2,y:870.75}},{t:this.btn_wigs_girl_color,p:{x:566.15,y:929.15}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_hat_05,p:{x:225.8,y:1241.25}},{t:this.btn_hat_04,p:{x:-158.6,y:601.85}},{t:this.btn_hat_03,p:{x:-154.05,y:738.3}},{t:this.btn_hat_02,p:{scaleX:0.6142,scaleY:0.6142,rotation:0,x:-339.85,y:602.7}},{t:this.btn_hat_01,p:{rotation:0,x:-169.55,y:891.25}},{t:this.btn_shirt_01},{t:this.btn_shirt_02},{t:this.btn_shirt_03},{t:this.btn_shirt_04},{t:this.btn_shirt_05},{t:this.btn_shirt_06},{t:this.btn_jacket_short},{t:this.btn_jacket_long},{t:this.btn_pants_neutral},{t:this.btn_pants_buttons,p:{x:2033.3,y:1305.6}},{t:this.btn_pants_tassels,p:{x:2231.95,y:1323.15}},{t:this.btn_pants_ribbons,p:{x:2028.3,y:1406.55}},{t:this.btn_shirt_12},{t:this.btn_shirt_11},{t:this.btn_shirt_10},{t:this.btn_shirt_09},{t:this.btn_shirt_08},{t:this.btn_shirt_07},{t:this.btn_shirt_same},{t:this.btn_hat_06,p:{regX:188.2,regY:75.3,scaleX:0.5544,scaleY:0.5546,rotation:0,x:-169.7,y:439.15}},{t:this.btn_hat_07,p:{regX:171.2,scaleX:0.6027,scaleY:0.6028,rotation:0,x:-157.9,y:333.7}},{t:this.btn_hat_08},{t:this.btn_hat_09,p:{regX:81.9,scaleX:0.6606,scaleY:0.6608,rotation:0,x:-178.6,y:212.1}},{t:this.btn_hat_10,p:{regY:111.8,scaleX:0.6585,scaleY:0.659,rotation:0,x:-173.05,y:100.5}},{t:this.btn_apron_01,p:{regX:103,scaleX:0.6469,scaleY:0.6469,x:2009.3,y:798.9}},{t:this.btn_apron_02,p:{regX:101.8,regY:102.5,scaleX:0.6469,scaleY:0.6469,x:2206.95,y:300.85}},{t:this.btn_apron_03,p:{regX:117.8,regY:92.8,scaleX:0.6469,scaleY:0.6469,x:2219.25,y:129.75}},{t:this.btn_apron_04,p:{regY:103.5,scaleX:0.6469,scaleY:0.6469,x:2016.8,y:635.15}},{t:this.btn_apron_05,p:{regX:115.4,regY:96,scaleX:0.6469,scaleY:0.6469,x:2010.15,y:464.15}},{t:this.btn_apron_06,p:{regX:103.7,scaleX:0.6469,scaleY:0.6469,x:2017.9,y:315.35}},{t:this.btn_apron_same},{t:this.btn_shoe_boy_04},{t:this.btn_shoe_boy_03},{t:this.btn_shoe_boy_02},{t:this.btn_shoe_boy_01},{t:this.btn_necklace_01},{t:this.btn_scarf_01},{t:this.btn_skirts_color,p:{regX:184.1,x:656.05,y:1260.55}},{t:this.btn_wigs_girl_color,p:{x:-92.95,y:1252.5}},{t:this.btn_pants_color,p:{regX:184,scaleY:0.815,x:1038.35,y:1277.9}},{t:this.btn_wigs_boy_color,p:{x:253.8,y:1260.55}}]}).to({state:[{t:this.btn_hat_05,p:{x:1903.75,y:432.9}},{t:this.btn_hat_04,p:{x:1631.55,y:175.7}},{t:this.btn_hat_03,p:{x:1312.45,y:183.7}},{t:this.btn_hat_02,p:{scaleX:0.6141,scaleY:0.6141,rotation:-150.0009,x:1180.5,y:179.7}},{t:this.btn_hat_01,p:{rotation:-90,x:1407.7,y:184.85}},{t:this.shirt_01_btn},{t:this.shirt_02_btn},{t:this.shirt_03_btn},{t:this.shirt_04_btn},{t:this.shirt_05_btn},{t:this.shirt_06_btn},{t:this.btn_jacket_short_yellow},{t:this.pants_neutral_btn},{t:this.btn_pants_buttons,p:{x:1662.85,y:685.85}},{t:this.btn_pants_tassels,p:{x:1960.05,y:654.85}},{t:this.btn_pants_ribbons,p:{x:1700.7,y:671.5}},{t:this.shoe_boy_04_btn},{t:this.shoe_boy_03_btn},{t:this.shoe_boy_02_btn},{t:this.shoe_boy_01_btn},{t:this.btn_pants_color,p:{regX:184.1,scaleY:0.8152,x:1354.6,y:868.4}},{t:this.btn_wigs_boy_color,p:{x:573.45,y:924.8}},{t:this.btn_jacket_short_red},{t:this.btn_jacket_short_blue},{t:this.btn_jacket_short_black},{t:this.btn_jacket_long_blue},{t:this.btn_jacket_long_red},{t:this.btn_jacket_long_black},{t:this.btn_jacket_long_yellow}]},1).to({state:[{t:this.shirt_12_btn},{t:this.shirt_11_btn},{t:this.shirt_10_btn},{t:this.shirt_09_btn},{t:this.shirt_08_btn},{t:this.shirt_07_btn},{t:this.btn_hat_07,p:{regX:171.3,scaleX:0.4896,scaleY:0.4897,rotation:180,x:1389.6,y:184.25}},{t:this.hat_08_btn},{t:this.btn_hat_09,p:{regX:82.2,scaleX:0.5365,scaleY:0.5367,rotation:91.4515,x:1172.3,y:186.3}},{t:this.btn_hat_10,p:{regY:111.7,scaleX:0.5349,scaleY:0.5353,rotation:180,x:1503.5,y:168.55}},{t:this.btn_apron_01,p:{regX:103.2,scaleX:0.9259,scaleY:0.9259,x:248.2,y:814.1}},{t:this.btn_apron_02,p:{regX:102,regY:102.8,scaleX:0.9259,scaleY:0.9259,x:242.8,y:720.45}},{t:this.btn_apron_03,p:{regX:117.9,regY:93,scaleX:0.9259,scaleY:0.9259,x:234.1,y:614.95}},{t:this.btn_apron_04,p:{regY:103.7,scaleX:0.9259,scaleY:0.9259,x:238.5,y:529.4}},{t:this.btn_apron_05,p:{regX:115.5,regY:96.2,scaleX:0.9259,scaleY:0.9259,x:238.4,y:431.2}},{t:this.btn_apron_06,p:{regX:103.8,scaleX:0.9259,scaleY:0.9259,x:239.05,y:341.4}},{t:this.btn_dress_same},{t:this.necklace_01_btn},{t:this.scarf_01_btn},{t:this.btn_collar_01},{t:this.btn_shoe_girl_04},{t:this.btn_shoe_girl_03},{t:this.btn_shoe_girl_02},{t:this.btn_shoe_girl_01},{t:this.btn_hat_06,p:{regX:188.3,regY:75.4,scaleX:0.4504,scaleY:0.4505,rotation:180,x:1629,y:196.75}},{t:this.btn_skirts_color,p:{regX:184,x:1311.2,y:870.75}},{t:this.btn_wigs_girl_color,p:{x:566.15,y:929.15}}]},1).wait(1));
 
 	// character
 	this.btn_shoe_girl_01_1 = new lib.shoe_01();
@@ -24271,11 +24251,12 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5,p:{y:511.7}},{t:this.instance_4},{t:this.instance_3,p:{y:509.7}},{t:this.instance_2,p:{x:1553.35,y:301.9}},{t:this.instance_1,p:{x:1210.4,y:302.9}},{t:this.instance,p:{y:504.7}}]},1).to({state:[{t:this.instance_5,p:{y:505.7}},{t:this.instance_4},{t:this.instance_3,p:{y:515.7}},{t:this.instance_2,p:{x:1536.35,y:303.9}},{t:this.instance_1,p:{x:1218.4,y:297.9}},{t:this.instance,p:{y:509.7}}]},1).wait(1));
 
 	// bg
-	this.instance_6 = new lib.bg_1();
-	this.instance_6.setTransform(951,535,1,1,0,0,0,951,535);
-	this.instance_6._off = true;
+	this.instance_6 = new lib.start();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).wait(2));
+	this.instance_7 = new lib.bg_1();
+	this.instance_7.setTransform(951,535,1,1,0,0,0,951,535);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6}]}).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_7}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -24323,14 +24304,15 @@ lib.properties = {
 	color: "#70AEA3",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1732735144889", id:"bg"},
-		{src:"images/btn_start.png?1732735144889", id:"btn_start"},
-		{src:"images/chair.png?1732735144890", id:"chair"},
-		{src:"images/pants.png?1732735144890", id:"pants"},
-		{src:"images/skirts.png?1732735144890", id:"skirts"},
-		{src:"images/valet_stand_girl.png?1732735144890", id:"valet_stand_girl"},
-		{src:"images/wigs_boy.png?1732735144890", id:"wigs_boy"},
-		{src:"images/wigs_girl.png?1732735144890", id:"wigs_girl"}
+		{src:"images/bg.jpg?1732780248960", id:"bg"},
+		{src:"images/btn_start.png?1732780248960", id:"btn_start"},
+		{src:"images/chair.png?1732780248960", id:"chair"},
+		{src:"images/pants.png?1732780248960", id:"pants"},
+		{src:"images/skirts.png?1732780248960", id:"skirts"},
+		{src:"images/start.jpg?1732780248960", id:"start"},
+		{src:"images/valet_stand_girl.png?1732780248960", id:"valet_stand_girl"},
+		{src:"images/wigs_boy.png?1732780248960", id:"wigs_boy"},
+		{src:"images/wigs_girl.png?1732780248960", id:"wigs_girl"}
 	],
 	preloads: []
 };

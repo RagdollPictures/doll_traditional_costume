@@ -10,16 +10,18 @@ export function initializeAccessories() {
 
     accessoryButtons.forEach(({ button, accessory }) => {
         if (button) {
-            button.addEventListener('click', () => {
+            
+            const eventHandler = () => {
                 showAccessory(accessory);
                 toggleAccessoryButtonVisibility(button, accessoryButtons);
-            });
-        } else {
-            console.error(`Button for ${accessory} not found.`);
+            };
+
+           
+            button.removeEventListener('click', eventHandler);
+            button.addEventListener('click', eventHandler);
         }
     });
 }
-
 function showAccessory(accessoryName) {
     const accessories = movieClips.accessories;
     hideAllAccessories(accessories);
@@ -38,7 +40,7 @@ function hideAllAccessories(accessories) {
 function toggleAccessoryButtonVisibility(activeButton, accessoryButtons) {
     accessoryButtons.forEach(({ button }) => {
         if (button) {
-            button.visible = button !== activeButton; // Hide the clicked button, show others
+            button.visible = button !== activeButton; 
         }
     });
 }

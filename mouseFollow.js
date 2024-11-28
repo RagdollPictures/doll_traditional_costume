@@ -11,21 +11,16 @@ export function initializeMouseFollow(stage) {
     const hairMiddle = movieClips.character.hairMiddle;
     const eyebrows = movieClips.character.eyebrows;
     const pupils = movieClips.character.pupils;
-
-
     const headAnchor = movieClips.headAnchor;
 
     if (!headFront || !headBack || !nose || !freckles || !eyes || !mouth || !hairMiddle || !eyebrows || !ears || !headAnchor || !stage) {
-        console.error("Initialization failed: Missing headFront, headBack, nose, ears, headAnchor, or stage.");
         return;
     }
 
-
     const idlePosition = {
         x: headAnchor.x,
-        y: headAnchor.y
+        y: headAnchor.y,
     };
-
 
     headFront.x = idlePosition.x;
     headFront.y = idlePosition.y;
@@ -33,17 +28,15 @@ export function initializeMouseFollow(stage) {
     headBack.x = idlePosition.x;
     headBack.y = idlePosition.y;
 
-
-    stage.addEventListener('stagemousemove', (event) => {
+    const mouseMoveHandler = (event) => {
         const scaleX = stage.scaleX || 1;
         const scaleY = stage.scaleY || 1;
 
         const normalizedMouseX = event.stageX / scaleX;
         const normalizedMouseY = event.stageY / scaleY;
-
         const headMovementFactor = 0.008;
         const parallaxFactor = -0.008;
-        const noseFactor = 0.02
+        const noseFactor = 0.02;
         const earFactor = -0.012;
         const mouthFactor = 0.015;
         const eyesFactor = 0.01;
@@ -81,7 +74,8 @@ export function initializeMouseFollow(stage) {
 
         pupils.x = (normalizedMouseX - headFront.x) * pupilsFactor;
         pupils.y = (normalizedMouseY - headFront.y) * pupilsFactor;
+    };
 
-    });
-
+    stage.removeEventListener('stagemousemove', mouseMoveHandler);
+    stage.addEventListener('stagemousemove', mouseMoveHandler);
 }

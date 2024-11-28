@@ -55,8 +55,6 @@ function addCharacterSelectionListeners() {
             exportRoot.scene.gotoAndStop(1);
             initBoy();
         });
-    } else {
-        console.error("Boy button not found!");
     }
 
     if (btnGirl) {
@@ -65,8 +63,6 @@ function addCharacterSelectionListeners() {
             exportRoot.scene.gotoAndStop(2);
             initGirl();
         });
-    } else {
-        console.error("Girl button not found!");
     }
 }
 
@@ -77,17 +73,13 @@ function addResetButtonsListeners() {
 
     if (btnResetBoy) {
         btnResetBoy.on('click', function () {
-            console.log("Boy init");
 
             initBoy();
         });
-    } else {
-        console.error("Boy init not found!");
     }
 
     if (btnResetGirl) {
         btnResetGirl.on('click', function () {
-            console.log("Girl init");
 
             initGirl();
         });
@@ -97,13 +89,9 @@ function addResetButtonsListeners() {
 
     if (btnBack) {
         btnBack.on('click', function () {
-            console.log("Back");
-
 
             exportRoot.scene.gotoAndStop(0);
 
         });
-    } else {
-        console.error("Backinit not found");
     }
 }

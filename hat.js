@@ -25,15 +25,17 @@ export function initializeHats() {
 
     buttons.hats.forEach(function (button, index) {
         if (button) {
-            button.addEventListener('click', function () {
+            const hatListener = function () {
                 showOnlyHat(index, hats);
                 toggleHairBehindVisibility(false, hairBehindClips);
                 toggleButtonVisibility(index);
-            });
-        } else {
-            console.error('Hat button ' + (index + 1) + ' not found');
+            };
+    
+            button.removeEventListener('click', hatListener);
+            button.addEventListener('click', hatListener);
         }
     });
+    
 }
 
 function toggleHairBehindVisibility(isVisible, hairBehindClips) {
@@ -51,7 +53,7 @@ function showOnlyHat(index, hats) {
 function toggleButtonVisibility(activeIndex) {
     buttons.hats.forEach(function (button, index) {
         if (button) {
-            button.visible = index !== activeIndex; // Hide the clicked button, show the rest
+            button.visible = index !== activeIndex;
         }
     });
 }
