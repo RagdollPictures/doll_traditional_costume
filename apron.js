@@ -10,7 +10,7 @@ export function initializeAprons() {
     const accessories = movieClips.accessories;
 
 
-    const apronButtons = [...buttons.aprons, buttons.dress.dress_same];
+    const apronButtons = [...buttons.aprons, buttons.dress.dress_same, buttons.dress.dress_same_male];
 
     apronButtons.forEach(function (button, index) {
         if (button) {

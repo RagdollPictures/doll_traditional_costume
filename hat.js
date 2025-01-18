@@ -16,9 +16,11 @@ export function initializeHats() {
     ];
 
     const hairBehindClips = [
+        movieClips.hair.behind.black,
         movieClips.hair.behind.brown,
         movieClips.hair.behind.gray,
         movieClips.hair.behind.blond,
+        movieClips.hair.behind.blackGirl,
         movieClips.hair.behind.brownGirl,
         movieClips.hair.behind.blondGirl,
     ];
@@ -30,12 +32,12 @@ export function initializeHats() {
                 toggleHairBehindVisibility(false, hairBehindClips);
                 toggleButtonVisibility(index);
             };
-    
+
             button.removeEventListener('click', hatListener);
             button.addEventListener('click', hatListener);
         }
     });
-    
+
 }
 
 function toggleHairBehindVisibility(isVisible, hairBehindClips) {
