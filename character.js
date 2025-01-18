@@ -55,8 +55,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,368,240);
 p.nominalBounds = new cjs.Rectangle(0,0,368,240);
 
 
-(lib.start = function() {
-	this.initialize(img.start);
+(lib.start_screen = function() {
+	this.initialize(img.start_screen);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 
@@ -24616,7 +24616,7 @@ if (reversed == null) { reversed = false; }
 
 	this.btn_boy = new lib.btn_boy();
 	this.btn_boy.name = "btn_boy";
-	this.btn_boy.setTransform(1239.95,273,1,1,0,0,0,128.9,128.9);
+	this.btn_boy.setTransform(1239.8,275.3,1,1,0,0,0,128.9,128.9);
 	new cjs.ButtonHelper(this.btn_boy, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_boy},{t:this.btn_girl}]}).to({state:[]},1).wait(2));
@@ -25093,12 +25093,16 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5,p:{y:511.7}},{t:this.instance_4},{t:this.instance_3,p:{y:509.7}},{t:this.instance_2,p:{x:1553.35,y:301.9}},{t:this.instance_1,p:{x:1210.4,y:302.9}},{t:this.instance,p:{y:504.7}}]},1).to({state:[{t:this.instance_5,p:{y:505.7}},{t:this.instance_4},{t:this.instance_3,p:{y:515.7}},{t:this.instance_2,p:{x:1536.35,y:303.9}},{t:this.instance_1,p:{x:1218.4,y:297.9}},{t:this.instance,p:{y:509.7}}]},1).wait(1));
 
 	// bg
-	this.instance_6 = new lib.start();
+	this.instance_6 = new lib.bg_1();
+	this.instance_6.setTransform(951,535,1,1,0,0,0,951,535);
+	this.instance_6._off = true;
 
-	this.instance_7 = new lib.bg_1();
-	this.instance_7.setTransform(951,535,1,1,0,0,0,951,535);
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).wait(2));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6}]}).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_7}]},1).wait(1));
+	// Layer_6
+	this.instance_7 = new lib.start_screen();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({_off:true},1).wait(2));
 
 	this._renderFirstFrame();
 
@@ -25146,15 +25150,15 @@ lib.properties = {
 	color: "#70AEA3",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1737200949647", id:"bg"},
-		{src:"images/btn_start.png?1737200949647", id:"btn_start"},
-		{src:"images/chair.png?1737200949647", id:"chair"},
-		{src:"images/pants.png?1737200949647", id:"pants"},
-		{src:"images/skirts.png?1737200949647", id:"skirts"},
-		{src:"images/start.jpg?1737200949647", id:"start"},
-		{src:"images/valet_stand_girl.png?1737200949647", id:"valet_stand_girl"},
-		{src:"images/wigs_boy.png?1737200949647", id:"wigs_boy"},
-		{src:"images/wigs_girl.png?1737200949647", id:"wigs_girl"}
+		{src:"images/bg.jpg?1737216108179", id:"bg"},
+		{src:"images/btn_start.png?1737216108179", id:"btn_start"},
+		{src:"images/chair.png?1737216108179", id:"chair"},
+		{src:"images/pants.png?1737216108179", id:"pants"},
+		{src:"images/skirts.png?1737216108179", id:"skirts"},
+		{src:"images/start_screen.jpg?1737216108179", id:"start_screen"},
+		{src:"images/valet_stand_girl.png?1737216108179", id:"valet_stand_girl"},
+		{src:"images/wigs_boy.png?1737216108179", id:"wigs_boy"},
+		{src:"images/wigs_girl.png?1737216108179", id:"wigs_girl"}
 	],
 	preloads: []
 };

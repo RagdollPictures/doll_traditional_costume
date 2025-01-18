@@ -6,6 +6,8 @@ import { changePantsColor } from './pants.js';
 
 
 function resetButtonsVisibility() {
+
+
     Object.values(buttons).forEach((buttonGroup) => {
         if (Array.isArray(buttonGroup)) {
             buttonGroup.forEach((button) => {
@@ -42,6 +44,21 @@ export function hideAllMovieClips() {
     const apron = movieClips.aprons;
     const shoes = movieClips.shoes;
     const accessories = movieClips.accessories;
+    const btn_collar = buttons.accessories.collar_01;
+    const btn_shirt_01 = buttons.shirts[0];
+    const btn_shirt_07 = buttons.shirts[6];
+
+    if (btn_collar) {
+        btn_collar.visible = false;
+    }
+
+    if (btn_shirt_01) {
+        btn_shirt_01.visible = false;
+    }
+
+    if (btn_shirt_07) {
+        btn_shirt_07.visible = false;
+    }
 
     if (jackets && jackets.short && jackets.long) {
         jackets.short.visible = false;

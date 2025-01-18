@@ -110,7 +110,7 @@ function hideAllArms() {
     movieClips.arms.left.visible = false;
     movieClips.arms.right.visible = false;
     movieClips.arms.leftGirl.visible = false;
-    movieClips.arms.rightGirl.visible = false; /
+    movieClips.arms.rightGirl.visible = false;
 }
 
 
