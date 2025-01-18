@@ -5,11 +5,11 @@ import { colors } from './colors.js';
 export function initializeDress() {
     const dressSameButton = buttons.dress.dress_same;
     if (dressSameButton) {
-       
+
         const eventHandler = () => {
             showDressSame();
         };
-       
+
         dressSameButton.removeEventListener('click', eventHandler);
         dressSameButton.addEventListener('click', eventHandler);
     }

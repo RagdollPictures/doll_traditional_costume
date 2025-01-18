@@ -45,6 +45,7 @@ export function initializeButtons() {
             exportRoot.scene.btn_apron_05,
             exportRoot.scene.btn_apron_06,
             exportRoot.scene.btn_apron_same,
+
         ],
         girlShoes: [
             exportRoot.scene.btn_shoe_girl_01,
@@ -64,8 +65,8 @@ export function initializeButtons() {
             tassels: exportRoot.scene.btn_pants_tassels,
             buttons: exportRoot.scene.btn_pants_buttons,
             skirtColor: exportRoot.scene.btn_skirts_color,
-            pantsColor:  exportRoot.scene.btn_pants_color,
-            
+            pantsColor: exportRoot.scene.btn_pants_color,
+
         },
         jackets: {
             shortYellow: exportRoot.scene.btn_jacket_short_yellow,
@@ -76,13 +77,13 @@ export function initializeButtons() {
             longBlue: exportRoot.scene.btn_jacket_long_blue,
             shortBlack: exportRoot.scene.btn_jacket_short_black,
             longBlack: exportRoot.scene.btn_jacket_long_black,
-            
+
         },
         hair: {
             girl: exportRoot.scene.btn_wigs_girl_color,
             boy: exportRoot.scene.btn_wigs_boy_color,
 
-          
+
 
         },
         accessories: {
@@ -92,6 +93,7 @@ export function initializeButtons() {
         },
         dress: {
             dress_same: exportRoot.scene.btn_dress_same,
+            dress_same_male: exportRoot.scene.btn_dress_same_male,
         }
     };
 

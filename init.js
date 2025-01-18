@@ -64,6 +64,8 @@ export function hideAllMovieClips() {
         arms.cuff_left_01.visible = false;
         arms.cuff_right_same.visible = false;
         arms.cuff_left_same.visible = false;
+        arms.cuff_right_same_male.visible = false;
+        arms.cuff_left_same_male.visible = false;
 
     }
 
@@ -94,29 +96,48 @@ export function hideAllMovieClips() {
     }
 
     if (hair) {
+
+        hair.front.black.visible = false;
         hair.front.brown.visible = false;
         hair.front.blond.visible = false;
         hair.front.gray.visible = false;
+
+        hair.middleLeft.black.visible = false;
         hair.middleLeft.brown.visible = false;
         hair.middleLeft.blond.visible = false;
         hair.middleLeft.gray.visible = false;
+
+        hair.middleRight.black.visible = false;
         hair.middleRight.brown.visible = false;
         hair.middleRight.blond.visible = false;
         hair.middleRight.gray.visible = false;
+
+        hair.bottom.black.visible = false;
         hair.bottom.brown.visible = false;
         hair.bottom.blond.visible = false;
         hair.bottom.gray.visible = false;
+
+        hair.behind.black.visible = false;
         hair.behind.brown.visible = false;
         hair.behind.blond.visible = false;
         hair.behind.gray.visible = false;
+
+        hair.front.blackGirl.visible = false;
         hair.front.brownGirl.visible = false;
         hair.front.blondGirl.visible = false;
-        hair.middleRight.brownGirl.visible = false;
-        hair.middleLeft.brownGirl.visible = false;
+
+        hair.middleRight.blackGirl.visible = false;
         hair.middleRight.blondGirl.visible = false;
+        hair.middleRight.brownGirl.visible = false;
+
+        hair.middleLeft.blackGirl.visible = false;
         hair.middleLeft.blondGirl.visible = false;
+        hair.middleLeft.brownGirl.visible = false;
+
+        hair.behind.blackGirl.visible = false;
         hair.behind.brownGirl.visible = false;
         hair.behind.blondGirl.visible = false;
+
         hair.bottom.blondGirlBraids.visible = false;
         hair.bottom.blondGirlStraight.visible = false;
         hair.bottom.brownGirlBraids.visible = false;
@@ -137,6 +158,7 @@ export function hideAllMovieClips() {
         shirts.shirt_11.visible = false;
         shirts.shirt_12.visible = false;
         shirts.shirt_same.visible = false;
+        shirts.shirt_same_male.visible = false;
     }
 
     if (beard) {
@@ -151,6 +173,7 @@ export function hideAllMovieClips() {
         apron.apron_05.visible = false;
         apron.apron_06.visible = false;
         apron.apron_same.visible = false;
+        apron.apron_same_male.visible = false;
 
     }
 
