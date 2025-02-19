@@ -25150,15 +25150,15 @@ lib.properties = {
 	color: "#70AEA3",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1737216108179", id:"bg"},
-		{src:"images/btn_start.png?1737216108179", id:"btn_start"},
-		{src:"images/chair.png?1737216108179", id:"chair"},
-		{src:"images/pants.png?1737216108179", id:"pants"},
-		{src:"images/skirts.png?1737216108179", id:"skirts"},
-		{src:"images/start_screen.jpg?1737216108179", id:"start_screen"},
-		{src:"images/valet_stand_girl.png?1737216108179", id:"valet_stand_girl"},
-		{src:"images/wigs_boy.png?1737216108179", id:"wigs_boy"},
-		{src:"images/wigs_girl.png?1737216108179", id:"wigs_girl"}
+		{src:"images/bg.jpg?1739983223755", id:"bg"},
+		{src:"images/btn_start.png?1739983223755", id:"btn_start"},
+		{src:"images/chair.png?1739983223755", id:"chair"},
+		{src:"images/pants.png?1739983223755", id:"pants"},
+		{src:"images/skirts.png?1739983223755", id:"skirts"},
+		{src:"images/start_screen.jpg?1739983223755", id:"start_screen"},
+		{src:"images/valet_stand_girl.png?1739983223755", id:"valet_stand_girl"},
+		{src:"images/wigs_boy.png?1739983223755", id:"wigs_boy"},
+		{src:"images/wigs_girl.png?1739983223755", id:"wigs_girl"}
 	],
 	preloads: []
 };

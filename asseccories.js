@@ -1,5 +1,6 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
+import { audioManager } from "./audioManager.js";
 
 export function initializeAccessories() {
     const accessoryButtons = [
@@ -10,13 +11,18 @@ export function initializeAccessories() {
 
     accessoryButtons.forEach(({ button, accessory }) => {
         if (button) {
-            
+
             const eventHandler = () => {
                 showAccessory(accessory);
                 toggleAccessoryButtonVisibility(button, accessoryButtons);
+
+                if (audioManager.sounds[button.name]) {
+                    audioManager.playSound(button.name);
+                }
+
             };
 
-           
+
             button.removeEventListener('click', eventHandler);
             button.addEventListener('click', eventHandler);
         }
@@ -40,7 +46,7 @@ function hideAllAccessories(accessories) {
 function toggleAccessoryButtonVisibility(activeButton, accessoryButtons) {
     accessoryButtons.forEach(({ button }) => {
         if (button) {
-            button.visible = button !== activeButton; 
+            button.visible = button !== activeButton;
         }
     });
 }

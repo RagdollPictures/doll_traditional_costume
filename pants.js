@@ -1,6 +1,7 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
 import { colors } from './colors.js';
+import { audioManager } from './audioManager.js';
 
 export function initializePants() {
     const pants = movieClips.pants;
@@ -17,6 +18,10 @@ export function initializePants() {
             const pantsListener = function () {
                 action();
                 togglePantsButtonVisibility(button, pantsButtons);
+
+                if (audioManager.sounds[button.name]) {
+                    audioManager.playSound(button.name);
+                }
             };
 
             button.removeEventListener('click', pantsListener);

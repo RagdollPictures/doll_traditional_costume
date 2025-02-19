@@ -23,8 +23,10 @@ export function initializeHair() {
     }
 
     function hideAllBehindHairs() {
+        showHairs.behind.blackGirl.visible = false;
         showHairs.behind.blondGirl.visible = false;
         showHairs.behind.brownGirl.visible = false;
+        showHairs.behind.black.visible = false;
         showHairs.behind.blond.visible = false;
         showHairs.behind.brown.visible = false;
         showHairs.behind.gray.visible = false;

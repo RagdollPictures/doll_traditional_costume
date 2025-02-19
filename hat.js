@@ -1,5 +1,6 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
+import { audioManager } from './audioManager.js';
 
 export function initializeHats() {
     const hats = [
@@ -31,13 +32,17 @@ export function initializeHats() {
                 showOnlyHat(index, hats);
                 toggleHairBehindVisibility(false, hairBehindClips);
                 toggleButtonVisibility(index);
+
+
+                if (audioManager.sounds[button.name]) {
+                    audioManager.playSound(button.name);
+                }
             };
 
             button.removeEventListener('click', hatListener);
             button.addEventListener('click', hatListener);
         }
     });
-
 }
 
 function toggleHairBehindVisibility(isVisible, hairBehindClips) {

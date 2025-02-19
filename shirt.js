@@ -1,6 +1,7 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
 import { colors } from './colors.js';
+import { audioManager } from './audioManager.js';
 
 export function initializeShirts() {
     const shirts = movieClips.shirts;
@@ -14,6 +15,10 @@ export function initializeShirts() {
             const shirtListener = function () {
                 showShirt(index, shirts, aprons, arms, cuffs, accessories);
                 toggleShirtButtonVisibility(index);
+
+                if (audioManager.sounds[button.name]) {
+                    audioManager.playSound(button.name);
+                }
             };
 
             button.removeEventListener('click', shirtListener);
@@ -21,6 +26,7 @@ export function initializeShirts() {
         }
     });
 }
+
 
 function showShirt(index, shirts, aprons, arms, cuffs, accessories) {
     Object.keys(shirts).forEach((key) => {
@@ -74,6 +80,8 @@ function showShirt(index, shirts, aprons, arms, cuffs, accessories) {
 
     showCuff01(cuffs);
     showCollar(accessories, true);
+
+
 }
 
 function tintArmsWhite(arms) {

@@ -1,6 +1,7 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
 import { colors } from './colors.js';
+import { audioManager } from './audioManager.js';
 
 export function initializeAprons() {
     const aprons = movieClips.aprons;
@@ -17,6 +18,10 @@ export function initializeAprons() {
             button.addEventListener('click', function () {
                 showApron(index, aprons, shirts, arms, cuffs, accessories, apronButtons);
                 toggleApronButtonVisibility(index, apronButtons);
+
+                if (audioManager.sounds[button.name]) {
+                    audioManager.playSound(button.name);
+                }
             });
         }
     });
@@ -65,6 +70,9 @@ function showApron(index, aprons, shirts, arms, cuffs, accessories, apronButtons
     resetArmColor(arms);
     showCuff01(cuffs);
     showCollar(accessories, true);
+
+
+
 }
 
 function toggleApronButtonVisibility(activeIndex, apronButtons) {
