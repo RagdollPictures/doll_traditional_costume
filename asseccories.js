@@ -16,9 +16,7 @@ export function initializeAccessories() {
                 showAccessory(accessory);
                 toggleAccessoryButtonVisibility(button, accessoryButtons);
 
-                if (audioManager.sounds[button.name]) {
-                    audioManager.playSound(button.name);
-                }
+                audioManager.playSound(button.name);
 
             };
 

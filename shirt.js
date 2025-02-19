@@ -16,9 +16,7 @@ export function initializeShirts() {
                 showShirt(index, shirts, aprons, arms, cuffs, accessories);
                 toggleShirtButtonVisibility(index);
 
-                if (audioManager.sounds[button.name]) {
-                    audioManager.playSound(button.name);
-                }
+                audioManager.playSound(button.name);
             };
 
             button.removeEventListener('click', shirtListener);

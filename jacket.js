@@ -1,6 +1,7 @@
 import { colors } from './colors.js';
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
+import { audioManager } from './audioManager.js';
 
 export function initializeJackets() {
     const jackets = movieClips.jackets;
@@ -63,7 +64,7 @@ export function initializeJackets() {
 
 
                 toggleJacketButtonVisibility(button, jacketButtons);
-
+                audioManager.playSound(button.name);
 
                 if (aprons.apron_same_male) {
                     aprons.apron_same_male.visible = false;

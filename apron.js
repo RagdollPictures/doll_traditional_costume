@@ -19,12 +19,11 @@ export function initializeAprons() {
                 showApron(index, aprons, shirts, arms, cuffs, accessories, apronButtons);
                 toggleApronButtonVisibility(index, apronButtons);
 
-                if (audioManager.sounds[button.name]) {
-                    audioManager.playSound(button.name);
-                }
+                audioManager.playSound(button.name);
             });
         }
     });
+
 }
 
 function showApron(index, aprons, shirts, arms, cuffs, accessories, apronButtons) {

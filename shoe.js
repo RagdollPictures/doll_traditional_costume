@@ -1,5 +1,6 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
+import { audioManager } from './audioManager.js';
 
 export function initializeShoes() {
     const shoeButtons = [...buttons.girlShoes, ...buttons.boyShoes];
@@ -8,6 +9,8 @@ export function initializeShoes() {
         if (button) {
             const shoeListener = function () {
                 showShoes(index, shoeButtons, buttons.girlShoes.length);
+
+                audioManager.playSound(button.name);
             };
 
             button.removeEventListener('click', shoeListener);

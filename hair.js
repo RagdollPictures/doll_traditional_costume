@@ -1,5 +1,6 @@
 import { buttons } from './buttons.js';
 import { movieClips } from './movieClips.js';
+import { audioManager } from './audioManager.js';
 
 export function initializeHair() {
 
@@ -85,6 +86,7 @@ export function initializeHair() {
 
         if (buttons.hair.girl) {
             const girlListener = function () {
+                audioManager.playSound("clothes");
                 showCurrentWig();
                 currentWigIndex = (currentWigIndex + 1) % wigsSequence.length;
             };
@@ -168,6 +170,7 @@ export function initializeHair() {
 
         if (buttons.hair.boy) {
             const boyListener = function () {
+                audioManager.playSound("clothes");
                 showCurrentWig();
                 currentWigIndex = (currentWigIndex + 1) % wigsSequence.length;
             };

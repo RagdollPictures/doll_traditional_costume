@@ -34,9 +34,7 @@ export function initializeHats() {
                 toggleButtonVisibility(index);
 
 
-                if (audioManager.sounds[button.name]) {
-                    audioManager.playSound(button.name);
-                }
+                audioManager.playSound(button.name);
             };
 
             button.removeEventListener('click', hatListener);

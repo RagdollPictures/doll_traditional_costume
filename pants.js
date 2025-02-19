@@ -19,9 +19,7 @@ export function initializePants() {
                 action();
                 togglePantsButtonVisibility(button, pantsButtons);
 
-                if (audioManager.sounds[button.name]) {
-                    audioManager.playSound(button.name);
-                }
+                audioManager.playSound(button.name);
             };
 
             button.removeEventListener('click', pantsListener);
@@ -40,6 +38,8 @@ export function initializePants() {
                 showNeutralPants(pants);
             }
 
+            audioManager.playSound("clothes");
+
             changePantsColor(currentColor, pants);
             currentColorIndex = (currentColorIndex + 1) % pantsColorSequence.length;
         };
@@ -54,9 +54,11 @@ export function initializePants() {
 
         const skirtColorListener = function () {
             const currentColor = skirtColorSequence[currentSkirtColorIndex];
-
+            audioManager.playSound("clothes");
             changeSkirtColor(currentColor, pants.fills);
             currentSkirtColorIndex = (currentSkirtColorIndex + 1) % skirtColorSequence.length;
+
+
         };
 
         buttons.pants.skirtColor.removeEventListener('click', skirtColorListener);
