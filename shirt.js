@@ -16,6 +16,7 @@ export function initializeShirts() {
                 showShirt(index, shirts, aprons, arms, cuffs, accessories);
                 toggleShirtButtonVisibility(index);
 
+                audioManager.playSound("hanger");
                 audioManager.playSound(button.name);
             };
 

@@ -1,5 +1,6 @@
 export const audioManager = {
     currentEffect: null,
+    lastClothesIndex: -1,
     sounds: {
         scarf_01_btn: new Audio("audio/brostlapp_herrestad.mp3"),
         necklace_01_btn: new Audio("audio/striglakorset.mp3"),
@@ -9,25 +10,53 @@ export const audioManager = {
         shirt_04_btn: new Audio("audio/vast_i_siden_gotland.mp3"),
         btn_dress_same_male: new Audio("audio/samedrakten.mp3"),
         btn_pants_buttons: new Audio("audio/med_knappar.mp3"),
-        clothes: new Audio("audio/CLOTH-WHIP_GEN-HDF-07787.mp3")
+        clothes: new Audio("audio/CLOTH-WHIP_GEN-HDF-07787.mp3"),
+        clothes_01: new Audio("audio/Nylon_Jacket_Material_Rustle_1.mp3"),
+        clothes_02: new Audio("audio/Nylon_Jacket_Material_Rustle_2.mp3"),
+        clothes_03: new Audio("audio/Nylon_Jacket_Material_Rustle_3.mp3"),
+        clothes_04: new Audio("audio/Nylon_Jacket_Material_Rustle_4.mp3"),
+        clothes_05: new Audio("audio/Nylon_Jacket_Material_Rustle_5.mp3"),
+        hanger: new Audio("audio/Foley_Clothing_Shirt_Hanger_Take_Off_Rack_SDHOLLW_31987.mp3")
     },
 
     playSound(effectName) {
 
-        this.stopAllSounds();
+        this.playRandomClothesSound();
 
+        if (effectName === "clothes") return;
 
-        const clothesSound = this.sounds["clothes"];
-        if (clothesSound) {
-            clothesSound.currentTime = 0;
-            clothesSound.play().catch(err => console.error("Error playing clothes sound:", err));
-        }
+        if (effectName && this.sounds[effectName]) {
+            this.stopAllSpeech();
 
-
-        if (effectName && effectName !== "clothes" && this.sounds[effectName]) {
             setTimeout(() => {
                 this._playEffect(effectName);
             }, 500);
+        }
+    },
+
+    playRandomClothesSound() {
+        const clothesSounds = ["clothes_01", "clothes_02", "clothes_03", "clothes_04", "clothes_05"];
+
+        let randomIndex;
+        do {
+            randomIndex = Math.floor(Math.random() * clothesSounds.length);
+        } while (randomIndex === this.lastClothesIndex);
+
+        this.lastClothesIndex = randomIndex;
+        const selectedClothesSound = this.sounds[clothesSounds[randomIndex]];
+
+        if (selectedClothesSound) {
+
+            if (selectedClothesSound.currentTime > 0 && !selectedClothesSound.paused) {
+                return;
+            }
+
+            selectedClothesSound.currentTime = 0;
+            selectedClothesSound.play().catch(err => {
+                if (err.name !== "AbortError") {
+                    console.error("Error playing clothes sound:", err);
+                }
+            });
         }
     },
 
@@ -35,13 +64,21 @@ export const audioManager = {
         if (!this.sounds[effectName]) return;
 
         this.sounds[effectName].currentTime = 0;
-        this.sounds[effectName].play().catch(err => console.error("Error playing sound:", err));
+        this.sounds[effectName].play().catch(err => {
+            if (err.name !== "AbortError") {
+                console.error("Error playing sound:", err);
+            }
+        });
     },
 
-    stopAllSounds() {
-        Object.values(this.sounds).forEach(sound => {
-            sound.pause();
-            sound.currentTime = 0;
+    stopAllSpeech() {
+        Object.keys(this.sounds).forEach(soundKey => {
+            if (!soundKey.startsWith("clothes_")) {
+                if (!this.sounds[soundKey].paused) {
+                    this.sounds[soundKey].pause();
+                    this.sounds[soundKey].currentTime = 0;
+                }
+            }
         });
     }
 };

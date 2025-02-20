@@ -21668,6 +21668,17 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
 	// Layer_5
 	this.shape = new cjs.Shape();
 	this.shape.graphics.beginFill("#5F1806").beginStroke().moveTo(9.9,0.7).curveTo(5.1,-3.3,2.7,-4.3).curveTo(0.9,-5.1,-0.9,-4.8).curveTo(-2.1,-4.7,-5.3,-3.6).curveTo(-7.7,-2.8,-14.3,2.4).curveTo(-17.7,4.9,-20.5,7.3).lineTo(-20.7,7.3).lineTo(-20.9,7).curveTo(-21,5.5,-14,-1.6).curveTo(-6.4,-9.4,-2,-9.6).curveTo(3.8,-9.9,10.4,-4.6).curveTo(16,0,20.9,7.6).lineTo(18.1,9.6).curveTo(15.4,5.4,9.9,0.7).closePath();
@@ -21677,32 +21688,41 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.beginFill("#5F1806").beginStroke().moveTo(-20.9,7.6).curveTo(-16,-0,-10.4,-4.6).curveTo(-3.9,-9.9,1.9,-9.6).curveTo(6.4,-9.4,14,-1.6).curveTo(21,5.5,20.9,7).lineTo(20.7,7.3).lineTo(20.5,7.3).curveTo(17.7,4.9,14.3,2.4).curveTo(7.6,-2.8,5.3,-3.6).curveTo(2,-4.7,0.9,-4.8).curveTo(-0.9,-5.1,-2.7,-4.3).curveTo(-5.1,-3.3,-9.9,0.7).curveTo(-15.4,5.4,-18.2,9.6).closePath();
 	this.shape_1.setTransform(-38.2484,-4.083);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// highlight
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_2.setTransform(39.804,8.4053,0.6837,0.6808);
+	this.shape_2.graphics.beginFill("#5F1806").beginStroke().moveTo(-1.7,7.1).curveTo(-6.2,6.9,-13.9,1.6).curveTo(-21,-3.3,-20.9,-4.5).lineTo(-20.7,-4.9).lineTo(-20.5,-4.9).lineTo(-14.2,-2.4).curveTo(-7.4,0.3,-5,1.1).curveTo(-1.8,2.2,-0.6,2.3).curveTo(1.2,2.6,3,1.8).lineTo(10,-0.8).curveTo(15.6,-3.3,18.1,-7.2).lineTo(20.9,-5.2).curveTo(16.7,1.4,10.5,4.6).curveTo(5.5,7.2,-0.3,7.2).lineTo(-1.7,7.1).closePath();
+	this.shape_2.setTransform(33.7743,4.2188);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_3.setTransform(-30.693,8.4152,0.6837,0.6809);
+	this.shape_3.graphics.beginFill("#5F1806").beginStroke().moveTo(-10.7,4.6).curveTo(-16.7,1.5,-20.9,-5.2).lineTo(-18.2,-7.2).curveTo(-15.6,-3.3,-10.2,-0.8).lineTo(-3.3,1.8).curveTo(-1.5,2.6,0.3,2.3).curveTo(1.5,2.2,4.8,1.1).lineTo(20.5,-4.9).lineTo(20.7,-4.9).lineTo(20.9,-4.5).curveTo(21,-3.3,13.8,1.6).curveTo(5.9,6.9,1.4,7.1).lineTo(0,7.2).curveTo(-5.7,7.2,-10.7,4.6).closePath();
+	this.shape_3.setTransform(-38.2493,5.2688);
 
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_3},{t:this.shape_2}]},1).wait(1));
+
+	// highlight
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_4.setTransform(27.0583,-2.0997,1.3716,1.3791);
+	this.shape_4.setTransform(39.8009,8.3987,0.6837,0.6808);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_5.setTransform(-43.7905,-2.1364,1.3674,1.3619);
+	this.shape_5.setTransform(-30.696,8.4053,0.6837,0.6808);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2}]}).wait(1));
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
+	this.shape_6.setTransform(27.0453,-2.1163,1.3716,1.379);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
+	this.shape_7.setTransform(-43.7997,-2.1497,1.3673,1.3618);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4}]}).to({state:[]},1).wait(1));
 
 	// pupilmask (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	mask.graphics.moveTo(28.6,10.4).curveTo(25.4,9.5,20.8,6.1).curveTo(16.8,3.1,15.7,1.5).lineTo(15.9,1.5).curveTo(18.8,-0.9,22.1,-3.5).curveTo(28.8,-8.6,31.1,-9.4).curveTo(34.4,-10.5,35.5,-10.7).curveTo(37.3,-10.9,39.1,-10.2).curveTo(41.6,-9.2,46.3,-5.1).curveTo(51.8,-0.4,54.6,3.8).curveTo(48.4,8.3,44.1,9.9).curveTo(39.9,11.5,35.6,11.5).curveTo(32.1,11.5,28.6,10.4).closePath().moveTo(-36.4,10.7).curveTo(-40.4,10.6,-44.1,9.2).curveTo(-48.2,7.6,-54.6,3.1).curveTo(-51.8,-1.1,-46.3,-5.8).curveTo(-41.5,-9.9,-39.1,-10.9).curveTo(-37.3,-11.6,-35.5,-11.4).curveTo(-34.4,-11.2,-31.1,-10.1).curveTo(-28.8,-9.3,-22.1,-4.2).curveTo(-18.7,-1.6,-15.9,0.8).lineTo(-15.7,0.8).curveTo(-16.7,2.4,-20.8,5.4).curveTo(-25.3,8.8,-28.5,9.7).curveTo(-31.9,10.7,-35.4,10.7).lineTo(-36.4,10.7).closePath();
-	mask.setTransform(-1.775,2.2447);
+	var mask_graphics_0 = new cjs.Graphics().moveTo(28.6,10.4).curveTo(25.4,9.5,20.8,6.1).curveTo(16.8,3.1,15.7,1.5).lineTo(15.9,1.5).curveTo(18.8,-0.9,22.1,-3.5).curveTo(28.8,-8.6,31.1,-9.4).curveTo(34.4,-10.5,35.5,-10.7).curveTo(37.3,-10.9,39.1,-10.2).curveTo(41.6,-9.2,46.3,-5.1).curveTo(51.8,-0.4,54.6,3.8).curveTo(48.4,8.3,44.1,9.9).curveTo(39.9,11.5,35.6,11.5).curveTo(32.1,11.5,28.6,10.4).closePath().moveTo(-36.4,10.7).curveTo(-40.4,10.6,-44.1,9.2).curveTo(-48.2,7.6,-54.6,3.1).curveTo(-51.8,-1.1,-46.3,-5.8).curveTo(-41.5,-9.9,-39.1,-10.9).curveTo(-37.3,-11.6,-35.5,-11.4).curveTo(-34.4,-11.2,-31.1,-10.1).curveTo(-28.8,-9.3,-22.1,-4.2).curveTo(-18.7,-1.6,-15.9,0.8).lineTo(-15.7,0.8).curveTo(-16.7,2.4,-20.8,5.4).curveTo(-25.3,8.8,-28.5,9.7).curveTo(-31.9,10.7,-35.4,10.7).lineTo(-36.4,10.7).closePath();
+
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:-1.775,y:2.2447}).wait(1).to({graphics:null,x:0,y:0}).wait(1));
 
 	// pupil
 	this.pupils = new lib.pupils();
@@ -21715,7 +21735,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.pupils).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.pupils).to({_off:true},1).wait(1));
 
 	// base
 	this.eye_right = new lib.eye_right();
@@ -21726,11 +21746,12 @@ if (reversed == null) { reversed = false; }
 	this.eye_left.name = "eye_left";
 	this.eye_left.setTransform(34.45,0,1,1,0,0,0,20.9,13.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.eye_left},{t:this.eye_right}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.eye_left},{t:this.eye_right}]}).to({state:[]},1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.eyes, new cjs.Rectangle(-59.1,-13.7,113.80000000000001,27.2), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-59.1,-13.7,113.80000000000001,27.2);
 
 
 (lib.eyebrow_right = function(mode,startPosition,loop,reversed) {
@@ -25150,15 +25171,15 @@ lib.properties = {
 	color: "#70AEA3",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1739983223755", id:"bg"},
-		{src:"images/btn_start.png?1739983223755", id:"btn_start"},
-		{src:"images/chair.png?1739983223755", id:"chair"},
-		{src:"images/pants.png?1739983223755", id:"pants"},
-		{src:"images/skirts.png?1739983223755", id:"skirts"},
-		{src:"images/start_screen.jpg?1739983223755", id:"start_screen"},
-		{src:"images/valet_stand_girl.png?1739983223755", id:"valet_stand_girl"},
-		{src:"images/wigs_boy.png?1739983223755", id:"wigs_boy"},
-		{src:"images/wigs_girl.png?1739983223755", id:"wigs_girl"}
+		{src:"images/bg.jpg?1740051783297", id:"bg"},
+		{src:"images/btn_start.png?1740051783297", id:"btn_start"},
+		{src:"images/chair.png?1740051783297", id:"chair"},
+		{src:"images/pants.png?1740051783297", id:"pants"},
+		{src:"images/skirts.png?1740051783297", id:"skirts"},
+		{src:"images/start_screen.jpg?1740051783297", id:"start_screen"},
+		{src:"images/valet_stand_girl.png?1740051783297", id:"valet_stand_girl"},
+		{src:"images/wigs_boy.png?1740051783297", id:"wigs_boy"},
+		{src:"images/wigs_girl.png?1740051783297", id:"wigs_girl"}
 	],
 	preloads: []
 };

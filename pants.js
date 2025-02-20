@@ -70,10 +70,15 @@ export function initializePants() {
 function togglePantsButtonVisibility(activeButton, pantsButtons) {
     pantsButtons.forEach(({ button }) => {
         if (button) {
-            button.visible = button === buttons.pants.neutral || button !== activeButton;
+            if (button === buttons.pants.neutral) {
+                button.visible = activeButton !== buttons.pants.neutral;
+            } else {
+                button.visible = button !== activeButton;
+            }
         }
     });
 }
+
 
 
 function isAnyPantsVisible(pants) {

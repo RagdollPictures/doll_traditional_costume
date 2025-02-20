@@ -11,6 +11,7 @@ import { initializePants } from './pants.js';
 import { initializeDress } from './dress.js';
 import { initBoy, initGirl } from './init.js';
 import { initializeMouseFollow } from './mouseFollow.js';
+import { startBlinking } from './blink.js';
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -38,6 +39,7 @@ function checkIfReady() {
         const headFront = movieClips.character.headFront;
         const headBack = movieClips.character.headBack;
         initializeMouseFollow(stage, headFront, headBack);
+        startBlinking();
     } else {
         setTimeout(checkIfReady, 100);
     }
@@ -95,3 +97,4 @@ function addResetButtonsListeners() {
         });
     }
 }
+

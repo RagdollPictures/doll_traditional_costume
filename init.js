@@ -3,6 +3,7 @@ import { movieClips } from './movieClips.js';
 import { colors } from './colors.js';
 import { tintJacketAndArmsColor } from './jacket.js';
 import { changePantsColor } from './pants.js';
+import { changeSkirtColor } from './pants.js';
 
 
 function resetButtonsVisibility() {
@@ -297,7 +298,7 @@ export function initGirl() {
 
     if (pants && pants.neutral && pants.decoration && pants.skirt && pants.fills) {
         pants.skirt.visible = true;
-        changePantsColor(colors.white, pants.fills);
+        changeSkirtColor(colors.white, pants.fills);
     }
 
 
