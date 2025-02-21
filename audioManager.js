@@ -35,7 +35,7 @@ export const audioManager = {
     },
 
     playRandomClothesSound() {
-        const clothesSounds = ["clothes_01", "clothes_02", "clothes_03", "clothes_04", "clothes_05"];
+        const clothesSounds = ["clothes", "clothes_01", "clothes_02", "clothes_03", "clothes_04", "clothes_05"];
 
         let randomIndex;
         do {

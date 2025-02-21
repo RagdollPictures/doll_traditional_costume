@@ -35,6 +35,7 @@ function checkIfReady() {
         initGirl();
         addCharacterSelectionListeners();
         addResetButtonsListeners();
+        addScreenshotListener();
 
         const headFront = movieClips.character.headFront;
         const headBack = movieClips.character.headBack;
@@ -95,6 +96,19 @@ function addResetButtonsListeners() {
             exportRoot.scene.gotoAndStop(0);
 
         });
+    }
+}
+
+function addScreenshotListener() {
+    const btnScreenshot = buttons.screenshot;
+
+    if (btnScreenshot) {
+        btnScreenshot.on('click', function () {
+            console.log("Screenshot taget");
+            window.chrome.webview.postMessage("take_screenshot");
+        });
+    } else {
+        console.error("Screenshotknappen hittades inte");
     }
 }
 

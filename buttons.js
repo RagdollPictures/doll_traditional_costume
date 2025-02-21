@@ -9,6 +9,7 @@ export function initializeButtons() {
         resetGirl: exportRoot.scene.btn_reset_girl,
         resetBoy: exportRoot.scene.btn_reset_boy,
         back: exportRoot.scene.btn_back,
+        screenshot: exportRoot.scene.btn_camera,
 
         hats: [
             exportRoot.scene.btn_hat_01,

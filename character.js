@@ -37,6 +37,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 p.nominalBounds = new cjs.Rectangle(0,0,287,132);
 
 
+(lib.camera_icon = function() {
+	this.initialize(img.camera_icon);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,205,242);
+
+
 (lib.chair = function() {
 	this.initialize(img.chair);
 }).prototype = p = new cjs.Bitmap();
@@ -16373,6 +16379,27 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.btn_girl, new cjs.Rectangle(-1,-1,494.2,722.2), null);
 
 
+(lib.btn_camera = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.camera_icon();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_camera, new cjs.Rectangle(0,0,205,242), null);
+
+
 (lib.btn_boy = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -21701,19 +21728,19 @@ if (reversed == null) { reversed = false; }
 	// highlight
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_4.setTransform(39.8009,8.3987,0.6837,0.6808);
+	this.shape_4.setTransform(39.7979,8.392,0.6836,0.6808);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_5.setTransform(-30.696,8.4053,0.6837,0.6808);
+	this.shape_5.setTransform(-30.6991,8.3987,0.6837,0.6808);
 
 	this.shape_6 = new cjs.Shape();
 	this.shape_6.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_6.setTransform(27.0453,-2.1163,1.3716,1.379);
+	this.shape_6.setTransform(27.0349,-2.1361,1.3715,1.3789);
 
 	this.shape_7 = new cjs.Shape();
 	this.shape_7.graphics.beginFill("#F9EFE5").beginStroke().moveTo(-2.1,2).curveTo(-2.9,1.2,-2.9,-0).curveTo(-2.9,-1.2,-2.1,-2.1).curveTo(-1.2,-2.9,0,-2.9).curveTo(1.2,-2.9,2.1,-2.1).curveTo(2.9,-1.2,2.9,-0).curveTo(2.9,1.2,2.1,2).curveTo(1.2,2.9,0,2.9).curveTo(-1.2,2.9,-2.1,2).closePath();
-	this.shape_7.setTransform(-43.7997,-2.1497,1.3673,1.3618);
+	this.shape_7.setTransform(-43.8058,-2.1629,1.3672,1.3618);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4}]}).to({state:[]},1).wait(1));
 
@@ -24660,6 +24687,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_reset_girl,p:{x:-476,y:-49.9}},{t:this.btn_reset_boy,p:{x:-310.35,y:-49.9}},{t:this.btn_back,p:{x:-52.05,y:-78.05}}]}).to({state:[{t:this.btn_reset_boy,p:{x:1819.7,y:1127.35}},{t:this.btn_back,p:{x:528.3,y:64.5}}]},1).to({state:[{t:this.btn_reset_girl,p:{x:1808.3,y:1132.55}},{t:this.btn_back,p:{x:528.15,y:65.1}}]},1).wait(1));
 
 	// btn
+	this.btn_camera = new lib.btn_camera();
+	this.btn_camera.name = "btn_camera";
+	this.btn_camera.setTransform(2235.2,1413.95,1,1,0,0,0,102.5,121);
+
 	this.btn_dress_same_male = new lib.btn_same_male();
 	this.btn_dress_same_male.name = "btn_dress_same_male";
 	this.btn_dress_same_male.setTransform(2409.35,119.9,0.7212,0.7212,0,0,0,66.8,83.2);
@@ -25063,7 +25094,7 @@ if (reversed == null) { reversed = false; }
 	this.shirt_12_btn.setTransform(1218.1,388.4,0.8,0.8,0,0,0,69.5,84.2);
 	new cjs.ButtonHelper(this.shirt_12_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_hat_05,p:{x:225.8,y:1241.25}},{t:this.btn_hat_04,p:{x:-158.6,y:601.85}},{t:this.btn_hat_03,p:{x:-154.05,y:738.3}},{t:this.btn_hat_02,p:{scaleX:0.6142,scaleY:0.6142,rotation:0,x:-339.85,y:602.7}},{t:this.btn_hat_01,p:{rotation:0,x:-169.55,y:891.25}},{t:this.btn_shirt_01},{t:this.btn_shirt_02},{t:this.btn_shirt_03},{t:this.btn_shirt_04},{t:this.btn_shirt_05},{t:this.btn_shirt_06},{t:this.btn_jacket_short},{t:this.btn_jacket_long},{t:this.btn_pants_neutral},{t:this.btn_pants_buttons,p:{x:2033.3,y:1305.6}},{t:this.btn_pants_tassels,p:{x:2231.95,y:1323.15}},{t:this.btn_pants_ribbons,p:{x:2028.3,y:1406.55}},{t:this.btn_shirt_12},{t:this.btn_shirt_11},{t:this.btn_shirt_10},{t:this.btn_shirt_09},{t:this.btn_shirt_08},{t:this.btn_shirt_07},{t:this.btn_shirt_same},{t:this.btn_hat_06,p:{regX:188.2,regY:75.3,scaleX:0.5544,scaleY:0.5546,rotation:0,x:-169.7,y:439.15}},{t:this.btn_hat_07,p:{regX:171.2,scaleX:0.6027,scaleY:0.6028,rotation:0,x:-157.9,y:333.7}},{t:this.btn_hat_08},{t:this.btn_hat_09,p:{regX:81.9,scaleX:0.6606,scaleY:0.6608,rotation:0,x:-178.6,y:212.1}},{t:this.btn_hat_10,p:{regY:111.8,scaleX:0.6585,scaleY:0.659,rotation:0,x:-173.05,y:100.5}},{t:this.btn_apron_01,p:{regX:103,scaleX:0.6469,scaleY:0.6469,x:2009.3,y:798.9}},{t:this.btn_apron_02,p:{regX:101.8,regY:102.5,scaleX:0.6469,scaleY:0.6469,x:2206.95,y:300.85}},{t:this.btn_apron_03,p:{regX:117.8,regY:92.8,scaleX:0.6469,scaleY:0.6469,x:2219.25,y:129.75}},{t:this.btn_apron_04,p:{regY:103.5,scaleX:0.6469,scaleY:0.6469,x:2016.8,y:635.15}},{t:this.btn_apron_05,p:{regX:115.4,regY:96,scaleX:0.6469,scaleY:0.6469,x:2010.15,y:464.15}},{t:this.btn_apron_06,p:{regX:103.7,scaleX:0.6469,scaleY:0.6469,x:2017.9,y:315.35}},{t:this.btn_apron_same},{t:this.btn_shoe_boy_04},{t:this.btn_shoe_boy_03},{t:this.btn_shoe_boy_02},{t:this.btn_shoe_boy_01},{t:this.btn_necklace_01},{t:this.btn_scarf_01},{t:this.btn_skirts_color,p:{regX:184.1,x:656.05,y:1260.55}},{t:this.btn_wigs_girl_color,p:{x:-92.95,y:1252.5}},{t:this.btn_pants_color,p:{regX:184,scaleY:0.815,x:1038.35,y:1277.9}},{t:this.btn_wigs_boy_color,p:{x:253.8,y:1260.55}},{t:this.btn_dress_same_male,p:{scaleX:0.7212,scaleY:0.7212,x:2409.35,y:119.9}}]}).to({state:[{t:this.btn_hat_05,p:{x:1903.75,y:432.9}},{t:this.btn_hat_04,p:{x:1631.55,y:175.7}},{t:this.btn_hat_03,p:{x:1312.45,y:183.7}},{t:this.btn_hat_02,p:{scaleX:0.6141,scaleY:0.6141,rotation:-150.0009,x:1180.5,y:179.7}},{t:this.btn_hat_01,p:{rotation:-90,x:1407.7,y:184.85}},{t:this.shirt_01_btn},{t:this.shirt_02_btn},{t:this.shirt_03_btn},{t:this.shirt_04_btn},{t:this.shirt_05_btn},{t:this.shirt_06_btn},{t:this.btn_jacket_short_yellow},{t:this.pants_neutral_btn},{t:this.btn_pants_buttons,p:{x:1662.85,y:685.85}},{t:this.btn_pants_tassels,p:{x:1960.05,y:654.85}},{t:this.btn_pants_ribbons,p:{x:1700.7,y:671.5}},{t:this.shoe_boy_04_btn},{t:this.shoe_boy_03_btn},{t:this.shoe_boy_02_btn},{t:this.shoe_boy_01_btn},{t:this.btn_pants_color,p:{regX:184.1,scaleY:0.8152,x:1354.6,y:868.4}},{t:this.btn_wigs_boy_color,p:{x:573.45,y:924.8}},{t:this.btn_jacket_short_red},{t:this.btn_jacket_short_blue},{t:this.btn_jacket_short_black},{t:this.btn_jacket_long_blue},{t:this.btn_jacket_long_red},{t:this.btn_jacket_long_black},{t:this.btn_jacket_long_yellow},{t:this.btn_dress_same_male,p:{scaleX:1,scaleY:1,x:245.4,y:117.5}}]},1).to({state:[{t:this.shirt_12_btn},{t:this.shirt_11_btn},{t:this.shirt_10_btn},{t:this.shirt_09_btn},{t:this.shirt_08_btn},{t:this.shirt_07_btn},{t:this.btn_hat_07,p:{regX:171.3,scaleX:0.4896,scaleY:0.4897,rotation:180,x:1389.6,y:184.25}},{t:this.hat_08_btn},{t:this.btn_hat_09,p:{regX:82.2,scaleX:0.5365,scaleY:0.5367,rotation:91.4515,x:1172.3,y:186.3}},{t:this.btn_hat_10,p:{regY:111.7,scaleX:0.5349,scaleY:0.5353,rotation:180,x:1503.5,y:168.55}},{t:this.btn_apron_01,p:{regX:103.2,scaleX:0.9259,scaleY:0.9259,x:248.2,y:814.1}},{t:this.btn_apron_02,p:{regX:102,regY:102.8,scaleX:0.9259,scaleY:0.9259,x:242.8,y:720.45}},{t:this.btn_apron_03,p:{regX:117.9,regY:93,scaleX:0.9259,scaleY:0.9259,x:234.1,y:614.95}},{t:this.btn_apron_04,p:{regY:103.7,scaleX:0.9259,scaleY:0.9259,x:238.5,y:529.4}},{t:this.btn_apron_05,p:{regX:115.5,regY:96.2,scaleX:0.9259,scaleY:0.9259,x:238.4,y:431.2}},{t:this.btn_apron_06,p:{regX:103.8,scaleX:0.9259,scaleY:0.9259,x:239.05,y:341.4}},{t:this.btn_dress_same},{t:this.necklace_01_btn},{t:this.scarf_01_btn},{t:this.btn_collar_01},{t:this.btn_shoe_girl_04},{t:this.btn_shoe_girl_03},{t:this.btn_shoe_girl_02},{t:this.btn_shoe_girl_01},{t:this.btn_hat_06,p:{regX:188.3,regY:75.4,scaleX:0.4504,scaleY:0.4505,rotation:180,x:1629,y:196.75}},{t:this.btn_skirts_color,p:{regX:184,x:1311.2,y:870.75}},{t:this.btn_wigs_girl_color,p:{x:566.15,y:929.15}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_hat_05,p:{x:225.8,y:1241.25}},{t:this.btn_hat_04,p:{x:-158.6,y:601.85}},{t:this.btn_hat_03,p:{x:-154.05,y:738.3}},{t:this.btn_hat_02,p:{scaleX:0.6142,scaleY:0.6142,rotation:0,x:-339.85,y:602.7}},{t:this.btn_hat_01,p:{rotation:0,x:-169.55,y:891.25}},{t:this.btn_shirt_01},{t:this.btn_shirt_02},{t:this.btn_shirt_03},{t:this.btn_shirt_04},{t:this.btn_shirt_05},{t:this.btn_shirt_06},{t:this.btn_jacket_short},{t:this.btn_jacket_long},{t:this.btn_pants_neutral},{t:this.btn_pants_buttons,p:{x:2033.3,y:1305.6}},{t:this.btn_pants_tassels,p:{x:2231.95,y:1323.15}},{t:this.btn_pants_ribbons,p:{x:2028.3,y:1406.55}},{t:this.btn_shirt_12},{t:this.btn_shirt_11},{t:this.btn_shirt_10},{t:this.btn_shirt_09},{t:this.btn_shirt_08},{t:this.btn_shirt_07},{t:this.btn_shirt_same},{t:this.btn_hat_06,p:{regX:188.2,regY:75.3,scaleX:0.5544,scaleY:0.5546,rotation:0,x:-169.7,y:439.15}},{t:this.btn_hat_07,p:{regX:171.2,scaleX:0.6027,scaleY:0.6028,rotation:0,x:-157.9,y:333.7}},{t:this.btn_hat_08},{t:this.btn_hat_09,p:{regX:81.9,scaleX:0.6606,scaleY:0.6608,rotation:0,x:-178.6,y:212.1}},{t:this.btn_hat_10,p:{regY:111.8,scaleX:0.6585,scaleY:0.659,rotation:0,x:-173.05,y:100.5}},{t:this.btn_apron_01,p:{regX:103,scaleX:0.6469,scaleY:0.6469,x:2009.3,y:798.9}},{t:this.btn_apron_02,p:{regX:101.8,regY:102.5,scaleX:0.6469,scaleY:0.6469,x:2206.95,y:300.85}},{t:this.btn_apron_03,p:{regX:117.8,regY:92.8,scaleX:0.6469,scaleY:0.6469,x:2219.25,y:129.75}},{t:this.btn_apron_04,p:{regY:103.5,scaleX:0.6469,scaleY:0.6469,x:2016.8,y:635.15}},{t:this.btn_apron_05,p:{regX:115.4,regY:96,scaleX:0.6469,scaleY:0.6469,x:2010.15,y:464.15}},{t:this.btn_apron_06,p:{regX:103.7,scaleX:0.6469,scaleY:0.6469,x:2017.9,y:315.35}},{t:this.btn_apron_same},{t:this.btn_shoe_boy_04},{t:this.btn_shoe_boy_03},{t:this.btn_shoe_boy_02},{t:this.btn_shoe_boy_01},{t:this.btn_necklace_01},{t:this.btn_scarf_01},{t:this.btn_skirts_color,p:{regX:184.1,x:656.05,y:1260.55}},{t:this.btn_wigs_girl_color,p:{x:-92.95,y:1252.5}},{t:this.btn_pants_color,p:{regX:184,scaleY:0.815,x:1038.35,y:1277.9}},{t:this.btn_wigs_boy_color,p:{x:253.8,y:1260.55}},{t:this.btn_dress_same_male,p:{scaleX:0.7212,scaleY:0.7212,x:2409.35,y:119.9}},{t:this.btn_camera,p:{x:2235.2,y:1413.95}}]}).to({state:[{t:this.btn_hat_05,p:{x:1903.75,y:432.9}},{t:this.btn_hat_04,p:{x:1631.55,y:175.7}},{t:this.btn_hat_03,p:{x:1312.45,y:183.7}},{t:this.btn_hat_02,p:{scaleX:0.6141,scaleY:0.6141,rotation:-150.0009,x:1180.5,y:179.7}},{t:this.btn_hat_01,p:{rotation:-90,x:1407.7,y:184.85}},{t:this.shirt_01_btn},{t:this.shirt_02_btn},{t:this.shirt_03_btn},{t:this.shirt_04_btn},{t:this.shirt_05_btn},{t:this.shirt_06_btn},{t:this.btn_jacket_short_yellow},{t:this.pants_neutral_btn},{t:this.btn_pants_buttons,p:{x:1662.85,y:685.85}},{t:this.btn_pants_tassels,p:{x:1960.05,y:654.85}},{t:this.btn_pants_ribbons,p:{x:1700.7,y:671.5}},{t:this.shoe_boy_04_btn},{t:this.shoe_boy_03_btn},{t:this.shoe_boy_02_btn},{t:this.shoe_boy_01_btn},{t:this.btn_pants_color,p:{regX:184.1,scaleY:0.8152,x:1354.6,y:868.4}},{t:this.btn_wigs_boy_color,p:{x:573.45,y:924.8}},{t:this.btn_jacket_short_red},{t:this.btn_jacket_short_blue},{t:this.btn_jacket_short_black},{t:this.btn_jacket_long_blue},{t:this.btn_jacket_long_red},{t:this.btn_jacket_long_black},{t:this.btn_jacket_long_yellow},{t:this.btn_dress_same_male,p:{scaleX:1,scaleY:1,x:245.4,y:117.5}},{t:this.btn_camera,p:{x:1775.5,y:933}}]},1).to({state:[{t:this.shirt_12_btn},{t:this.shirt_11_btn},{t:this.shirt_10_btn},{t:this.shirt_09_btn},{t:this.shirt_08_btn},{t:this.shirt_07_btn},{t:this.btn_hat_07,p:{regX:171.3,scaleX:0.4896,scaleY:0.4897,rotation:180,x:1389.6,y:184.25}},{t:this.hat_08_btn},{t:this.btn_hat_09,p:{regX:82.2,scaleX:0.5365,scaleY:0.5367,rotation:91.4515,x:1172.3,y:186.3}},{t:this.btn_hat_10,p:{regY:111.7,scaleX:0.5349,scaleY:0.5353,rotation:180,x:1503.5,y:168.55}},{t:this.btn_apron_01,p:{regX:103.2,scaleX:0.9259,scaleY:0.9259,x:248.2,y:814.1}},{t:this.btn_apron_02,p:{regX:102,regY:102.8,scaleX:0.9259,scaleY:0.9259,x:242.8,y:720.45}},{t:this.btn_apron_03,p:{regX:117.9,regY:93,scaleX:0.9259,scaleY:0.9259,x:234.1,y:614.95}},{t:this.btn_apron_04,p:{regY:103.7,scaleX:0.9259,scaleY:0.9259,x:238.5,y:529.4}},{t:this.btn_apron_05,p:{regX:115.5,regY:96.2,scaleX:0.9259,scaleY:0.9259,x:238.4,y:431.2}},{t:this.btn_apron_06,p:{regX:103.8,scaleX:0.9259,scaleY:0.9259,x:239.05,y:341.4}},{t:this.btn_dress_same},{t:this.necklace_01_btn},{t:this.scarf_01_btn},{t:this.btn_collar_01},{t:this.btn_shoe_girl_04},{t:this.btn_shoe_girl_03},{t:this.btn_shoe_girl_02},{t:this.btn_shoe_girl_01},{t:this.btn_hat_06,p:{regX:188.3,regY:75.4,scaleX:0.4504,scaleY:0.4505,rotation:180,x:1629,y:196.75}},{t:this.btn_skirts_color,p:{regX:184,x:1311.2,y:870.75}},{t:this.btn_wigs_girl_color,p:{x:566.15,y:929.15}},{t:this.btn_camera,p:{x:1775.5,y:933}}]},1).wait(1));
 
 	// character
 	this.btn_shoe_girl_01_1 = new lib.shoe_01();
@@ -25128,7 +25159,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-789.5,-114,3274.8,1567.9);
+p.nominalBounds = new cjs.Rectangle(-789.5,-114,3274.8,1649);
 
 
 // stage content:
@@ -25161,7 +25192,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(170.5,426,2314.7,1027.9);
+p.nominalBounds = new cjs.Rectangle(170.5,426,2314.7,1109);
 // library properties:
 lib.properties = {
 	id: '9A70AC701BA1E245BCC9BD39994BFEE7',
@@ -25171,15 +25202,16 @@ lib.properties = {
 	color: "#70AEA3",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1740051783297", id:"bg"},
-		{src:"images/btn_start.png?1740051783297", id:"btn_start"},
-		{src:"images/chair.png?1740051783297", id:"chair"},
-		{src:"images/pants.png?1740051783297", id:"pants"},
-		{src:"images/skirts.png?1740051783297", id:"skirts"},
-		{src:"images/start_screen.jpg?1740051783297", id:"start_screen"},
-		{src:"images/valet_stand_girl.png?1740051783297", id:"valet_stand_girl"},
-		{src:"images/wigs_boy.png?1740051783297", id:"wigs_boy"},
-		{src:"images/wigs_girl.png?1740051783297", id:"wigs_girl"}
+		{src:"images/bg.jpg?1740128963193", id:"bg"},
+		{src:"images/btn_start.png?1740128963193", id:"btn_start"},
+		{src:"images/camera_icon.png?1740128963193", id:"camera_icon"},
+		{src:"images/chair.png?1740128963193", id:"chair"},
+		{src:"images/pants.png?1740128963193", id:"pants"},
+		{src:"images/skirts.png?1740128963193", id:"skirts"},
+		{src:"images/start_screen.jpg?1740128963193", id:"start_screen"},
+		{src:"images/valet_stand_girl.png?1740128963193", id:"valet_stand_girl"},
+		{src:"images/wigs_boy.png?1740128963193", id:"wigs_boy"},
+		{src:"images/wigs_girl.png?1740128963193", id:"wigs_girl"}
 	],
 	preloads: []
 };
