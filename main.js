@@ -104,7 +104,7 @@ function addScreenshotListener() {
 
     if (btnScreenshot) {
         btnScreenshot.on('click', function () {
-            console.log("Screenshot taget");
+            console.log("Screenshot click");
             window.chrome.webview.postMessage("take_screenshot");
         });
     } else {

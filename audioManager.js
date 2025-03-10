@@ -2,15 +2,14 @@ export const audioManager = {
     currentEffect: null,
     lastClothesIndex: -1,
     sounds: {
-        scarf_01_btn: new Audio("audio/brostlapp_herrestad.mp3"),
+        shirt_08_btn: new Audio("audio/brostlapp_herrestad.mp3"),
         necklace_01_btn: new Audio("audio/striglakorset.mp3"),
-        btn_apron_02: new Audio("audio/livstycke_gotland.mp3"),
-        btn_hat_09: new Audio("audio/mossa_fran_dalarna.mp3"),
-        btn_hat_01: new Audio("audio/mossa_fran_vasterbotten.mp3"),
+        shirt_09_btn: new Audio("audio/livstycke_gotland.mp3"),
+        hat_08_btn: new Audio("audio/mossa_fran_dalarna.mp3"),
+        btn_hat_04: new Audio("audio/mossa_fran_vasterbotten.mp3"),
         shirt_04_btn: new Audio("audio/vast_i_siden_gotland.mp3"),
         btn_dress_same_male: new Audio("audio/samedrakten.mp3"),
         btn_pants_buttons: new Audio("audio/med_knappar.mp3"),
-        clothes: new Audio("audio/CLOTH-WHIP_GEN-HDF-07787.mp3"),
         clothes_01: new Audio("audio/Nylon_Jacket_Material_Rustle_1.mp3"),
         clothes_02: new Audio("audio/Nylon_Jacket_Material_Rustle_2.mp3"),
         clothes_03: new Audio("audio/Nylon_Jacket_Material_Rustle_3.mp3"),
@@ -35,7 +34,7 @@ export const audioManager = {
     },
 
     playRandomClothesSound() {
-        const clothesSounds = ["clothes", "clothes_01", "clothes_02", "clothes_03", "clothes_04", "clothes_05"];
+        const clothesSounds = ["clothes_01", "clothes_02", "clothes_03", "clothes_04", "clothes_05"];
 
         let randomIndex;
         do {
