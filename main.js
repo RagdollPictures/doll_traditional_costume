@@ -12,6 +12,7 @@ import { initializeDress } from './dress.js';
 import { initBoy, initGirl } from './init.js';
 import { initializeMouseFollow, pauseMouseFollow } from './mouseFollow.js';
 import { startBlinking } from './blink.js';
+import { audioManager } from './audioManager.js';
 
 document.addEventListener("DOMContentLoaded", function () {
     checkIfReady();
@@ -93,9 +94,8 @@ function addScreenshotListener() {
 
     if (btnScreenshot) {
         btnScreenshot.on('click', function () {
-            console.log("Screenshot click");
-
-            pauseMouseFollow(5000);
+            audioManager.playSound("btn_camera");
+            pauseMouseFollow(2000);
             window.chrome.webview.postMessage("take_screenshot");
         });
     } else {

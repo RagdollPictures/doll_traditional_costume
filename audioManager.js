@@ -15,12 +15,15 @@ export const audioManager = {
         clothes_03: new Audio("audio/Nylon_Jacket_Material_Rustle_3.mp3"),
         clothes_04: new Audio("audio/Nylon_Jacket_Material_Rustle_4.mp3"),
         clothes_05: new Audio("audio/Nylon_Jacket_Material_Rustle_5.mp3"),
-        hanger: new Audio("audio/Foley_Clothing_Shirt_Hanger_Take_Off_Rack_SDHOLLW_31987.mp3")
+        hanger: new Audio("audio/Foley_Clothing_Shirt_Hanger_Take_Off_Rack_SDHOLLW_31987.mp3"),
+        btn_camera: new Audio("audio/camera-01.mp3")
     },
 
     playSound(effectName) {
 
-        this.playRandomClothesSound();
+        if (effectName !== "btn_camera") {
+            this.playRandomClothesSound();
+        }
 
         if (effectName === "clothes") return;
 
