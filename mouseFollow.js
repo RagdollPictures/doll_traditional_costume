@@ -1,39 +1,84 @@
 import { movieClips } from './movieClips.js';
 
-export function initializeMouseFollow(stage) {
-    const headFront = movieClips.character.headFront;
-    const headBack = movieClips.character.headBack;
-    const nose = movieClips.character.nose;
-    const ears = movieClips.character.ears;
-    const mouth = movieClips.character.mouth;
-    const freckles = movieClips.character.freckles;
-    const eyes = movieClips.character.eyes;
-    const hairMiddle = movieClips.character.hairMiddle;
-    const eyebrows = movieClips.character.eyebrows;
-    const pupils = movieClips.character.pupils;
-    const headAnchor = movieClips.headAnchor;
+let paused = false;
 
-    if (!headFront || !headBack || !nose || !freckles || !eyes || !mouth || !hairMiddle || !eyebrows || !ears || !headAnchor || !stage) {
-        return;
-    }
+let headFront, headBack, nose, ears, mouth, freckles, eyes, hairMiddle, eyebrows, pupils;
+let idlePosition = { x: 0, y: 0 };
 
-    const idlePosition = {
-        x: headAnchor.x,
-        y: headAnchor.y,
-    };
-
+function resetToIdle() {
     headFront.x = idlePosition.x;
     headFront.y = idlePosition.y;
 
     headBack.x = idlePosition.x;
     headBack.y = idlePosition.y;
 
+    nose.x = 0;
+    nose.y = 0;
+    ears.x = 0;
+    ears.y = 0;
+    mouth.x = 0;
+    mouth.y = 0;
+    eyes.x = 0;
+    eyes.y = 0;
+    freckles.x = 0;
+    freckles.y = 0;
+    hairMiddle.x = 0;
+    hairMiddle.y = 0;
+    eyebrows.x = 0;
+    eyebrows.y = 0;
+    pupils.x = 0;
+    pupils.y = 0;
+}
+
+export function pauseMouseFollow(duration) {
+    paused = true;
+    resetToIdle();
+
+    if (duration > 0) {
+        setTimeout(() => {
+            paused = false;
+        }, duration);
+    }
+}
+
+export function initializeMouseFollow(stage) {
+    headFront = movieClips.character.headFront;
+    headBack = movieClips.character.headBack;
+    nose = movieClips.character.nose;
+    ears = movieClips.character.ears;
+    mouth = movieClips.character.mouth;
+    freckles = movieClips.character.freckles;
+    eyes = movieClips.character.eyes;
+    hairMiddle = movieClips.character.hairMiddle;
+    eyebrows = movieClips.character.eyebrows;
+    pupils = movieClips.character.pupils;
+
+    const headAnchor = movieClips.headAnchor;
+
+    if (
+        !headFront || !headBack || !nose || !freckles ||
+        !eyes || !mouth || !hairMiddle || !eyebrows ||
+        !ears || !headAnchor || !stage
+    ) {
+        return;
+    }
+
+    idlePosition = {
+        x: headAnchor.x,
+        y: headAnchor.y,
+    };
+
+    resetToIdle();
+
     const mouseMoveHandler = (event) => {
+        if (paused) return;
+
         const scaleX = stage.scaleX || 1;
         const scaleY = stage.scaleY || 1;
 
         const normalizedMouseX = event.stageX / scaleX;
         const normalizedMouseY = event.stageY / scaleY;
+
         const headMovementFactor = 0.008;
         const parallaxFactor = -0.008;
         const noseFactor = 0.02;
@@ -53,25 +98,18 @@ export function initializeMouseFollow(stage) {
 
         nose.x = (normalizedMouseX - headFront.x) * noseFactor;
         nose.y = (normalizedMouseY - headFront.y) * noseFactor;
-
         ears.x = (normalizedMouseX - headFront.x) * earFactor;
         ears.y = (normalizedMouseY - headFront.y) * earFactor;
-
         mouth.x = (normalizedMouseX - headFront.x) * mouthFactor;
         mouth.y = (normalizedMouseY - headFront.y) * mouthFactor;
-
         eyes.x = (normalizedMouseX - headFront.x) * eyesFactor;
         eyes.y = (normalizedMouseY - headFront.y) * eyesFactor;
-
         freckles.x = (normalizedMouseX - headFront.x) * frecklesFactor;
         freckles.y = (normalizedMouseY - headFront.y) * frecklesFactor;
-
         hairMiddle.x = (normalizedMouseX - headFront.x) * hairMiddleFactor;
         hairMiddle.y = (normalizedMouseY - headFront.y) * hairMiddleFactor;
-
         eyebrows.x = (normalizedMouseX - headFront.x) * eyebrowsFactor;
         eyebrows.y = (normalizedMouseY - headFront.y) * eyebrowsFactor;
-
         pupils.x = (normalizedMouseX - headFront.x) * pupilsFactor;
         pupils.y = (normalizedMouseY - headFront.y) * pupilsFactor;
     };

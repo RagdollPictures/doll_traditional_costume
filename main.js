@@ -10,9 +10,8 @@ import { initializeHats } from './hat.js';
 import { initializePants } from './pants.js';
 import { initializeDress } from './dress.js';
 import { initBoy, initGirl } from './init.js';
-import { initializeMouseFollow } from './mouseFollow.js';
+import { initializeMouseFollow, pauseMouseFollow } from './mouseFollow.js';
 import { startBlinking } from './blink.js';
-
 
 document.addEventListener("DOMContentLoaded", function () {
     checkIfReady();
@@ -37,16 +36,12 @@ function checkIfReady() {
         addResetButtonsListeners();
         addScreenshotListener();
 
-        const headFront = movieClips.character.headFront;
-        const headBack = movieClips.character.headBack;
-        initializeMouseFollow(stage, headFront, headBack);
+        initializeMouseFollow(stage);
         startBlinking();
     } else {
         setTimeout(checkIfReady, 100);
     }
 }
-
-
 
 function addCharacterSelectionListeners() {
     const btnBoy = buttons.boy;
@@ -54,7 +49,6 @@ function addCharacterSelectionListeners() {
 
     if (btnBoy) {
         btnBoy.on('click', function () {
-
             exportRoot.scene.gotoAndStop(1);
             initBoy();
         });
@@ -62,7 +56,6 @@ function addCharacterSelectionListeners() {
 
     if (btnGirl) {
         btnGirl.on('click', function () {
-
             exportRoot.scene.gotoAndStop(2);
             initGirl();
         });
@@ -76,14 +69,12 @@ function addResetButtonsListeners() {
 
     if (btnResetBoy) {
         btnResetBoy.on('click', function () {
-
             initBoy();
         });
     }
 
     if (btnResetGirl) {
         btnResetGirl.on('click', function () {
-
             initGirl();
         });
     } else {
@@ -92,9 +83,7 @@ function addResetButtonsListeners() {
 
     if (btnBack) {
         btnBack.on('click', function () {
-
             exportRoot.scene.gotoAndStop(0);
-
         });
     }
 }
@@ -105,6 +94,8 @@ function addScreenshotListener() {
     if (btnScreenshot) {
         btnScreenshot.on('click', function () {
             console.log("Screenshot click");
+
+            pauseMouseFollow(5000);
             window.chrome.webview.postMessage("take_screenshot");
         });
     } else {
